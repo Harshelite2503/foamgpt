@@ -1,0 +1,20 @@
+[
+  {
+    "target": "modulus_mpa",
+    "model": "-",
+    "n": 12,
+    "note": "too few rows/papers"
+  },
+  {
+    "target": "strength_mpa",
+    "model": "-",
+    "n": 31,
+    "note": "too few rows/papers"
+  },
+  {
+    "target": "measured_density_g_cc",
+    "model": "-",
+    "n": 8,
+    "note": "too few rows/papers"
+  }
+]
