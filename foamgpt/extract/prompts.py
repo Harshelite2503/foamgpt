@@ -1,7 +1,7 @@
 """Prompts for structured PSP extraction. Kept in one place so they can be versioned
 and cited in the paper's methods section."""
 
-PROMPT_VERSION = "v1.0"
+PROMPT_VERSION = "v1.1"
 
 SYSTEM = """You are an expert in composite materials, specifically syntactic foams
 (hollow-particle-filled composites). You extract quantitative Process-Structure-Property
@@ -24,6 +24,10 @@ Rules:
 6. Set is_syntactic_foam_paper=false and return no records if the paper is not about
    hollow-particle composites (e.g. it is about open-cell foams or generic composites).
 7. Prefer the paper's own sample labels in sample_label.
+8. data_origin: "primary" only for values the authors measured themselves. Values quoted
+   from other papers (review tables, comparison rows) are "secondary" - include the cited
+   reference in sample_label so they can be matched to the original paper later.
+   Simulation/analytical results are "model".
 """
 
 USER_TEMPLATE = """Paper metadata:

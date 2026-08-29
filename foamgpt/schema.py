@@ -75,6 +75,12 @@ class TestType(str, Enum):
     other = "other"
 
 
+class DataOrigin(str, Enum):
+    primary = "primary"        # measured by the paper's authors
+    secondary = "secondary"    # compiled from other papers (reviews, comparison tables)
+    model = "model"            # simulated / analytical, not measured
+
+
 class Evidence(BaseModel):
     quote: str = Field(description="Verbatim snippet (<=300 chars) supporting the values.")
     location: str = Field(
@@ -141,6 +147,11 @@ class FoamRecord(BaseModel):
     record_id: str | None = Field(None, description="Filled in by pipeline.")
     paper_id: str | None = Field(None, description="OpenAlex ID, filled in by pipeline.")
     sample_label: str | None = Field(None, description="Label used in the paper, e.g. 'E-K46-40'.")
+    data_origin: DataOrigin = Field(
+        DataOrigin.primary,
+        description="primary = measured in this paper; secondary = quoted from another paper (cite it in "
+        "sample_label); model = simulation/analytical result.",
+    )
     processing: Processing
     structure: Structure
     test: TestCondition
@@ -162,7 +173,7 @@ class PaperExtraction(BaseModel):
 
 # Flat column order for the curated table.
 FLAT_COLUMNS: list[str] = [
-    "record_id", "paper_id", "sample_label",
+    "record_id", "paper_id", "sample_label", "data_origin",
     "matrix_class", "matrix_name", "particle_type", "particle_grade",
     "particle_true_density_g_cc", "particle_mean_diameter_um", "particle_wall_thickness_ratio",
     "particle_volume_fraction", "particle_weight_fraction", "process_route",
@@ -179,7 +190,8 @@ FLAT_COLUMNS: list[str] = [
 
 
 def flatten(rec: FoamRecord) -> dict:
-    d: dict = {"record_id": rec.record_id, "paper_id": rec.paper_id, "sample_label": rec.sample_label}
+    d: dict = {"record_id": rec.record_id, "paper_id": rec.paper_id, "sample_label": rec.sample_label,
+               "data_origin": rec.data_origin.value}
     for part in (rec.processing, rec.structure, rec.test, rec.properties):
         for k, v in part.model_dump().items():
             if k in FLAT_COLUMNS:

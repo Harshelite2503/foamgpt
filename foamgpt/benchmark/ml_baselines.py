@@ -63,7 +63,7 @@ def run(df: pd.DataFrame, n_splits: int = 5, test_type: str | None = "compressio
         if test_type and target != "measured_density_g_cc":
             d = d[d["test_type"] == test_type]
         feats = [c for c in NUM if c != target]
-        d = d[d["flags"].fillna("") == ""]  # only physically sane rows
+        d = d[(d["flags"].fillna("") == "") & (d["data_origin"] == "primary")]  # sane, primary rows
         if d["paper_id"].nunique() < n_splits or len(d) < 30:
             results.append({"target": target, "model": "-", "n": len(d), "note": "too few rows/papers"})
             continue

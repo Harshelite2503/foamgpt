@@ -88,6 +88,7 @@ def curate() -> pd.DataFrame:
 def summary(df: pd.DataFrame) -> dict:
     return {
         "records": len(df),
+        "primary_records": int((df["data_origin"] == "primary").sum()),
         "papers": df["paper_id"].nunique(),
         "flagged": int((df["flags"] != "").sum()),
         "with_modulus": int(df["modulus_mpa"].notna().sum()),

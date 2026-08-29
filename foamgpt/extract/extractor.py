@@ -46,6 +46,27 @@ def _user_content(paper: dict, text: str) -> str:
     )
 
 
+def _schema_text() -> str:
+    return json.dumps(PaperExtraction.model_json_schema(), indent=None)
+
+
+def _system() -> str:
+    """System prompt with the JSON schema inlined (schema is too large for constrained decoding)."""
+    return (
+        SYSTEM
+        + "\n\nOutput ONLY a single JSON object (no prose, no code fences) that validates against this "
+        + "JSON Schema:\n"
+        + _schema_text()
+    )
+
+
+def _parse(raw: str) -> PaperExtraction:
+    raw = raw.strip()
+    if raw.startswith("```"):
+        raw = raw.split("\n", 1)[1].rsplit("```", 1)[0]
+    return PaperExtraction.model_validate_json(raw)
+
+
 def _already_done() -> set[str]:
     if not OUT.exists():
         return set()
@@ -72,20 +93,33 @@ def extract_sync(limit: int | None = None) -> int:
     n = 0
     for p in papers:
         text = _load_text(p["id"])
-        resp = client.messages.parse(
-            model=MODEL,
-            max_tokens=16_000,  # SDK requires streaming above this for non-streaming calls
-            thinking={"type": "adaptive"},
-            system=SYSTEM,
-            messages=[{"role": "user", "content": _user_content(p, text)}],
-            output_format=PaperExtraction,
-        )
-        if resp.stop_reason == "refusal" or resp.parsed_output is None:
-            console.print(f"[red]{p['id']}: no output ({resp.stop_reason})[/]")
+        messages = [{"role": "user", "content": _user_content(p, text)}]
+        extraction = None
+        for attempt in range(2):
+            with client.messages.stream(
+                model=MODEL, max_tokens=32_000, thinking={"type": "adaptive"},
+                system=_system(), messages=messages,
+            ) as stream:
+                msg = stream.get_final_message()
+            if msg.stop_reason == "refusal":
+                console.print(f"[red]{p['id']}: refusal[/]")
+                break
+            raw = "".join(b.text for b in msg.content if b.type == "text")
+            try:
+                extraction = _parse(raw)
+                break
+            except Exception as e:  # noqa: BLE001
+                console.print(f"[yellow]{p['id']}: invalid JSON on attempt {attempt + 1}: {str(e)[:200]}[/]")
+                messages = messages + [
+                    {"role": "assistant", "content": raw},
+                    {"role": "user", "content": f"Your JSON failed validation: {str(e)[:1500]}\n"
+                                                "Return the corrected JSON object only."},
+                ]
+        if extraction is None:
             continue
-        _append(p["id"], resp.parsed_output, {"usage": resp.usage.model_dump(), "mode": "sync"})
+        _append(p["id"], extraction, {"usage": msg.usage.model_dump(), "mode": "sync"})
         n += 1
-        console.print(f"[green]{p['id']}[/]: {len(resp.parsed_output.records)} records")
+        console.print(f"[green]{p['id']}[/]: {len(extraction.records)} records")
     return n
 
 
@@ -96,7 +130,6 @@ def submit_batch(limit: int | None = None) -> str:
     papers = [p for p in load_papers() if p["id"] not in done and (TEXT_DIR / f"{p['id']}.txt").exists()]
     if limit:
         papers = papers[:limit]
-    schema = PaperExtraction.model_json_schema()
     requests = []
     for p in papers:
         text = _load_text(p["id"])
@@ -107,9 +140,8 @@ def submit_batch(limit: int | None = None) -> str:
                     model=MODEL,
                     max_tokens=32_000,
                     thinking={"type": "adaptive"},
-                    system=SYSTEM,
+                    system=_system(),
                     messages=[{"role": "user", "content": _user_content(p, text)}],
-                    output_config={"format": {"type": "json_schema", "schema": schema}},
                 ),
             )
         )
@@ -138,7 +170,7 @@ def collect_batch(batch_id: str) -> int:
             continue
         raw = "".join(blk.text for blk in msg.content if blk.type == "text")
         try:
-            extraction = PaperExtraction.model_validate_json(raw)
+            extraction = _parse(raw)
         except Exception as e:  # noqa: BLE001
             console.print(f"[red]{r.custom_id}: schema validation failed: {e}[/]")
             continue

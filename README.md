@@ -17,7 +17,7 @@ OpenAlex ──▶ OA PDFs ──▶ text+tables ──▶ Claude structured ext
 ```bash
 uv venv && source .venv/bin/activate
 uv pip install -e ".[dev]"
-cp .env.example .env            # add ANTHROPIC_API_KEY
+cp .env.example .env            # add ANTHROPIC_API_KEY (+ ANTHROPIC_WORKSPACE_ID for identity-linked keys)
 
 foamgpt harvest                 # ~1-2 min, free, no key needed
 foamgpt download                # open-access PDFs only
@@ -72,7 +72,8 @@ data/                  raw/ pdfs/ text/ extracted/ curated/ benchmarks/
 - [x] pilot corpus manifest: `data/raw/pilot_corpus_manifest.json`
 - [x] extraction pipeline (sync + batch) with strict schema
 - [x] curation + ML baselines + LLM baseline code
-- [ ] run full extraction (needs API key + budget)
+- [x] 3-paper spot check: 37 records, ~$1 (Opus 5), evidence quotes verified against tables
+- [ ] full 93-paper pilot batch (~$30)
 - [ ] expert validation sample (target: 100 records, 2 annotators)
 - [ ] paper draft — see `docs/paper_outline.md`
 
