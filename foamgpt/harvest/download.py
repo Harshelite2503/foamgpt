@@ -31,7 +31,7 @@ def download_all(limit: int | None = None, sleep: float = 0.5, min_relevance: in
     if limit:
         papers = papers[:limit]
     stats = {"ok": 0, "exists": 0, "fail": 0, "not_pdf": 0}
-    with httpx.Client(headers=HEADERS, follow_redirects=True, timeout=60) as client:
+    with httpx.Client(headers=HEADERS, follow_redirects=True, timeout=20) as client:
         for p in track(papers, description="Downloading OA PDFs"):
             dest: Path = PDF_DIR / f"{p['id']}.pdf"
             if dest.exists():
