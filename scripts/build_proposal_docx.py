@@ -56,7 +56,7 @@ r = p.add_run("FoamGPT"); r.bold = True; r.font.size = Pt(24)
 p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 r = p.add_run("A Literature-Scale Process–Structure–Property Dataset for Syntactic Foams Extracted with Large Language Models, and a Benchmark of What AI Can Predict About Them"); r.font.size = Pt(14); r.italic = True
 P("Research Proposal", align=WD_ALIGN_PARAGRAPH.CENTER)
-P("Kunal Gupta (proposer)  ·  Prof. Nikhil Gupta, FASM (faculty collaborator)\nDepartment of Mechanical and Aerospace Engineering, NYU Tandon School of Engineering", align=WD_ALIGN_PARAGRAPH.CENTER)
+P("Harsh Vardhan Gupta (proposer)  ·  Prof. Nikhil Gupta, FASM (faculty collaborator)\nDepartment of Mechanical and Aerospace Engineering, NYU Tandon School of Engineering", align=WD_ALIGN_PARAGRAPH.CENTER)
 P("August 2026  ·  Code: github.com/Harshelite2503/foamgpt", italic=True, align=WD_ALIGN_PARAGRAPH.CENTER)
 
 H("Abstract")
@@ -158,7 +158,7 @@ T(["Item", "Estimate"], [
 ], widths=[4.5, 2.0])
 
 H("9. Roles")
-B(["Kunal Gupta: pipeline engineering, extraction and curation, benchmark design and execution, ML/LLM analysis, drafting.",
+B(["Harsh Vardhan Gupta: pipeline engineering, extraction and curation, benchmark design and execution, ML/LLM analysis, drafting.",
    "Prof. Nikhil Gupta’s group: schema review, provision of institutional-access PDFs, expert validation of sampled records, domain interpretation of results, co-authorship and venue selection."])
 
 H("10. Risks and Mitigations")

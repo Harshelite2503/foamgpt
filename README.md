@@ -79,4 +79,4 @@ data/                  raw/ pdfs/ text/ extracted/ curated/ benchmarks/
 
 ## Citation
 
-Pre-print in preparation (Gupta K., Gupta N.). MIT licensed code; dataset license TBD after curation.
+Pre-print in preparation (Gupta H.V., Gupta N.). MIT licensed code; dataset license TBD after curation.
