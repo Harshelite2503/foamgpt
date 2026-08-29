@@ -15,7 +15,7 @@ import httpx
 from rich.console import Console
 from tenacity import retry, stop_after_attempt, wait_exponential
 
-from foamgpt.config import CORPUS_QUERIES, OPENALEX_BASE, OPENALEX_MAILTO, RAW_DIR
+from foamgpt.config import CORPUS_QUERIES, OPENALEX_API_KEY, OPENALEX_BASE, OPENALEX_MAILTO, RAW_DIR
 
 console = Console()
 
@@ -52,6 +52,8 @@ def search(query: str, per_page: int = 200, max_pages: int = 10, min_year: int =
     }
     if OPENALEX_MAILTO:
         params["mailto"] = OPENALEX_MAILTO
+    if OPENALEX_API_KEY:
+        params["api_key"] = OPENALEX_API_KEY
     with httpx.Client(headers={"User-Agent": "foamgpt/0.1 (research)"}) as client:
         for _ in range(max_pages):
             data = _get(client, params)

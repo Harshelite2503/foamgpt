@@ -14,12 +14,11 @@ import json
 import time
 from pathlib import Path
 
-import anthropic
 from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
 from anthropic.types.messages.batch_create_params import Request
 from rich.console import Console
 
-from foamgpt.config import EXTRACTED_DIR, MODEL, TEXT_DIR
+from foamgpt.config import EXTRACTED_DIR, MODEL, TEXT_DIR, anthropic_client
 from foamgpt.extract.prompts import PROMPT_VERSION, SYSTEM, USER_TEMPLATE
 from foamgpt.harvest.openalex import load_papers
 from foamgpt.schema import PaperExtraction
@@ -65,7 +64,7 @@ def _append(paper_id: str, extraction: PaperExtraction, meta: dict) -> None:
 
 def extract_sync(limit: int | None = None) -> int:
     """Development helper: extract papers one at a time using messages.parse."""
-    client = anthropic.Anthropic()
+    client = anthropic_client()
     done = _already_done()
     papers = [p for p in load_papers() if p["id"] not in done and (TEXT_DIR / f"{p['id']}.txt").exists()]
     if limit:
@@ -75,7 +74,7 @@ def extract_sync(limit: int | None = None) -> int:
         text = _load_text(p["id"])
         resp = client.messages.parse(
             model=MODEL,
-            max_tokens=32_000,
+            max_tokens=16_000,  # SDK requires streaming above this for non-streaming calls
             thinking={"type": "adaptive"},
             system=SYSTEM,
             messages=[{"role": "user", "content": _user_content(p, text)}],
@@ -92,7 +91,7 @@ def extract_sync(limit: int | None = None) -> int:
 
 def submit_batch(limit: int | None = None) -> str:
     """Submit the whole corpus as a Message Batch. Returns batch id (saved to disk)."""
-    client = anthropic.Anthropic()
+    client = anthropic_client()
     done = _already_done()
     papers = [p for p in load_papers() if p["id"] not in done and (TEXT_DIR / f"{p['id']}.txt").exists()]
     if limit:
@@ -122,7 +121,7 @@ def submit_batch(limit: int | None = None) -> str:
 
 def collect_batch(batch_id: str) -> int:
     """Poll a batch until finished and append validated results."""
-    client = anthropic.Anthropic()
+    client = anthropic_client()
     while True:
         b = client.messages.batches.retrieve(batch_id)
         if b.processing_status == "ended":

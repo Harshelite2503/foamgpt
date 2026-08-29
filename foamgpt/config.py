@@ -22,7 +22,26 @@ for _d in (RAW_DIR, PDF_DIR, TEXT_DIR, EXTRACTED_DIR, CURATED_DIR, BENCH_DIR):
     _d.mkdir(parents=True, exist_ok=True)
 
 MODEL = os.getenv("FOAMGPT_MODEL", "claude-opus-5")
-OPENALEX_MAILTO = os.getenv("OPENALEX_MAILTO", "")
+# Accept a few env-var spellings so users' existing shell config works.
+ANTHROPIC_API_KEY = (
+    os.getenv("ANTHROPIC_API_KEY") or os.getenv("MATERIALS_API_KEY") or os.getenv("FOAMGPT_API_KEY")
+)
+if ANTHROPIC_API_KEY and not os.getenv("ANTHROPIC_API_KEY"):
+    os.environ["ANTHROPIC_API_KEY"] = ANTHROPIC_API_KEY  # so anthropic.Anthropic() finds it
+# Identity-linked API keys must send the workspace id on every request.
+ANTHROPIC_WORKSPACE_ID = os.getenv("ANTHROPIC_WORKSPACE_ID") or os.getenv("MATERIALS_WORKSPACE_ID") or ""
+
+
+def anthropic_client():
+    """Anthropic client honouring the env aliases above."""
+    import anthropic
+
+    headers = {"anthropic-workspace-id": ANTHROPIC_WORKSPACE_ID} if ANTHROPIC_WORKSPACE_ID else None
+    return anthropic.Anthropic(api_key=ANTHROPIC_API_KEY, default_headers=headers)
+
+
+OPENALEX_MAILTO = os.getenv("OPENALEX_MAILTO") or os.getenv("OPENALEX_MAIL_TO") or ""
+OPENALEX_API_KEY = os.getenv("OPENALEX_API_KEY", "")
 OPENALEX_BASE = "https://api.openalex.org"
 
 # Search queries that define the corpus. Kept explicit so the corpus is reproducible.

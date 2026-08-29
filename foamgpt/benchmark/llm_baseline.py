@@ -15,13 +15,12 @@ from __future__ import annotations
 
 import json
 
-import anthropic
 import numpy as np
 import pandas as pd
 from pydantic import BaseModel, Field
 from rich.progress import track
 
-from foamgpt.config import BENCH_DIR, MODEL
+from foamgpt.config import BENCH_DIR, MODEL, anthropic_client
 
 DESC_COLS = [
     "matrix_class", "matrix_name", "particle_type", "particle_grade", "particle_true_density_g_cc",
@@ -58,7 +57,7 @@ def _neighbours(df: pd.DataFrame, row: pd.Series, target: str, k: int) -> pd.Dat
 
 
 def run(df: pd.DataFrame, target: str = "strength_mpa", n: int = 60, k: int = 5, seed: int = 0) -> pd.DataFrame:
-    client = anthropic.Anthropic()
+    client = anthropic_client()
     unit = "g/cm^3" if "density" in target else "MPa"
     d = df[df[target].notna() & (df["flags"].fillna("") == "")]
     d = d[d["test_type"] == "compression"] if "density" not in target else d
