@@ -68,7 +68,8 @@ data/                  raw/ pdfs/ text/ extracted/ curated/ benchmarks/
 
 ## Status
 
-- [x] harvest / download / parse
+- [x] harvest (4,912 papers; 1,329 strongly relevant; 279 with OA links) / download (93 real PDFs — 177 OA links resolve to HTML landing pages) / parse (93 texts, tables as Markdown)
+- [x] pilot corpus manifest: `data/raw/pilot_corpus_manifest.json`
 - [x] extraction pipeline (sync + batch) with strict schema
 - [x] curation + ML baselines + LLM baseline code
 - [ ] run full extraction (needs API key + budget)

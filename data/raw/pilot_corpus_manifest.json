@@ -1,0 +1,746 @@
+[
+ {
+  "id": "W2524658422",
+  "doi": "https://doi.org/10.1002/adem.201600467",
+  "title": "The Processing and Properties of Syntactic Al Foams Containing Low Cost Expanded Glass Particles",
+  "year": 2016,
+  "venue": "Advanced Engineering Materials",
+  "cited_by": 35
+ },
+ {
+  "id": "W3103969871",
+  "doi": "https://doi.org/10.26701/ems.703619",
+  "title": "On the Way to Real Applications: Aluminum Matrix Syntactic Foams",
+  "year": 2020,
+  "venue": "European Mechanical Science",
+  "cited_by": 34
+ },
+ {
+  "id": "W4302024750",
+  "doi": "https://doi.org/10.1016/j.compstruct.2022.116289",
+  "title": "Dynamic response of aluminium matrix syntactic foams subjected to high strain-rate loadings",
+  "year": 2022,
+  "venue": "Composite Structures",
+  "cited_by": 32
+ },
+ {
+  "id": "W4379054102",
+  "doi": "https://doi.org/10.3389/fchem.2023.1216706",
+  "title": "Hollow glass microspheres/phenolic syntactic foams with excellent mechanical and thermal insulate performance",
+  "year": 2023,
+  "venue": "Frontiers in Chemistry",
+  "cited_by": 31
+ },
+ {
+  "id": "W1984975803",
+  "doi": "https://doi.org/10.2320/matertrans.mra2008139",
+  "title": "Prediction of Thermal Conductivity of Composites with Spherical Microballoons",
+  "year": 2008,
+  "venue": "MATERIALS TRANSACTIONS",
+  "cited_by": 25
+ },
+ {
+  "id": "W2802757567",
+  "doi": "https://doi.org/10.1007/s10853-018-2263-y",
+  "title": "A multiscale study of damage in elastomeric syntactic foams",
+  "year": 2018,
+  "venue": "Journal of Materials Science",
+  "cited_by": 23
+ },
+ {
+  "id": "W3026845083",
+  "doi": "https://doi.org/10.1016/j.msea.2020.139528",
+  "title": "A comparison of the manufacture and mechanical performance of porous aluminium and aluminium syntactic foams made by vacuum-assisted casting",
+  "year": 2020,
+  "venue": "Materials Science and Engineering A",
+  "cited_by": 20
+ },
+ {
+  "id": "W2096196253",
+  "doi": "https://doi.org/10.4028/www.scientific.net/amm.24-25.97",
+  "title": "Mechanical Behavior of Syntactic Foams for Deep Sea Thermally Insulated Pipeline",
+  "year": 2010,
+  "venue": "Applied Mechanics and Materials",
+  "cited_by": 19
+ },
+ {
+  "id": "W2625281021",
+  "doi": "https://doi.org/10.3311/ppme.10346",
+  "title": "Structural Damages in Syntactic Metal Foams Caused by Monotone or Cyclic Compression",
+  "year": 2017,
+  "venue": "Periodica Polytechnica Mechanical Engineering",
+  "cited_by": 19
+ },
+ {
+  "id": "W2052135367",
+  "doi": "https://doi.org/10.12693/aphyspola.125.526",
+  "title": "Development of a Polymer Based Syntactic Foam for High Temperature Applications",
+  "year": 2014,
+  "venue": "Acta Physica Polonica A",
+  "cited_by": 17
+ },
+ {
+  "id": "W4244770627",
+  "doi": "https://doi.org/10.4149/km_2020_6_395",
+  "title": "Microstructure and compressive properties of aluminum matrix syntactic foams containing Al2O3 hollow particles",
+  "year": 2020,
+  "venue": "Kovove Materialy-Metallic Materials",
+  "cited_by": 14
+ },
+ {
+  "id": "W2129288429",
+  "doi": "https://doi.org/10.3311/pp.me.2010-2.05",
+  "title": "On the microstructure of ceramic hollow microspheres",
+  "year": 2010,
+  "venue": "Periodica Polytechnica Mechanical Engineering",
+  "cited_by": 14
+ },
+ {
+  "id": "W2995269908",
+  "doi": "https://doi.org/10.1016/j.compstruct.2019.111817",
+  "title": "Measurement and modelling of the elastic defection of novel metal syntactic foam composite sandwich structures in 3-point bending",
+  "year": 2019,
+  "venue": "Composite Structures",
+  "cited_by": 13
+ },
+ {
+  "id": "W2765789016",
+  "doi": "https://doi.org/10.5185/amlett.2017.1697",
+  "title": "Enhancing significantly the damping response of Mg using hollow glass microspheres while simultaneously reducing weight",
+  "year": 2017,
+  "venue": "Advanced Materials Letters",
+  "cited_by": 13
+ },
+ {
+  "id": "W2954741032",
+  "doi": "https://doi.org/10.1016/j.compositesb.2019.107160",
+  "title": "Particle clustering effects on damage mechanisms in elastomeric syntactic foams",
+  "year": 2019,
+  "venue": "Composites Part B Engineering",
+  "cited_by": 12
+ },
+ {
+  "id": "W2098533699",
+  "doi": "https://doi.org/10.5539/mas.v9n4p96",
+  "title": "Review of Binding Agents in Syntactic Foams for Heat-Insulating Structures in Power Industry Facilities",
+  "year": 2014,
+  "venue": "Modern Applied Science",
+  "cited_by": 12
+ },
+ {
+  "id": "W1997729311",
+  "doi": "https://doi.org/10.5539/mas.v9n4p319",
+  "title": "Syntactic Foams Efficiency with the Use of Various Microspheres for Heat Supply Equipment and Pipelines Heat Insulation",
+  "year": 2015,
+  "venue": "Modern Applied Science",
+  "cited_by": 12
+ },
+ {
+  "id": "W136470296",
+  "doi": null,
+  "title": "Compressive behaviour of metal matrix syntactic foams",
+  "year": 2012,
+  "venue": "Repository of the Academy's Library (Library of the Hungarian Academy of Sciences)",
+  "cited_by": 11
+ },
+ {
+  "id": "W3162570773",
+  "doi": "https://doi.org/10.1088/2053-1591/ac0265",
+  "title": "Finite element simulation and experimental verification of quasi-static compression properties for 3D spacer fabric/hollow microspheres reinforced three phase composites",
+  "year": 2021,
+  "venue": "Materials Research Express",
+  "cited_by": 11
+ },
+ {
+  "id": "W62663393",
+  "doi": null,
+  "title": "Microstructure of metal matrix composites reinforced by ceramic microballoons",
+  "year": 2012,
+  "venue": "Repository of the Academy's Library (Library of the Hungarian Academy of Sciences)",
+  "cited_by": 11
+ },
+ {
+  "id": "W4384283119",
+  "doi": "https://doi.org/10.1002/pen.26430",
+  "title": "Three body abrasion wear resistance of cenosphere particle\u2010reinforced syntactic foams developed using molding method",
+  "year": 2023,
+  "venue": "Polymer Engineering and Science",
+  "cited_by": 9
+ },
+ {
+  "id": "W3139608776",
+  "doi": "https://doi.org/10.35378/gujs.855321",
+  "title": "Mechanical and Physical Characteristics of Bubble Alumina Reinforced Aluminum Syntactic Foams Made Through Recyclable Pressure Infiltration Technique",
+  "year": 2021,
+  "venue": "GAZI UNIVERSITY JOURNAL OF SCIENCE",
+  "cited_by": 9
+ },
+ {
+  "id": "W2026142992",
+  "doi": "https://doi.org/10.2472/jsms.57.1253",
+  "title": "Relationship of Mechanical Properties between Neat PP/SEBS Blends and Syntactic PP/SEBS Foams with Polymer Microballoons",
+  "year": 2008,
+  "venue": "Journal of the Society of Materials Science Japan",
+  "cited_by": 9
+ },
+ {
+  "id": "W2315084925",
+  "doi": "https://doi.org/10.7763/ijcte.2015.v7.989",
+  "title": "Application of Computed Tomography in Structure Analyses of Metal Matrix Syntactic Foams",
+  "year": 2014,
+  "venue": "International Journal of Computer Theory and Engineering",
+  "cited_by": 8
+ },
+ {
+  "id": "W1965067647",
+  "doi": "https://doi.org/10.1299/jmmp.2.616",
+  "title": "Effect of Micro Porous Shape on Mechanical Properties in Polypropylene Syntactic Foams",
+  "year": 2008,
+  "venue": "Journal of Solid Mechanics and Materials Engineering",
+  "cited_by": 8
+ },
+ {
+  "id": "W2109042867",
+  "doi": "https://doi.org/10.3311/pp.me.2011-1.04",
+  "title": "Modelling of metal matrix syntactic foams \u2013 Description of the compressive stress-strain curves",
+  "year": 2011,
+  "venue": "Periodica Polytechnica Mechanical Engineering",
+  "cited_by": 8
+ },
+ {
+  "id": "W2396011947",
+  "doi": "https://doi.org/10.12693/aphyspola.129.613",
+  "title": "A Novel High Strain Rate Sensitive Rigid Polyurethane Resin Based Syntactic Foam",
+  "year": 2016,
+  "venue": "Acta Physica Polonica A",
+  "cited_by": 8
+ },
+ {
+  "id": "W4388423337",
+  "doi": "https://doi.org/10.24425/afe.2020.133339",
+  "title": "Fabrication Optimization of Al 7075/Expanded Glass Syntactic Foam by Cold Chamber Die Casting",
+  "year": 2020,
+  "venue": "Archives of Foundry Engineering",
+  "cited_by": 8
+ },
+ {
+  "id": "W2062356725",
+  "doi": "https://doi.org/10.3311/pp.me.2009-2.07",
+  "title": "Global, depth sensing and dynamic hardness of metal matrix syntactic foams",
+  "year": 2009,
+  "venue": "Periodica Polytechnica Mechanical Engineering",
+  "cited_by": 7
+ },
+ {
+  "id": "W2760961188",
+  "doi": "https://doi.org/10.12693/aphyspola.132.734",
+  "title": "Investigation of the Crash Boxes Light Weighting with Syntactic Foams by the Finite Element Analysis",
+  "year": 2017,
+  "venue": "Acta Physica Polonica A",
+  "cited_by": 7
+ },
+ {
+  "id": "W2986484245",
+  "doi": "https://doi.org/10.1590/1980-5373-mr-2019-0035",
+  "title": "Preparation of Syntactic Foams made from Green Polyethylene and Glass Microspheres: Morphological and Mechanical Characterization",
+  "year": 2019,
+  "venue": "Materials Research",
+  "cited_by": 7
+ },
+ {
+  "id": "W2948473375",
+  "doi": "https://doi.org/10.2478/cee-2019-0006",
+  "title": "An Analysis of the Structure and Thermal Conductivity of Hollow Microsphere Filled Syntactic Foams",
+  "year": 2019,
+  "venue": "Civil and Environmental Engineering",
+  "cited_by": 6
+ },
+ {
+  "id": "W2036878503",
+  "doi": "https://doi.org/10.3311/pp.me.2011-1.03",
+  "title": "Syntactic foams produced by pressure infiltration \u2013 the effect of pressure and time on infiltration length",
+  "year": 2011,
+  "venue": "Periodica Polytechnica Mechanical Engineering",
+  "cited_by": 6
+ },
+ {
+  "id": "W4394860637",
+  "doi": "https://doi.org/10.36868/ijcs.2024.01.01",
+  "title": "CONSERVATION OF A PAINTED WOODEN COFFIN AT DAHSHUR ARCHAEOLOGICAL AREA",
+  "year": 2024,
+  "venue": "International Journal of Conservation Science",
+  "cited_by": 6
+ },
+ {
+  "id": "W4416695887",
+  "doi": "https://doi.org/10.3311/ppme.42144",
+  "title": "Compressive Properties of Al99.5 Matrix Syntactic Foams Reinforced by SiC Particles in the Matrix",
+  "year": 2025,
+  "venue": "Periodica Polytechnica Mechanical Engineering",
+  "cited_by": 5
+ },
+ {
+  "id": "W4391881391",
+  "doi": "https://doi.org/10.1002/fam.3204",
+  "title": "High temperature and fire properties of sustainable syntactic foam reinforced by end\u2010of\u2010life tyre\u2010derived rubber particles",
+  "year": 2024,
+  "venue": "Fire and Materials",
+  "cited_by": 5
+ },
+ {
+  "id": "W4229639736",
+  "doi": "https://doi.org/10.35940/ijrte.e5988.018520",
+  "title": "Effect of Composition on Impact and Flexural Properties of Hybrid Glass Microballoons/Fly Ash Cenosphere Filled Vinyl Ester Matrix Syntactic Foams",
+  "year": 2020,
+  "venue": "International Journal of Recent Technology and Engineering (IJRTE)",
+  "cited_by": 5
+ },
+ {
+  "id": "W4386027359",
+  "doi": "https://doi.org/10.3311/ppme.22313",
+  "title": "Application of Substructure Techniques to Syntactic Metal Foams in a Finite Element Environment",
+  "year": 2023,
+  "venue": "Periodica Polytechnica Mechanical Engineering",
+  "cited_by": 5
+ },
+ {
+  "id": "W2327556543",
+  "doi": "https://doi.org/10.1299/kikaia.78.890",
+  "title": "Evaluation on Distributions of Mechanical Properties in Functionally Graded Syntactic Foam",
+  "year": 2012,
+  "venue": "TRANSACTIONS OF THE JAPAN SOCIETY OF MECHANICAL ENGINEERS Series A",
+  "cited_by": 4
+ },
+ {
+  "id": "W2953558900",
+  "doi": "https://doi.org/10.3844/sgamrsp.2019.40.55",
+  "title": "Drop Weight Impact Behaviour of Tube Filled Polymeric Syntactic Foam",
+  "year": 2019,
+  "venue": "International Journal of Structural Glass and Advanced Materials Research",
+  "cited_by": 4
+ },
+ {
+  "id": "W4231870301",
+  "doi": "https://doi.org/10.5772/48560",
+  "title": "Characterisation of Aluminium Matrix Syntactic Foams Under Static and Dynamic Loading",
+  "year": 2012,
+  "venue": "InTech eBooks",
+  "cited_by": 4
+ },
+ {
+  "id": "W2728148627",
+  "doi": "https://doi.org/10.31390/gradschool_dissertations.822",
+  "title": "A self healing smart syntactic foam based grid stiffened sandwich structure",
+  "year": 2009,
+  "venue": null,
+  "cited_by": 4
+ },
+ {
+  "id": "W4318214589",
+  "doi": "https://doi.org/10.31577/km.2023.1.35",
+  "title": "\"Compressive properties of an Al-matrix syntactic foam filled with Al2O3 hollow sphere \"",
+  "year": 2023,
+  "venue": "Kovove Materialy-Metallic Materials",
+  "cited_by": 4
+ },
+ {
+  "id": "W2328741706",
+  "doi": "https://doi.org/10.13168/cs.2016.0012",
+  "title": "NUMERICAL ESTIMATION OF EFFECTIVE ELASTIC MODULI OF SYNTACTIC FOAMS REINFORCED BY SHORT GLASS FIBERS",
+  "year": 2016,
+  "venue": "Ceramics - Silikaty",
+  "cited_by": 4
+ },
+ {
+  "id": "W2607474824",
+  "doi": "https://doi.org/10.6060/tcct.2017602.5469",
+  "title": "STUDY OF POLYMER SYNTACTIC AND FOAM MATERIALS OF NEW GENERATION WITH IMPROVING OPERATIONAL CHARACTERISTICS",
+  "year": 2017,
+  "venue": "IZVESTIYA VYSSHIKH UCHEBNYKH ZAVEDENIY KHIMIYA KHIMICHESKAYA TEKHNOLOGIYA",
+  "cited_by": 4
+ },
+ {
+  "id": "W4289812685",
+  "doi": "https://doi.org/10.33924/amt-2022-01-05",
+  "title": "Reinforced Matrix Syntactic Foams Filled with Ceramic Hollow Spheres",
+  "year": 2022,
+  "venue": "Acta Materialia Transylvanica",
+  "cited_by": 3
+ },
+ {
+  "id": "W4391511688",
+  "doi": "https://doi.org/10.36868/ijcs.2023.04.16",
+  "title": "CONSERVATION PROCESSES OF A WOODEN COFFIN COVERED WITH A BLACK RESIN LAYER AND COLORED MATERIALS IN DAHSHUR ARCHAEOLOGICAL AREA",
+  "year": 2023,
+  "venue": "International Journal of Conservation Science",
+  "cited_by": 3
+ },
+ {
+  "id": "W2229720391",
+  "doi": null,
+  "title": "Development and evaluation of hybrid aluminium matrix syntactic foams",
+  "year": 2013,
+  "venue": "Repository of the Academy's Library (Library of the Hungarian Academy of Sciences)",
+  "cited_by": 2
+ },
+ {
+  "id": "W2290445848",
+  "doi": null,
+  "title": "Experimental study and analysis of the mechanical behaviour of syntactic foams used in deep sea",
+  "year": 2012,
+  "venue": "Institutional Archive of Ifremer (French Research Institute for Exploitation of the Sea)",
+  "cited_by": 2
+ },
+ {
+  "id": "W4391225766",
+  "doi": "https://doi.org/10.3311/ppme.23707",
+  "title": "Investigation of the Bending Properties of Ex situ Functional Metal Foams",
+  "year": 2024,
+  "venue": "Periodica Polytechnica Mechanical Engineering",
+  "cited_by": 2
+ },
+ {
+  "id": "W4407161210",
+  "doi": "https://doi.org/10.1038/s41529-025-00556-z",
+  "title": "Super-resolved microstructure of pyrolyzing superlight ablators",
+  "year": 2025,
+  "venue": "npj Materials Degradation",
+  "cited_by": 2
+ },
+ {
+  "id": "W2477281626",
+  "doi": "https://doi.org/10.5539/mas.v10n8p134",
+  "title": "Multilayered Cavity Material Radial Line Slot Array Antenna with Improved Bandwidth for 5G Communication Application",
+  "year": 2016,
+  "venue": "Modern Applied Science",
+  "cited_by": 2
+ },
+ {
+  "id": "W2900342134",
+  "doi": "https://doi.org/10.31390/gradschool_theses.943",
+  "title": "Functionally gradient syntactic foams",
+  "year": 2009,
+  "venue": null,
+  "cited_by": 1
+ },
+ {
+  "id": "W2955838850",
+  "doi": "https://doi.org/10.15282/jmes.13.2.2019.10.0407",
+  "title": "Thermo-mechanical properties of fused borosilicate syntactic foams",
+  "year": 2019,
+  "venue": "JOURNAL OF MECHANICAL ENGINEERING AND SCIENCES",
+  "cited_by": 1
+ },
+ {
+  "id": "W2786014798",
+  "doi": "https://doi.org/10.31390/gradschool_theses.3207",
+  "title": "Thermal characterization of plain and carbon nanotube reinforced syntactic foams",
+  "year": 2009,
+  "venue": null,
+  "cited_by": 1
+ },
+ {
+  "id": "W144672120",
+  "doi": "https://doi.org/10.31390/gradschool_theses.3587",
+  "title": "High strain rate characteristics of rubber modified syntactic foams",
+  "year": 2008,
+  "venue": null,
+  "cited_by": 1
+ },
+ {
+  "id": "W2766120207",
+  "doi": "https://doi.org/10.28933/ijmsa-2017-01-01",
+  "title": "Vinyl Ester/Glass Microballoon Syntactic Foams with Low Density",
+  "year": 2017,
+  "venue": "International Research Journal of Materials Sciences and Applications",
+  "cited_by": 1
+ },
+ {
+  "id": "W4382982980",
+  "doi": "https://doi.org/10.51415/10321/4858",
+  "title": "Hybrid syntactic foam core cased natural-glass fibre sandwich composite",
+  "year": 2023,
+  "venue": null,
+  "cited_by": 1
+ },
+ {
+  "id": "W4288758470",
+  "doi": "https://doi.org/10.55581/ejeas.1127903",
+  "title": "Experimental Study on the Energy Absorption Behavior of Syntactic Foam-Filled Thin-Walled Tubes",
+  "year": 2022,
+  "venue": "European Journal of Engineering and Applied Sciences",
+  "cited_by": 1
+ },
+ {
+  "id": "W2985028302",
+  "doi": "https://doi.org/10.5267/j.esm.2019.11.001",
+  "title": "Experimental study of the influence of glass microspheres on flexural response of honeycomb structures reinforced with syntactic foams",
+  "year": 2019,
+  "venue": "Engineering Solid Mechanics",
+  "cited_by": 1
+ },
+ {
+  "id": "W4400769732",
+  "doi": "https://doi.org/10.2478/lpts-2024-0026",
+  "title": "Investigation of Cenosphere-Based Lightweight Ceramic Matrixless Syntactic Foam Through Spark Plasma Sintering",
+  "year": 2024,
+  "venue": "Latvian Journal of Physics and Technical Sciences",
+  "cited_by": 1
+ },
+ {
+  "id": "W2315039152",
+  "doi": "https://doi.org/10.2472/jsms.43.1355",
+  "title": "Study on Thermal and Mechanical Properties of Adiabatic Supports for FRP Cryostat.",
+  "year": 1994,
+  "venue": "Journal of the Society of Materials Science Japan",
+  "cited_by": 1
+ },
+ {
+  "id": "W3114003671",
+  "doi": "https://doi.org/10.3135/jmasj.47.129",
+  "title": "Measurements of Sound Velocities for Materials of Acoustic Lenses Mounted on Underwater Vessels: Temperature-Dependence for Syntactic Form and Flourinart",
+  "year": 2020,
+  "venue": "The Journal of the Marine Acoustics Society of Japan",
+  "cited_by": 1
+ },
+ {
+  "id": "W1966820403",
+  "doi": "https://doi.org/10.1299/kikaib.60.574",
+  "title": "Effective Thermal Conductivity of Composite Foam.",
+  "year": 1994,
+  "venue": "TRANSACTIONS OF THE JAPAN SOCIETY OF MECHANICAL ENGINEERS Series B",
+  "cited_by": 1
+ },
+ {
+  "id": "W4386192681",
+  "doi": "https://doi.org/10.33175/mtr.2023.265626",
+  "title": "An overview of the mechanical features of human occupied vehicles",
+  "year": 2023,
+  "venue": "Maritime Technology and Research",
+  "cited_by": 1
+ },
+ {
+  "id": "W4402552484",
+  "doi": "https://doi.org/10.47176/jame.43.1.1051",
+  "title": "Preparation and Evaluation of Microstructure, Compressive and Tensile Strength of Vinyl Ester/Glass Micro Balloon Foams",
+  "year": 2024,
+  "venue": "\u0646\u0634\u0631\u06cc\u0647 \u0639\u0644\u0645\u06cc \u067e\u0698\u0648\u0647\u0634\u06cc \u0645\u0648\u0627\u062f \u067e\u06cc\u0634\u0631\u0641\u062a\u0647 \u062f\u0631 \u0645\u0647\u0646\u062f\u0633\u06cc",
+  "cited_by": 1
+ },
+ {
+  "id": "W2549830585",
+  "doi": "https://doi.org/10.15623/ijret.2016.0509040",
+  "title": "FEA AND DEVELOPMENT OF C-SANDWICH RADOME FOR UNDERWATER APPLICATIONS",
+  "year": 2016,
+  "venue": "International Journal of Research in Engineering and Technology",
+  "cited_by": 1
+ },
+ {
+  "id": "W4387570022",
+  "doi": "https://doi.org/10.2478/pomr-2023-0050",
+  "title": "Glass Microspheres Thermo-Deformation Sintering Processes in the Technologies of Obtaining Materials for Underwater Technical Equipment",
+  "year": 2023,
+  "venue": "Polish Maritime Research",
+  "cited_by": 1
+ },
+ {
+  "id": "W427753402",
+  "doi": "https://doi.org/10.2464/jilm.40.925",
+  "title": "Effect of volume fraction on properties of a glass microballoon/Al-12%Si alloy composite.",
+  "year": 1990,
+  "venue": "Journal of Japan Institute of Light Metals",
+  "cited_by": 1
+ },
+ {
+  "id": "W4388098480",
+  "doi": "https://doi.org/10.17762/jaz.v44is-3.1349",
+  "title": "Studies on Tensile Characteristics of Kevlar/Jute/ Syntactic Foam Hybrid Sandwich Composites",
+  "year": 2023,
+  "venue": "Journal Of Advanced Zoology",
+  "cited_by": 0
+ },
+ {
+  "id": "W4406918173",
+  "doi": "https://doi.org/10.5829/ije.2025.38.07a.06",
+  "title": "Experimental Investigation of Crushing Behavior of Aluminum Matrix Syntactic Foams with Lightweight Aggregates",
+  "year": 2025,
+  "venue": "International Journal of Engineering",
+  "cited_by": 0
+ },
+ {
+  "id": "W7137461020",
+  "doi": null,
+  "title": "DEVELOPMENT AND CHARACTERIZATION OF DIW 3D PRINTED EPOXY SYNTACTIC FOAM FOR LIGHTWEIGHT STRUCTURAL APPLICATIONS",
+  "year": 2025,
+  "venue": "SHAREOK (University of Oklahoma; Oklahoma State University; Central Oklahoma University)",
+  "cited_by": 0
+ },
+ {
+  "id": "W4413240260",
+  "doi": "https://doi.org/10.15294/sainteknol.v23i2.23886",
+  "title": "Density\u2013Porosity Interplay in Epoxy\u2011Based Syntactic Foams Reinforced with K15 Glass\u2011Silica Microballoons",
+  "year": 2025,
+  "venue": "Sainteknol : Jurnal Sains dan Teknologi",
+  "cited_by": 0
+ },
+ {
+  "id": "W7168100581",
+  "doi": "https://doi.org/10.5109/7434181",
+  "title": "Tribological Performance Optimization of Aluminium Cenosphere Syntactic Foams using Gaussian Process Regression and Sensitivity Analysis",
+  "year": 2026,
+  "venue": "Evergreen",
+  "cited_by": 0
+ },
+ {
+  "id": "W4414365110",
+  "doi": "https://doi.org/10.15282/ijame.22.3.2025.13.0970",
+  "title": "Low Velocity Impact Response of Syntactic Foams Reinforced with Varying Volume Fractions of Cenosphere and Rubber Crumb",
+  "year": 2025,
+  "venue": "International Journal of Automotive and Mechanical Engineering",
+  "cited_by": 0
+ },
+ {
+  "id": "W4394017182",
+  "doi": "https://doi.org/10.62753/ctp.2023.04.4.4",
+  "title": "Investigating the effect of honeycomb grid cell size on structural performance of stiffened syntactic foam core sandwich composite",
+  "year": 2023,
+  "venue": "Kompozyty",
+  "cited_by": 0
+ },
+ {
+  "id": "W7197654537",
+  "doi": null,
+  "title": "Investigation of the stress-strain state of buoyancy blocks based on ceramic shells in a syntactic foam buoyancy block by the finite element method",
+  "year": 2023,
+  "venue": "Electronic Institutional Repository of Admiral Makarov National Shipbuilding University (Admiral Makarov National University of Shipbuilding)",
+  "cited_by": 0
+ },
+ {
+  "id": "W4394064675",
+  "doi": "https://doi.org/10.62753/ctp.2023.06.4.4",
+  "title": "Mathematical Model of Modified Classical Lamination Theory for Foam Core Sandwich Composites",
+  "year": 2023,
+  "venue": "Kompozyty",
+  "cited_by": 0
+ },
+ {
+  "id": "W2760437548",
+  "doi": "https://doi.org/10.33895/mtk-2017.07.45",
+  "title": "Ker\u00e1mia g\u00f6mbh\u00e9jjal t\u00f6lt\u00f6tt szintaktikus f\u00e9mhabok t\u00f6r\u00e9smechanikai vizsg\u00e1lata",
+  "year": 2017,
+  "venue": "M\u0171szaki Tudom\u00e1nyos K\u00f6zlem\u00e9nyek",
+  "cited_by": 0
+ },
+ {
+  "id": "W4313038951",
+  "doi": "https://doi.org/10.36647/ijermce/09.07.a007",
+  "title": "Synthesis and Characterization of Syntacticfoam",
+  "year": 2022,
+  "venue": "International Journal of Engineering Research in Mechanical and Civil Engineering (IJERMCE)",
+  "cited_by": 0
+ },
+ {
+  "id": "W2981361938",
+  "doi": "https://doi.org/10.33895/mtk-2016.05.43",
+  "title": "\u00dcvegg\u00f6mbh\u00e9j er\u0151s\u00edt\u00e9s\u0171 alum\u00ednium m\u00e1trix\u00fa szintaktikus f\u00e9mhab kv\u00e1zi-statikus nyom\u00f3vizsg\u00e1lata",
+  "year": 2016,
+  "venue": "M\u0171szaki Tudom\u00e1nyos K\u00f6zlem\u00e9nyek",
+  "cited_by": 0
+ },
+ {
+  "id": "W2524283698",
+  "doi": "https://doi.org/10.2115/fiber.50.7_282",
+  "title": "Study on Isothermic Sampling from the Deep Sea (Part 1). Thermal Insulation Characteristics of Composite Materials Effective under High Hydrostatic Pressure.",
+  "year": 1994,
+  "venue": "Sen i Gakkaishi",
+  "cited_by": 0
+ },
+ {
+  "id": "W1537191855",
+  "doi": null,
+  "title": "Polymeric materials replacement issues for the LANL stockpile.",
+  "year": 2002,
+  "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+  "cited_by": 0
+ },
+ {
+  "id": "W4255314655",
+  "doi": "https://doi.org/10.20868/upm.thesis.67357",
+  "title": "Caracterizaci\u00f3n y modelizaci\u00f3n de materiales compuestos de AA6063 con espumas cer\u00e1micas y met\u00e1licas",
+  "year": 2021,
+  "venue": null,
+  "cited_by": 0
+ },
+ {
+  "id": "W3119565939",
+  "doi": "https://doi.org/10.33895/mtk-2020.13.19",
+  "title": "Ker\u00e1mia g\u00f6mbh\u00e9jjal t\u00f6lt\u00f6tt, alum\u00edniumm\u00e1trix\u00fa bimod\u00e1lis f\u00e9mhabok vizsg\u00e1lata",
+  "year": 2020,
+  "venue": "M\u0171szaki Tudom\u00e1nyos K\u00f6zlem\u00e9nyek",
+  "cited_by": 0
+ },
+ {
+  "id": "W2312532606",
+  "doi": "https://doi.org/10.2464/jilm.41.44",
+  "title": "Effect of effective area fraction of metal and glass microballoons on the tensile strength of glass microballoon/ Al-12%Si composites.",
+  "year": 1991,
+  "venue": "Journal of Japan Institute of Light Metals",
+  "cited_by": 0
+ },
+ {
+  "id": "W2743818362",
+  "doi": "https://doi.org/10.1299/jsmemecjo.2003.1.0_375",
+  "title": "Toughening Mechanism of Glass Microballoon Filled Epoxy due to Rubber Modification",
+  "year": 2003,
+  "venue": "The proceedings of the JSME annual meeting",
+  "cited_by": 0
+ },
+ {
+  "id": "W1992624841",
+  "doi": "https://doi.org/10.4325/seikeikakou.6.877",
+  "title": "The Mechanical Properties of Low Density Polyethylene Filled with Micro Hollow Particles",
+  "year": 1994,
+  "venue": "Seikei-Kakou",
+  "cited_by": 0
+ },
+ {
+  "id": "W2331873010",
+  "doi": "https://doi.org/10.2472/jsms.53.950",
+  "title": "Effect of Rubber Modification on the Fracture Properties of GM Filled Epoxy Resin",
+  "year": 2004,
+  "venue": "Journal of the Society of Materials Science Japan",
+  "cited_by": 0
+ },
+ {
+  "id": "W7143994688",
+  "doi": "https://doi.org/10.36868/ijcs.2026.01.03",
+  "title": "Pigments Characterization and Conservation of a Late Period Wooden Coffin from the Excavation Site of Rass Algesr in Saqqara, Egypt",
+  "year": 2026,
+  "venue": "International Journal of Conservation Science",
+  "cited_by": 0
+ },
+ {
+  "id": "W7165203452",
+  "doi": "https://doi.org/10.36868/ijcs.2026.02.05",
+  "title": "Innovation Method for Restoration and Completion of Scagliola in Historical Royal Palaces in Cairo, Egypt, Case Study",
+  "year": 2026,
+  "venue": "International Journal of Conservation Science",
+  "cited_by": 0
+ },
+ {
+  "id": "W2420155152",
+  "doi": null,
+  "title": "Manufacturing of Composites by Pressure Infiltration, Structure and Mechanical Properties",
+  "year": 2008,
+  "venue": "Repository of the Academy's Library (Library of the Hungarian Academy of Sciences)",
+  "cited_by": 0
+ },
+ {
+  "id": "W3143873043",
+  "doi": "https://doi.org/10.15406/jabb.2020.07.00210",
+  "title": "Process for obtaining synthetic foam with aluminum matrix Al-5052 by method of tixoinfiltration",
+  "year": 2020,
+  "venue": "Journal of Applied Biotechnology & Bioengineering",
+  "cited_by": 0
+ }
+]
