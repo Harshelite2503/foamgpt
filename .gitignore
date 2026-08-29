@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+data/pdfs/*
+!data/pdfs/.gitkeep
+data/text/*
+!data/text/.gitkeep
+data/extracted/*.jsonl
+data/benchmarks/*.png
+*.parquet
+.DS_Store
