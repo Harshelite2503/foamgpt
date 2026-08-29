@@ -11,6 +11,6 @@ data/pdfs/*
 !data/pdfs/.gitkeep
 data/text/*
 !data/text/.gitkeep
-data/benchmarks/*.png
+# figures are committed (used in proposal)
 *.parquet
 .DS_Store
