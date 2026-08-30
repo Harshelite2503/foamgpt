@@ -1,0 +1,6 @@
+{
+ "estimate": 7000,
+ "low_90": 2000,
+ "high_90": 22000,
+ "reasoning": "Metal syntactic foam with 66 vol% ceramic microspheres in Al7075 should have a static modulus near 8-12 GPa; SHPB-derived moduli at 1578/s are noisy and usually reported lower than static values, so the central estimate sits around 7 GPa with a wide band."
+}

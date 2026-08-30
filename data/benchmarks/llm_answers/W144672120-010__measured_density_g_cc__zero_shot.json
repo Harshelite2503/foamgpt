@@ -1,0 +1,6 @@
+{
+ "estimate": 0.72,
+ "low_90": 0.64,
+ "high_90": 0.8,
+ "reasoning": "Rule of mixtures: 0.63*0.46 (K46) + 0.37*1.17 (DGEBA/TETA epoxy) = 0.72 g/cm^3; cast mechanical mixing gives little extra porosity."
+}

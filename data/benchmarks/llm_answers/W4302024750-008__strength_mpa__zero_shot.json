@@ -1,0 +1,6 @@
+{
+ "estimate": 190,
+ "low_90": 100,
+ "high_90": 350,
+ "reasoning": "Al7075-T with 66 vol% 100-250 um ceramic microspheres at 1517/s; intermediate sphere size gives intermediate wall strength, with a dynamic increase over the ~170 MPa quasi-static level from matrix strain-rate hardening and inertial confinement."
+}

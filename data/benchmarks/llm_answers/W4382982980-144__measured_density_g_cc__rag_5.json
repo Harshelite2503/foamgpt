@@ -1,0 +1,6 @@
+{
+ "estimate": 0.866,
+ "low_90": 0.75,
+ "high_90": 1.0,
+ "reasoning": "All mechanical-test specimens of this LR20/LH281 epoxy + HGM T60 foam reported in the same paper fall at 0.865-0.872 g/cc, including the shear specimen at 0.865 g/cc."
+}

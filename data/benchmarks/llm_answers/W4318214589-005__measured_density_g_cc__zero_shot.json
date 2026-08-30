@@ -1,0 +1,6 @@
+{
+ "estimate": 1.75,
+ "low_90": 1.45,
+ "high_90": 2.1,
+ "reasoning": "Same cast Al-Si-Cu-Mg matrix as the 1-2 mm variant that measured 1.67 g/cc, but with finer 0.5-1 mm Al2O3 spheres, which pack with a somewhat higher effective wall fraction and slightly less matrix porosity, so a modestly higher density is expected."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 110,
+ "low_90": 40,
+ "high_90": 240,
+ "reasoning": "Al-A380 is a die-cast Al-Si-Cu alloy of moderate yield strength (~160 MPa); Al2O3 hollow-sphere syntactic foams with comparable cast Al matrices (A356) show compressive strengths of 125-135 MPa, and no density is given so the sphere fraction is uncertain."
+}

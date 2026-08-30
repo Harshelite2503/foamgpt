@@ -1,0 +1,6 @@
+{
+ "estimate": 0.75,
+ "low_90": 0.44,
+ "high_90": 0.96,
+ "reasoning": "Same commercial glass syntactic polyurethane family; expected 0.7-0.9 g/cm^3, with the interval widened downward because sample-to-sample balloon loading in this dataset varies considerably."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 1.75,
+ "low_90": 1.45,
+ "high_90": 2.05,
+ "reasoning": "Cast Al-Si-Cu-Mg (2.7 g/cc) infiltrated around ~60 vol% of 0.5-1 mm Al2O3 hollow spheres (~0.9 g/cc bulk) gives ~1.7 g/cc, in line with the 1.78-1.88 g/cc A356/Al2O3 hollow sphere references (smaller spheres pack slightly better, lowering density a little)."
+}

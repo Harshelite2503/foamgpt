@@ -1,0 +1,6 @@
+{
+ "estimate": 0.69,
+ "low_90": 0.62,
+ "high_90": 0.77,
+ "reasoning": "Rule of mixtures: 0.50*0.22 (S22) + 0.50*1.16 (DGEBA epoxy) = 0.69 g/cm^3, with only minor entrapped-air correction for cast mixing."
+}

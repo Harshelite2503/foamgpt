@@ -1,0 +1,6 @@
+{
+ "estimate": 130,
+ "low_90": 70,
+ "high_90": 240,
+ "reasoning": "AlSi12 infiltrated with 64 vol% bimodal hollow ceramic spheres at rho=1.6 g/cc; the large 1450 um Globocer fraction lowers strength relative to fine-sphere foams, and AlSi12/ceramic syntactic foams typically peak around 100-190 MPa at 0.01/s."
+}

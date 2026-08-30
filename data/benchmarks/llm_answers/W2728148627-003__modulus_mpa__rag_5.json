@@ -1,0 +1,6 @@
+{
+ "estimate": 700,
+ "low_90": 260,
+ "high_90": 1700,
+ "reasoning": "Neat Veriflex styrene SMP has E~1.2 GPa at 25 C; 40 vol% of very thin-walled Q-Cel 6014 (0.14 g/cc) balloons acts nearly as porosity, cutting stiffness roughly in half, and the companion compressive strength of ~20 MPa with a few-percent yield strain implies a modulus of several hundred MPa."
+}

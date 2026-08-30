@@ -1,0 +1,6 @@
+{
+ "estimate": 2300,
+ "low_90": 1200,
+ "high_90": 4000,
+ "reasoning": "LR20 epoxy is a stiff DGEBA system (~3 GPa); at 0.865 g/cc with stiff-walled T60 balloons the compressive modulus stays in the 2-3 GPa range, consistent with the same system's 2230 MPa tensile and 4520 MPa flexural moduli (the low ~600 MPa references are a soft EPON 815C matrix)."
+}

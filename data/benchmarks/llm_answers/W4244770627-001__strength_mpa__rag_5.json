@@ -1,0 +1,6 @@
+{
+ "estimate": 86.0,
+ "low_90": 58.0,
+ "high_90": 120.0,
+ "reasoning": "Same 7055 Al / Al2O3 hollow-particle system; the density-strength trend from the reference rows (71.5 MPa at 1.61, 84.5 MPa at 1.72 g/cc) gives ~86 MPa at 1.73 g/cc."
+}

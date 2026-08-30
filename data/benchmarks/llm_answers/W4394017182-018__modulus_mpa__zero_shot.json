@@ -1,0 +1,6 @@
+{
+ "estimate": 2000.0,
+ "low_90": 800.0,
+ "high_90": 4500.0,
+ "reasoning": "At 70 vol% cenospheres the composite (~0.85-0.95 g/cc) is dominated by the stiff aluminosilicate shells; phenolic cenosphere syntactic foams typically show compressive moduli of 1.5-3 GPa."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 70,
+ "low_90": 25,
+ "high_90": 150,
+ "reasoning": "Al 6061 with fly-ash cenospheres: cenospheres are weaker and thinner-walled than engineered Al2O3 spheres and stir/infiltration-cast 6061 composites of this type typically show 40-100 MPa compressive strength."
+}

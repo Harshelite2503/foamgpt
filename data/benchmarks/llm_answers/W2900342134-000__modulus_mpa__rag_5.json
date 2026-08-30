@@ -1,0 +1,6 @@
+{
+ "estimate": 800,
+ "low_90": 550,
+ "high_90": 1950,
+ "reasoning": "Sibling layered epoxy foams of the same 60 vol%/~0.63 g/cc family report ~720-790 MPa quasi-statically (and ~1920-1930 MPa at high rate); with no strain rate stated and S22 layers in series softening the stack, the quasi-static ~750-800 MPa branch is most likely, with the interval left open toward the high-rate branch."
+}

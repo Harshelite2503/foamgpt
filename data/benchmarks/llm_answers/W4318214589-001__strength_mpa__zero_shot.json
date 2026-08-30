@@ -1,0 +1,6 @@
+{
+ "estimate": 100,
+ "low_90": 45,
+ "high_90": 200,
+ "reasoning": "Cast Al-12.5Si-2.5Cu-1.2Mg alloy around 1-2 mm Al2O3 hollow spheres at 1.67 g/cc; the Al-Si-Cu-Mg matrix is strong but brittle, and comparable ceramic-sphere Al syntactic foams yield at roughly 70-150 MPa in quasi-static compression."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 25.0,
+ "low_90": 10.0,
+ "high_90": 52.0,
+ "reasoning": "Glassy Veriflex compresses at ~35-50 MPa, but 40 vol% of thin-walled Q-Cel 6014 (crush strength of order 1-3 MPa) initiates early shell collapse and cuts the composite strength to roughly half."
+}

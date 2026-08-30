@@ -1,0 +1,6 @@
+{
+ "estimate": 21.0,
+ "low_90": 9.0,
+ "high_90": 45.0,
+ "reasoning": "Veriflex SMP at 25 C (glassy, ~50 MPa compressive yield) with 40 vol% Q-Cel 6014 (0.14 g/cc, ~3 MPa crush strength); quasi-static rate gives ~20 MPa after the volume-fraction knockdown."
+}

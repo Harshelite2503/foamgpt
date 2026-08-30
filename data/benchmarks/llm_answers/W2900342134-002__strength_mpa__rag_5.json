@@ -1,0 +1,6 @@
+{
+ "estimate": 42,
+ "low_90": 20,
+ "high_90": 78,
+ "reasoning": "Epoxy syntactic foams at 0.622 g/cc with S32/S38 balloons (13.8 and 28 MPa isostatic crush) typically fail at 35-55 MPa in compression, and in a layered foam failure initiates in the weakest (S32) layer."
+}

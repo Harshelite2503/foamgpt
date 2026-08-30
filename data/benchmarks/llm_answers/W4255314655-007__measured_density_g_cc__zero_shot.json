@@ -1,0 +1,6 @@
+{
+ "estimate": 1.7,
+ "low_90": 1.6,
+ "high_90": 1.82,
+ "reasoning": "Rule of mixtures: 0.531 x 0.82 (TPM Al-foam nodules) + 0.469 x 2.70 (AA6063) = 1.70 g/cc; small interstitial porosity from infiltration could shave a few percent."
+}

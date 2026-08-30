@@ -1,0 +1,6 @@
+{
+ "estimate": 2.4,
+ "low_90": 2.12,
+ "high_90": 2.62,
+ "reasoning": "Only 5 wt% cenospheres (~0.8 g/cc true density) in Al5052 (2.68 g/cc) corresponds to ~15 vol%, so rule of mixtures gives 0.15*0.8+0.85*2.68 = 2.40 g/cc; this is a lightly loaded composite, not a 60 vol% foam."
+}

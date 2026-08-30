@@ -1,0 +1,6 @@
+{
+ "estimate": 1100,
+ "low_90": 650,
+ "high_90": 2100,
+ "reasoning": "At ~440-450 /s the same epoxy system gives 786 MPa with S22 and 955 MPa with S32; S38 has thicker walls (2.23 um) and higher crush strength than S32, so its high-rate modulus should be slightly above 955 MPa."
+}

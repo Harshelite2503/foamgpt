@@ -1,0 +1,6 @@
+{
+ "estimate": 0.7,
+ "low_90": 0.52,
+ "high_90": 0.9,
+ "reasoning": "Commercial glass/PU deep-sea insulation foams (GSPU) with S38-class microballoons in a ~1.1-1.2 g/cc PU matrix typically land at 0.60-0.75 g/cc; the 0.4487 g/cc effective particle density implies a moderate (~40-50 vol%) balloon loading."
+}

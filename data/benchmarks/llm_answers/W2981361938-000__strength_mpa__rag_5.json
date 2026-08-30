@@ -1,0 +1,6 @@
+{
+ "estimate": 150,
+ "low_90": 70,
+ "high_90": 300,
+ "reasoning": "AlSi12 with ~50 vol% fine 60 um nickel-coated glass balloons (density 1.58 g/cc); the small, well-bonded spheres and strong near-eutectic matrix give strengths between metallic-sphere foams and the 181 MPa SiC-sphere reference."
+}

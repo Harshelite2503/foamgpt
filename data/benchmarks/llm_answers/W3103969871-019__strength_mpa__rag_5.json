@@ -1,0 +1,6 @@
+{
+ "estimate": 280,
+ "low_90": 130,
+ "high_90": 500,
+ "reasoning": "Al2014 is a high-strength heat-treatable alloy (compressive strength ~400-500 MPa) and stir casting introduces only a modest cenosphere fraction, so the composite retains most of the matrix strength while the hollow cenospheres reduce it."
+}

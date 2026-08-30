@@ -1,0 +1,6 @@
+{
+ "estimate": 1.72,
+ "low_90": 1.45,
+ "high_90": 2.02,
+ "reasoning": "52 vol% mm-scale Al2O3 hollow spheres (~0.75-0.85 g/cc) with 48 vol% 7055 Al (2.85 g/cc) gives ~1.75 g/cc by rule of mixtures."
+}

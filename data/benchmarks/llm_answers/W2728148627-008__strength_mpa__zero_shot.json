@@ -1,0 +1,6 @@
+{
+ "estimate": 22,
+ "low_90": 8,
+ "high_90": 45,
+ "reasoning": "Veriflex styrene SMP is glassy at 25 C (compressive strength ~40-60 MPa); adding 40 vol% of very thin-walled, weak Q-Cel 6014 balloons (0.14 g/cm^3) roughly halves it."
+}

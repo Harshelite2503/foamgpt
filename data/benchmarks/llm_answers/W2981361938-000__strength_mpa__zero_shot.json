@@ -1,0 +1,6 @@
+{
+ "estimate": 110,
+ "low_90": 55,
+ "high_90": 200,
+ "reasoning": "AlSi12 pressure-infiltrated with Ni-coated 60 um hollow glass spheres at rho=1.58 g/cc; glass microballoons are weaker than engineered ceramic spheres, but the Ni coating improves wetting/interface, giving roughly 80-150 MPa compressive strength."
+}

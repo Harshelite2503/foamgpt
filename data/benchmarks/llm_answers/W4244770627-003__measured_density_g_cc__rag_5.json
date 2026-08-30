@@ -1,0 +1,6 @@
+{
+ "estimate": 1.66,
+ "low_90": 1.52,
+ "high_90": 1.82,
+ "reasoning": "7055 Al (2.85 g/cc) with 52 vol% Al2O3 hollow spheres (~0.8-0.9 g/cc bulk) gives ~1.7 g/cc by rule of mixtures; the same alloy/sphere/volume-fraction pair is reported at 1.61 and 1.72 g/cc in the references."
+}

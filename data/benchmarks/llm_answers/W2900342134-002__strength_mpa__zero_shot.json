@@ -1,0 +1,6 @@
+{
+ "estimate": 30,
+ "low_90": 18,
+ "high_90": 50,
+ "reasoning": "Layered S32/S38 graded epoxy foam at 0.622 g/cc: failure initiates in the weakest S32 layers (0.32 g/cc balloons, low crush strength), so the composite compressive strength tracks the S32 60 vol% value of roughly 25-35 MPa."
+}

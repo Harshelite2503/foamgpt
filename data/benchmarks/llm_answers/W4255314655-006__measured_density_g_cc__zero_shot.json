@@ -1,0 +1,6 @@
+{
+ "estimate": 1.72,
+ "low_90": 1.62,
+ "high_90": 1.83,
+ "reasoning": "Rule of mixtures: 0.523 x 0.82 + 0.477 x 2.70 = 1.72 g/cc, marginally denser than the 0.531 volume-fraction sample because slightly less of the light nodule phase is present."
+}

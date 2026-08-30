@@ -1,0 +1,6 @@
+{
+ "estimate": 3.5,
+ "low_90": 1.2,
+ "high_90": 9.0,
+ "reasoning": "A 0.252 g/cc PU syntactic foam is very compliant; the companion 0.376 g/cc sample has a compressive modulus of only 207 MPa, and at a few percent yield strain the lower-density specimen should yield at only a few MPa."
+}

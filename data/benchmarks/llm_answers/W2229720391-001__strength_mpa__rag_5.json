@@ -1,0 +1,6 @@
+{
+ "estimate": 90,
+ "low_90": 45,
+ "high_90": 180,
+ "reasoning": "AlSi12 infiltrated around 64 vol% hollow spheres that are 80% thin-walled metallic Globomet; metallic-sphere MMSFs yield near 60-90 MPa, lifted somewhat by the 20% stiffer ceramic spheres."
+}

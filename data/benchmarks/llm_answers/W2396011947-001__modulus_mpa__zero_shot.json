@@ -1,0 +1,6 @@
+{
+ "estimate": 250.0,
+ "low_90": 70.0,
+ "high_90": 700.0,
+ "reasoning": "Rigid Task-3 PU is ~1.0-1.5 GPa, but the measured 0.444 g/cc is far below the ~0.74 g/cc rule-of-mixtures value, so substantial entrained air plus 10 wt% silicone rubber softens it; density-squared scaling gives roughly 0.2-0.3 GPa."
+}

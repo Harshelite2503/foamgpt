@@ -1,0 +1,6 @@
+{
+ "estimate": 1500,
+ "low_90": 800,
+ "high_90": 2700,
+ "reasoning": "A plain single-grade Scotchlite/epoxy foam at 60 vol% and density comparable to the 0.627 g/cc graded foam should have essentially the same stiffness, ~1.5 GPa, since modulus is governed by volume fraction and wall thickness rather than layer sequence."
+}

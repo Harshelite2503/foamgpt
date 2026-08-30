@@ -1,0 +1,6 @@
+{
+ "estimate": 90,
+ "low_90": 35,
+ "high_90": 200,
+ "reasoning": "Scaling from the same paper's 179 MPa at 2.388 g/cc by the usual near-quadratic density dependence of metallic syntactic foam strength gives ~80-100 MPa at 1.585 g/cc under quasi-static loading."
+}

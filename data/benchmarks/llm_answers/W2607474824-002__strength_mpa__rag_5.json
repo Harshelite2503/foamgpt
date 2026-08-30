@@ -1,0 +1,6 @@
+{
+ "estimate": 50,
+ "low_90": 20,
+ "high_90": 100,
+ "reasoning": "At 0.67 g/cc with a ~1.2 g/cc cyanate-ester binder the hollow-glass-microsphere fraction is roughly 0.55; compression-molded glass syntactic foams (spheroplastics) in this density range typically yield 35-70 MPa in compression."
+}

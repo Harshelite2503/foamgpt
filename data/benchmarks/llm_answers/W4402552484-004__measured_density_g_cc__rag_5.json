@@ -1,0 +1,6 @@
+{
+ "estimate": 0.7,
+ "low_90": 0.63,
+ "high_90": 0.83,
+ "reasoning": "Two same-paper references for the identical VE-200 vinyl ester with 40 vol% H38H microballoons report a measured density of 0.70 g/cc, slightly below the 0.83 g/cc rule-of-mixtures value because of entrapped air/styrene loss."
+}

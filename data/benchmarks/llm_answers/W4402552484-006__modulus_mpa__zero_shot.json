@@ -1,0 +1,6 @@
+{
+ "estimate": 1100,
+ "low_90": 500,
+ "high_90": 2200,
+ "reasoning": "Neat vinyl ester is ~2 GPa; replacing 60 vol% with hollow H38H glass balloons (0.38 g/cc, thin walls) roughly halves the compressive modulus to ~1-1.3 GPa at rho=0.56 g/cc."
+}

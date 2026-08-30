@@ -1,0 +1,6 @@
+{
+ "estimate": 45.0,
+ "low_90": 20.0,
+ "high_90": 90.0,
+ "reasoning": "The AA6063-O matrix is annealed and soft (~50-60 MPa UTS) and over half the volume is 0.82 g/cc Al-foam nodules, so the compressive yield/plateau strength of this 1.436 g/cc composite should be only tens of MPa."
+}

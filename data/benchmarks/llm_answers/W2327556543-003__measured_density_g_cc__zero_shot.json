@@ -1,0 +1,6 @@
+{
+ "estimate": 0.8,
+ "low_90": 0.38,
+ "high_90": 1.14,
+ "reasoning": "Bisphenol-A epoxy (~1.15 g/cm^3) filled with very light 0.13 g/cm^3 acrylonitrile microballoons; volume fraction is not stated, so a mid-series loading of ~30-40 vol% is assumed."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 1900,
+ "low_90": 1000,
+ "high_90": 3200,
+ "reasoning": "Series-like stacking of S32 and S38 layers at 60 vol% balloons and 0.636 g/cc; epoxy syntactics at this density typically give compressive moduli of 1.5-2.5 GPa, below the ~3 GPa neat epoxy because of the low-density hollow filler."
+}

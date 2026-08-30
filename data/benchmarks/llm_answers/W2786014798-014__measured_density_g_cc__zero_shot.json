@@ -1,0 +1,6 @@
+{
+ "estimate": 0.7,
+ "low_90": 0.63,
+ "high_90": 0.78,
+ "reasoning": "Rule of mixtures for 50 vol% S22 (0.22 g/cc) in DGEBA (~1.19 g/cc) gives 0.71 g/cc, with a small allowance for entrapped void porosity."
+}

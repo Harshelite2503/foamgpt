@@ -1,0 +1,6 @@
+{
+ "estimate": 750.0,
+ "low_90": 300.0,
+ "high_90": 1500.0,
+ "reasoning": "Veriflex SMP is glassy at 25 C (Tg 62 C) with ~1.2-1.5 GPa modulus; adding 40 vol% very light, thin-walled Q-Cel 6014 (0.14 g/cc) roughly halves the compressive modulus."
+}

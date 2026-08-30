@@ -1,0 +1,6 @@
+{
+ "estimate": 2800,
+ "low_90": 1100,
+ "high_90": 6000,
+ "reasoning": "Same S38/DGEBA foam (0.606 g/cc, 63 vol%) measured 2098 MPa at 747 1/s in this study; the strong positive rate sensitivity seen for K46 and S32 suggests a higher value at 909 1/s."
+}

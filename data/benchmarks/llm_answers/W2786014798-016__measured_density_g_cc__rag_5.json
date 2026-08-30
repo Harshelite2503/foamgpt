@@ -1,0 +1,6 @@
+{
+ "estimate": 0.641,
+ "low_90": 0.61,
+ "high_90": 0.68,
+ "reasoning": "The same DGEBA/S22 system at 0.5 volume fraction is reported three times in this paper at 0.638-0.642 g/cc; the 43 C test temperature does not change density meaningfully."
+}

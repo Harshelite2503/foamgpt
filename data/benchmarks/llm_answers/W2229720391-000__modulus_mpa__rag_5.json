@@ -1,0 +1,6 @@
+{
+ "estimate": 2600,
+ "low_90": 1000,
+ "high_90": 6000,
+ "reasoning": "The 60/40 GM-GC hybrid of the same AlSi12 system at 1.65 g/cc measured 4250 MPa; the all-Globomet foam at 1.33 g/cc has thinner sphere walls and less matrix, so a clearly lower modulus."
+}

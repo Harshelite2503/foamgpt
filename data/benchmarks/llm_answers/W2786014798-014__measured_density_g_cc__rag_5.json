@@ -1,0 +1,6 @@
+{
+ "estimate": 0.67,
+ "low_90": 0.6,
+ "high_90": 0.75,
+ "reasoning": "Back-solving the same paper's rows (1.028 g/cc at Vf=0.1, 0.94 g/cc at Vf=0.2) gives an effective matrix density of ~1.12 g/cc; at Vf=0.5 with S22 (0.22 g/cc) this yields 0.5x1.12 + 0.5x0.22 = ~0.67."
+}

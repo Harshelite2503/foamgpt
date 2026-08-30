@@ -1,0 +1,6 @@
+{
+ "estimate": 1050,
+ "low_90": 400,
+ "high_90": 2400,
+ "reasoning": "EPON 815C/Epikure 3230 is a flexible epoxy; same-paper iM30K/iM16K printed foams show tensile moduli of only ~840 MPa, and compressive moduli for these dense-walled iM-series balloons typically run slightly higher than tensile values."
+}

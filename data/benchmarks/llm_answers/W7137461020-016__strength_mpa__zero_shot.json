@@ -1,0 +1,6 @@
+{
+ "estimate": 65,
+ "low_90": 30,
+ "high_90": 115,
+ "reasoning": "EPON 815C is a diluted, relatively ductile DGEBA (neat compressive strength ~70-90 MPa); the iM30K/iM16K blend is high-crush-strength but printed (additive) parts carry porosity and interlayer defects, so compressive strength lands modestly below the neat resin."
+}

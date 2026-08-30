@@ -1,0 +1,6 @@
+{
+ "estimate": 180,
+ "low_90": 70,
+ "high_90": 400,
+ "reasoning": "Stir casting limits cenosphere content to roughly 10-20 vol%, so Al2014 (compressive strength ~450 MPa) retains much of its capacity; reported cenosphere/Al syntactic compressive strengths cluster at 120-250 MPa."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 2200,
+ "low_90": 800,
+ "high_90": 5000,
+ "reasoning": "Phenolic resin (E~3.5 GPa) filled with 70 vol% fly-ash cenospheres, whose thick alumino-silicate walls are far stiffer than glass microballoons, gives a compressive modulus of the same order as the matrix, typically 1.5-3 GPa at ~0.9 g/cc composite density."
+}

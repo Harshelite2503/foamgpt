@@ -1,0 +1,6 @@
+{
+ "estimate": 500,
+ "low_90": 180,
+ "high_90": 1300,
+ "reasoning": "Veriflex SMP has a glassy modulus near 1-1.3 GPa at 25 C; 40 vol% of very thin-walled 0.14 g/cc Q-Cel balloons contributes almost no stiffness, cutting compressive modulus roughly in half."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 60,
+ "low_90": 30,
+ "high_90": 100,
+ "reasoning": "Neat vinyl ester compresses at ~110-120 MPa; 40 vol% H38-type glass microballoons (0.38 g/cc, ~26 MPa crush) plus the ~15% void content implied by the 0.70 g/cc measured density (rule-of-mixtures predicts 0.83) cut this substantially. Comparable epoxy/VE syntactics at 0.7 g/cc report 50-70 MPa."
+}

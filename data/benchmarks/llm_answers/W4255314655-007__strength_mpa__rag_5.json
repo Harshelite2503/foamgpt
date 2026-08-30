@@ -1,0 +1,6 @@
+{
+ "estimate": 20.0,
+ "low_90": 12.0,
+ "high_90": 32.0,
+ "reasoning": "Same AA6063-O / Al foam-nodule composite: 22.0 MPa at Vf=0.493 and 1.523 g/cc; raising the nodule fraction to 0.531 (1.436 g/cc) scales strength down by roughly (rho ratio)^1.5 to ~20 MPa."
+}

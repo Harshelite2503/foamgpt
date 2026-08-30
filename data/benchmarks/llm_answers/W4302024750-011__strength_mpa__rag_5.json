@@ -1,0 +1,6 @@
+{
+ "estimate": 330,
+ "low_90": 150,
+ "high_90": 600,
+ "reasoning": "High-rate (882 /s) response of the Al7075/66 vol% ceramic microsphere foam; the 100-250 um grade reaches 461 MPa at 1273 /s versus 179 MPa quasi-static, and coarser 250-500 um spheres are weaker, so a value well above quasi-static but below 461 MPa is expected."
+}

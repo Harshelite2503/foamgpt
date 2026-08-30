@@ -1,0 +1,6 @@
+{
+ "estimate": 1.48,
+ "low_90": 1.35,
+ "high_90": 1.62,
+ "reasoning": "The companion AA6063/TPM-nodule sample at 0.493 sphere fraction measured 1.523 g/cc; extrapolating that mixture line to 0.523 gives about 1.48 g/cc."
+}

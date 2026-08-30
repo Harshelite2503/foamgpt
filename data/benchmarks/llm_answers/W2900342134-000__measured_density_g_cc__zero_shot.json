@@ -1,0 +1,6 @@
+{
+ "estimate": 0.627,
+ "low_90": 0.6,
+ "high_90": 0.66,
+ "reasoning": "60 vol% of S22 (0.22) and K46 (0.46) balloons averaging ~0.34 g/cc in ~1.15 g/cc epoxy gives ~0.66 g/cc by rule of mixtures, slightly lower in practice from entrapped air, consistent with the ~0.63 g/cc reported for this foam."
+}

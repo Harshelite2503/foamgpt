@@ -1,0 +1,6 @@
+{
+ "estimate": 0.868,
+ "low_90": 0.83,
+ "high_90": 0.91,
+ "reasoning": "LR20 epoxy (~1.15 g/cc) with T60 balloons (0.6 g/cc) at roughly 45-50 vol% loading gives ~0.87 g/cc; this exact system is reported at 0.865-0.908 g/cc across test types in the reference set."
+}

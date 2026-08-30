@@ -1,0 +1,6 @@
+{
+ "estimate": 1200,
+ "low_90": 500,
+ "high_90": 2400,
+ "reasoning": "Plain single-layer 60 vol% epoxy/microballoon control of similar density to the layered foams, whose reported compressive moduli in the same paper span 722-1930 MPa; with no density or balloon grade specified the mid-range is the safest estimate."
+}

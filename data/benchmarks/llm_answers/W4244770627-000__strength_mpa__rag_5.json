@@ -1,0 +1,6 @@
+{
+ "estimate": 175,
+ "low_90": 45,
+ "high_90": 430,
+ "reasoning": "7055 Al is a very high-strength Al-Zn-Mg-Cu alloy and the 48 vol% dense matrix carries most of the load at 1.75 g/cc; A356/Al2O3-hollow foams of similar density reach 125-135 MPa, so a 7055 matrix should be appreciably higher, though as-cast/underaged states in this family can drop well below that."
+}

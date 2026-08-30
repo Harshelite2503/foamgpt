@@ -1,0 +1,6 @@
+{
+ "estimate": 750,
+ "low_90": 350,
+ "high_90": 1500,
+ "reasoning": "Veriflex styrene SMP is glassy at 25 C with modulus ~1.2 GPa; adding 40 vol% of very light, thin-walled Q-Cel 6014 (0.14 g/cc) balloons is a stiffness-reducing filler, dropping compressive modulus to roughly 0.6-0.9 GPa."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 9500,
+ "low_90": 2800,
+ "high_90": 22000,
+ "reasoning": "Quasi-static modulus for the same 100-250 um ceramic-sphere/Al7075 foam is 2830 MPa, while a companion 250-500 um specimen at 1263 /s reports 11930 MPa; SHPB apparent moduli in this paper are ~3-4x the quasi-static values, so ~1e4 MPa at 1517 /s."
+}

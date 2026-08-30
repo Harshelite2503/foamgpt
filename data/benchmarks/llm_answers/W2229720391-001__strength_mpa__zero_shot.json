@@ -1,0 +1,6 @@
+{
+ "estimate": 75,
+ "low_90": 38,
+ "high_90": 145,
+ "reasoning": "AlSi12 with 80% metallic / 20% ceramic hollow spheres at 1.64 g/cm^3; the ductile metallic spheres give a slightly lower peak but a smoother plateau than the ceramic-rich blend, so ~70-85 MPa."
+}

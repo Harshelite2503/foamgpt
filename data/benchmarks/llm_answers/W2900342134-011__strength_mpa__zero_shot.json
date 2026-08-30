@@ -1,0 +1,6 @@
+{
+ "estimate": 35,
+ "low_90": 20,
+ "high_90": 60,
+ "reasoning": "Plain single-layer DGEBA-epoxy syntactic with 60 vol% 3M Scotchlite microballoons at a density comparable to the ~0.62 g/cc graded foams; at that loading the balloon crush strength governs, and such foams report ~25-45 MPa compressive strength."
+}

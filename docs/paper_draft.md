@@ -7,7 +7,7 @@ DRAFT v0.1 — August 2026 — for internal discussion
 
 # Abstract
 
-Syntactic foams — hollow-particle-filled composites — have a three-decade experimental literature whose quantitative results remain locked in PDF tables and figures. We present FoamGPT, an open pipeline and dataset that converts that literature into a machine-readable process–structure–property (PSP) table with per-value provenance. From 1,329 relevant papers identified in OpenAlex (1990–2026) we processed the 93 open-access papers, of which 80 were confirmed on-topic, and extracted 951 records (738 primary measurements, 152 literature-quoted values, 61 model results) using a large language model constrained by a 40-field schema, a no-guessing rule, and mandatory verbatim evidence quotes. Automated physical-range checks flag 51 records for expert review. The extracted data reproduce known structure–property trends without post-processing. Using paper-level cross-validation, a random forest predicts foam density from processing descriptors alone (R² = 0.80) but cannot yet predict modulus or strength across laboratories (R² < 0), quantifying how far recipe-level features are from transferable mechanical prediction at this data scale. We release the dataset, extraction prompts, and benchmark code, and describe a validation protocol and the remaining barriers — figure-only reporting, paywalled corpora, and unit/definition heterogeneity — to a complete literature-scale dataset.
+Syntactic foams — hollow-particle-filled composites — have a three-decade experimental literature whose quantitative results remain locked in PDF tables and figures. We present FoamGPT, an open pipeline and dataset that converts that literature into a machine-readable process–structure–property (PSP) table with per-value provenance. From 1,329 relevant papers identified in OpenAlex (1990–2026) we processed the 93 open-access papers, of which 80 were confirmed on-topic, and extracted 951 records (738 primary measurements, 152 literature-quoted values, 61 model results) using a large language model constrained by a 40-field schema, a no-guessing rule, and mandatory verbatim evidence quotes. Automated physical-range checks flag 51 records for expert review. The extracted data reproduce known structure–property trends without post-processing. Using paper-level cross-validation, a random forest predicts foam density from processing descriptors alone (R² = 0.80) but cannot yet predict modulus or strength across laboratories (R² < 0), quantifying how far recipe-level features are from transferable mechanical prediction at this data scale. A frontier LLM asked to predict compressive strength from the recipe alone achieves a median absolute percentage error of 43% with 63% empirical coverage of its stated 90% intervals; supplying five retrieved records from other papers changes these to 37% and 82%. We release the dataset, extraction prompts, and benchmark code, and describe a validation protocol and the remaining barriers — figure-only reporting, paywalled corpora, and unit/definition heterogeneity — to a complete literature-scale dataset.
 
 # 1. Introduction
 
@@ -113,7 +113,21 @@ Density is predictable from processing descriptors across laboratories (random f
 
 ## 4.4 LLM prediction and calibration
 
-[LLM benchmark running — table and figure inserted automatically when data/benchmarks/llm_agent_summary.csv exists.]
+Table 3. LLM (Claude Opus 5) prediction on held-out records, zero-shot and with five retrieved records from other papers.
+
+| Target | Condition | n | median APE % | mean APE % | log-R² | 90% coverage |
+|---|---|---|---|---|---|---|
+| measured_density_g_cc | rag_5 | 32 | 1 | 7 | 0.89 | 84% |
+| measured_density_g_cc | zero_shot | 32 | 7 | 11 | 0.87 | 84% |
+| modulus_mpa | rag_5 | 29 | 30 | 77 | 0.61 | 86% |
+| modulus_mpa | zero_shot | 29 | 39 | 139 | 0.41 | 76% |
+| strength_mpa | rag_5 | 38 | 37 | 77 | 0.62 | 82% |
+| strength_mpa | zero_shot | 38 | 43 | 97 | 0.48 | 63% |
+
+![](data/benchmarks/llm_vs_ml.png)
+Figure 4. LLM predictions versus measured values (log axes), zero-shot and retrieval-augmented; dashed line is identity.
+
+[Interpretation to be written once numbers are final: compare LLM zero-shot MAPE with the ML baselines in Table 2 on the same targets; report whether the 90% intervals are over- or under-confident; note where retrieval helps most (matrix classes with dense literature) and where it fails.]
 
 # 5. Discussion
 

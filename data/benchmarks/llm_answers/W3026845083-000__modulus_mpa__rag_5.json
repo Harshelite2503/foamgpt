@@ -1,0 +1,6 @@
+{
+ "estimate": 4300,
+ "low_90": 1900,
+ "high_90": 9000,
+ "reasoning": "LM6 Al infiltrating 69 vol% expanded glass (0.35 g/cc) at 1.07 g/cc: the same system gives 7007 MPa in flexure, while a comparable Al2024/perlite foam at 1.09 g/cc gives 3970 MPa in compression, where measured moduli run lower."
+}

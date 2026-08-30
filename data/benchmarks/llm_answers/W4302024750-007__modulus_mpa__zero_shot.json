@@ -1,0 +1,6 @@
+{
+ "estimate": 9000,
+ "low_90": 2000,
+ "high_90": 30000,
+ "reasoning": "Al7075-T with 66 vol% fine 25-75 um ceramic microspheres tested by SHPB at ~1550/s; the finer, stronger spheres plus the strain-rate stiffening (and the usual overestimate from dynamic wave-based modulus extraction) push it above the quasi-static 5-10 GPa range."
+}

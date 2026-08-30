@@ -1,0 +1,6 @@
+{
+ "estimate": 1.02,
+ "low_90": 0.22,
+ "high_90": 1.15,
+ "reasoning": "This is the balloon-free control, so it should be the neat cast Task 3 PU plus 10 wt% Mold Star 30 silicone, i.e. ~1.0-1.06 g/cc; the interval is skewed low because the paper's filled samples (0.252 and 0.376 g/cc) rise with balloon content, hinting the matrix may itself be air-entrained."
+}

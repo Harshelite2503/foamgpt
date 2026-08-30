@@ -1,0 +1,6 @@
+{
+ "estimate": 6000,
+ "low_90": 1500,
+ "high_90": 20000,
+ "reasoning": "Al7075-T matrix syntactic foam at 1.79 g/cc (relative density ~0.64); quasi-static compressive moduli for Al-ceramic-microsphere syntactic foams are commonly 3-10 GPa, lower than micromechanics bounds because of compliance and early microplasticity."
+}

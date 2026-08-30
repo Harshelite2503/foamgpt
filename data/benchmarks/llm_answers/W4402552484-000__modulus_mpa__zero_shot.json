@@ -1,0 +1,6 @@
+{
+ "estimate": 2000,
+ "low_90": 900,
+ "high_90": 3800,
+ "reasoning": "Particle volume fraction is 0, so this is neat MEKP-cured bisphenol-A vinyl ester; compressive modulus for styrenated vinyl esters is typically 1.7-3 GPa."
+}

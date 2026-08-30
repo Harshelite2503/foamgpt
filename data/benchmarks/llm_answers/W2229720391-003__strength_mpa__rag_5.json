@@ -1,0 +1,6 @@
+{
+ "estimate": 190,
+ "low_90": 100,
+ "high_90": 330,
+ "reasoning": "AlSi12 matrix with 64 vol% hybrid ceramic/metallic spheres at 1.69 g/cc; the denser metallic-sphere fraction and stronger Al-Si matrix put it above the 160 MPa Al99.5/ceramic-sphere reference, while sphere crushing still caps strength."
+}

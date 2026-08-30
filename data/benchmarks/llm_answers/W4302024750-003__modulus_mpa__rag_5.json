@@ -1,0 +1,6 @@
+{
+ "estimate": 2500,
+ "low_90": 900,
+ "high_90": 7000,
+ "reasoning": "Al7075 ceramic-microsphere syntactic foam at 1.79 g/cc under quasi-static compression; the same study reports ~2.8-3.2 GPa compression-derived moduli for denser samples, so a lighter one should be lower."
+}

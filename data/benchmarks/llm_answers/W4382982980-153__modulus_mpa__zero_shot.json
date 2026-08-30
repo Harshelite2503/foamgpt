@@ -1,0 +1,6 @@
+{
+ "estimate": 2300.0,
+ "low_90": 1300.0,
+ "high_90": 3600.0,
+ "reasoning": "The 0.883 g/cc density implies ~48 vol% HGM T60 in a ~1.15 g/cc DGEBA matrix; thick-walled T60 balloons keep the compressive modulus near 2.0-2.6 GPa, close to neat epoxy."
+}

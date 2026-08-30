@@ -1,0 +1,6 @@
+{
+ "estimate": 300.0,
+ "low_90": 130.0,
+ "high_90": 680.0,
+ "reasoning": "Same PU/A20-1000 system: 50 wt% balloons at 0.376 g/cc gives 207 MPa; at only 10 wt% balloons the density rises to 0.444 g/cc and foam modulus scales roughly with density squared, giving ~290-300 MPa."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 210,
+ "low_90": 90,
+ "high_90": 430,
+ "reasoning": "The same paper reports 179 MPa quasi-static for the 25-75 um Al7075 composite; coarser 100-250 um spheres lower strength somewhat, but dynamic loading at 1517 /s adds roughly 20-50% strain-rate strengthening in this Al7075 system."
+}

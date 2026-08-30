@@ -1,0 +1,6 @@
+{
+ "estimate": 11500,
+ "low_90": 4500,
+ "high_90": 24000,
+ "reasoning": "The same study reports 11930 MPa at 1263 1/s for the 250-500 um grade versus ~3.2 GPa quasi-static, so SHPB-derived modulus for the 25-75 um grade at 1578 1/s should be of the same elevated order."
+}

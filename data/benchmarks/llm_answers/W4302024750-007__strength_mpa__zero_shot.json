@@ -1,0 +1,6 @@
+{
+ "estimate": 230,
+ "low_90": 120,
+ "high_90": 400,
+ "reasoning": "Al7075-T with 66 vol% of the finest 25-75 um ceramic microspheres gives the strongest sphere walls and the thickest matrix ligaments; at 1547/s the dynamic strength should exceed the ~170 MPa quasi-static value."
+}

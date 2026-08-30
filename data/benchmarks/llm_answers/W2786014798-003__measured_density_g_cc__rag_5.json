@@ -1,0 +1,6 @@
+{
+ "estimate": 1.13,
+ "low_90": 1.05,
+ "high_90": 1.21,
+ "reasoning": "Zero volume fraction means neat cured DGEBA D.E.R. 332 with diluent and TETA; back-extrapolating the paper's own S22 series (0.93 at 0.2, 0.641 at 0.5) gives a matrix density near 1.10-1.13 g/cc."
+}

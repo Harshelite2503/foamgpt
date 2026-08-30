@@ -1,0 +1,6 @@
+{
+ "estimate": 90.0,
+ "low_90": 40.0,
+ "high_90": 190.0,
+ "reasoning": "Al6061 with fly-ash cenospheres: cenosphere-filled Al syntactics typically plateau at 60-120 MPa in compression, below the 179 MPa of stronger Al7075-T6 with dense ceramic microspheres."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 0.82,
+ "low_90": 0.74,
+ "high_90": 0.92,
+ "reasoning": "Rule of mixtures with 40 vol% H38H (0.38 g/cc) in 1.13 g/cc vinyl ester gives 0.83 g/cc, minus a small void allowance."
+}

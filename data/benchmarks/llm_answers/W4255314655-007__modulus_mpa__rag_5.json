@@ -1,0 +1,6 @@
+{
+ "estimate": 3000,
+ "low_90": 1200,
+ "high_90": 7000,
+ "reasoning": "AA6063-O / Al foam-nodule composite at 1.436 g/cc: scaling the Al2024/pumice reference (7200 MPa at 2.05 g/cc) by density squared gives ~3.5 GPa, and measured compressive moduli of such foams typically read lower, ~2-4 GPa."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 89.0,
+ "low_90": 60.0,
+ "high_90": 125.0,
+ "reasoning": "Same 7055 Al / Al2O3 hollow-particle system: reference rows give 71.5 MPa at 1.61 g/cc and 84.5 MPa at 1.72 g/cc (~118 MPa per g/cc); extrapolating to 1.76 g/cc gives ~89 MPa."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 1800,
+ "low_90": 700,
+ "high_90": 3500,
+ "reasoning": "EPON 815C is a diluted, relatively flexible epoxy (E~1.5-2.5 GPa); a 50:50 iM30K/iM16K microballoon blend at moderate loading keeps modulus near or slightly below the neat resin."
+}

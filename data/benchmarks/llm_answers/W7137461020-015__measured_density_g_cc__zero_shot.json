@@ -1,0 +1,6 @@
+{
+ "estimate": 0.8,
+ "low_90": 0.6,
+ "high_90": 1.05,
+ "reasoning": "iM30K/iM16K blends (~0.55 g/cc effective) in EPON 815C (~1.15 g/cc) printable pastes are usually loaded to 40-60 vol% to stay extrudable, giving ~0.75-0.9 g/cc."
+}

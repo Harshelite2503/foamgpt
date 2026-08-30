@@ -1,0 +1,6 @@
+{
+ "estimate": 2900,
+ "low_90": 1500,
+ "high_90": 5200,
+ "reasoning": "Quasi-static compression of the Al7075/66 vol% ceramic microsphere foam; the finer 25-75 um grade at 2.388 g/cc gives 3220 MPa, and the coarser 250-500 um grade at lower density (2.25 g/cc) should be slightly less stiff."
+}

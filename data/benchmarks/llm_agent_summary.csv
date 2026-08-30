@@ -1,0 +1,7 @@
+target,condition,n,mape_pct,median_ape_pct,coverage_90,r2_log
+measured_density_g_cc,rag_5,32.0,6.8,1.493,0.844,0.886
+measured_density_g_cc,zero_shot,32.0,10.532,7.294,0.844,0.87
+modulus_mpa,rag_5,29.0,77.475,29.534,0.862,0.614
+modulus_mpa,zero_shot,29.0,139.498,39.394,0.759,0.406
+strength_mpa,rag_5,38.0,76.581,37.089,0.816,0.622
+strength_mpa,zero_shot,38.0,96.995,43.165,0.632,0.482

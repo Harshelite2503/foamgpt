@@ -1,0 +1,6 @@
+{
+ "estimate": 1600,
+ "low_90": 850,
+ "high_90": 2800,
+ "reasoning": "Neat DGEBA/TETA epoxy compressive modulus is ~2.6-3 GPa; 60 vol% of S22 (0.22 g/cc) and K46 (0.46 g/cc) thin-walled microballoons at rho=0.627 g/cc cuts stiffness roughly in half, and the layered S22-K46-K46-S22 stack behaves near the volume-average of the two single-grade foams."
+}

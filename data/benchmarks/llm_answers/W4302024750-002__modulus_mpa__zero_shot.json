@@ -1,0 +1,6 @@
+{
+ "estimate": 8000,
+ "low_90": 2000,
+ "high_90": 25000,
+ "reasoning": "Al7075-T with 66 vol% 250-500 um ceramic microspheres at a comparatively high 2.25 g/cc; the denser structure should be stiffer than the 1.79 g/cc companion, and Al-matrix syntactic foam compressive moduli in this density range are usually 5-15 GPa."
+}

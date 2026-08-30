@@ -1,0 +1,6 @@
+{
+ "estimate": 130,
+ "low_90": 60,
+ "high_90": 260,
+ "reasoning": "High-strength 7055 Al (yield ~500-600 MPa) infiltrating 52 vol% 1-2 mm Al2O3 hollow spheres at 1.73 g/cc; compressive yield/plateau strength of such Al2O3-sphere Al syntactic foams is typically 90-180 MPa, scaling with matrix strength and foam density."
+}

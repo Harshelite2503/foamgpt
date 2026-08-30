@@ -1,0 +1,6 @@
+{
+ "estimate": 0.87,
+ "low_90": 0.8,
+ "high_90": 0.95,
+ "reasoning": "T60 microballoons (0.6 g/cc) in ~1.15 g/cc epoxy at a typical ~50 vol% loading give ~0.87 g/cc, matching the density reported for this LR20/LH281 + HGM T60 foam."
+}

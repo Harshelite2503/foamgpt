@@ -1,0 +1,6 @@
+{
+ "estimate": 23.5,
+ "low_90": 15,
+ "high_90": 34,
+ "reasoning": "Same Veriflex SMP with 40 vol% Q-Cel 6014 balloons at quasi-static rate and 25 C; the very thin-walled 0.14 g/cc balloons cap the strength in the low-20s MPa, matching the tight reference cluster for this material."
+}

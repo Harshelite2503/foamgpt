@@ -1,0 +1,6 @@
+{
+ "estimate": 92.0,
+ "low_90": 61.0,
+ "high_90": 130.0,
+ "reasoning": "Same 7055 Al / alumina hollow-particle foam; the 1.61 g/cc -> 71.5 MPa and 1.72 g/cc -> 84.5 MPa reference pair extrapolates to ~92 MPa at 1.78 g/cc."
+}

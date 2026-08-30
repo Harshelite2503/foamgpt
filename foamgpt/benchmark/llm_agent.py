@@ -75,6 +75,13 @@ def make_all(n_per: dict[str, int], k: int = 5, seed: int = 0) -> int:
 
 
 def score() -> pd.DataFrame:
+    """Score answers. Exclusions (reported): unfilled-matrix controls (particle fraction 0), and
+    density tasks whose record also appears as a strength/modulus task (its density is visible there)."""
+    df = pd.read_csv(CURATED).set_index("record_id")
+    all_tasks = [json.loads(l) for f in TASK_DIR.glob("*.jsonl") for l in f.read_text().splitlines() if l.strip()]
+    rec_of = lambda tid: tid.split("__")[0]
+    mech_recs = {rec_of(t["task_id"]) for t in all_tasks if t["target"] != "measured_density_g_cc"}
+    excluded = {"control_rows": 0, "density_visible_in_sibling": 0}
     rows = []
     for tf in TASK_DIR.glob("*.jsonl"):
         target = tf.stem; truth = json.loads((TASK_DIR / f"{target}.truth.json").read_text())
@@ -82,6 +89,12 @@ def score() -> pd.DataFrame:
             af = ANS_DIR / f"{t['task_id']}.json"
             if not af.exists():
                 continue
+            rec = rec_of(t["task_id"]); r = df.loc[rec]
+            vf = r.get("particle_volume_fraction"); wf = r.get("particle_weight_fraction")
+            if (pd.notna(vf) and vf == 0) or (pd.notna(wf) and wf == 0 and pd.isna(vf)):
+                excluded["control_rows"] += 1; continue
+            if target == "measured_density_g_cc" and rec in mech_recs:
+                excluded["density_visible_in_sibling"] += 1; continue
             try:
                 a = json.loads(af.read_text())
                 est, lo, hi = float(a["estimate"]), float(a["low_90"]), float(a["high_90"])
@@ -93,6 +106,7 @@ def score() -> pd.DataFrame:
                          "ape": abs(y - est) / y, "log_err": np.log10(max(est, 1e-6)) - np.log10(y)})
     out = pd.DataFrame(rows)
     out.to_csv(BENCH_DIR / "llm_agent_predictions.csv", index=False)
+    print("excluded:", excluded); (BENCH_DIR / "llm_agent_exclusions.json").write_text(json.dumps(excluded))
     if out.empty:
         print("no answers yet"); return out
     def summ(g):

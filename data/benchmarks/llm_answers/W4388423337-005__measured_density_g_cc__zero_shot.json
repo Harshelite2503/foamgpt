@@ -1,0 +1,6 @@
+{
+ "estimate": 1.78,
+ "low_90": 1.55,
+ "high_90": 2.05,
+ "reasoning": "Rule of mixtures with 41.3 vol% expanded-glass spheres (particle density ~0.3-0.45 g/cc) in Al 7075 (2.81 g/cc) gives 0.413*0.37 + 0.587*2.81 ~ 1.80 g/cc, with minor infiltration porosity pulling it slightly lower."
+}

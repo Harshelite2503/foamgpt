@@ -1,0 +1,6 @@
+{
+ "estimate": 30,
+ "low_90": 12,
+ "high_90": 60,
+ "reasoning": "Veriflex styrene SMP is glassy at 25 C with ~70-90 MPa compressive strength, but 40 vol% Q-Cel 6014 balloons are very weak (0.14 g/cc, ~2 MPa crush) so the foam strength is set largely by early balloon crushing; ~20-40 MPa is typical."
+}

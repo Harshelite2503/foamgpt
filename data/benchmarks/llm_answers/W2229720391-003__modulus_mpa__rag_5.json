@@ -1,0 +1,6 @@
+{
+ "estimate": 2300,
+ "low_90": 900,
+ "high_90": 5500,
+ "reasoning": "Compressive (structural) modulus of AlSi12 metal-matrix syntactic foam at 1.69 g/cc with 64 vol% mm-scale hybrid spheres; the closest analog (Al7075 infiltrated foam at 1.68 g/cc, quasi-static) gives 2250 MPa, and hybrid ceramic/metallic spheres sit in the same 1-4 GPa band."
+}

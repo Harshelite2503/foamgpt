@@ -1,0 +1,6 @@
+{
+ "estimate": 21.0,
+ "low_90": 9.0,
+ "high_90": 45.0,
+ "reasoning": "Glassy styrene SMP (Veriflex, Tg~62 C, compressive yield ~50 MPa at 25 C) filled with 40 vol% very weak Q-Cel 6014 balloons (0.14 g/cc, ~3 MPa crush); (1-Vf)^1.5 knockdown gives roughly 20 MPa."
+}

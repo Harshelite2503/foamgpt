@@ -1,0 +1,6 @@
+{
+ "estimate": 800.0,
+ "low_90": 350.0,
+ "high_90": 1600.0,
+ "reasoning": "Same Veriflex/Q-Cel 6014 40 vol% system as the cast variant, but vacuum-assisted processing removes entrapped air and typically raises the compressive modulus modestly to ~0.7-1.0 GPa."
+}

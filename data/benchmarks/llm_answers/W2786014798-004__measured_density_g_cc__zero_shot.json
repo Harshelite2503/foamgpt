@@ -1,0 +1,6 @@
+{
+ "estimate": 1.09,
+ "low_90": 1.01,
+ "high_90": 1.18,
+ "reasoning": "Only 10 vol% S22 (0.22 g/cc) dilutes the ~1.19 g/cc DGEBA matrix slightly: 0.1*0.22 + 0.9*1.19 = 1.09 g/cc."
+}

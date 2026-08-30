@@ -1,0 +1,6 @@
+{
+ "estimate": 4000.0,
+ "low_90": 1400.0,
+ "high_90": 13000.0,
+ "reasoning": "Compression-derived structural stiffness of AlSi12 ceramic/metallic hybrid syntactic foams is typically reported as a few GPa (far below the true bulk E of ~15-25 GPa) because of machine and end-effect compliance."
+}

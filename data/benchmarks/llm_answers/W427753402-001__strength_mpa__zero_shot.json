@@ -1,0 +1,6 @@
+{
+ "estimate": 200.0,
+ "low_90": 90.0,
+ "high_90": 430.0,
+ "reasoning": "With zero balloon volume fraction this is the fully dense Al-12Si (AC3A) baseline; pressure-infiltrated eutectic Al-Si typically shows compressive proof/yield strength around 150-250 MPa."
+}

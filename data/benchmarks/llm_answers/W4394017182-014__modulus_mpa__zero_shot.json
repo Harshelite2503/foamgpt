@@ -1,0 +1,6 @@
+{
+ "estimate": 2500,
+ "low_90": 800,
+ "high_90": 6000,
+ "reasoning": "Phenolic resin (E~3-4 GPa) with 70 vol% fly-ash cenospheres made by vacuum-assisted infiltration; the thin-walled but stiff aluminosilicate shells roughly offset the high porosity, giving compressive moduli of ~1.5-3.5 GPa for such high-loading cenosphere syntactics."
+}

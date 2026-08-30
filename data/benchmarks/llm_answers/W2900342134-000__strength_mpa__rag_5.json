@@ -1,0 +1,6 @@
+{
+ "estimate": 34,
+ "low_90": 16,
+ "high_90": 65,
+ "reasoning": "A layered 60 vol% microballoon epoxy fails in its weakest layer; S22 balloons (0.22 g/cc, low crush strength) cap compressive strength near 30 MPa even though the K46 layers are much stronger."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 3100,
+ "low_90": 1400,
+ "high_90": 6200,
+ "reasoning": "Same phenolic/cenosphere 70 vol% syntactic in compression: shear moduli of ~1.0-1.5 GPa imply E ~ 2.5-3.7 GPa, consistent with the 3.23 GPa flexural value."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 2200.0,
+ "low_90": 1000.0,
+ "high_90": 4300.0,
+ "reasoning": "S32 balloons are lighter and thinner-walled than S38, and the 0.563 g/cc foam is correspondingly more compliant than its S38 counterpart; high-rate (878/s) loading offsets part of that."
+}

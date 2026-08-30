@@ -1,0 +1,6 @@
+{
+ "estimate": 0.82,
+ "low_90": 0.6,
+ "high_90": 1.05,
+ "reasoning": "DGEBA epoxy (1.15 g/cc) with HGM T60 (0.60 g/cc) at an unstated loading; typical 30-60 vol% microballoon contents give 0.75-0.95 g/cc, and the companion sample in this study sits at 0.865 g/cc."
+}

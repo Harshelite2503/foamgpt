@@ -1,0 +1,6 @@
+{
+ "estimate": 0.601,
+ "low_90": 0.575,
+ "high_90": 0.63,
+ "reasoning": "Reference rows for the identical DGEBA/K46 foam at 63 vol% in this study report 0.601 g/cc at both 447 and 835 1/s; strain rate does not affect density."
+}

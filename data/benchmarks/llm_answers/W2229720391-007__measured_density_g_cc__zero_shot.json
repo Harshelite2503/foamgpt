@@ -1,0 +1,6 @@
+{
+ "estimate": 1.68,
+ "low_90": 1.42,
+ "high_90": 1.92,
+ "reasoning": "Companion AlSi12 samples at the same nominal 0.64 vf measured 1.69-1.74 g/cc, implying an effective sphere fraction near 0.48; with 0.637 g/cc E-sphere SLG that back-calculates to ~1.68 g/cc."
+}

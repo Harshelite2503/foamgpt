@@ -1,0 +1,6 @@
+{
+ "estimate": 0.75,
+ "low_90": 0.65,
+ "high_90": 0.86,
+ "reasoning": "10 wt% A20/1000 balloons (0.2 g/cc) in Mold Star 30 silicone (1.08 g/cc) corresponds to ~37 vol%, giving 0.375*0.2 + 0.625*1.08 = 0.75 g/cc."
+}

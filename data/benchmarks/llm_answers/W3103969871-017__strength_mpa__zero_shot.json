@@ -1,0 +1,6 @@
+{
+ "estimate": 50,
+ "low_90": 20,
+ "high_90": 110,
+ "reasoning": "Commercially pure Al is soft (yield ~30-60 MPa), so a stir-cast cp-Al / Al2O3 hollow-sphere foam derives most of its strength from the sphere walls and from stir-casting porosity-limited bonding; 30-80 MPa is the typical band."
+}

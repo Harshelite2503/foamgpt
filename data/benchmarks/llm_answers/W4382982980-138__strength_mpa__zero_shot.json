@@ -1,0 +1,6 @@
+{
+ "estimate": 90,
+ "low_90": 55,
+ "high_90": 140,
+ "reasoning": "rho=0.865 with T60 (0.6 g/cc) in ~1.15 g/cc epoxy implies ~52 vol% microballoons; T60 is a high-strength grade (~69 MPa crush), so the foam retains most of the epoxy's ~110 MPa compressive strength."
+}

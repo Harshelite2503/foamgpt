@@ -1,0 +1,6 @@
+{
+ "estimate": 2500,
+ "low_90": 1400,
+ "high_90": 4200,
+ "reasoning": "At 0.865 g/cc this epoxy/T60 syntactic holds roughly 45-55 vol% microballoons; T60 shells are thick and stiff so the compressive modulus stays close to, but slightly below, the ~3 GPa neat epoxy value."
+}

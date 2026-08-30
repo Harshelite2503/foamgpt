@@ -1,0 +1,6 @@
+{
+ "estimate": 850,
+ "low_90": 600,
+ "high_90": 2000,
+ "reasoning": "The S32/S38 layered stack avoids the very weak S22 layers, so it is the stiffest of the graded family (783.9 MPa quasi-static for the S38-S32-S32-S38 sequence); the interval extends upward to cover the paper's high-rate ~1930 MPa branch since no strain rate is given."
+}

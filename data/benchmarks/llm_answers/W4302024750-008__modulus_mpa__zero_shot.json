@@ -1,0 +1,6 @@
+{
+ "estimate": 9000,
+ "low_90": 2000,
+ "high_90": 30000,
+ "reasoning": "Al7075 (E~72 GPa) with 66 vol% ceramic hollow microspheres gives an effective modulus roughly an order of magnitude below the matrix; SHPB-derived moduli at 1517/s are noisy and usually reported in the 5-20 GPa band."
+}

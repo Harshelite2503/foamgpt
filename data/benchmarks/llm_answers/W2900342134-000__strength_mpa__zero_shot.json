@@ -1,0 +1,6 @@
+{
+ "estimate": 55,
+ "low_90": 30,
+ "high_90": 90,
+ "reasoning": "At 60 vol% microballoons and rho=0.627 g/cc the compressive strength is set by balloon crushing: S22 layers (~35-45 MPa) alternating with stiffer K46 layers (~65-75 MPa) average to roughly 55 MPa for the layered foam."
+}

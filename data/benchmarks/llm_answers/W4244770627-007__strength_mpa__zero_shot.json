@@ -1,0 +1,6 @@
+{
+ "estimate": 140,
+ "low_90": 65,
+ "high_90": 280,
+ "reasoning": "Same 7055 Al / 52 vol% Al2O3 hollow-sphere system as the 1.73 g/cc sample but at 1.78 g/cc; foam strength scales steeply with density, so a slightly higher compressive strength in the 100-180 MPa band is expected."
+}

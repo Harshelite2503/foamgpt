@@ -1,0 +1,6 @@
+{
+ "estimate": 2000,
+ "low_90": 800,
+ "high_90": 4000,
+ "reasoning": "Density 0.883 with 0.6 g/cc T60 balloons in ~1.16 g/cc DGEBA implies ~50 vol% microballoons; thick-walled T60 retains much matrix stiffness, so compressive modulus sits somewhat below the ~2.9 GPa neat epoxy value."
+}

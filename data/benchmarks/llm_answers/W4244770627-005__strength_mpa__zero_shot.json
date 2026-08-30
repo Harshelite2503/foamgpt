@@ -1,0 +1,6 @@
+{
+ "estimate": 190,
+ "low_90": 90,
+ "high_90": 380,
+ "reasoning": "High-strength 7055 Al (sigma_y ~600 MPa) with 52 vol% alumina hollow spheres at 1.76 g/cm^3; compressive strength of such infiltrated syntactic foams generally falls in the 130-250 MPa range."
+}

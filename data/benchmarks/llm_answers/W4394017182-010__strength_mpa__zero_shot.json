@@ -1,0 +1,6 @@
+{
+ "estimate": 40,
+ "low_90": 15,
+ "high_90": 90,
+ "reasoning": "Phenolic resin is strong in compression but 70 vol% cenospheres dominates the response; vacuum-assisted cenosphere/phenolic syntactic foams typically fail near 30-50 MPa."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 900,
+ "low_90": 300,
+ "high_90": 2200,
+ "reasoning": "Rigid polyurethane matrix (E~1-2 GPa) heavily loaded with S38 glass balloons at 0.86 g/cm^3; reported compressive moduli for glass syntactic PU are typically 0.5-1.5 GPa."
+}

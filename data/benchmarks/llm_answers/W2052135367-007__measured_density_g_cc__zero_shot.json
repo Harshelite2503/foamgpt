@@ -1,0 +1,6 @@
+{
+ "estimate": 0.745,
+ "low_90": 0.68,
+ "high_90": 0.8,
+ "reasoning": "Inverse rule of mixtures with 10 wt% A20/1000 bubbles (0.20 g/cc) in Mold Star 30 silicone (~1.07 g/cc): 1/rho = 0.1/0.2 + 0.9/1.07 gives 0.746 g/cc, minus a little for entrapped air during mixing."
+}

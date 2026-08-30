@@ -1,0 +1,6 @@
+{
+ "estimate": 1500,
+ "low_90": 700,
+ "high_90": 3000,
+ "reasoning": "Vinyl ester compressive modulus (~2-3 GPa neat) is reduced by 60 vol% of 0.38 g/cc hollow balloons at 0.56 g/cc composite density; syntactic foams of this density typically fall in the 1-2 GPa compressive-modulus range."
+}

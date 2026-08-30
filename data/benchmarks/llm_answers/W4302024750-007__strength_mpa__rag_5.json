@@ -1,0 +1,6 @@
+{
+ "estimate": 480,
+ "low_90": 220,
+ "high_90": 850,
+ "reasoning": "The same Al7075 foam gave 179 MPa quasi-static and the 100-250 um grade jumped to 461 MPa at ~1273 1/s; a similar ~2.5-3x dynamic enhancement applies to the finer 25-75 um grade at 1547 1/s."
+}

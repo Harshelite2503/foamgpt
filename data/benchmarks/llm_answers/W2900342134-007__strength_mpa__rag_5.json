@@ -1,0 +1,6 @@
+{
+ "estimate": 33,
+ "low_90": 18,
+ "high_90": 60,
+ "reasoning": "Layered functionally-graded epoxy foam at 60 vol% balloons and 0.64 g/cc; in series compression the weak S22 layers (2.76 MPa crush strength) govern failure, so strength falls below the denser 0.87 g/cc T60 epoxy reference (53.95 MPa)."
+}

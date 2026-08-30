@@ -1,0 +1,6 @@
+{
+ "estimate": 1.03,
+ "low_90": 0.96,
+ "high_90": 1.1,
+ "reasoning": "Rule of mixtures on the paper's own S22 series: matrix ~1.12 g/cc less 0.1 x (1.12 - 0.22) gives about 1.03 g/cc at 10 vol% balloons."
+}

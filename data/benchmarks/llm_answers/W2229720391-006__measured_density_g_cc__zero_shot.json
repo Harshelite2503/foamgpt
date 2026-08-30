@@ -1,0 +1,6 @@
+{
+ "estimate": 1.76,
+ "low_90": 1.5,
+ "high_90": 1.98,
+ "reasoning": "Al1050 (2.70) infiltrated around GC ceramic spheres (0.816) at ~0.64 sphere fraction gives ~1.49 by rule of mixtures, but pressure infiltration of large 1.45 mm spheres typically leaves an effective sphere fraction near 0.5, pushing the measured value toward 1.7-1.8."
+}

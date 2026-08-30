@@ -1,0 +1,6 @@
+{
+ "estimate": 1.48,
+ "low_90": 1.18,
+ "high_90": 1.85,
+ "reasoning": "A356 (2.68 g/cc) infiltrated around ~55-62 vol% alumina hollow spheres (~0.8-0.9 g/cc effective) gives a rule-of-mixtures density near 1.5 g/cc, typical for Hollomet-sphere Al syntactic foams."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 1.16,
+ "low_90": 1.1,
+ "high_90": 1.22,
+ "reasoning": "Particle volume fraction is 0, so this is the neat diluted DGEBA/TETA casting resin, whose cured density is typically 1.14-1.18 g/cc."
+}

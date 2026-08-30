@@ -1,0 +1,6 @@
+{
+ "estimate": 200,
+ "low_90": 100,
+ "high_90": 380,
+ "reasoning": "7055 is a very high-strength Al-Zn-Mg-Cu alloy, but 52 vol% of 1-2 mm brittle Al2O3 hollow particles at rho=1.74 g/cc controls failure; quasi-static peak compressive strength for such foams is typically 150-280 MPa."
+}

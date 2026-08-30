@@ -1,0 +1,6 @@
+{
+ "estimate": 8000,
+ "low_90": 2500,
+ "high_90": 20000,
+ "reasoning": "AlSi12 (E~75 GPa) with 64 vol% thin-walled metallic hollow spheres at 1.33 g/cm^3; measured compressive moduli for such infiltrated sphere composites are typically 5-12 GPa, reduced further by machine-compliance effects."
+}

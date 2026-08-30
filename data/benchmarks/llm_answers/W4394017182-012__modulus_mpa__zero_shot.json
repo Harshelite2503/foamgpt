@@ -1,0 +1,6 @@
+{
+ "estimate": 3000,
+ "low_90": 1200,
+ "high_90": 6500,
+ "reasoning": "Phenolic resin modulus is ~3-4 GPa and fly-ash cenospheres are comparatively thick-walled and stiff, so even at 70 vol% the compressive modulus stays in the low-GPa range rather than collapsing."
+}

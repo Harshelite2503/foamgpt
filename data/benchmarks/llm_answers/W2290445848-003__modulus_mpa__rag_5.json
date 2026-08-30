@@ -1,0 +1,6 @@
+{
+ "estimate": 1000,
+ "low_90": 450,
+ "high_90": 2200,
+ "reasoning": "Glass syntactic polyurethane at 0.86 g/cc with S38 balloons: the PU matrix is much more compliant than epoxy, and commercial deep-sea GSPU insulation foams report compressive moduli of roughly 0.7-1.5 GPa."
+}

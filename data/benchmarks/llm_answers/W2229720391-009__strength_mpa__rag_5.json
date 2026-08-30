@@ -1,0 +1,6 @@
+{
+ "estimate": 180,
+ "low_90": 90,
+ "high_90": 320,
+ "reasoning": "AlSi12 is far stronger than the Al99.5 matrix that gave 160 MPa with the same 64 vol% ceramic sphere loading, and the bimodal SLG/GC blend packs efficiently at 1.60 g/cc, so compressive strength should sit somewhat above the Al99.5 value."
+}

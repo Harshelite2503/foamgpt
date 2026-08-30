@@ -1,0 +1,6 @@
+{
+ "estimate": 65,
+ "low_90": 35,
+ "high_90": 105,
+ "reasoning": "Vinyl ester (neat compressive strength ~110-120 MPa) with 40 vol% H38-grade balloons (0.38 g/cc, relatively strong walls) at 0.70 g/cc keeps a large load-bearing resin fraction, so compressive strength should be roughly half the neat-resin value, far above the soft-SMP references."
+}

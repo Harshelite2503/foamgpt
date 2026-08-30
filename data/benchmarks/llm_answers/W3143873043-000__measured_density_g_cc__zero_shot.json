@@ -1,0 +1,6 @@
+{
+ "estimate": 2.35,
+ "low_90": 2.1,
+ "high_90": 2.6,
+ "reasoning": "5 wt% cenospheres (~0.8 g/cc) is only ~15 vol% of the composite, so the 2.68 g/cc Al 5052 matrix still dominates: 0.15*0.8 + 0.85*2.68 = 2.40 g/cc, trimmed slightly for infiltration porosity."
+}

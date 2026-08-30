@@ -1,0 +1,6 @@
+{
+ "estimate": 50,
+ "low_90": 22,
+ "high_90": 90,
+ "reasoning": "At 0.865 g/cc with a 1.15 g/cc epoxy and 0.6 g/cc T60 balloons the balloon volume fraction is ~0.52; T60 has ~69 MPa isostatic crush strength, and a same-paper specimen at 0.872 g/cc gave 53.95 MPa in compression."
+}

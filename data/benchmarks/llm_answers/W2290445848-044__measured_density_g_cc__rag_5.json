@@ -1,0 +1,6 @@
+{
+ "estimate": 0.88,
+ "low_90": 0.58,
+ "high_90": 1.15,
+ "reasoning": "Heaviest of the three GSPU variants in this paper; thick-wall/low-loading syntactic PU insulation coatings reach 0.85-1.0 g/cc."
+}

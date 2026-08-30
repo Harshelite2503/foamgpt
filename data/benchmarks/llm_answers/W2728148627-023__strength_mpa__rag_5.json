@@ -1,0 +1,6 @@
+{
+ "estimate": 23.5,
+ "low_90": 15,
+ "high_90": 35,
+ "reasoning": "Veriflex styrene SMP is glassy at 25 C but low-modulus; with 40 vol% very light Q-Cel 6014 (0.14 g/cc) balloons the balloons crush early, giving low-20s MPa, consistent with the closely matched reference set for this same matrix/balloon/volume-fraction combination."
+}

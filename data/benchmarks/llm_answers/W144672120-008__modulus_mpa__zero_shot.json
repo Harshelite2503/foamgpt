@@ -1,0 +1,6 @@
+{
+ "estimate": 2600.0,
+ "low_90": 1200.0,
+ "high_90": 5000.0,
+ "reasoning": "S38 epoxy syntactic foam at 0.606 g/cc has quasi-static compressive modulus ~2-2.5 GPa; the ~900/s SHPB rate raises the apparent modulus modestly, giving ~2.6 GPa."
+}

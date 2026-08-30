@@ -1,0 +1,6 @@
+{
+ "estimate": 1500,
+ "low_90": 700,
+ "high_90": 2800,
+ "reasoning": "Same-paper S32 foam at 0.563 g/cc gives 955 MPa at 450 /s and 1734 MPa at 1017 /s, so 878 /s interpolates to ~1.5 GPa; scatter in this SHPB data set (e.g. 1001 vs 1882 MPa for S22 at nearly equal rates) is large."
+}

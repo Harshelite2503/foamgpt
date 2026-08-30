@@ -1,0 +1,6 @@
+{
+ "estimate": 1.14,
+ "low_90": 1.02,
+ "high_90": 1.25,
+ "reasoning": "Rubber crumb is not a hollow filler: epoxy (1.16 g/cc) with 20 vol% CRMB60 crumb (~1.05-1.15 g/cc) gives essentially matrix density, ~1.14 g/cc."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 1.47,
+ "low_90": 1.36,
+ "high_90": 1.68,
+ "reasoning": "The same-paper point (0.493 vf of 0.82 g/cc Al nodules giving 1.523 g/cc) implies an effective matrix density of ~2.2 g/cc rather than 2.70, i.e. residual porosity; carrying that through to 0.531 vf gives ~1.47 g/cc."
+}

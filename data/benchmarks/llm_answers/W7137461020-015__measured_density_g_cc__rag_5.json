@@ -1,0 +1,6 @@
+{
+ "estimate": 0.699,
+ "low_90": 0.66,
+ "high_90": 0.74,
+ "reasoning": "A reference row for the identical EPON 815C foam with 3M iM30K:iM16K at 3:1 by weight reports 0.699 g/cc; density is composition-dependent and independent of test type."
+}

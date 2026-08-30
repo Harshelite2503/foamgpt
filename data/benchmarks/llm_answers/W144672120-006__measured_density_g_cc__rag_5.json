@@ -1,0 +1,6 @@
+{
+ "estimate": 0.606,
+ "low_90": 0.575,
+ "high_90": 0.645,
+ "reasoning": "Epoxy (~1.16 g/cc) with 63 vol% S38 balloons (0.38 g/cc) gives ~0.65 by rule of mixtures; the same paper's S22/S32/K46 series measures 0.504/0.563/0.601, placing S38 at ~0.60-0.61 g/cc."
+}

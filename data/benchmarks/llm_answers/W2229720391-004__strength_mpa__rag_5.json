@@ -1,0 +1,6 @@
+{
+ "estimate": 75.0,
+ "low_90": 38.0,
+ "high_90": 145.0,
+ "reasoning": "AlSi12 infiltrating 64 vol% mostly-ceramic 1.45 mm Globocer spheres: mm-scale ceramic-sphere AlSi12 syntactics typically yield 60-100 MPa in compression, well above the coarse 2-4 mm alumina-bubble Al7075 foams (22-44 MPa) because the spheres are smaller and stronger."
+}

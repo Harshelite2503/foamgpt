@@ -1,0 +1,6 @@
+{
+ "estimate": 200.0,
+ "low_90": 95.0,
+ "high_90": 430.0,
+ "reasoning": "This is the 0 vol% balloon baseline: fully dense pressure-infiltrated Al-12%Si, whose quasi-static compressive proof/flow strength is typically 150-300 MPa, well above any balloon-filled variant."
+}

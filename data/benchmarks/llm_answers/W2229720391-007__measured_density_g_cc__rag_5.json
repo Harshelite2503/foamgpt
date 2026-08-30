@@ -1,0 +1,6 @@
+{
+ "estimate": 1.36,
+ "low_90": 1.28,
+ "high_90": 1.48,
+ "reasoning": "Rule of mixtures for 0.64 vf of 0.637 g/cc E-sphere SLG in AlSi12 (2.65 g/cc) gives 1.36 g/cc; the same-paper hybrid with 60 vol% metallic Globomet spheres is correspondingly heavier at 1.65 g/cc."
+}

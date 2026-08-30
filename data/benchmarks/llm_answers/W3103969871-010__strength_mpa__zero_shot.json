@@ -1,0 +1,6 @@
+{
+ "estimate": 110,
+ "low_90": 50,
+ "high_90": 220,
+ "reasoning": "A380 is a moderate-strength die-cast Al alloy; hollow Al2O3 spheres are typically mm-scale with brittle walls, so the compressive plateau/peak strength of such foams generally sits near 80-160 MPa."
+}

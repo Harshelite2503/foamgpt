@@ -1,0 +1,6 @@
+{
+ "estimate": 120,
+ "low_90": 55,
+ "high_90": 240,
+ "reasoning": "At 1.67 g/cc with 1-2 mm Al2O3 hollow spheres in a strengthened Al-Si-Cu-Mg casting alloy; directly comparable A356/Al2O3 foams at 1.78-1.88 g/cc give 125-134 MPa, and the higher-strength matrix roughly offsets the lower density here."
+}

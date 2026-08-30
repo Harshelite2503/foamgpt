@@ -1,0 +1,6 @@
+{
+ "estimate": 80,
+ "low_90": 40,
+ "high_90": 150,
+ "reasoning": "AlSi12 matrix with a 60/40 ceramic/metallic hollow-sphere blend at 0.64 volume fraction and 1.69 g/cm^3; compressive (plateau/yield) strengths for Hollomet-sphere AlSi12 syntactics are typically 60-100 MPa."
+}

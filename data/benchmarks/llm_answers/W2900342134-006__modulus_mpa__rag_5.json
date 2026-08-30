@@ -1,0 +1,6 @@
+{
+ "estimate": 1750,
+ "low_90": 680,
+ "high_90": 2400,
+ "reasoning": "Same-paper layered epoxy/microballoon foams at 60 vol% split into a low group (~720-790 MPa at 0.623-0.629 g/cc) and a high group (~1920-1930 MPa at 0.639-0.640 g/cc); this specimen's 0.6415 g/cc sits in the high-density group, so ~1.8-1.9 GPa is most likely."
+}

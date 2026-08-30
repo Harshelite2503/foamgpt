@@ -1,0 +1,6 @@
+{
+ "estimate": 150.0,
+ "low_90": 80.0,
+ "high_90": 265.0,
+ "reasoning": "A high-strength Al7075-T matrix infiltrated around ceramic hollow spheres at 1.79 g/cc gives compressive yield/plateau strengths well above AlSi12 foams, typically 120-200 MPa."
+}

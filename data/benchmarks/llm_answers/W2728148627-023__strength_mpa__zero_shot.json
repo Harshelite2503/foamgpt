@@ -1,0 +1,6 @@
+{
+ "estimate": 25,
+ "low_90": 12,
+ "high_90": 50,
+ "reasoning": "Glassy Veriflex has ~45-60 MPa compressive strength; 40 vol% of the very weak Q-Cel 6014 balloons (0.14 g/cc, low crush pressure) causes early wall collapse and roughly halves it."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 0.5,
+ "low_90": 0.25,
+ "high_90": 0.9,
+ "reasoning": "Binderless hot-pressed hollow glass microspheres: the continuous phase is only the sintered shell material, so bulk density stays near the packed-shell value of ~0.35-0.7 g/cc, rising with the degree of viscous densification during hot pressing."
+}

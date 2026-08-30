@@ -1,0 +1,6 @@
+{
+ "estimate": 3100,
+ "low_90": 1400,
+ "high_90": 6200,
+ "reasoning": "Phenolic/cenosphere syntactic at 70 vol% filler: reported shear moduli of 0.96-1.48 GPa imply E = 2G(1+v) ~ 2.5-3.7 GPa, bracketed by the 3.23 GPa flexural modulus."
+}

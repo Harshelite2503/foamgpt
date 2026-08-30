@@ -1,0 +1,6 @@
+{
+ "estimate": 1.79,
+ "low_90": 1.72,
+ "high_90": 1.86,
+ "reasoning": "The same specimen row of this Al7075-T pressure-infiltrated ceramic-hollow-sphere foam (quasi-static 0.00083 /s compression) is quoted elsewhere in the task set at 1.79 g/cc, consistent with a high hollow-sphere fraction in a 2.81 g/cc matrix."
+}

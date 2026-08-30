@@ -1,0 +1,6 @@
+{
+ "estimate": 0.875,
+ "low_90": 0.76,
+ "high_90": 1.0,
+ "reasoning": "Same LR20/LH281 epoxy + HGM T60 system whose reference rows report 0.865-0.908 g/cc; tension specimens are listed at 0.872, so ~0.87-0.88 with allowance for a different microballoon loading in this row."
+}

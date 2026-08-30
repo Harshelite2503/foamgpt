@@ -1,0 +1,6 @@
+{
+ "estimate": 1.79,
+ "low_90": 1.66,
+ "high_90": 1.92,
+ "reasoning": "Al7075 (2.81 g/cc) pressure-infiltrated with ceramic hollow spheres at typical ~55-60 vol% packing gives ~1.7-1.85 g/cc; the companion strength record for this same sample quotes 1.79 g/cc."
+}

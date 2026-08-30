@@ -1,0 +1,6 @@
+{
+ "estimate": 3500,
+ "low_90": 1200,
+ "high_90": 9000,
+ "reasoning": "The same 25-75 um sphere/Al7075 foam gives 3220 MPa quasi-statically; at 1547 /s SHPB loading the apparent modulus typically rises but is heavily wave-dispersion dependent, so the estimate is modestly above quasi-static with a wide band."
+}

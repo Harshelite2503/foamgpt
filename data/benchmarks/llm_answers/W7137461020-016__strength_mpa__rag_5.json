@@ -1,0 +1,6 @@
+{
+ "estimate": 28,
+ "low_90": 10,
+ "high_90": 60,
+ "reasoning": "EPON 815C/Epikure 3230 is a flexible epoxy - the paper's own foams show only 577-842 MPa modulus - so compressive yield of the iM30K/iM16K foam should be modest, roughly modulus/25."
+}

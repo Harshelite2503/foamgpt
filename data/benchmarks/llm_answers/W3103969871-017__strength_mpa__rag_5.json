@@ -1,0 +1,6 @@
+{
+ "estimate": 90,
+ "low_90": 30,
+ "high_90": 220,
+ "reasoning": "Stir-cast cp-Al with Al2O3 hollow spheres retains a soft, low-strength matrix and only modest sphere loading, so compressive strength sits well below the pressure-infiltrated 7075/ceramic references (~180 MPa); typical stir-cast Al syntactic foams fall in the 50-150 MPa band."
+}

@@ -1,0 +1,6 @@
+{
+ "estimate": 115,
+ "low_90": 80,
+ "high_90": 160,
+ "reasoning": "This is the neat resin baseline (0 vol% and 0 wt% microballoons): bisphenol-A vinyl ester cured with MEKP has a compressive strength of roughly 100-130 MPa."
+}

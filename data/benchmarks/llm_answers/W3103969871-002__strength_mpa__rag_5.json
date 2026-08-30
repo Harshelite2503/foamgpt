@@ -1,0 +1,6 @@
+{
+ "estimate": 120.0,
+ "low_90": 60.0,
+ "high_90": 225.0,
+ "reasoning": "Al6082 infiltrated with fine (75-125 um) ceramic microspheres: fine spheres give high strength, but the softer 6082 matrix scales down the 179 MPa of the Al7075-T6 / 25-75 um reference; A356-T6 large-sphere foams land at 125-134 MPa."
+}

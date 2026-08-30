@@ -1,0 +1,6 @@
+{
+ "estimate": 0.99,
+ "low_90": 0.9,
+ "high_90": 1.06,
+ "reasoning": "Rule of mixtures: 0.7 * 1.16 (cured E-51 epoxy) + 0.3 * 0.60 (S60HS) = 0.99 g/cc; S60HS is a strong, high-quality balloon so cast void content should be small."
+}

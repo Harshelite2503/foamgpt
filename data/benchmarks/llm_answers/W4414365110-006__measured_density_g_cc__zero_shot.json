@@ -1,0 +1,6 @@
+{
+ "estimate": 1.14,
+ "low_90": 1.02,
+ "high_90": 1.25,
+ "reasoning": "Both phases are near 1.1-1.2 g/cc (Lapox L12 epoxy ~1.16, CRMB rubber crumb ~1.10-1.15), so 20 vol% crumb barely shifts the composite density from that of neat epoxy."
+}

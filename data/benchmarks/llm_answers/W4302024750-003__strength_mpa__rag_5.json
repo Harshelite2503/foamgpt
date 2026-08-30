@@ -1,0 +1,6 @@
+{
+ "estimate": 110,
+ "low_90": 45,
+ "high_90": 240,
+ "reasoning": "Density-scaling the same paper's 179 MPa at 2.388 g/cc down to 1.79 g/cc with an approximately quadratic strength-density law gives ~100-120 MPa for this quasi-static Al7075 syntactic foam."
+}

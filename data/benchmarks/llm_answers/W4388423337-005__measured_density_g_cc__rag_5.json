@@ -1,0 +1,6 @@
+{
+ "estimate": 1.91,
+ "low_90": 1.86,
+ "high_90": 1.96,
+ "reasoning": "Same-paper Al7075/expanded-glass foams give a tight linear density-vs-volume-fraction trend (1.96 at 0.388 down to 1.82 at 0.456 vf); interpolating to 0.413 vf yields 1.91 g/cc."
+}

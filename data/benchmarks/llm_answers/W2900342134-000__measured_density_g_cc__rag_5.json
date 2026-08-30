@@ -1,0 +1,6 @@
+{
+ "estimate": 0.627,
+ "low_90": 0.615,
+ "high_90": 0.64,
+ "reasoning": "The companion task states 0.627 g/cc for this exact layered S22-K46-K46-S22 specimen, and the reordered K46-S22-S22-K46 layup of the same constituents measured 0.623 g/cc."
+}

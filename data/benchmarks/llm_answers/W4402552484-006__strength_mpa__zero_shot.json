@@ -1,0 +1,6 @@
+{
+ "estimate": 40,
+ "low_90": 20,
+ "high_90": 70,
+ "reasoning": "60 vol% H38H (0.38 g/cc) in vinyl ester at rho=0.56 g/cc; failure is by microballoon crushing, and H38-grade balloons at this loading typically give 30-50 MPa compressive strength."
+}

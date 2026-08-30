@@ -1,0 +1,6 @@
+{
+ "estimate": 0.61,
+ "low_90": 0.55,
+ "high_90": 0.69,
+ "reasoning": "63 vol% S38 (0.38 g/cc) plus 37 vol% DGEBA (~1.18 g/cc) gives ~0.68 g/cc by rule of mixtures, reduced to ~0.61 by the matrix voids typical of high-loading mechanical mixing."
+}

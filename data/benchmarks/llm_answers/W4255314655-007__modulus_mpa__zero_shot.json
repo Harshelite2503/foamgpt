@@ -1,0 +1,6 @@
+{
+ "estimate": 6000,
+ "low_90": 1500,
+ "high_90": 22000,
+ "reasoning": "AA6063 (E~69 GPa) filled with 53 vol% thin-walled Al foam nodules at a relative density of ~0.53; quasi-static compression moduli of such Al-matrix hollow-sphere composites are typically reported at 3-10 GPa, well below any Voigt bound because compression-test moduli include machine compliance and early local yielding."
+}

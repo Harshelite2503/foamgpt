@@ -1,0 +1,6 @@
+{
+ "estimate": 170,
+ "low_90": 90,
+ "high_90": 320,
+ "reasoning": "Al7075-T with 66 vol% coarse 250-500 um ceramic microspheres; the largest sphere size gives the lowest wall strength and the biggest flaws, and the modest strain-rate boost at 882/s only partly offsets that."
+}

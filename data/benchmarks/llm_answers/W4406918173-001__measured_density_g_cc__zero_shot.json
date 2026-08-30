@@ -1,0 +1,6 @@
+{
+ "estimate": 1.38,
+ "low_90": 1.2,
+ "high_90": 1.58,
+ "reasoning": "Rule of mixtures: 0.6277*0.55 (LECA) + 0.3723*2.78 (Al2024) = 1.38 g/cm^3; vacuum-assisted infiltration of coarse 2.5-4.5 mm LECA is usually near-complete."
+}

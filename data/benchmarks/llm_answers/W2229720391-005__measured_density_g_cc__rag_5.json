@@ -1,0 +1,6 @@
+{
+ "estimate": 1.49,
+ "low_90": 1.36,
+ "high_90": 1.75,
+ "reasoning": "Rule of mixtures with 64 vol% Globocer (0.816 g/cc) in AlSi12 (2.65 g/cc) gives 0.64x0.816 + 0.36x2.65 = 1.48, matching the Al99.5/Globocer reference at 1.49 g/cc; the hybrid-sphere rows sit higher but their sphere densities are inconsistent."
+}

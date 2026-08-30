@@ -1,0 +1,6 @@
+{
+ "estimate": 46.0,
+ "low_90": 25.0,
+ "high_90": 78.0,
+ "reasoning": "Vinyl ester with 60 vol% H38H balloons (0.38 g/cc, moderately strong wall) at 0.56 g/cc; comparable 60 vol% epoxy syntactics with S32/S38 give 43-61 MPa in compression, and vinyl ester is slightly weaker."
+}

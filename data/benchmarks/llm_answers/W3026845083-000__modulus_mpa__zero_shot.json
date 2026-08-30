@@ -1,0 +1,6 @@
+{
+ "estimate": 3000,
+ "low_90": 1000,
+ "high_90": 8000,
+ "reasoning": "LM6 Al-Si infiltrated around 69 vol% 2-3 mm expanded soda-lime glass (0.35 g/cc) gives a very light 1.07 g/cc metal syntactic foam; the compliant, thick-but-porous glass beads and compression-test compliance put the measured modulus in the low-GPa range rather than near the Al matrix value."
+}

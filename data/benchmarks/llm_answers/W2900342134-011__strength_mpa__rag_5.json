@@ -1,0 +1,6 @@
+{
+ "estimate": 35,
+ "low_90": 20,
+ "high_90": 60,
+ "reasoning": "Plain single-layer epoxy foam at 60 vol% balloons and ~0.63 g/cc; the higher-density 0.87 g/cc T60 epoxy reference reaches 53.95 MPa, so this lighter foam should be meaningfully lower, in the 30-40 MPa range."
+}

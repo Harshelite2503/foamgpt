@@ -1,0 +1,6 @@
+{
+ "estimate": 1.75,
+ "low_90": 1.55,
+ "high_90": 1.95,
+ "reasoning": "AlSi12 (2.65) with 100% GC ceramic spheres (0.816) at nominal 0.64; companion blends measure 1.64-1.69 g/cm^3 and density rises with GC content, so the all-ceramic case should be slightly higher."
+}
