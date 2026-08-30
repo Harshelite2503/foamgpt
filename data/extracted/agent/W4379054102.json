@@ -1,0 +1,307 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Phenolic (resol, in-situ synthesized) syntactic foams with 10-40 wt% hollow glass microspheres (0.3-0.6 g/cm3, 30-100 um) were made by stirring, hot compaction at 180 C/4 MPa/60 min and curing at 150 C. Density, tensile and compressive strength decreased with microsphere content while tensile modulus increased; 40 wt% showed extensive microsphere crushing. Thermal conductivity fell from 0.298 W/mK (neat) to a minimum of 0.129 W/mK at 20 wt% and TGA char yield at 700 C rose from 59.3% to 78.0%.",
+ "records": [
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Neat resin (PF/GM-0wt%)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "In-situ synthesized resol phenolic resin (P/F 1:2, NaOH catalysed; p-toluenesulfonic acid sodium curing agent)",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "Hollow glass microspheres, Bengbu Institute of Glass Industrial Design and Research (true density 0.3-0.6 g/cm3, 30-100 um, static pressure 10-60 MPa)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.0,
+    "process_route": "compression_molding",
+    "cure_or_process_temperature_c": 180,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Neat phenolic resin plate processed identically, no microspheres. TGA (N2): T10 = 436.9 C, char residue at 700 C = 59.3%."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Thermal conductivity from laser flash diffusivity (Netzsch LFA-457, 25 C) x DSC specific heat x density (k = lambda*rho*Cp)"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": 0.298,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Neat resin | 0.298",
+     "location": "Table 3"
+    },
+    {
+     "quote": "Neat resin | 436.9 | ... | 59.3",
+     "location": "Table 2"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "PF/GM-10wt%",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "In-situ synthesized resol phenolic resin (P/F 1:2, NaOH catalysed; p-toluenesulfonic acid sodium curing agent)",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "Hollow glass microspheres, Bengbu Institute of Glass Industrial Design and Research (true density 0.3-0.6 g/cm3, 30-100 um, static pressure 10-60 MPa)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.1,
+    "process_route": "compression_molding",
+    "cure_or_process_temperature_c": 180,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Microspheres homogeneously dispersed; some matrix voids present (experimental density below theoretical). TGA (N2): T10 = 448.5 C, char residue at 700 C = 63.3%."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Thermal conductivity from laser flash diffusivity (Netzsch LFA-457, 25 C) x DSC specific heat x density (k = lambda*rho*Cp)"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": 0.158,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "PF/GM-10wt% | 0.158",
+     "location": "Table 3"
+    },
+    {
+     "quote": "PF/GM-10wt% | 448.5 | ... | 63.3",
+     "location": "Table 2"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "PF/GM-20wt%",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "In-situ synthesized resol phenolic resin (P/F 1:2, NaOH catalysed; p-toluenesulfonic acid sodium curing agent)",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "Hollow glass microspheres, Bengbu Institute of Glass Industrial Design and Research (true density 0.3-0.6 g/cm3, 30-100 um, static pressure 10-60 MPa)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.2,
+    "process_route": "compression_molding",
+    "cure_or_process_temperature_c": 180,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Microspheres homogeneously dispersed; some matrix voids present (experimental density below theoretical). TGA (N2): T10 = 450.1 C, char residue at 700 C = 66.6%."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Thermal conductivity from laser flash diffusivity (Netzsch LFA-457, 25 C) x DSC specific heat x density (k = lambda*rho*Cp)"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": 0.129,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "PF/GM-20wt% | 0.129",
+     "location": "Table 3"
+    },
+    {
+     "quote": "PF/GM-20wt% | 450.1 | ... | 66.6",
+     "location": "Table 2"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "PF/GM-30wt%",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "In-situ synthesized resol phenolic resin (P/F 1:2, NaOH catalysed; p-toluenesulfonic acid sodium curing agent)",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "Hollow glass microspheres, Bengbu Institute of Glass Industrial Design and Research (true density 0.3-0.6 g/cm3, 30-100 um, static pressure 10-60 MPa)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.3,
+    "process_route": "compression_molding",
+    "cure_or_process_temperature_c": 180,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Microspheres homogeneously dispersed; some matrix voids present (experimental density below theoretical). TGA (N2): T10 = 475.2 C, char residue at 700 C = 77.1%."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Thermal conductivity from laser flash diffusivity (Netzsch LFA-457, 25 C) x DSC specific heat x density (k = lambda*rho*Cp)"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": 0.151,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "PF/GM-30wt% | 0.151",
+     "location": "Table 3"
+    },
+    {
+     "quote": "PF/GM-30wt% | 475.2 | ... | 77.1",
+     "location": "Table 2"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "PF/GM-40wt%",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "In-situ synthesized resol phenolic resin (P/F 1:2, NaOH catalysed; p-toluenesulfonic acid sodium curing agent)",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "Hollow glass microspheres, Bengbu Institute of Glass Industrial Design and Research (true density 0.3-0.6 g/cm3, 30-100 um, static pressure 10-60 MPa)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.4,
+    "process_route": "compression_molding",
+    "cure_or_process_temperature_c": 180,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Microspheres homogeneously dispersed; some matrix voids present (density below theoretical). Badly crushed microspheres observed at 40 wt% due to hot compaction. TGA (N2): T10 = 478.9 C, char residue at 700 C = 78.0%."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Thermal conductivity from laser flash diffusivity (Netzsch LFA-457, 25 C) x DSC specific heat x density (k = lambda*rho*Cp)"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": 0.17,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "PF/GM-40wt% | 0.17",
+     "location": "Table 3"
+    },
+    {
+     "quote": "PF/GM-40wt% | 478.9 | ... | 78.0",
+     "location": "Table 2"
+    }
+   ],
+   "extractor_confidence": 0.8
+  }
+ ],
+ "extraction_notes": "Only thermal conductivity (Table 3) and TGA data (Table 2, put in microstructure_notes) are reported numerically. Densities (Fig. 2), tensile strength/modulus (Fig. 5) and compressive strength/modulus (Fig. 6) appear only as bar charts with no numbers in text, so all mechanical fields are left null; test conditions were ISO 527 tension (2 mm/min, 100x10x4 mm) and ISO 604 compression (25 mm cubes, 2 mm/min, to 10 mm deflection). Neat resin (0 wt%) included as a baseline record. Particle density/diameter given only as ranges (0.3-0.6 g/cm3, 30-100 um) so left null. cure_or_process_temperature_c = 180 C hot-press; post-cure 10-15 h at 150 C. test_type=other denotes thermal conductivity measurement."
+}

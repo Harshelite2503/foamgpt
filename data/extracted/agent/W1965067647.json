@@ -1,0 +1,279 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Injection-molded PP/EPR syntactic foams with 10 vol% pores made either from Expancel PMMA microballoons (Balloon 80, Balloon 120; spherical pores) or supercritical CO2 gas foaming (Gas 50, Gas 250; elliptical pores) were tensile tested at 0.3-100 1/s and dart-impact tested at 0.1-10 m/s, and modelled with a craze-evolution constitutive law and microstructural FE. Elastic modulus was unaffected by pore shape; yield stress and strain energy dropped more for gas-foamed (elliptical) pores, and microballoon foams absorbed about 1.4x more dart-impact energy than SCF gas foams.",
+ "records": [
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Balloon 80",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "pp",
+    "matrix_name": "Polypropylene blended with 30 wt% ethylene propylene rubber (EPR)",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Expancel 950-80 (Akzo Nobel), PMMA shell",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 42.2,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.1,
+    "particle_weight_fraction": null,
+    "process_route": "injection_molding",
+    "cure_or_process_temperature_c": 200.0,
+    "additional_fillers": "EPR elastomer 30 wt% in matrix"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Spherical pores from thermally expanded microballoons (diameter min/mean/max 18.1/42.2/89.0 um, Table 1) located in central layer of 3 mm plate; relative density foam/neat = 0.90 (Table 2); shell ~0.08 vol% at 10 vol% pores"
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D1708",
+    "specimen_notes": "ASTM D1708 dumbbell, 3 mm thick, 22.2 mm clamping distance; nominal strain rates 0.3-100 1/s on servo-hydraulic Shimadzu EHF U2H-20L; 3 repeats per condition"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "The microballoons were Expancel grade 950-80 (Akzo Nobel) for the small diameter and 950-120 (Akzo Nobel) for the large diameter. The material of microballoon shell was made of polymethyl methacrylate (PMMA).",
+     "location": "Sec. 2.1 Materials"
+    },
+    {
+     "quote": "All syntactic foams are 10 volume percent of micro pores in the PP matrix.",
+     "location": "Sec. 1 Introduction"
+    },
+    {
+     "quote": "Balloon 80 18.1 42.2 89.0",
+     "location": "Table 1 Diameter of microballoons"
+    },
+    {
+     "quote": "Tensile tests are conducted at the nominal strain rates from 3 x 10-1 to 102 s-1. In addition, the dart impact tests are conducted at the impact velocities of 0.1, 1 and 10 m/s.",
+     "location": "Abstract"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Balloon 80",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "pp",
+    "matrix_name": "Polypropylene blended with 30 wt% ethylene propylene rubber (EPR)",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Expancel 950-80 (Akzo Nobel), PMMA shell",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 42.2,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.1,
+    "particle_weight_fraction": null,
+    "process_route": "injection_molding",
+    "cure_or_process_temperature_c": 200.0,
+    "additional_fillers": "EPR elastomer 30 wt% in matrix"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Spherical pores from thermally expanded microballoons (diameter min/mean/max 18.1/42.2/89.0 um, Table 1) located in central layer of 3 mm plate; relative density foam/neat = 0.90 (Table 2); shell ~0.08 vol% at 10 vol% pores"
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Dart impact, 12.7 mm dart, 150x150x3 mm plate clamped over 76 mm hole, impact velocities 0.1, 1 and 10 m/s"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "The microballoons were Expancel grade 950-80 (Akzo Nobel) for the small diameter and 950-120 (Akzo Nobel) for the large diameter. The material of microballoon shell was made of polymethyl methacrylate (PMMA).",
+     "location": "Sec. 2.1 Materials"
+    },
+    {
+     "quote": "All syntactic foams are 10 volume percent of micro pores in the PP matrix.",
+     "location": "Sec. 1 Introduction"
+    },
+    {
+     "quote": "Balloon 80 18.1 42.2 89.0",
+     "location": "Table 1 Diameter of microballoons"
+    },
+    {
+     "quote": "Tensile tests are conducted at the nominal strain rates from 3 x 10-1 to 102 s-1. In addition, the dart impact tests are conducted at the impact velocities of 0.1, 1 and 10 m/s.",
+     "location": "Abstract"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Balloon 120",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "pp",
+    "matrix_name": "Polypropylene blended with 30 wt% ethylene propylene rubber (EPR)",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Expancel 950-120 (Akzo Nobel), PMMA shell",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 55.9,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.1,
+    "particle_weight_fraction": null,
+    "process_route": "injection_molding",
+    "cure_or_process_temperature_c": 200.0,
+    "additional_fillers": "EPR elastomer 30 wt% in matrix"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Spherical pores from thermally expanded microballoons (diameter min/mean/max 24.6/55.9/99.6 um, Table 1) located in central layer of 3 mm plate; relative density foam/neat = 0.90 (Table 2); shell ~0.08 vol% at 10 vol% pores"
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D1708",
+    "specimen_notes": "ASTM D1708 dumbbell, 3 mm thick, 22.2 mm clamping distance; nominal strain rates 0.3-100 1/s on servo-hydraulic Shimadzu EHF U2H-20L; 3 repeats per condition"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "The microballoons were Expancel grade 950-80 (Akzo Nobel) for the small diameter and 950-120 (Akzo Nobel) for the large diameter. The material of microballoon shell was made of polymethyl methacrylate (PMMA).",
+     "location": "Sec. 2.1 Materials"
+    },
+    {
+     "quote": "All syntactic foams are 10 volume percent of micro pores in the PP matrix.",
+     "location": "Sec. 1 Introduction"
+    },
+    {
+     "quote": "Balloon 120 24.6 55.9 99.6",
+     "location": "Table 1 Diameter of microballoons"
+    },
+    {
+     "quote": "Tensile tests are conducted at the nominal strain rates from 3 x 10-1 to 102 s-1. In addition, the dart impact tests are conducted at the impact velocities of 0.1, 1 and 10 m/s.",
+     "location": "Abstract"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Balloon 120",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "pp",
+    "matrix_name": "Polypropylene blended with 30 wt% ethylene propylene rubber (EPR)",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Expancel 950-120 (Akzo Nobel), PMMA shell",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 55.9,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.1,
+    "particle_weight_fraction": null,
+    "process_route": "injection_molding",
+    "cure_or_process_temperature_c": 200.0,
+    "additional_fillers": "EPR elastomer 30 wt% in matrix"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Spherical pores from thermally expanded microballoons (diameter min/mean/max 24.6/55.9/99.6 um, Table 1) located in central layer of 3 mm plate; relative density foam/neat = 0.90 (Table 2); shell ~0.08 vol% at 10 vol% pores"
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Dart impact, 12.7 mm dart, 150x150x3 mm plate clamped over 76 mm hole, impact velocities 0.1, 1 and 10 m/s"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "The microballoons were Expancel grade 950-80 (Akzo Nobel) for the small diameter and 950-120 (Akzo Nobel) for the large diameter. The material of microballoon shell was made of polymethyl methacrylate (PMMA).",
+     "location": "Sec. 2.1 Materials"
+    },
+    {
+     "quote": "All syntactic foams are 10 volume percent of micro pores in the PP matrix.",
+     "location": "Sec. 1 Introduction"
+    },
+    {
+     "quote": "Balloon 120 24.6 55.9 99.6",
+     "location": "Table 1 Diameter of microballoons"
+    },
+    {
+     "quote": "Tensile tests are conducted at the nominal strain rates from 3 x 10-1 to 102 s-1. In addition, the dart impact tests are conducted at the impact velocities of 0.1, 1 and 10 m/s.",
+     "location": "Abstract"
+    }
+   ],
+   "extractor_confidence": 0.6
+  }
+ ],
+ "extraction_notes": "Only the two microballoon-filled materials (Balloon 80/120) are hollow-particle composites; the SCF gas-foamed PP (Gas 50/250) and neat PP references are not and were not recorded. All quantitative mechanical results (apparent elastic modulus, yield stress, rupture strain, strain energy up to failure vs strain rate in Figs. 9-12; dart maximum load and absorbed energy in Figs. 14-15) are shown only as plots with no numeric values in text or tables, so property fields are left null; records carry composition/process/test metadata only. Text states modulus of microballoon shell ~2 GPa and neat PP E = 800 MPa, sigma_y,neat = 17.432 MPa (model parameters, Table 2) - not foam properties. Relative density 0.90 is a model input. Test temperature assumed room temperature. Records are per (material x test type); per-strain-rate splitting was not done because no per-rate values are readable."
+}

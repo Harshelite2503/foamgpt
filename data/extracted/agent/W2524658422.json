@@ -1,0 +1,419 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Al-12Si syntactic foams were made by vacuum infiltration of a tap-packed bed (~65%) of 1-2 mm expanded soda-lime glass particles (EGP, 0.35 g/cm3) in stainless steel moulds preheated at 200-600 C. Foams had density ~1.14 g/cm3; mould preheats >=400 C caused clamping and EGP damage, lowering stiffness, 25%-strain crush strength and energy absorption but removing the yield load drop and raising energy absorption efficiency (84-88%). Liquid-nitrogen quenching of low-preheat samples produced the same effect; CTE was reduced to 17-19e-6/K for undamaged foams.",
+ "records": [
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "EGP foam 600 As-cast",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-12wt.% Si alloy (near-eutectic)",
+    "particle_type": "other",
+    "particle_grade": "Expanded soda-lime glass particles (EGP), OMYA, 1-2 mm, closed surface",
+    "particle_true_density_g_cc": 0.35,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": 600,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.15,
+    "theoretical_density_g_cc": 1.17,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Mould preheat 600 C; condition: As-cast. EGP porosity ~80-85%, internal pores 100-200 um; >97% infiltration of bed; small un-infiltrated regions at EGP contact points. Higher preheats (>=400 C) cause mould clamping and EGP damage."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.01,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylinders 32 mm dia x 40 mm long; crosshead 0.4 mm/s; stiffness from 4 load/unload cycles at 25-75% of yield; strength reported at 25% strain; Eab = energy absorbed (MJ/m3) with efficiency 88%"
+   },
+   "properties": {
+    "modulus_mpa": 6.3,
+    "strength_mpa": 24.1,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 5.3,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": 2.15e-05,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "EGP foam | 600 | As-cast | 1.15\u00b10.01 | 6.3\u00b10.1 | 5.3\u00b10.1 | 88 | 24.1",
+     "location": "Table 1"
+    },
+    {
+     "quote": "Table 2: CTE / x10-6 K-1 ... EGP foam 600 As-cast 21.5",
+     "location": "Table 2"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "EGP foam 600 Quenched",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-12wt.% Si alloy (near-eutectic)",
+    "particle_type": "other",
+    "particle_grade": "Expanded soda-lime glass particles (EGP), OMYA, 1-2 mm, closed surface",
+    "particle_true_density_g_cc": 0.35,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": 600,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.14,
+    "theoretical_density_g_cc": 1.17,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Mould preheat 600 C; condition: Quenched in liquid nitrogen. EGP porosity ~80-85%, internal pores 100-200 um; >97% infiltration of bed; small un-infiltrated regions at EGP contact points. Higher preheats (>=400 C) cause mould clamping and EGP damage."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.01,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylinders 32 mm dia x 40 mm long; crosshead 0.4 mm/s; stiffness from 4 load/unload cycles at 25-75% of yield; strength reported at 25% strain; Eab = energy absorbed (MJ/m3) with efficiency 88%"
+   },
+   "properties": {
+    "modulus_mpa": 6.3,
+    "strength_mpa": 23.7,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 5.2,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": 2.34e-05,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "EGP foam | 600 | Quenched | 1.14\u00b10.01 | 6.3\u00b10.1 | 5.2\u00b10.1 | 88 | 23.7",
+     "location": "Table 1"
+    },
+    {
+     "quote": "Table 2: CTE / x10-6 K-1 ... EGP foam 600 Quenched 23.4",
+     "location": "Table 2"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "EGP foam 500 As-cast",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-12wt.% Si alloy (near-eutectic)",
+    "particle_type": "other",
+    "particle_grade": "Expanded soda-lime glass particles (EGP), OMYA, 1-2 mm, closed surface",
+    "particle_true_density_g_cc": 0.35,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": 500,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.14,
+    "theoretical_density_g_cc": 1.17,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Mould preheat 500 C; condition: As-cast. EGP porosity ~80-85%, internal pores 100-200 um; >97% infiltration of bed; small un-infiltrated regions at EGP contact points. Higher preheats (>=400 C) cause mould clamping and EGP damage."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.01,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylinders 32 mm dia x 40 mm long; crosshead 0.4 mm/s; stiffness from 4 load/unload cycles at 25-75% of yield; strength reported at 25% strain; Eab = energy absorbed (MJ/m3) with efficiency 84%"
+   },
+   "properties": {
+    "modulus_mpa": 6.5,
+    "strength_mpa": 29.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 6.1,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "EGP foam | 500 | As-cast | 1.14\u00b10.01 | 6.5\u00b10.1 | 6.1\u00b10.1 | 84 | 29.0",
+     "location": "Table 1"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "EGP foam 400 As-cast",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-12wt.% Si alloy (near-eutectic)",
+    "particle_type": "other",
+    "particle_grade": "Expanded soda-lime glass particles (EGP), OMYA, 1-2 mm, closed surface",
+    "particle_true_density_g_cc": 0.35,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": 400,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.14,
+    "theoretical_density_g_cc": 1.17,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Mould preheat 400 C; condition: As-cast. EGP porosity ~80-85%, internal pores 100-200 um; >97% infiltration of bed; small un-infiltrated regions at EGP contact points. Higher preheats (>=400 C) cause mould clamping and EGP damage."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.01,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylinders 32 mm dia x 40 mm long; crosshead 0.4 mm/s; stiffness from 4 load/unload cycles at 25-75% of yield; strength reported at 25% strain; Eab = energy absorbed (MJ/m3) with efficiency 84%"
+   },
+   "properties": {
+    "modulus_mpa": 6.6,
+    "strength_mpa": 30.1,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 6.3,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "EGP foam | 400 | As-cast | 1.14\u00b10.01 | 6.6\u00b10.1 | 6.3\u00b10.1 | 84 | 30.1",
+     "location": "Table 1"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "EGP foam 300 As-cast",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-12wt.% Si alloy (near-eutectic)",
+    "particle_type": "other",
+    "particle_grade": "Expanded soda-lime glass particles (EGP), OMYA, 1-2 mm, closed surface",
+    "particle_true_density_g_cc": 0.35,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": 300,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.14,
+    "theoretical_density_g_cc": 1.17,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Mould preheat 300 C; condition: As-cast. EGP porosity ~80-85%, internal pores 100-200 um; >97% infiltration of bed; small un-infiltrated regions at EGP contact points. Higher preheats (>=400 C) cause mould clamping and EGP damage."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.01,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylinders 32 mm dia x 40 mm long; crosshead 0.4 mm/s; stiffness from 4 load/unload cycles at 25-75% of yield; strength reported at 25% strain; Eab = energy absorbed (MJ/m3) with efficiency 84%"
+   },
+   "properties": {
+    "modulus_mpa": 6.8,
+    "strength_mpa": 32.3,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 6.8,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": 1.89e-05,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "EGP foam | 300 | As-cast | 1.14\u00b10.01 | 6.8\u00b10.1 | 6.8\u00b10.1 | 84 | 32.3",
+     "location": "Table 1"
+    },
+    {
+     "quote": "Table 2: CTE / x10-6 K-1 ... EGP foam 300 As-cast 18.9",
+     "location": "Table 2"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "EGP foam 300 Quenched",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-12wt.% Si alloy (near-eutectic)",
+    "particle_type": "other",
+    "particle_grade": "Expanded soda-lime glass particles (EGP), OMYA, 1-2 mm, closed surface",
+    "particle_true_density_g_cc": 0.35,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": 300,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.14,
+    "theoretical_density_g_cc": 1.17,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Mould preheat 300 C; condition: Quenched in liquid nitrogen. EGP porosity ~80-85%, internal pores 100-200 um; >97% infiltration of bed; small un-infiltrated regions at EGP contact points. Higher preheats (>=400 C) cause mould clamping and EGP damage."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.01,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylinders 32 mm dia x 40 mm long; crosshead 0.4 mm/s; stiffness from 4 load/unload cycles at 25-75% of yield; strength reported at 25% strain; Eab = energy absorbed (MJ/m3) with efficiency 88%"
+   },
+   "properties": {
+    "modulus_mpa": 5.9,
+    "strength_mpa": 19.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 4.2,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": 2.29e-05,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "EGP foam | 300 | Quenched | 1.14\u00b10.01 | 5.9\u00b10.1 | 4.2\u00b10.1 | 88 | 19.0",
+     "location": "Table 1"
+    },
+    {
+     "quote": "Table 2: CTE / x10-6 K-1 ... EGP foam 300 Quenched 22.9",
+     "location": "Table 2"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "EGP foam 200 As-cast",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-12wt.% Si alloy (near-eutectic)",
+    "particle_type": "other",
+    "particle_grade": "Expanded soda-lime glass particles (EGP), OMYA, 1-2 mm, closed surface",
+    "particle_true_density_g_cc": 0.35,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": 200,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.13,
+    "theoretical_density_g_cc": 1.17,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Mould preheat 200 C; condition: As-cast. EGP porosity ~80-85%, internal pores 100-200 um; >97% infiltration of bed; small un-infiltrated regions at EGP contact points. Higher preheats (>=400 C) cause mould clamping and EGP damage."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.01,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylinders 32 mm dia x 40 mm long; crosshead 0.4 mm/s; stiffness from 4 load/unload cycles at 25-75% of yield; strength reported at 25% strain; Eab = energy absorbed (MJ/m3) with efficiency 85%"
+   },
+   "properties": {
+    "modulus_mpa": 6.9,
+    "strength_mpa": 32.9,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 7.0,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": 1.74e-05,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "EGP foam | 200 | As-cast | 1.13\u00b10.01 | 6.9\u00b10.1 | 7.0\u00b10.1 | 85 | 32.9",
+     "location": "Table 1"
+    },
+    {
+     "quote": "Table 2: CTE / x10-6 K-1 ... EGP foam 200 As-cast 17.4",
+     "location": "Table 2"
+    }
+   ],
+   "extractor_confidence": 0.75
+  }
+ ],
+ "extraction_notes": "Table 1 lists E in MPa (6.3-6.9); values are copied as printed although they seem implausibly low for an Al syntactic foam (possibly GPa) - flagged, not converted. Strength is the stress at 25% strain, not a yield/peak stress. Strain rate 0.01 /s derived from 0.4 mm/s crosshead over 40 mm specimen length. Particle volume fraction 0.65 is the stated approximate tap packing density; theoretical density 1.17 g/cm3 is the paper's estimate. Particle mean diameter left null (only range 1-2 mm given). CTE values from Table 2 (heating RT-200 C) converted from x10-6 K-1 to 1/K; CTE 13.7e-6 measured on cooling for the 200 C preheat not recorded as a separate record. The porous Al control (salt-replica, 0.96 g/cm3, E 5.3, Eab 5.1, 22.3 MPa) contains no particles and is excluded. EGP are porous expanded glass beads rather than hollow microspheres, so particle_type=other; vacuum casting mapped to pressure_infiltration. Test temperature assumed room temperature."
+}

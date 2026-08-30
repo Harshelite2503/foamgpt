@@ -1,0 +1,6 @@
+{
+  "is_syntactic_foam_paper": false,
+  "paper_summary": "Kozma et al. (Int. J. Computer Theory and Engineering 2015) present a CT-image-based 'radius incrementation' circle-fitting algorithm to reconstruct the outer surfaces of ceramic hollow spheres in an aluminium matrix syntactic foam specimen (15 x 22.5 mm cylinder, 900 CT slices at 7 um resolution) and build a CAD model for finite element analysis. Only image-fitting errors (1.0-1.5 % average) are reported; no processing, density or mechanical property data of the foam are given.",
+  "records": [],
+  "extraction_notes": "The material studied is an Al matrix syntactic foam with ceramic spherical shells, but the paper is purely about the image-processing/reconstruction algorithm. No composition, volume fraction, density, or mechanical/thermal property values are reported, so there are no extractable records; flagged as not a syntactic-foam data paper per rule 10 (no hollow-particle composite data)."
+}

@@ -1,0 +1,131 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Cheneler and Kennedy compare porous Al (salt-bead replication) with Al-Si (LM6) syntactic metal foams made by vacuum-assisted infiltration of packed beds of 2-3 mm porous expanded glass particles (EGP, 0.35 g/cc). SMFs with densities 1.00-1.19 g/cc were compression tested; stiffness, crush strength (stress at 0.25 strain) and energy absorption follow power laws in density with exponents near 3. EGP addition raises stiffness by ~2-3 GPa and crush strength by ~13 MPa relative to porous Al of equal metal fraction; FE modelling supports small reinforcement by the EGP.",
+  "records": [
+    {
+      "record_id": null,
+      "paper_id": null,
+      "sample_label": "Syntactic 1.07 g/cc (SMF, near-equivalent to porous 0.83 g/cc)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "LM6 Al-Si alloy (10-13 wt.% Si), Norton Aluminium",
+        "particle_type": "other",
+        "particle_grade": "OMYA expanded soda-lime glass particles (EGP40), 2-3 mm sieved",
+        "particle_true_density_g_cc": 0.35,
+        "particle_mean_diameter_um": 2500.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.69,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": 700.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.07,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Relative metal density ~0.31; EGP well packed and intact after infiltration; partial infiltration of inter-particle contact regions at low pressure differential leaves inter-particle voids; matrix near-eutectic Al-Si with no reaction at interface."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.01,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "32 mm dia x 40 mm long cylinders, 0.4 mm/s crosshead; LVDT strain; stiffness averaged over 4 load/unload cycles (25-75% of yield). strength_mpa is measured flow stress at 0.02 strain (not crush strength at 0.25 strain)."
+      },
+      "properties": {
+        "modulus_mpa": 8700.0,
+        "strength_mpa": 33.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Simulations estimate the stiffness of the porous aluminium and SMF to be 9.3 and 11.6 GPa respectively, higher than the 6.3 and 8.7 GPa measured for samples with near-equivalent densities.",
+          "location": "Sec. Mechanical performance, p.14"
+        },
+        {
+          "quote": "Simulated flow stresses at 0.02 strain of 29.5 and 35.5 MPa, for the idealised porous and SMF structures respectively, are again higher than those measured (19 and 33 MPa)",
+          "location": "Sec. Mechanical performance, p.14"
+        },
+        {
+          "quote": "for a foam density of 0.83 g/cc, the relative density is approximately 0.31. If this metal fraction remains constant and the porosity is filled with EGP with a density of 0.35 g/cc, the corresponding syntactic foam density will be approximately 1.07 g/cc.",
+          "location": "Sec. Mechanical performance, p.8"
+        }
+      ],
+      "extractor_confidence": 0.55
+    },
+    {
+      "record_id": null,
+      "paper_id": null,
+      "sample_label": "FE model: idealised Al-Si cell containing EGP",
+      "data_origin": "model",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "Al-Si matrix modelled with E = 71 GPa, yield 92 MPa",
+        "particle_type": "other",
+        "particle_grade": "EGP modelled with stiffness 1.5 GPa, yield strength 5 MPa",
+        "particle_true_density_g_cc": 0.35,
+        "particle_mean_diameter_um": 2500.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Idealised single-cell FE geometry; yielding initiates in matrix at narrowest strut points before EGP yield."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "FE simulation; strength_mpa is simulated flow stress at 0.02 strain."
+      },
+      "properties": {
+        "modulus_mpa": 11600.0,
+        "strength_mpa": 35.5,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Simulations estimate the stiffness of the porous aluminium and SMF to be 9.3 and 11.6 GPa respectively",
+          "location": "Sec. Mechanical performance, p.14"
+        },
+        {
+          "quote": "Simulated flow stresses at 0.02 strain of 29.5 and 35.5 MPa, for the idealised porous and SMF structures respectively",
+          "location": "Sec. Mechanical performance, p.14"
+        }
+      ],
+      "extractor_confidence": 0.7
+    }
+  ],
+  "extraction_notes": "Particles are porous expanded glass beads (closed surface, 80-85% internal porosity), not hollow microballoons; classed as particle_type 'other'. Process is vacuum-assisted infiltration of a packed bed (mould preheated 300 C, melt 700 C) - coded as pressure_infiltration. Most data (40+ samples, densities 1.00-1.19 g/cc) are only shown in Figs 6, 7, 11, 12 as scatter plus power-law fits (E[GPa]=5.3237 rho^2.9171; stress at 0.25 strain [MPa]=21.814 rho^3.0858; W to 0.25 strain [MJ/m3]=4.8839 rho^2.7979), so individual values were not extracted. The single primary record uses the text-stated measured values (8.7 GPa, 33 MPa at 0.02 strain) for the SMF of 'near-equivalent density' to the 0.83 g/cc porous Al; the pairing with 1.07 g/cc and particle fraction 0.69 (=1-0.31 metal fraction) is inferred from the worked example on p.8. Strain rate 0.01/s computed from 0.4 mm/s over 40 mm specimen length. Porous Al (salt replication) results are omitted as not hollow-particle composites. Literature comparison ranges (2-4 and 5-6 MJ/m3, 1-4 GPa) omitted as ranges without specific compositions."
+}

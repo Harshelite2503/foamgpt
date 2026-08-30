@@ -1,0 +1,234 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Yazici (Acta Physica Polonica A 2016) develops syntactic foams from a rigid two-part polyurethane casting resin (Smooth-On Task 3) toughened with 10 wt% silicone rubber (MoldStar30) and filled with 10, 30 or 50 wt% 3M A20/1000 glass bubbles (0.2 g/cm3, 105 um), cast by hand mixing into wax molds. Quasi-static compression (Instron, 1 mm/min) shows density and yield strength decreasing with GB content while the plateau region extends; split Hopkinson pressure bar tests (about 2800 1/s) show type B (30 wt% GB) foam has roughly eight times higher strength than under quasi-static loading.",
+  "records": [
+    {
+      "sample_label": "matrix (silicone rubber mixed PU resin)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Smooth-On Task 3 rigid two-part PU casting resin with 10 wt% MoldStar30 silicone rubber",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M A20/1000 (none in this sample)",
+        "particle_true_density_g_cc": 0.2,
+        "particle_mean_diameter_um": 105,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.0,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 23,
+        "additional_fillers": "10 wt% silicone rubber (MoldStar30, 30 Shore A)"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.952,
+        "microstructure_notes": "Unfilled baseline; density from weight and specimen geometry."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00098,
+        "temperature_c": 25,
+        "standard": null,
+        "specimen_notes": "Cylinder 25 mm diameter x 17 mm height, Instron 5585 at 1 mm/min crosshead speed"
+      },
+      "properties": {
+        "modulus_mpa": 696,
+        "strength_mpa": 40,
+        "strain_at_failure": 0.65
+      },
+      "evidence": [
+        {"quote": "matrix 952 40 696 65", "location": "Table II"},
+        {"quote": "All produced matrix and syntactic foam mixtures contain constant 10% weight percentage of silicone rubber.", "location": "Sec. 2"}
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "syntactic foam type A (10% GB)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Smooth-On Task 3 rigid two-part PU casting resin with 10 wt% MoldStar30 silicone rubber",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M A20/1000",
+        "particle_true_density_g_cc": 0.2,
+        "particle_mean_diameter_um": 105,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.10,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 23,
+        "additional_fillers": "10 wt% silicone rubber (MoldStar30, 30 Shore A)"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.44428,
+        "microstructure_notes": "Closed-cell structure from glass bubbles; density from weight and specimen geometry."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00098,
+        "temperature_c": 25,
+        "standard": null,
+        "specimen_notes": "Cylinder 25 mm diameter x 17 mm height, Instron 5585 at 1 mm/min crosshead speed"
+      },
+      "properties": {
+        "modulus_mpa": 454,
+        "strength_mpa": 11.7,
+        "strain_at_failure": 0.73
+      },
+      "evidence": [
+        {"quote": "syntactic foam type A 444.28 11.7 454 73", "location": "Table II"},
+        {"quote": "syntactic foam type A: 10% GB incorporated into matrix", "location": "Sec. 2"}
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "syntactic foam type B (30% GB)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Smooth-On Task 3 rigid two-part PU casting resin with 10 wt% MoldStar30 silicone rubber",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M A20/1000",
+        "particle_true_density_g_cc": 0.2,
+        "particle_mean_diameter_um": 105,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.30,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 23,
+        "additional_fillers": "10 wt% silicone rubber (MoldStar30, 30 Shore A)"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.252,
+        "microstructure_notes": "Closed-cell structure from glass bubbles; density decreased by 77.5% vs matrix."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00098,
+        "temperature_c": 25,
+        "standard": null,
+        "specimen_notes": "Cylinder 25 mm diameter x 17 mm height, Instron 5585 at 1 mm/min crosshead speed"
+      },
+      "properties": {
+        "modulus_mpa": 553,
+        "strength_mpa": 8.5,
+        "strain_at_failure": 0.76
+      },
+      "evidence": [
+        {"quote": "syntactic foam type B 252 8.5 553 76", "location": "Table II"},
+        {"quote": "In the syntactic foam type B, containing 30% GBs by weight, the density decreased by 77.5%.", "location": "Sec. 3 para 1"}
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "syntactic foam type C (50% GB)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Smooth-On Task 3 rigid two-part PU casting resin with 10 wt% MoldStar30 silicone rubber",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M A20/1000",
+        "particle_true_density_g_cc": 0.2,
+        "particle_mean_diameter_um": 105,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.50,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 23,
+        "additional_fillers": "10 wt% silicone rubber (MoldStar30, 30 Shore A)"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.376,
+        "microstructure_notes": "Closed-cell structure from glass bubbles. Note: reported density (376 kg/m3) is higher than type B (252 kg/m3) despite higher GB content, as printed in Table II."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00098,
+        "temperature_c": 25,
+        "standard": null,
+        "specimen_notes": "Cylinder 25 mm diameter x 17 mm height, Instron 5585 at 1 mm/min crosshead speed"
+      },
+      "properties": {
+        "modulus_mpa": 206.94,
+        "strength_mpa": 7.5,
+        "strain_at_failure": 0.77
+      },
+      "evidence": [
+        {"quote": "syntactic foam type C 376 7.5 206.94 77", "location": "Table II"},
+        {"quote": "syntactic foam type C: 50% GB incorporated into matrix", "location": "Sec. 2"}
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "syntactic foam type B (30% GB) - SHPB high strain rate",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Smooth-On Task 3 rigid two-part PU casting resin with 10 wt% MoldStar30 silicone rubber",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M A20/1000",
+        "particle_true_density_g_cc": 0.2,
+        "particle_mean_diameter_um": 105,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.30,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 23,
+        "additional_fillers": "10 wt% silicone rubber (MoldStar30, 30 Shore A)"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.252,
+        "microstructure_notes": "Post-mortem SEM shows fractured glass bubbles after 2800 1/s test."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 2800,
+        "temperature_c": 25,
+        "standard": null,
+        "specimen_notes": "Split Hopkinson pressure bar; cylinder 8.5 mm diameter x 4 mm height; true stress-true strain reported only in Fig. 3b"
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null
+      },
+      "evidence": [
+        {"quote": "Fracture surfaces of syntactic foam type B specimen at strain rate 2800 1/s", "location": "Fig. 4 caption"},
+        {"quote": "Developed syntactic foam type B material has eight times higher strength under high strain rates than quasi-static loading case.", "location": "Sec. 4 Conclusions"}
+      ],
+      "extractor_confidence": 0.5
+    },
+    {
+      "sample_label": "polyurea [20] (Gardner et al., Exp. Mech. 52, 119 (2012)) - comparison row, not a syntactic foam",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "other",
+        "matrix_name": "polyurea impact-resistive coating",
+        "particle_type": "other",
+        "particle_grade": null,
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.0,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.0,
+        "microstructure_notes": "Unfilled polyurea elastomer quoted from literature for comparison."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": null,
+        "specimen_notes": "Quasi-static values as quoted in Table II from ref. [20]"
+      },
+      "properties": {
+        "modulus_mpa": 8.9,
+        "strength_mpa": 5.38,
+        "strain_at_failure": 0.619
+      },
+      "evidence": [
+        {"quote": "polyurea [20] 1000 5.38 8.9 61.9", "location": "Table II"}
+      ],
+      "extractor_confidence": 0.6
+    }
+  ],
+  "extraction_notes": "Unit conversions: densities kg/m3 / 1000 -> g/cm3; 'Elongation [%]' in Table II interpreted as compressive strain at end of test (fraction); 'Comp. yield strength' mapped to strength_mpa. Quasi-static strain rate 0.00098 1/s is derived by the extractor from 1 mm/min crosshead speed on a 17 mm high specimen (not stated explicitly). GB contents are weight percentages ('30% GBs by weight'); volume fractions are not given and were not computed. Cure temperature 23 C assumed as room-temperature curing (resin datasheet values at 23 C). High-strain-rate (SHPB, ~2800 1/s) stress-strain curves for matrix and type B are only shown in Fig. 3b; the paper states type B strength is about eight times higher than quasi-static but gives no numerical value, so those properties are left null. The polyurea row is a literature comparison material (not a hollow-particle composite) included as a secondary record per rule 8; it may be filtered out downstream. Type C density (376 kg/m3) being higher than type B (252 kg/m3) is as printed in the paper."
+}
