@@ -1,20 +1,83 @@
 [
   {
     "target": "modulus_mpa",
-    "model": "-",
-    "n": 12,
-    "note": "too few rows/papers"
+    "model": "ridge",
+    "n": 104,
+    "papers": 18,
+    "r2_log": -1.971,
+    "mae": 7725.213,
+    "mape_pct": 44066.8
+  },
+  {
+    "target": "modulus_mpa",
+    "model": "random_forest",
+    "n": 104,
+    "papers": 18,
+    "r2_log": -0.924,
+    "mae": 2424.468,
+    "mape_pct": 6003.9
+  },
+  {
+    "target": "modulus_mpa",
+    "model": "gbr",
+    "n": 104,
+    "papers": 18,
+    "r2_log": -0.888,
+    "mae": 2090.431,
+    "mape_pct": 6217.6
   },
   {
     "target": "strength_mpa",
-    "model": "-",
-    "n": 31,
-    "note": "too few rows/papers"
+    "model": "ridge",
+    "n": 152,
+    "papers": 25,
+    "r2_log": -2.45,
+    "mae": 396.403,
+    "mape_pct": 686.0
+  },
+  {
+    "target": "strength_mpa",
+    "model": "random_forest",
+    "n": 152,
+    "papers": 25,
+    "r2_log": -0.167,
+    "mae": 58.96,
+    "mape_pct": 141.6
+  },
+  {
+    "target": "strength_mpa",
+    "model": "gbr",
+    "n": 152,
+    "papers": 25,
+    "r2_log": -0.161,
+    "mae": 57.868,
+    "mape_pct": 133.2
   },
   {
     "target": "measured_density_g_cc",
-    "model": "-",
-    "n": 8,
-    "note": "too few rows/papers"
+    "model": "ridge",
+    "n": 271,
+    "papers": 40,
+    "r2": 0.192,
+    "mae": 0.281,
+    "mape_pct": 36.4
+  },
+  {
+    "target": "measured_density_g_cc",
+    "model": "random_forest",
+    "n": 271,
+    "papers": 40,
+    "r2": 0.792,
+    "mae": 0.17,
+    "mape_pct": 19.9
+  },
+  {
+    "target": "measured_density_g_cc",
+    "model": "gbr",
+    "n": 271,
+    "papers": 40,
+    "r2": 0.754,
+    "mae": 0.184,
+    "mape_pct": 22.0
   }
 ]

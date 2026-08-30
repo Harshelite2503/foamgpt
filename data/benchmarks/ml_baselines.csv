@@ -1,4 +1,10 @@
-target,model,n,note
-modulus_mpa,-,12,too few rows/papers
-strength_mpa,-,31,too few rows/papers
-measured_density_g_cc,-,8,too few rows/papers
+target,model,n,papers,r2_log,mae,mape_pct,r2
+modulus_mpa,ridge,104,18,-1.971,7725.213,44066.8,
+modulus_mpa,random_forest,104,18,-0.924,2424.468,6003.9,
+modulus_mpa,gbr,104,18,-0.888,2090.431,6217.6,
+strength_mpa,ridge,152,25,-2.45,396.403,686.0,
+strength_mpa,random_forest,152,25,-0.167,58.96,141.6,
+strength_mpa,gbr,152,25,-0.161,57.868,133.2,
+measured_density_g_cc,ridge,271,40,,0.281,36.4,0.192
+measured_density_g_cc,random_forest,271,40,,0.17,19.9,0.792
+measured_density_g_cc,gbr,271,40,,0.184,22.0,0.754

@@ -16,12 +16,17 @@ rel = [r for r in rows if r["relevance"] == 2 and r["year"]]
 oa_share = round(100 * sum(1 for r in rel if r["oa_pdf_url"]) / len(rel))
 venues = pd.Series([r["venue"] for r in rel if r["venue"]]).value_counts().head(5)
 df = pd.read_csv(CURATED)
+ml = pd.read_csv(BENCH_DIR / "ml_baselines.csv")
 al = df[(df.matrix_class == "aluminum") & df.strain_rate_per_s.lt(1)].dropna(subset=["measured_density_g_cc", "strength_mpa"])
 r_dens = np.corrcoef(al.measured_density_g_cc, al.strength_mpa)[0, 1] if len(al) > 2 else float("nan")
 cov = (df[["strength_mpa", "modulus_mpa", "measured_density_g_cc", "particle_volume_fraction", "strain_rate_per_s"]].notna().mean() * 100).round(0)
 ex = [json.loads(l) for l in (ROOT / "data/extracted/extractions.jsonl").read_text().splitlines()]
-tin = sum(e["usage"]["input_tokens"] for e in ex); tout = sum(e["usage"]["output_tokens"] for e in ex)
+api = [e for e in ex if e.get("usage")]
+tin = sum(e["usage"]["input_tokens"] for e in api); tout = sum(e["usage"]["output_tokens"] for e in api)
 cost = tin * 5 / 1e6 + tout * 25 / 1e6
+n_agent = sum(1 for e in ex if not e.get("usage"))
+n_papers = len(ex); n_on = sum(e["extraction"]["is_syntactic_foam_paper"] for e in ex)
+prim = int((df["data_origin"] == "primary").sum())
 
 doc = Document()
 doc.styles["Normal"].font.name = "Calibri"; doc.styles["Normal"].font.size = Pt(11)
@@ -60,7 +65,7 @@ P("Harsh Vardhan Gupta (proposer)  ·  Prof. Nikhil Gupta, FASM (faculty collabo
 P("August 2026  ·  Code: github.com/Harshelite2503/foamgpt", italic=True, align=WD_ALIGN_PARAGRAPH.CENTER)
 
 H("Abstract")
-P(f"Syntactic foams—composites of hollow glass, ceramic, or polymer microspheres in a polymer or metal matrix—have been studied for over three decades and underpin deep-sea buoyancy modules, aerospace and marine sandwich cores, and energy-absorbing structures. We identify {len(rel):,} research papers (1990–2026) reporting quantitative processing–structure–property (PSP) results for these materials, yet no consolidated, machine-readable dataset exists: the numbers remain locked in PDF tables and figures. As a consequence, materials selection is done by manual literature review, machine-learning models are trained on a few dozen in-house samples, and the reliability of large language models (LLMs) for composite property questions is untested. We propose FoamGPT: (i) an LLM-driven extraction pipeline that converts the syntactic-foam literature into an open, auditable PSP dataset in which every value is linked to a verbatim source quote; (ii) expert validation of the dataset by the collaborating group; and (iii) a benchmark comparing classical machine learning and frontier LLMs on property prediction, including an analysis of LLM hallucination and calibration. A working pipeline has been built and verified on a pilot: {len(df)} records extracted from 3 papers at ≈US${cost:.2f} with zero unit or range errors, reproducing the known density–strength relationship of aluminium syntactic foams (r = {r_dens:.2f}). The full open-access pilot corpus (93 papers) can be processed for approximately US$30. Outcomes are a dataset-descriptor paper and a benchmark paper, plus a data asset that enables inverse design and extension to additively manufactured composites.")
+P(f"Syntactic foams—composites of hollow glass, ceramic, or polymer microspheres in a polymer or metal matrix—have been studied for over three decades and underpin deep-sea buoyancy modules, aerospace and marine sandwich cores, and energy-absorbing structures. We identify {len(rel):,} research papers (1990–2026) reporting quantitative processing–structure–property (PSP) results for these materials, yet no consolidated, machine-readable dataset exists: the numbers remain locked in PDF tables and figures. As a consequence, materials selection is done by manual literature review, machine-learning models are trained on a few dozen in-house samples, and the reliability of large language models (LLMs) for composite property questions is untested. We propose FoamGPT: (i) an LLM-driven extraction pipeline that converts the syntactic-foam literature into an open, auditable PSP dataset in which every value is linked to a verbatim source quote; (ii) expert validation of the dataset by the collaborating group; and (iii) a benchmark comparing classical machine learning and frontier LLMs on property prediction, including an analysis of LLM hallucination and calibration. The pipeline has been built and run on the full open-access pilot corpus: {n_papers} papers processed, {n_on} confirmed on-topic, yielding {len(df)} curated records ({prim} primary measurements) with per-value provenance; 3 papers were processed through the API at ≈US${cost:.2f} and the remainder through validated Claude Code subagents at no marginal cost. First cross-laboratory baselines show that density is predictable from the recipe (random-forest R² = {ml[ml.target=="measured_density_g_cc"].r2.max():.2f}) while modulus and strength are not yet — the gap the LLM benchmark is designed to probe. Outcomes are a dataset-descriptor paper and a benchmark paper, plus a data asset that enables inverse design and extension to additively manufactured composites.")
 
 H("1. Problem Statement")
 H("1.1 The knowledge exists but cannot be used", 2)
@@ -112,26 +117,37 @@ H("5. Preliminary Results")
 H("5.1 The corpus is large, growing, and concentrated in top materials journals", 2)
 P(f"OpenAlex retrieval and relevance filtering yield {len(rel):,} strongly relevant papers spanning 1990–2026 with {sum(r['cited_by'] for r in rel):,} total citations. Output has roughly doubled each decade (44 papers in the 1990s, 247 in the 2000s, 599 in the 2010s, 439 so far in the 2020s), confirming an active field. The leading venues are " + ", ".join(f"{v} ({n})" for v, n in venues.items()) + f". Only {oa_share}% of relevant papers have an open-access PDF, which quantifies the value of institutional access in Phase 2.")
 FIG(BENCH_DIR / "corpus_by_year.png", "Figure 1. Strongly relevant syntactic-foam papers per year in the FoamGPT corpus.")
-H("5.2 The extraction pipeline works on real papers at low cost", 2)
-P(f"A synchronous run on the three most-cited open-access papers produced {len(df)} validated records for {tin:,} input / {tout:,} output tokens (≈US${cost:.2f}). Automated curation raised zero range or unit flags. Every record carries a verbatim evidence quote; spot checks confirm that values were read from the correct table rows and that unit conversions (kg/m³→g/cm³, GPa→MPa, vol%→fraction) were applied correctly.")
-T(["Paper", "Records", "Observations"], [
- ["Dynamic response of aluminium matrix syntactic foams subjected to high strain-rate loading (2022)", "12", "Al7075 + ceramic hollow microspheres, Vf = 0.66; six quasi-static compositions (ρ 1.585–2.388 g/cm³, σ 75–181 MPa) and six SHPB tests (882–1578 s⁻¹, σ 203–601 MPa) — all traced to Tables 3–4"],
- ["A multiscale study of damage in elastomeric syntactic foams (2018)", "5", "Sylgard 184 PDMS + 3M A16-500 microballoons, 10–46 vol%, from Table 1"],
- ["On the way to real applications: aluminium matrix syntactic foams (2020, review)", "20", "Literature values from the review’s Table 4 (e.g., A356/SiC, 181 MPa, Gupta et al.) — motivated the primary/secondary data-origin field to prevent double counting"],
-], widths=[3.0, 0.8, 2.7])
+H("5.2 The full pilot corpus has been extracted with provenance", 2)
+P(f"All {n_papers} open-access papers were processed. {n_on} were confirmed on-topic; the remaining {n_papers - n_on} were keyword false positives (e.g. conservation reports using microballoon putty, an economics working paper) and were rejected by the extractor rather than yielding fabricated records. The result is {len(df)} curated records from {df.paper_id.nunique()} papers: {prim} primary measurements, {int((df.data_origin == 'secondary').sum())} values quoted from other papers (tagged secondary, with citation) and {int((df.data_origin == 'model').sum())} analytical/simulation values (tagged model). Every record carries a verbatim evidence quote and location; curation flagged {int((df['flags'].fillna('') != '').sum())} rows for expert review (mostly porosity or weight-fraction values outside physical range, i.e. likely definitional differences between papers rather than misreads).")
+T(["Quantity", "Count"], [
+ ["Papers processed / on-topic", f"{n_papers} / {n_on}"],
+ ["Curated records (primary)", f"{len(df)} ({prim})"],
+ ["Records with compressive/tensile strength", int(df.strength_mpa.notna().sum())],
+ ["Records with modulus", int(df.modulus_mpa.notna().sum())],
+ ["Records with measured density", int(df.measured_density_g_cc.notna().sum())],
+ ["Matrix classes covered", ", ".join(f"{k} ({v})" for k, v in df.matrix_class.value_counts().head(6).items())],
+ ["Test types covered", ", ".join(f"{k} ({v})" for k, v in df.test_type.value_counts().head(6).items())],
+], widths=[3.2, 3.3])
 H("5.3 Extracted data reproduce known physics", 2)
-P(f"Even at pilot scale the dataset recovers established structure–property relationships. Across the {len(al)} quasi-static aluminium-foam compositions, compressive strength rises monotonically with density (Pearson r = {r_dens:.2f}; 75 MPa at 1.585 g/cm³ to 181 MPa at 2.388 g/cm³), and specific strength spans 47–100 MPa·cm³/g. The same paper’s split-Hopkinson bar series shows the expected strong strain-rate sensitivity of Al7075-matrix foams, with peak stresses 2–3× the quasi-static values at ~10³ s⁻¹. These trends appear directly in the extracted table without any manual post-processing, which is the behaviour the full-scale benchmark relies on.")
-FIG(BENCH_DIR / "pilot_density_strength.png", "Figure 2. Density versus compressive strength for the pilot records, coloured by matrix class.")
-H("5.4 Field coverage and what it tells us", 2)
-P(f"Coverage across the {len(df)} pilot records is {cov['strength_mpa']:.0f}% for strength, {cov['modulus_mpa']:.0f}% for modulus, {cov['measured_density_g_cc']:.0f}% for measured density, {cov['particle_volume_fraction']:.0f}% for volume fraction and {cov['strain_rate_per_s']:.0f}% for strain rate. Gaps are genuine (values not stated in tables) rather than extraction failures—the model left fields null instead of guessing, as instructed. This supports the design decision to score the dataset by provenance and completeness rather than force-fill values, and motivates a future figure-digitisation stage.")
-H("5.5 Engineering findings from the pilot", 2)
+P(f"Figure 2 shows density against compressive modulus and strength for primary records, coloured by matrix class. The expected structure is recovered without any manual post-processing: metal-matrix foams occupy the high-density, high-strength region; polymer foams cluster at 0.3–0.9 g/cm³; and within a matrix class strength rises with density. In the aluminium subset, quasi-static strength correlates with density at r = {r_dens:.2f}.")
+FIG(BENCH_DIR / "pilot_density_strength.png", "Figure 2. Density versus compressive modulus (left) and strength (right) for primary records, coloured by matrix class.")
+H("5.4 First cross-laboratory ML baselines", 2)
+T(["Target", "Model", "n rows / papers", "R² (log)", "MAPE %"], [
+ [m.target, m.model, f"{m.n} / {m.papers}", f"{m.r2_log:.2f}" if pd.notna(m.r2_log) else f"{m.r2:.2f}", f"{m.mape_pct:.0f}"] for _, m in ml.iterrows()], widths=[1.6, 1.2, 1.3, 1.0, 1.0])
+P("With whole papers held out (GroupKFold), density is already predictable from processing descriptors alone (random forest R² ≈ 0.79, MAPE ≈ 20%), confirming the dataset carries real signal. Modulus and strength are not yet predictable across laboratories at this size (negative R²): the rows span metal and polymer matrices, quasi-static and split-Hopkinson tests, and heterogeneous particle grades, and many papers report only one or two conditions. This is the central empirical finding of the pilot — recipe-level features alone do not transfer between labs — and it sets the bar for the LLM benchmark: can a model with literature knowledge and retrieval over this dataset do better than a tree ensemble that has never seen the paper?")
+H("5.5 Data-availability findings", 2)
+B(["A large share of on-topic papers, especially before 2010, report results only in figures; those records carry composition and test conditions with null properties. The pipeline records this honestly rather than reading values off plots, which quantifies the case for a figure-digitisation stage.",
+   "Theses are the richest single sources (one 236-page thesis yielded 185 records) but require full-document parsing; an early 40-page cap silently truncated ten of them and was removed.",
+   "Review papers contribute many secondary rows; the data-origin tag is essential to keep them out of the training set while preserving them for cross-referencing.",
+   "Several papers contain internal inconsistencies (table vs. text values, unit labels contradicting magnitudes); the extractor records the conflict in notes and lowers confidence, giving the expert audit a targeted list."])
+H("5.6 Engineering findings from the pilot", 2)
 B(["Constrained JSON decoding is infeasible for a 40-field nested schema (API grammar-size limit); inline-schema generation with Pydantic validation and one self-repair turn succeeded on the first attempt for all papers.",
    "Review papers contribute many secondary rows; a data-origin tag is required to avoid double counting when the original papers are also extracted.",
-   f"Extrapolating pilot cost, the 93-paper open-access corpus costs ≈US$30 and the full {len(rel):,}-paper corpus ≈US$400–500 using the Message Batches API."])
+   f"API cost for the 3-paper sync run was ≈US${cost:.2f}; extrapolated, the full {len(rel):,}-paper corpus costs ≈US$400–500 via the Message Batches API, or can be processed through the validated Claude Code agent lane at no marginal API cost."])
 
 H("6. Work Plan and Timeline")
 T(["Phase", "Weeks", "Activities", "Deliverable"], [
- ["1. Pilot corpus", "1–2", "Batch-extract 93 OA papers; curate; first descriptive statistics and density–property maps", "Pilot dataset v0.1"],
+ ["1. Pilot corpus (done)", "—", "93 OA papers extracted; curated; density–property maps; first ML baselines", "Pilot dataset v0.1"],
  ["2. Corpus expansion", "2–5", "Obtain institutional PDFs for the remaining ~1,200 relevant papers; extract in batches; prompt v1.x refinements", "Dataset v0.5"],
  ["3. Validation", "4–6", "100-record expert audit; error taxonomy; schema/prompt fixes; re-extraction where needed", "Validation report"],
  ["4. Benchmarks", "6–8", "ML by-paper CV; LLM zero-shot/RAG with calibration; failure-mode analysis; figures", "Benchmark results"],

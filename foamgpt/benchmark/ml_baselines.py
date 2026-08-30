@@ -78,6 +78,7 @@ def run(df: pd.DataFrame, n_splits: int = 5, test_type: str | None = "compressio
                 pipe = _pipeline(make(), feats)
                 pipe.fit(X.iloc[tr], y[tr])
                 preds[te] = pipe.predict(X.iloc[te])
+            preds = np.clip(preds, y.min() - 1, y.max() + 1)  # guard against wild extrapolation
             y_true = 10 ** y if cfg["log"] else y
             y_pred = 10 ** preds if cfg["log"] else preds
             results.append({
