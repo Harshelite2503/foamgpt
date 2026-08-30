@@ -131,6 +131,12 @@ Scoring excluded 10 unfilled-matrix control rows and 12 density tasks whose reco
 
 Caveats specific to this benchmark: (i) the retrieval pool falls back to the nearest volume fraction regardless of matrix when a matrix/particle class is sparse, so several aluminium targets received polymer-foam references — retrieval was therefore a distractor for some tasks and the RAG gain is a lower bound for a class-aware retriever; (ii) 'other papers' can be other theses from the same research group with identical materials, a same-laboratory channel that paper-level splitting does not close; (iii) a few task pairs share byte-identical descriptors with different measured values, bounding achievable error; (iv) the model was prompted through Claude Code with file access restricted to the task text, but it is the same model family that performed extraction.
 
+## 4.5 Benchmark integrity: the model under test found the leaks
+
+The first benchmark run was invalidated by the agents answering it. Independently, several reported that (i) density tasks listed the measured density among the input descriptors, (ii) retrieved 'reference' rows were sometimes other benchmark targets, and (iii) two targets from one record shared a batch so that one prompt disclosed the other's answer. The harness was rebuilt — target masked from descriptors, all benchmark rows removed from the retrieval pool, zero-shot and retrieval tasks separated into disjoint batches, task identifiers made target-specific — and every answer was discarded and regenerated. Residual sibling exposure of density values was handled by exclusion at scoring (Table 3 counts). We report this because it is a general hazard for LLM benchmarks built from tabular datasets: a capable model will read the whole batch it is given, and any co-derived field is a leak.
+
+The same agents also flagged records whose values are physically implausible or internally inconsistent; these are listed in Appendix A and form the first targets of the expert validation pass.
+
 # 5. Discussion
 
 - Provenance is the enabling design choice. Because every value carries a quote and location, the expert audit reduces to checking quotes, and internal inconsistencies found by the extractor (table vs. text values, unit labels contradicting magnitudes, negative porosities from sign conventions) become a curated list rather than silent errors.
@@ -150,6 +156,23 @@ Caveats specific to this benchmark: (i) the retrieval pool falls back to the nea
 # 7. Data and Code Availability
 
 Dataset (CSV/Parquet), per-paper extractions with evidence (JSONL), prompts, schema, curation and benchmark code: https://github.com/Harshelite2503/foamgpt (MIT). A Zenodo DOI will accompany the validated release.
+
+# Appendix A. Records flagged for expert validation
+
+Flags raised by the benchmark agents and by automated range checks; each should be resolved against the source PDF before the validated release.
+
+| Paper | Issue | Records |
+|---|---|---|
+| W4302024750 (Al7075 + ceramic microspheres, SHPB) | Foam densities 2.25–2.39 g/cm³ at 66 vol% hollow spheres are close to bulk-alloy density; rule of mixtures implies ~1.6 g/cm³. Check whether Table 3 lists relative density or the particles are thick-walled. | 000–005 |
+| W2290445848 (Ifremer thesis, GSPU/GSEP) | particle_true_density_g_cc varies per row (0.42–0.99) for 3M S38 (0.38 g/cm³): the extractor stored recovered-filler specific gravity after hydrostatic loading in this field. Move to notes. | 026–044 |
+| W2900342134 (layered IFGSF thesis) | Moduli bimodal (720–790 vs 1920–1930 MPa) for nominally similar foams; likely flat-wise vs edge-wise or two quantities collapsed. Two layups share density 0.6386 (row alignment?). | 000–011 |
+| W2396011947 (PU + A20/1000 balloons) | Density rises with balloon weight fraction (0.25 → 0.38 g/cm³) although balloons are lighter than matrix; weight fraction may be resin fraction. | 000–003 |
+| W4382982980 (HGM/epoxy sandwich thesis) | Near-identical densities (0.865 vs 0.872) with flexural strengths 41 vs 133 MPa; shear strength 2.7 MPa an order of magnitude low; particle_true_density 0.55–0.75 for T60 (0.6). | 138–153 |
+| W2229720391 (AlSi12 hybrid spheres) | Stated Globomet density 0.4 g/cm³ and Vf 0.64 cannot reproduce hybrid densities 1.69/1.74; effective Vf ≈ 0.5. | 000–009 |
+| W2766120207 (vinyl-ester foam) | Tensile modulus 9.92 GPa implausible for the material; recorded with confidence 0.35. | 003 |
+| W2420155152, W4416695887, W2229720391 | Metal-matrix 'moduli' of 14–29 MPa are ISO 13314 structural stiffness in GPa or machine compliance; now flagged modulus_maybe_gpa and excluded from benchmarks. | flagged rows |
+| W4394017182, W2728148627 | Byte-identical descriptors with different measured values (duplicate rows or missing distinguishing condition). | 012/018/014/019; 005/020/014/016 |
+| Automated range flags | matrix_porosity_fraction out of range (13), particle_weight_fraction (9), particle_mean_diameter_um (7), volume fraction (3), strain (1), density (1). | see flags column |
 
 # References
 
