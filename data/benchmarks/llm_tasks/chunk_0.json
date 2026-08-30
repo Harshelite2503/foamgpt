@@ -1,0 +1,198 @@
+[
+ {
+  "task_id": "W2290445848-029__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: polyurethane\nmatrix_name: Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)\nparticle_type: glass_microballoon\nparticle_grade: 3M S38 (S38HS referred to in the damage analysis)\nparticle_true_density_g_cc: 0.4487\nprocess_route: mechanical_mixing_cast\ntest_type: hydrostatic\ntemperature_c: 20.0\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W2229720391-004__strength_mpa__zero_shot",
+  "target": "strength_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: aluminum\nmatrix_name: AlSi12 (Al4047) near-eutectic Al-Si casting alloy; measured 12.830 wt% Si, 0.127 wt% Fe, 0.002 wt% Cu, 0.005 wt% Mn, 0.010 wt% Mg, 0.007 wt% Zn, balance Al\nparticle_type: ceramic_hollow\nparticle_grade: Hybrid sphere blend: 80 vol% Globocer (GC) ceramic hollow spheres (Hollomet GmbH, 1450 um diameter, 60 um wall, 0.816 g/cm3) + 20 vol% Globomet (GM) metallic hollow spheres (Hollomet GmbH, 0.4 g/cm3)\nparticle_volume_fraction: 0.64\nprocess_route: pressure_infiltration\nmeasured_density_g_cc: 1.74\ntest_type: compression\nstrain_rate_per_s: 0.01\ntemperature_c: 25.0\n\nPredict strength_mpa in MPa."
+ },
+ {
+  "task_id": "W2396011947-001__modulus_mpa__zero_shot",
+  "target": "modulus_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: polyurethane\nmatrix_name: Smooth-On Task 3 rigid two-part PU casting resin with 10 wt% MoldStar30 silicone rubber\nparticle_type: glass_microballoon\nparticle_grade: 3M A20/1000\nparticle_true_density_g_cc: 0.2\nparticle_mean_diameter_um: 105.0\nparticle_weight_fraction: 0.1\nprocess_route: mechanical_mixing_cast\nmeasured_density_g_cc: 0.44428\ntest_type: compression\nstrain_rate_per_s: 0.00098\ntemperature_c: 25.0\n\nPredict modulus_mpa in MPa."
+ },
+ {
+  "task_id": "W144672120-008__modulus_mpa__zero_shot",
+  "target": "modulus_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: epoxy\nmatrix_name: DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24\nparticle_type: glass_microballoon\nparticle_grade: 3M Scotchlite S38 borosilicate glass microspheres (isostatic crush strength for 80% survival 27.58 MPa, wall 2.23 um)\nparticle_true_density_g_cc: 0.38\nparticle_mean_diameter_um: 40.0\nparticle_volume_fraction: 0.63\nprocess_route: mechanical_mixing_cast\nmeasured_density_g_cc: 0.606\ntest_type: compression\nstrain_rate_per_s: 909.0\ntemperature_c: 25.0\n\nPredict modulus_mpa in MPa."
+ },
+ {
+  "task_id": "W4289812685-003__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: aluminum\nmatrix_name: A356 aluminium alloy (7Si-0.3Mg), T6 heat treated (535 C / 4 h, water quench; 150 C / 15 h)\nparticle_type: ceramic_hollow\nparticle_grade: Glober\u00ae ceramic (Al2O3) hollow spheres, Hollomet GmbH\nparticle_mean_diameter_um: 2290.0\nprocess_route: pressure_infiltration\ntest_type: compression\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W4414365110-006__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: epoxy\nmatrix_name: Lapox L12 epoxy with K6 hardener\nparticle_type: other\nparticle_grade: CRMB60 rubber crumb\nparticle_volume_fraction: 0.2\nprocess_route: mechanical_mixing_cast\ntest_type: impact\ntemperature_c: 25.0\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W4302024750-003__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: aluminum\nmatrix_name: Al7075-T\nparticle_type: ceramic_hollow\nprocess_route: pressure_infiltration\ntest_type: compression\nstrain_rate_per_s: 0.00083\ntemperature_c: 25.0\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W7137461020-015__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: epoxy\nmatrix_name: EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)\nparticle_type: glass_microballoon\nparticle_grade: 3M iM30K + 3M iM16K, 3:1 weight ratio\nprocess_route: additive_other\ntest_type: compression\ntemperature_c: 25.0\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W2728148627-003__modulus_mpa__zero_shot",
+  "target": "modulus_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: other_thermoset\nmatrix_name: Styrene-based shape memory polymer, Veriflex (CRG Industries), Tg 62 C\nparticle_type: glass_microballoon\nparticle_grade: Potters Industries Q-Cel 6014\nparticle_true_density_g_cc: 0.14\nparticle_mean_diameter_um: 85.0\nparticle_volume_fraction: 0.4\nprocess_route: mechanical_mixing_cast\ntest_type: compression\nstrain_rate_per_s: 0.00173\ntemperature_c: 25.0\n\nPredict modulus_mpa in MPa."
+ },
+ {
+  "task_id": "W4382982980-153__modulus_mpa__zero_shot",
+  "target": "modulus_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: epoxy\nmatrix_name: DGEBA epoxy resin LR 20 with cycloaliphatic amine hardener LH281 (10:3)\nparticle_type: glass_microballoon\nparticle_grade: 3M-type HGM T60 (true density 0.6 g/cc)\nparticle_true_density_g_cc: 0.6\nparticle_mean_diameter_um: 39.26\nprocess_route: mechanical_mixing_cast\nmeasured_density_g_cc: 0.883\ntest_type: compression\ntemperature_c: 25.0\n\nPredict modulus_mpa in MPa."
+ },
+ {
+  "task_id": "W144672120-006__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: epoxy\nmatrix_name: DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24\nparticle_type: glass_microballoon\nparticle_grade: 3M Scotchlite S38 borosilicate glass microspheres (isostatic crush strength for 80% survival 27.58 MPa, wall 2.23 um)\nparticle_true_density_g_cc: 0.38\nparticle_mean_diameter_um: 40.0\nparticle_volume_fraction: 0.63\nprocess_route: mechanical_mixing_cast\ntest_type: compression\nstrain_rate_per_s: 437.0\ntemperature_c: 25.0\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W4302024750-003__strength_mpa__zero_shot",
+  "target": "strength_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: aluminum\nmatrix_name: Al7075-T\nparticle_type: ceramic_hollow\nprocess_route: pressure_infiltration\nmeasured_density_g_cc: 1.79\ntest_type: compression\nstrain_rate_per_s: 0.00083\ntemperature_c: 25.0\n\nPredict strength_mpa in MPa."
+ },
+ {
+  "task_id": "W2786014798-014__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: epoxy\nmatrix_name: DGEBA epoxy D.E.R. 332 (Dow) + Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent, cured with D.E.H. 24 (TETA)\nparticle_type: glass_microballoon\nparticle_grade: 3M Scotchlite S22\nparticle_true_density_g_cc: 0.22\nparticle_mean_diameter_um: 35.0\nparticle_volume_fraction: 0.5\nprocess_route: mechanical_mixing_cast\ntest_type: other\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W2229720391-003__modulus_mpa__zero_shot",
+  "target": "modulus_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: aluminum\nmatrix_name: AlSi12 (Al4047) near-eutectic Al-Si casting alloy; measured 12.830 wt% Si, 0.127 wt% Fe, 0.002 wt% Cu, 0.005 wt% Mn, 0.010 wt% Mg, 0.007 wt% Zn, balance Al\nparticle_type: ceramic_hollow\nparticle_grade: Hybrid sphere blend: 60 vol% Globocer (GC) ceramic hollow spheres (Hollomet GmbH, 1450 um diameter, 60 um wall, 0.816 g/cm3) + 40 vol% Globomet (GM) metallic hollow spheres (Hollomet GmbH, 0.4 g/cm3)\nparticle_volume_fraction: 0.64\nprocess_route: pressure_infiltration\nmeasured_density_g_cc: 1.69\ntest_type: compression\nstrain_rate_per_s: 0.01\ntemperature_c: 25.0\n\nPredict modulus_mpa in MPa."
+ },
+ {
+  "task_id": "W2728148627-016__modulus_mpa__zero_shot",
+  "target": "modulus_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: other_thermoset\nmatrix_name: Styrene-based shape memory polymer, Veriflex (CRG Industries)\nparticle_type: glass_microballoon\nparticle_grade: Potters Industries Q-Cel 6014\nparticle_true_density_g_cc: 0.14\nparticle_mean_diameter_um: 85.0\nparticle_volume_fraction: 0.4\nprocess_route: vacuum_assisted\ntest_type: compression\ntemperature_c: 25.0\n\nPredict modulus_mpa in MPa."
+ },
+ {
+  "task_id": "W4244770627-003__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: aluminum\nmatrix_name: 7055 Al alloy (Al-Zn-Mg-Cu, 8.35Zn-2.38Cu-2.27Mg wt.%)\nparticle_type: ceramic_hollow\nparticle_grade: Al2O3 hollow particles (>99 wt.% Al2O3), 1-2 mm, Gongyi City Hongle Mineral Products\nparticle_volume_fraction: 0.52\nprocess_route: other\ntest_type: compression\nstrain_rate_per_s: 0.001\ntemperature_c: 25.0\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W2786014798-004__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: epoxy\nmatrix_name: DGEBA epoxy D.E.R. 332 (Dow) + Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent, cured with D.E.H. 24 (TETA)\nparticle_type: glass_microballoon\nparticle_grade: 3M Scotchlite S22\nparticle_true_density_g_cc: 0.22\nparticle_mean_diameter_um: 35.0\nparticle_volume_fraction: 0.1\nprocess_route: mechanical_mixing_cast\ntest_type: other\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W4402552484-004__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: vinyl_ester\nmatrix_name: VE-200 bisphenol-A epoxy based vinyl ester dissolved in styrene (Iran Chemical Industries Complex), 65% solids, resin density 1.13 g/cm3\nparticle_type: glass_microballoon\nparticle_grade: H38H (Pishro Mobtaker Peyvand)\nparticle_true_density_g_cc: 0.38\nparticle_mean_diameter_um: 45.0\nparticle_volume_fraction: 0.4\nprocess_route: mechanical_mixing_cast\ntest_type: compression\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W4394017182-018__modulus_mpa__zero_shot",
+  "target": "modulus_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: other_thermoset\nmatrix_name: phenol formaldehyde (phenolic) resin\nparticle_type: fly_ash_cenosphere\nparticle_volume_fraction: 0.7\nprocess_route: vacuum_assisted\ntest_type: compression\n\nPredict modulus_mpa in MPa."
+ },
+ {
+  "task_id": "W4255314655-007__strength_mpa__zero_shot",
+  "target": "strength_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: aluminum\nmatrix_name: AA6063 (EN AW-AlMg0.7Si), Al-Mg-Si, annealed to AA6063-O\nparticle_type: metal_hollow\nparticle_grade: TPM nodules: commercially pure Al (99.5%) + 10 wt% marble (CaCO3) foaming agent, extruded precursor foamed at 750 C; 8-9 mm\nparticle_true_density_g_cc: 0.82\nparticle_volume_fraction: 0.531\nprocess_route: pressure_infiltration\nmeasured_density_g_cc: 1.436\ntest_type: compression\nstrain_rate_per_s: 0.001\ntemperature_c: 20.0\n\nPredict strength_mpa in MPa."
+ },
+ {
+  "task_id": "W427753402-001__strength_mpa__zero_shot",
+  "target": "strength_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: aluminum\nmatrix_name: Al-12%Si casting alloy (AC3A); die packed with 149-490 um Al-12%Si alloy powder and pressure-infiltrated with molten Al-12%Si\nparticle_type: glass_microballoon\nparticle_grade: Shirasu Balloons (SB), volcanic glass microballoons, Furue, Kagoshima\nparticle_true_density_g_cc: 0.563\nparticle_mean_diameter_um: 179.6\nparticle_volume_fraction: 0.0\nprocess_route: pressure_infiltration\ntest_type: compression\nstrain_rate_per_s: 0.000417\n\nPredict strength_mpa in MPa."
+ },
+ {
+  "task_id": "W4255314655-009__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: aluminum\nmatrix_name: AA6063 (EN AW-AlMg0.7Si), Al-Mg-Si, annealed to AA6063-O\nparticle_type: metal_hollow\nparticle_grade: TPM nodules: commercially pure Al (99.5%) + 10 wt% marble (CaCO3) foaming agent, extruded precursor foamed at 750 C; 8-9 mm\nparticle_true_density_g_cc: 0.82\nparticle_volume_fraction: 0.519\nprocess_route: pressure_infiltration\ntest_type: other\ntemperature_c: 20.0\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W2229720391-007__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: aluminum\nmatrix_name: AlSi12 (Al4047) near-eutectic Al-Si casting alloy; measured 12.830 wt% Si, 0.127 wt% Fe, 0.002 wt% Cu, 0.005 wt% Mn, 0.010 wt% Mg, 0.007 wt% Zn, balance Al\nparticle_type: ceramic_hollow\nparticle_grade: E-sphere SLG ceramic hollow spheres, Envirospheres Ltd.; 100 vol% of the sphere fraction. Wall composition 33 wt% Al2O3, 48 wt% SiO2, 19 wt% 3Al2O3.2SiO2 (mullite).\nparticle_true_density_g_cc: 0.637\nparticle_mean_diameter_um: 130.0\nparticle_volume_fraction: 0.64\nprocess_route: pressure_infiltration\ntest_type: compression\nstrain_rate_per_s: 0.01\ntemperature_c: 25.0\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W3143873043-000__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: aluminum\nmatrix_name: Commercial aluminium alloy Al 5052 (1.882 wt% Mg, 0.309 Fe, 0.171 Cr, 0.12 Si, balance Al)\nparticle_type: fly_ash_cenosphere\nparticle_grade: Fly ash hollow ceramic micro-balloons, 100 grit sieve fraction\nparticle_weight_fraction: 0.05\nprocess_route: pressure_infiltration\ntest_type: other\ntemperature_c: 25.0\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W2728148627-020__strength_mpa__zero_shot",
+  "target": "strength_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: other_thermoset\nmatrix_name: Styrene-based shape memory polymer, Veriflex (CRG Industries)\nparticle_type: glass_microballoon\nparticle_grade: Potters Industries Q-Cel 6014\nparticle_true_density_g_cc: 0.14\nparticle_mean_diameter_um: 85.0\nparticle_volume_fraction: 0.4\nprocess_route: vacuum_assisted\ntest_type: compression\ntemperature_c: 25.0\n\nPredict strength_mpa in MPa."
+ },
+ {
+  "task_id": "W144672120-004__modulus_mpa__zero_shot",
+  "target": "modulus_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: epoxy\nmatrix_name: DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24\nparticle_type: glass_microballoon\nparticle_grade: 3M Scotchlite S32 borosilicate glass microspheres (isostatic crush strength for 80% survival 13.79 MPa, wall 1.86 um)\nparticle_true_density_g_cc: 0.32\nparticle_mean_diameter_um: 40.0\nparticle_volume_fraction: 0.63\nprocess_route: mechanical_mixing_cast\nmeasured_density_g_cc: 0.563\ntest_type: compression\nstrain_rate_per_s: 878.0\ntemperature_c: 25.0\n\nPredict modulus_mpa in MPa."
+ },
+ {
+  "task_id": "W4382982980-136__measured_density_g_cc__zero_shot",
+  "target": "measured_density_g_cc",
+  "unit": "g/cm^3",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: epoxy\nmatrix_name: DGEBA epoxy resin LR 20 with cycloaliphatic amine hardener LH281 (10:3)\nparticle_type: glass_microballoon\nparticle_grade: 3M-type HGM T60 (true density 0.6 g/cc)\nparticle_true_density_g_cc: 0.6\nparticle_mean_diameter_um: 39.26\nprocess_route: mechanical_mixing_cast\ntest_type: tension\ntemperature_c: 25.0\n\nPredict measured_density_g_cc in g/cm^3."
+ },
+ {
+  "task_id": "W2396011947-002__strength_mpa__zero_shot",
+  "target": "strength_mpa",
+  "unit": "MPa",
+  "condition": "zero_shot",
+  "prompt": "Material and test:\nmatrix_class: polyurethane\nmatrix_name: Smooth-On Task 3 rigid two-part PU casting resin with 10 wt% MoldStar30 silicone rubber\nparticle_type: glass_microballoon\nparticle_grade: 3M A20/1000\nparticle_true_density_g_cc: 0.2\nparticle_mean_diameter_um: 105.0\nparticle_weight_fraction: 0.3\nprocess_route: mechanical_mixing_cast\nmeasured_density_g_cc: 0.252\ntest_type: compression\nstrain_rate_per_s: 0.00098\ntemperature_c: 25.0\n\nPredict strength_mpa in MPa."
+ }
+]

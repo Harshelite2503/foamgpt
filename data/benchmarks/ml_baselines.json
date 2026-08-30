@@ -2,82 +2,82 @@
   {
     "target": "modulus_mpa",
     "model": "ridge",
-    "n": 104,
-    "papers": 18,
-    "r2_log": -1.971,
-    "mae": 7725.213,
-    "mape_pct": 44066.8
+    "n": 87,
+    "papers": 15,
+    "r2_log": -0.089,
+    "mae": 1928.693,
+    "mape_pct": 115.5
   },
   {
     "target": "modulus_mpa",
     "model": "random_forest",
-    "n": 104,
-    "papers": 18,
-    "r2_log": -0.924,
-    "mae": 2424.468,
-    "mape_pct": 6003.9
+    "n": 87,
+    "papers": 15,
+    "r2_log": 0.085,
+    "mae": 2054.418,
+    "mape_pct": 100.3
   },
   {
     "target": "modulus_mpa",
     "model": "gbr",
-    "n": 104,
-    "papers": 18,
-    "r2_log": -0.888,
-    "mae": 2090.431,
-    "mape_pct": 6217.6
+    "n": 87,
+    "papers": 15,
+    "r2_log": 0.181,
+    "mae": 1895.676,
+    "mape_pct": 87.2
   },
   {
     "target": "strength_mpa",
     "model": "ridge",
-    "n": 152,
-    "papers": 25,
-    "r2_log": -2.45,
-    "mae": 396.403,
-    "mape_pct": 686.0
+    "n": 138,
+    "papers": 23,
+    "r2_log": -0.989,
+    "mae": 311.688,
+    "mape_pct": 291.5
   },
   {
     "target": "strength_mpa",
     "model": "random_forest",
-    "n": 152,
-    "papers": 25,
-    "r2_log": -0.167,
-    "mae": 58.96,
-    "mape_pct": 141.6
+    "n": 138,
+    "papers": 23,
+    "r2_log": 0.01,
+    "mae": 57.489,
+    "mape_pct": 114.1
   },
   {
     "target": "strength_mpa",
     "model": "gbr",
-    "n": 152,
-    "papers": 25,
-    "r2_log": -0.161,
-    "mae": 57.868,
-    "mape_pct": 133.2
+    "n": 138,
+    "papers": 23,
+    "r2_log": -0.04,
+    "mae": 57.754,
+    "mape_pct": 110.4
   },
   {
     "target": "measured_density_g_cc",
     "model": "ridge",
-    "n": 271,
-    "papers": 40,
-    "r2": 0.192,
-    "mae": 0.281,
-    "mape_pct": 36.4
+    "n": 254,
+    "papers": 37,
+    "r2": 0.614,
+    "mae": 0.206,
+    "mape_pct": 26.3
   },
   {
     "target": "measured_density_g_cc",
     "model": "random_forest",
-    "n": 271,
-    "papers": 40,
-    "r2": 0.792,
-    "mae": 0.17,
-    "mape_pct": 19.9
+    "n": 254,
+    "papers": 37,
+    "r2": 0.802,
+    "mae": 0.16,
+    "mape_pct": 19.7
   },
   {
     "target": "measured_density_g_cc",
     "model": "gbr",
-    "n": 271,
-    "papers": 40,
-    "r2": 0.754,
-    "mae": 0.184,
-    "mape_pct": 22.0
+    "n": 254,
+    "papers": 37,
+    "r2": 0.745,
+    "mae": 0.186,
+    "mape_pct": 22.2
   }
 ]

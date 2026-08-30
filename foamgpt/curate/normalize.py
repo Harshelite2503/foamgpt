@@ -47,6 +47,9 @@ def _flags(row: pd.Series) -> str:
     if pd.notna(row.get("modulus_mpa")) and row["modulus_mpa"] < 20 and row.get("matrix_class") in (
         "epoxy", "vinyl_ester", "polyester", "hdpe", "pp", "pla"):
         flags.append("modulus_maybe_gpa")
+    if pd.notna(row.get("modulus_mpa")) and row["modulus_mpa"] < 200 and row.get("matrix_class") in (
+        "aluminum", "magnesium", "iron_steel", "titanium", "zinc", "other_metal"):
+        flags.append("modulus_maybe_gpa")
     return ";".join(flags)
 
 

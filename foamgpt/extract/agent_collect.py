@@ -8,9 +8,10 @@ PaperExtraction and appends it to extractions.jsonl with mode="claude_code_agent
     python -m foamgpt.extract.agent_collect                                          # collect all
 """
 from __future__ import annotations
-import json
+
 import sys
 from pathlib import Path
+
 from foamgpt.config import EXTRACTED_DIR
 from foamgpt.extract.extractor import OUT, _already_done, _append
 from foamgpt.extract.prompts import PROMPT_VERSION
