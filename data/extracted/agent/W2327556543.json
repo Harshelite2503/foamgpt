@@ -1,0 +1,533 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Higuchi, Adachi, Yoshioka and Yokochi fabricated functionally graded syntactic foams by dispersing acrylonitrile hollow microballoons (Matsumoto Microsphere MFL-100CA, 80-110 um, 130 +/- 30 kg/m3) in a bisphenol-A epoxy (AER2603 / Rikacid MH-700 / jER BMI12, 100:86:1) and letting the balloons float during pre-cure, either from a uniformly dispersed state (TF = 65 C, tF = 2 h) or from a two-phase separated state (TF = 50 C, tF = 50 min), then pre-curing at 100 C for 2 h and post-curing at 130 C for 15 h. Density graded continuously from ~1200 kg/m3 (pure epoxy layer) to ~500 kg/m3 (maximum balloon packing); DMA (10 Hz, tension, 25-220 C) showed that the temperature dependence of the moduli and the 175 C glass transition are controlled by the epoxy matrix and are independent of balloon content. Quasi-static compression of specimens cut from the graded foams showed that compressive Young's modulus (~0.5 to ~2.1 GPa) and yield stress (~20 to ~110 MPa) depend only on local density (quadratic Gibson-Ashby type relation), independently of fabrication route or mould geometry.",
+ "records": [
+  {
+   "sample_label": "S01 (cuboid cut from FGSF made from uniformly dispersed state, average density 520 kg/m3)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol-A liquid epoxy AER2603 (Asahi Kasei Chemicals) + acid anhydride hardener Rikacid MH-700 (New Japan Chemical) + imidazole accelerator jER BMI12 (Mitsubishi Chemical), 100:86:1 by weight",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Matsumoto Microsphere MFL-100CA (acrylonitrile-based microballoon, CaCO3 surface treated)",
+    "particle_true_density_g_cc": 0.13,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.52,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Region of maximum microballoon packing; density essentially uniform through the specimen, so it behaves as a homogeneous closed-cell foam (yield followed by a flat plateau stress and then densification). Balloon content is not reported as a volume fraction, only through density."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00111,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cuboid 10 mm x 10 mm cross-section, 15 mm high, cut from a foam made from the uniformly dispersed state; Shimadzu Autograph AGS-10kJ, crosshead 1 mm/min, room temperature. Modulus and yield stress for this specimen appear only in Figs 12-13, so no numeric values could be taken."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "試験片 S01（平均密度 520 kg/m3）, S05（平均密度 600 kg/m3），S07（平",
+     "location": "Sec. 3.2.2, p. 7 (last paragraph, continues on p. 8)"
+    },
+    {
+     "quote": "密度が均一な発泡体試験片S01 およびS07 においては，降伏に伴い応力がほぼ一定のプラトー応力領域を示し，その後，試験片全体が緻密化することにより応力が上昇し，一般的なセル構造体の圧縮変形と同様の特性を示した．",
+     "location": "Sec. 3.2.2, p. 8 para 1 (Fig. 12)"
+    },
+    {
+     "quote": "圧縮試験には万能試験機（島津製作所，Autograph AGS-10kJ）を使用し，変位速度を1 mm/min として室温雰囲気下で試験を実施した．",
+     "location": "Sec. 3.1.2, p. 5"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "S05 (cuboid cut from FGSF made from uniformly dispersed state, average density 600 kg/m3)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol-A liquid epoxy AER2603 (Asahi Kasei Chemicals) + acid anhydride hardener Rikacid MH-700 (New Japan Chemical) + imidazole accelerator jER BMI12 (Mitsubishi Chemical), 100:86:1 by weight",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Matsumoto Microsphere MFL-100CA (acrylonitrile-based microballoon, CaCO3 surface treated)",
+    "particle_true_density_g_cc": 0.13,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.60,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Density is graded through the height of the specimen (average 600 kg/m3, distribution given in Fig. 7); the specimen work-hardens after yielding because crushing proceeds sequentially from the low-density region, and it yields at about the same stress as S01, showing that yield stress is governed by the minimum density inside the specimen."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00111,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cuboid 10 mm x 10 mm cross-section, 15 mm high; Shimadzu Autograph AGS-10kJ, crosshead 1 mm/min, room temperature. Property values only in Figs 12-13."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "試験片 S01（平均密度 520 kg/m3）, S05（平均密度 600 kg/m3），S07（平",
+     "location": "Sec. 3.2.2, p. 7 (last paragraph, continues on p. 8)"
+    },
+    {
+     "quote": "試験片内部で密度が傾斜分布する試験片（S05 およびS14）は，降伏後に加工硬化を示し，応力が急激に上昇していることがわかる．これは密度が低い領域から逐次的に圧潰が進行するためであり，試験片S05 はS01 と同等の応力値で降伏していることから，降伏応力は試験片内部の最低密度に依存することが明らかとなった．",
+     "location": "Sec. 3.2.2, p. 8 para 1 (Fig. 12)"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "S07 (cuboid cut from FGSF made from uniformly dispersed state, average density 700 kg/m3)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol-A liquid epoxy AER2603 (Asahi Kasei Chemicals) + acid anhydride hardener Rikacid MH-700 (New Japan Chemical) + imidazole accelerator jER BMI12 (Mitsubishi Chemical), 100:86:1 by weight",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Matsumoto Microsphere MFL-100CA (acrylonitrile-based microballoon, CaCO3 surface treated)",
+    "particle_true_density_g_cc": 0.13,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.70,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Essentially uniform density through the specimen; shows the classic cellular-solid response of yield, flat plateau stress and densification."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00111,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cuboid 10 mm x 10 mm cross-section, 15 mm high; Shimadzu Autograph AGS-10kJ, crosshead 1 mm/min, room temperature. Property values only in Figs 12-13."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "均密度 700 kg/m3），S14（平均密度 1000 kg/m3）およびS15（平均密度 1200 kg/m3）の結果を図12 に示す．",
+     "location": "Sec. 3.2.2, p. 8 para 1 (sentence begun on p. 7)"
+    },
+    {
+     "quote": "密度が均一な発泡体試験片S01 およびS07 においては，降伏に伴い応力がほぼ一定のプラトー応力領域を示し，その後，試験片全体が緻密化することにより応力が上昇し",
+     "location": "Sec. 3.2.2, p. 8 para 1 (Fig. 12)"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "S14 (cuboid cut from FGSF made from uniformly dispersed state, average density 1000 kg/m3)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol-A liquid epoxy AER2603 (Asahi Kasei Chemicals) + acid anhydride hardener Rikacid MH-700 (New Japan Chemical) + imidazole accelerator jER BMI12 (Mitsubishi Chemical), 100:86:1 by weight",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Matsumoto Microsphere MFL-100CA (acrylonitrile-based microballoon, CaCO3 surface treated)",
+    "particle_true_density_g_cc": 0.13,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.00,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Density graded through the specimen height (average 1000 kg/m3, distribution in Fig. 7); work-hardens after yielding because collapse propagates from the lowest-density region."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00111,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cuboid 10 mm x 10 mm cross-section, 15 mm high; Shimadzu Autograph AGS-10kJ, crosshead 1 mm/min, room temperature. Property values only in Figs 12-13."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "均密度 700 kg/m3），S14（平均密度 1000 kg/m3）およびS15（平均密度 1200 kg/m3）の結果を図12 に示す．",
+     "location": "Sec. 3.2.2, p. 8 para 1"
+    },
+    {
+     "quote": "試験片内部で密度が傾斜分布する試験片（S05 およびS14）は，降伏後に加工硬化を示し，応力が急激に上昇していることがわかる．",
+     "location": "Sec. 3.2.2, p. 8 para 1 (Fig. 12)"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "S15 (cuboid cut from the microballoon-free epoxy region of the FGSF, average density 1200 kg/m3) - neat matrix reference",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol-A liquid epoxy AER2603 (Asahi Kasei Chemicals) + acid anhydride hardener Rikacid MH-700 (New Japan Chemical) + imidazole accelerator jER BMI12 (Mitsubishi Chemical), 100:86:1 by weight",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Matsumoto Microsphere MFL-100CA (none present in this specimen)",
+    "particle_true_density_g_cc": 0.13,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.0,
+    "particle_weight_fraction": 0.0,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.20,
+    "theoretical_density_g_cc": 1.19,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cut from the microballoon-free epoxy layer at the top of the graded foam. Cured neat epoxy density is stated as 1190 kg/m3; the specimen average density is quoted as 1200 kg/m3."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00111,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cuboid 10 mm x 10 mm cross-section, 15 mm high; Shimadzu Autograph AGS-10kJ, crosshead 1 mm/min, room temperature. Elastic response followed by a sharp stress drop at yield (Fig. 12); numeric modulus/yield stress only in Figs 12-13."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "マイクロバルーンを含まないエポキシ樹脂領域である試験片S15 の場合，弾性変形を示した後，降伏により応力が急激に低下している",
+     "location": "Sec. 3.2.2, p. 8 para 1 (Fig. 12)"
+    },
+    {
+     "quote": "なお，硬化後のエポキシ樹脂の密度は 1190 kg/m3 である．",
+     "location": "Sec. 2.1, p. 2"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "T3 (homogeneous syntactic foam cylinder, density 520 kg/m3, cut from the maximum-packing layer of a two-phase-separated casting)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol-A liquid epoxy AER2603 (Asahi Kasei Chemicals) + acid anhydride hardener Rikacid MH-700 (New Japan Chemical) + imidazole accelerator jER BMI12 (Mitsubishi Chemical), 100:86:1 by weight",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Matsumoto Microsphere MFL-100CA (acrylonitrile-based microballoon, CaCO3 surface treated)",
+    "particle_true_density_g_cc": 0.13,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.52,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Homogeneous foam obtained by curing after the microballoons had fully floated and separated into a maximum-packed layer; SEM (Fig. 6) shows well dispersed, non-agglomerated microballoons over the whole density range 520-1020 kg/m3."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00111,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylinder 19 mm diameter x 30 mm high; Shimadzu Autograph DCT-25T, crosshead 2 mm/min chosen so the strain rate matches the 15 mm high cuboid specimens tested at 1 mm/min. Modulus and yield stress are plotted in Fig. 13 only."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "マイクロバルーンとエポキシ樹脂を二層分離させた状態でエポキシ樹脂を硬化させ，マイクロバルーンが最大充填された領域を切り出すことで密度520 kg/m3 の均質なシンタクチックフォームの試験片（T3）を作製した．試験片形状として直径19 mm で高さ30 mm の円柱状とした．",
+     "location": "Sec. 3.1.2, p. 5"
+    },
+    {
+     "quote": "圧縮試験は万能試験機（島津製作所，Autograph DCT-25T）を使用し，一様分散状態から作製された試験片の高さが15 mm の場合とひずみ速度が等しくなるように変位速度を2 mm/min とした．",
+     "location": "Sec. 3.1.2, p. 5"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "DMA specimen, density 520 kg/m3 (maximum microballoon packing region of FGSF from uniformly dispersed state)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol-A liquid epoxy AER2603 (Asahi Kasei Chemicals) + acid anhydride hardener Rikacid MH-700 (New Japan Chemical) + imidazole accelerator jER BMI12 (Mitsubishi Chemical), 100:86:1 by weight",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Matsumoto Microsphere MFL-100CA (acrylonitrile-based microballoon, CaCO3 surface treated)",
+    "particle_true_density_g_cc": 0.13,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.52,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cut so that there is no density gradient along the specimen length."
+   },
+   "test": {
+    "test_type": "dma",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "UBM Reogel-E4000, tensile mode, 10 Hz, heating 2 C/min over 25-220 C; specimen 2 mm thick x 35 mm long x 3.5 mm wide. E', E'' and tan delta are given only in log-scale plots (Figs 10-11), so no numeric values could be taken; tan delta peaks near 175 C (glass transition) independently of balloon content, and the relative storage modulus normalised by the neat epoxy is nearly constant with temperature except near Tg."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "図4(a) の一様分散状態より作製した傾斜機能シンタクチックフォームにおける密度が520 kg/m3，680 kg/m3 およびエポキシ樹脂層（密度 1200 kg/m3）の3 箇所から，長さ方向に密度分布の勾配がないように厚さ 2 mm，長さ 35 mm および幅 3.5 mm の寸法に切り出したものを試験片とした．",
+     "location": "Sec. 3.1.1, p. 5"
+    },
+    {
+     "quote": "加振周波数10 Hz にて，昇温速度を 2 °C /min として25 °C～220 °C の温度範囲における貯蔵弾性率 E'，損失弾性率 E'' および損失正接 tan  (=E' / E'') の測定を引張モードにより行った．",
+     "location": "Sec. 3.1.1, p. 5"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "DMA specimen, density 680 kg/m3 (intermediate region of FGSF from uniformly dispersed state)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol-A liquid epoxy AER2603 (Asahi Kasei Chemicals) + acid anhydride hardener Rikacid MH-700 (New Japan Chemical) + imidazole accelerator jER BMI12 (Mitsubishi Chemical), 100:86:1 by weight",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Matsumoto Microsphere MFL-100CA (acrylonitrile-based microballoon, CaCO3 surface treated)",
+    "particle_true_density_g_cc": 0.13,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.68,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cut so that there is no density gradient along the specimen length."
+   },
+   "test": {
+    "test_type": "dma",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "UBM Reogel-E4000, tensile mode, 10 Hz, heating 2 C/min over 25-220 C; specimen 2 mm x 35 mm x 3.5 mm. E', E'' and tan delta only in log-scale plots (Figs 10-11); tan delta peak near 175 C."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "密度が520 kg/m3，680 kg/m3 およびエポキシ樹脂層（密度 1200 kg/m3）の3 箇所から，長さ方向に密度分布の勾配がないように厚さ 2 mm，長さ 35 mm および幅 3.5 mm の寸法に切り出したものを試験片とした．",
+     "location": "Sec. 3.1.1, p. 5"
+    },
+    {
+     "quote": "エポキシ樹脂（密度 ρ = 1200 kg/m3）から密度が小さくなる，すなわちマイクロバルーンの充填量が多くなるほど貯蔵弾性率 E' および損失弾性率 E'' が全ての温度において低下していることがわかる．",
+     "location": "Sec. 3.2.1, p. 6 (Fig. 10)"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "DMA specimen, neat epoxy layer (density 1200 kg/m3) - matrix reference",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol-A liquid epoxy AER2603 (Asahi Kasei Chemicals) + acid anhydride hardener Rikacid MH-700 (New Japan Chemical) + imidazole accelerator jER BMI12 (Mitsubishi Chemical), 100:86:1 by weight",
+    "particle_type": "polymer_hollow",
+    "particle_grade": "Matsumoto Microsphere MFL-100CA (none present in this specimen)",
+    "particle_true_density_g_cc": 0.13,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.0,
+    "particle_weight_fraction": 0.0,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.20,
+    "theoretical_density_g_cc": 1.19,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Microballoon-free epoxy layer of the graded casting; used as the reference for the relative storage modulus in Fig. 11."
+   },
+   "test": {
+    "test_type": "dma",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "UBM Reogel-E4000, tensile mode, 10 Hz, heating 2 C/min over 25-220 C; specimen 2 mm x 35 mm x 3.5 mm. E' decreases gently from 25 to 150 C, drops sharply between 150 and 190 C and then stays roughly constant; tan delta peaks near 175 C. Numeric values only in log-scale Fig. 10."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "密度が520 kg/m3，680 kg/m3 およびエポキシ樹脂層（密度 1200 kg/m3）の3 箇所から",
+     "location": "Sec. 3.1.1, p. 5"
+    },
+    {
+     "quote": "マイクロバルーンの充填量に関わらず175 °C をガラス転移温度とし，ガラス状態からゴム状態に遷移しているといえる．",
+     "location": "Sec. 3.2.1, p. 6 (Fig. 10b)"
+    }
+   ],
+   "extractor_confidence": 0.6
+  }
+ ],
+ "extraction_notes": "Japanese-language paper (JSME Transactions A); quotes are verbatim Japanese. UNITS: all densities converted from kg/m3 to g/cm3 (divide by 1000). NO NUMERIC PROPERTY VALUES ARE TABULATED anywhere in this paper - compressive Young's modulus and yield stress appear only as symbols in Fig. 13 and as computed distributions in Fig. 14, and DMA E'/E''/tan delta only in log-scale Figs 10-11, so every property field is left null per the 'do not read values off plots' rule. The only text-stated property ranges are for the whole graded distribution, not per specimen: 'Young's modulus E ranges from about 0.5 GPa to about 2.1 GPa and yield stress from about 20 MPa to about 110 MPa' (Sec. 3.2.2, p. 9, computed with Eq. (1) from the density distribution of Fig. 4(a)); these were not assigned to any record. STRAIN RATE: 0.00111 1/s is derived from the stated crosshead speed of 1 mm/min on a 15 mm high specimen (1/15 per min = 1.11e-3 1/s); the paper states that the cylindrical specimens (2 mm/min, 30 mm high) were run at the same strain rate. PARTICLE SIZE: the paper gives a mean diameter range of 80-110 um for MFL-100CA rather than a single value, so particle_mean_diameter_um is left null. VOLUME FRACTION: never reported - composition is described only through density, so particle_volume_fraction is null except for the two microballoon-free epoxy specimens (S15 and the 1200 kg/m3 DMA specimen) where it is 0. CURE: cure_or_process_temperature_c = 100 C is the pre-cure (2 h); post-cure was 130 C for 15 h; the balloon-floating step was TF = 65 C for tF = 2 h (uniformly dispersed route) or TF = 50 C for tF = 50 min after 6 h of two-phase separation (two-phase route). OMITTED: graded cylindrical specimens T1 and T2 (cut from a two-phase foam of average density 930 kg/m3) were tested but neither their own densities (only Fig. 9 profiles) nor their properties (Fig. 13) are stated numerically, so no records were created for them. The density-vs-position profiles of Figs 4, 5 and 7 (foams of average density 720, 740, 840, 820 and 880 kg/m3) are structure-only figure data and were likewise not turned into records."
+}

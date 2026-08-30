@@ -1,0 +1,127 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Japanese-language paper (Sen-i Gakkaishi Vol. 50 No. 7, 1994, Kyo, Kashiwagi, Kato and Kamata) evaluating closed-cell neoprene rubber foam and syntactic foam (10-100 micron hollow glass spheres in epoxy resin, supplied by Showa Highpolymer) as thermal insulation for deep-sea sampling to 6500 m (about 6.7e7 Pa). Density, thermal conductivity after repeated pressurization, and bulk modulus were measured at atmospheric pressure, then used with cell-model theory to compute the heat flow through an insulated container during ascent. Syntactic foams SF-4 to SF-6 (crush strength above 9.8e7 Pa) showed no significant conductivity change after pressurization, whereas SF-1 to SF-3 degraded; syntactic foam is concluded to outperform neoprene foam at depth because it barely deforms under pressure.",
+  "records": [
+    {
+      "sample_label": "SF-3 (Showa Highpolymer syntactic foam, Table 2)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "epoxy resin (syntactic foam supplied by Showa Highpolymer Co.)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "process_route": "other"
+      },
+      "structure": {
+        "microstructure_notes": "Syntactic foam defined in the paper as hollow glass spheres of 10-100 micron diameter embedded in epoxy resin. Individual SF-3 density, glass-balloon density, mean outer diameter and wall thickness are listed in Table 2, but Table 2's contents were not captured in the text extraction (caption only)."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "temperature_c": null,
+        "specimen_notes": "Hydrostatic crush (collapse) strength in a high-pressure water vessel; specimens about 200 x 100 x 100 mm."
+      },
+      "properties": {
+        "strength_mpa": 68.0
+      },
+      "evidence": [
+        {
+          "quote": "また,SF-3の圧壊強度は約6.8×107Paであるので,6.7×107 Pa加圧後もSF-1, SF-2のような表面における大規模な陥没は見られないが,熱伝導率は初期値に比べ約280%も増大している。",
+          "location": "Sec. 3.2 (thermal conductivity), p. 286 - crush strength approx. 6.8e7 Pa = 68 MPa"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "SF-4 (Showa Highpolymer syntactic foam, Table 2)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "epoxy resin (syntactic foam supplied by Showa Highpolymer Co.)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "process_route": "other"
+      },
+      "structure": {
+        "microstructure_notes": "Blend of glass balloons of two different outer diameters to raise the hollow-sphere content and lower the foam density; recommended glass-balloon density about 0.3 g/cm3 or above. Density increase after 1000 pressurizations at 6.7e7 Pa stays below 2%."
+      },
+      "test": {
+        "test_type": "other",
+        "temperature_c": null,
+        "specimen_notes": "Thermal conductivity by transient line heat source method (Kyoto Electronics QTM-D3) at atmospheric pressure, before pressurization; specimens about 200 x 100 x 100 mm with machined and polished faces."
+      },
+      "properties": {
+        "thermal_conductivity_w_mk": 0.11
+      },
+      "evidence": [
+        {
+          "quote": "二種類の異なる外径のガラス球を混合し,気泡の含有率を増大(ρSFを低下)させ,熱伝導率を約0.11W/(m・K)としているSF-4またはSF-5を使用するのが有効といえる。",
+          "location": "Sec. 3.2 (thermal conductivity), p. 286"
+        },
+        {
+          "quote": "実際,密度については,例えば,SF-4の場合,6.7×107 Paの1,000回加圧後においても,密度の増大が2%以下に収まることが分かつている。",
+          "location": "Sec. 2.1.2 (syntactic foam specimens), p. 283"
+        }
+      ],
+      "extractor_confidence": 0.55
+    },
+    {
+      "sample_label": "SF-4 (Showa Highpolymer syntactic foam, Table 2) - hydrostatic bulk modulus quoted for the syntactic foams as a class",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "epoxy resin (syntactic foam supplied by Showa Highpolymer Co.)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "process_route": "other"
+      },
+      "structure": {
+        "microstructure_notes": "Bulk modulus is stated to be pressure independent and the stress-volumetric strain response essentially linear; volumetric strain at 6500 m depth is only 0.02."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "temperature_c": null,
+        "specimen_notes": "Bulk (volumetric) modulus; per-specimen values are given in Table 2(2), whose contents were not captured in the text extraction. The 3.0e9 Pa figure is the value used for the syntactic foam (SF-4) in the heat-flow calculation of Sec. 3.4."
+      },
+      "properties": {
+        "modulus_mpa": 3000.0
+      },
+      "evidence": [
+        {
+          "quote": "シンタクチックフォームについては体積弾性率が圧力に依存せず,約3.0×109Paであり,6500 m深度での容積歪量も僅かに0.02となる。",
+          "location": "Sec. 3.4 (evaluation of insulation performance), p. 287 - 3.0e9 Pa = 3000 MPa"
+        }
+      ],
+      "extractor_confidence": 0.45
+    },
+    {
+      "sample_label": "SF-5 (Showa Highpolymer syntactic foam, Table 2)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "epoxy resin (syntactic foam supplied by Showa Highpolymer Co.)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "process_route": "other"
+      },
+      "structure": {
+        "microstructure_notes": "Blend of glass balloons of two different outer diameters; recommended glass-balloon density about 0.3 g/cm3 or above and crush strength about 1e8 Pa or above for use to 6500 m."
+      },
+      "test": {
+        "test_type": "other",
+        "temperature_c": null,
+        "specimen_notes": "Thermal conductivity by transient line heat source method (Kyoto Electronics QTM-D3) at atmospheric pressure, before pressurization; specimens about 200 x 100 x 100 mm."
+      },
+      "properties": {
+        "thermal_conductivity_w_mk": 0.11
+      },
+      "evidence": [
+        {
+          "quote": "二種類の異なる外径のガラス球を混合し,気泡の含有率を増大(ρSFを低下)させ,熱伝導率を約0.11W/(m・K)としているSF-4またはSF-5を使用するのが有効といえる。",
+          "location": "Sec. 3.2 (thermal conductivity), p. 286 - the 0.11 W/(m.K) figure is given jointly for SF-4 and SF-5"
+        }
+      ],
+      "extractor_confidence": 0.45
+    }
+  ],
+  "extraction_notes": "Japanese-language 1994 paper; the PDF text extraction captured only the captions of Table 1 (neoprene foam specifications) and Table 2 (syntactic foam specifications: foam density, glass-balloon density, glass density, resin density, mean balloon outer diameter, glass wall thickness, resin layer thickness, plus modulus and crush strength in Table 2(2)) - none of the tabulated numbers are present, and Figs. 1-8 (thermal conductivity vs number of pressurizations, bulk modulus, heat flow) are images only. Records were therefore built only from values stated in the running text. Six syntactic foams SF-1 to SF-6 are studied; only SF-3, SF-4 and SF-5 have numeric values in the text, so SF-1, SF-2 and SF-6 produced no records. Values that could NOT be converted to schema fields: SF-4 to SF-6 crush strength is given only as a lower bound (>= 9.8e7 Pa, i.e. >= 98 MPa) and the design recommendation is >= 1e8 Pa with glass-balloon density >= about 0.3 g/cm3; SF-2 thermal conductivity rose about 60% and SF-3 about 30% after one 2.0e7 Pa pressurization, and SF-3 about 280% after 6.7e7 Pa, but no absolute baseline conductivities are stated; SF-1 and SF-2 surfaces sank about 10 mm after 6.7e7 Pa so conductivity could not be measured; SF-4 density rise stays below 2% after 1000 cycles at 6.7e7 Pa but no absolute density is given; volumetric strain of the syntactic foam at 6500 m is 0.02 (a service strain, not a failure strain, so not placed in strain_at_failure); SF-4 transmits 54% less heat than NP-6 for a 50 mm initial thickness. Unit conversions: 6.8e7 Pa -> 68 MPa, 3.0e9 Pa -> 3000 MPa. Neoprene rubber foams NP-1 to NP-10 (measured conductivities 0.091 and 0.088 W/(m.K) for NP-3 and NP-4) are closed-cell rubber foams, not hollow-particle composites, so they were deliberately excluded. Test temperature is not stated for the conductivity or bulk modulus measurements (made at atmospheric pressure, presumably room temperature) and was left null. Particle diameter is given only as a 10-100 micron range for syntactic foam in general, so particle_mean_diameter_um was left null."
+}

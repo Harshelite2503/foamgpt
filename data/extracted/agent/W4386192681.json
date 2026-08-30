@@ -1,0 +1,305 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Review article (Pranesh et al., Maritime Technology and Research 2023) surveying the mechanical features of eight deep-sea human occupied vehicles (Alvin, Jiaolong, MIR-1/MIR-2, Nautile, Shinkai 6500, Deep Sea Challenger, Fendouzhe, Triton): pressure hulls, hatches, ballast and trim systems, exo-structures, pressure vessels, drop weights and syntactic foam. Syntactic foam is covered in one short section (4.6): it is described as a polymer, metal or ceramic matrix filled with cenosphere, glass, carbon or polymer micro-balloons, and Table 8 lists the as-used buoyancy-foam density for five of the vehicles (500-700 kg/m3), with the review concluding that ~500 kg/m3 foam suits deep-water and ~700 kg/m3 foam ultra-deep (full-ocean-depth) service. No mechanical property data for syntactic foams are reported.",
+ "records": [
+  {
+   "sample_label": "Buoyancy syntactic foam of Alvin HOV (density quoted from Bernstein, 1967; Hardy et al., 2014; Jamieson et al., 2019; Momma, 1999; Pan et al., 2012)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "other",
+    "matrix_name": null,
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.5,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Deep-sea buoyancy syntactic foam fitted to the Alvin human occupied vehicle. Matrix and microballoon type are not specified for this vehicle; the review only states generally that syntactic foams are 'polymer matrices with micro-balloons, or metal or ceramic materials' and that micro-balloons are 'made of cenospheres, glass, carbon, or polymers'. Foam density is selected from the vehicle's diving depth (depth rating 6,500 m)."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "No mechanical test was performed in this review article; the value is the as-used bulk density of the vehicle's buoyancy foam, tabulated from the cited literature. No modulus, strength or hydrostatic collapse data are given for any of these foams."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 8 Density of syntactic foam used in different HOVs (Bernstein, 1967; Hardy et al., 2014; Jamieson et al., 2019; Momma, 1999; Pan et al., 2012).",
+     "location": "Table 8 (Density of syntactic foam used in different HOVs), Sec. 4.6, p. 14"
+    },
+    {
+     "quote": "Human occupied vehicle | Density (kg/m3) ... Alvin | 500",
+     "location": "Table 8 (Density of syntactic foam used in different HOVs), Sec. 4.6, p. 14"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "Buoyancy syntactic foam of Jiaolong HOV (density quoted from Pan et al., 2012 (and other sources cited for Table 8))",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "other",
+    "matrix_name": null,
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.526,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Deep-sea buoyancy syntactic foam fitted to the Jiaolong human occupied vehicle. Matrix and microballoon type are not specified for this vehicle; the review only states generally that syntactic foams are 'polymer matrices with micro-balloons, or metal or ceramic materials' and that micro-balloons are 'made of cenospheres, glass, carbon, or polymers'. Foam density is selected from the vehicle's diving depth (depth rating 7,000 m)."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "No mechanical test was performed in this review article; the value is the as-used bulk density of the vehicle's buoyancy foam, tabulated from the cited literature. No modulus, strength or hydrostatic collapse data are given for any of these foams."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 8 Density of syntactic foam used in different HOVs (Bernstein, 1967; Hardy et al., 2014; Jamieson et al., 2019; Momma, 1999; Pan et al., 2012).",
+     "location": "Table 8 (Density of syntactic foam used in different HOVs), Sec. 4.6, p. 14"
+    },
+    {
+     "quote": "Human occupied vehicle | Density (kg/m3) ... Jiaolong | 526",
+     "location": "Table 8 (Density of syntactic foam used in different HOVs), Sec. 4.6, p. 14"
+    },
+    {
+     "quote": "Jiaolong has a petal type titanium spherical pressure hull from Russia and syntactic foam from the United States (Kohnen, 2013).",
+     "location": "Sec. 2.2 (Jiaolong), p. 2"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "Buoyancy syntactic foam of Shinkai 6500 HOV (density quoted from Momma, 1999 (and other sources cited for Table 8))",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "other",
+    "matrix_name": null,
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.536,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Deep-sea buoyancy syntactic foam fitted to the Shinkai 6500 human occupied vehicle. Matrix and microballoon type are not specified for this vehicle; the review only states generally that syntactic foams are 'polymer matrices with micro-balloons, or metal or ceramic materials' and that micro-balloons are 'made of cenospheres, glass, carbon, or polymers'. Foam density is selected from the vehicle's diving depth (depth rating 6,500 m)."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "No mechanical test was performed in this review article; the value is the as-used bulk density of the vehicle's buoyancy foam, tabulated from the cited literature. No modulus, strength or hydrostatic collapse data are given for any of these foams."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 8 Density of syntactic foam used in different HOVs (Bernstein, 1967; Hardy et al., 2014; Jamieson et al., 2019; Momma, 1999; Pan et al., 2012).",
+     "location": "Table 8 (Density of syntactic foam used in different HOVs), Sec. 4.6, p. 14"
+    },
+    {
+     "quote": "Human occupied vehicle | Density (kg/m3) ... Shinkai 6500 | 536",
+     "location": "Table 8 (Density of syntactic foam used in different HOVs), Sec. 4.6, p. 14"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "Buoyancy syntactic foam of Deep Sea Challenger HOV (density quoted from Hardy et al., 2014 (and other sources cited for Table 8))",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy resin",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.7,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Deep-sea buoyancy syntactic foam fitted to the Deep Sea Challenger human occupied vehicle. The review states this foam is 'a combination of epoxy resins and glass spheres' and covers about 70% of the vehicle. Foam density is selected from the vehicle's diving depth (depth rating 11,000 m)."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "No mechanical test was performed in this review article; the value is the as-used bulk density of the vehicle's buoyancy foam, tabulated from the cited literature. No modulus, strength or hydrostatic collapse data are given for any of these foams."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 8 Density of syntactic foam used in different HOVs (Bernstein, 1967; Hardy et al., 2014; Jamieson et al., 2019; Momma, 1999; Pan et al., 2012).",
+     "location": "Table 8 (Density of syntactic foam used in different HOVs), Sec. 4.6, p. 14"
+    },
+    {
+     "quote": "Human occupied vehicle | Density (kg/m3) ... Deep Sea Challenger | 700",
+     "location": "Table 8 (Density of syntactic foam used in different HOVs), Sec. 4.6, p. 14"
+    },
+    {
+     "quote": "Approximately 70 % of this vehicle is covered by syntactic foam, which is a combination of epoxy resins and glass spheres.",
+     "location": "Sec. 3.1 (Deep Sea Challenger), p. 4"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "Buoyancy syntactic foam of Triton HOV (density quoted from Jamieson et al., 2019 (and other sources cited for Table 8))",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "other",
+    "matrix_name": null,
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.625,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Deep-sea buoyancy syntactic foam fitted to the Triton human occupied vehicle. Matrix and microballoon type are not specified for this vehicle; the review only states generally that syntactic foams are 'polymer matrices with micro-balloons, or metal or ceramic materials' and that micro-balloons are 'made of cenospheres, glass, carbon, or polymers'. Foam density is selected from the vehicle's diving depth (depth rating 11,000 m)."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "No mechanical test was performed in this review article; the value is the as-used bulk density of the vehicle's buoyancy foam, tabulated from the cited literature. No modulus, strength or hydrostatic collapse data are given for any of these foams."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 8 Density of syntactic foam used in different HOVs (Bernstein, 1967; Hardy et al., 2014; Jamieson et al., 2019; Momma, 1999; Pan et al., 2012).",
+     "location": "Table 8 (Density of syntactic foam used in different HOVs), Sec. 4.6, p. 14"
+    },
+    {
+     "quote": "Human occupied vehicle | Density (kg/m3) ... Triton | 625",
+     "location": "Table 8 (Density of syntactic foam used in different HOVs), Sec. 4.6, p. 14"
+    }
+   ],
+   "extractor_confidence": 0.8
+  }
+ ],
+ "extraction_notes": "BORDERLINE ON-TOPIC. This is a naval-engineering review of human occupied vehicles, not a syntactic-foam materials study; syntactic foam is only one of eight subsystems reviewed (Sec. 4.6). It is marked is_syntactic_foam_paper=true because it does contain extractable hollow-particle-composite data - Table 8, the as-used buoyancy-foam density of five submersibles - but a reviewer may reasonably prefer to reclassify it as off-topic and drop the records. All five records are data_origin='secondary': every Table 8 value is quoted from other publications (Bernstein 1967; Hardy et al. 2014; Jamieson et al. 2019; Momma 1999; Pan et al. 2012) and the individual citation could not be attributed per row, so the full citation list is carried in sample_label. Unit conversion: kg/m3 -> g/cm3 (divided by 1000): Alvin 500->0.5, Jiaolong 526->0.526, Shinkai 6500 536->0.536, Deep Sea Challenger 700->0.7, Triton 625->0.625. MIR-1/MIR-2, Nautile and Fendouzhe rows of Table 8 are '---' (unknown) and were skipped. No mechanical properties (modulus, strength, hydrostatic collapse), no microballoon volume fraction, grade, size or matrix system are reported for any foam, so all Properties fields and most Processing fields are null; matrix_class/particle_type are 'other' except for Deep Sea Challenger, where the text explicitly says the foam is 'a combination of epoxy resins and glass spheres'. test_type is 'other' because no mechanical test underlies these numbers. The summary statement that 'the density of syntactic foam ranges from 500 to 700 kg/m3' (conclusion 7) is a range over the same Table 8 values and was not duplicated as a separate record. All other tables in the paper (pressure hull materials/thicknesses, ballast, trim, exo-structure, drop weights, W/D ratios, vehicle specifications) concern non-foam subsystems and are outside the schema."
+}

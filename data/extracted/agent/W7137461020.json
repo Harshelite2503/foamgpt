@@ -1,0 +1,1059 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "MS thesis (University of Oklahoma, 2025) on Direct Ink Writing (DIW) 3D printing of epoxy syntactic foams. EPON 815C / Epikure 3230 epoxy was filled with 3M hollow glass microballoons (S60, iM16K, iM30K) at 40 wt% relative to epoxy weight, with 1 wt% fumed silica and a thixotropic additive paste to give shear-thinning, yield-stress inks; specimens were printed with a 410 um nozzle at 10 mm/s and cured 2 h at 80 C plus 3 h at 125 C. Cast and printed tensile (0/45/90 deg) and compression (uni- and bi-directional, X/Y) specimens were tested at 1 mm/min: printed parts were more consistent than cast ones, iM30K gave the best tensile properties, S60 the highest compressive modulus, and hybrid iM30K:iM16K inks (1:3, 2:2, 3:1) were used to optimise specific properties, with iM30K_2 iM16K_2 best overall (highest specific strength/modulus, MCF 1551 N, PCF 2103 N). The optimum hybrid ink was printed into 30% infill hexagonal honeycomb cores whose in-plane compression showed higher peak strength in the Y-direction (9.423 MPa) and higher modulus in the X-direction (0.236 GPa).",
+  "records": [
+    {
+      "sample_label": "S60 base ink - cast",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S60",
+        "particle_true_density_g_cc": 0.60,
+        "particle_mean_diameter_um": 30.0,
+        "particle_wall_thickness_ratio": 0.901,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); glass microballoons added at 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Cast specimens showed voids and entrapped air from poor mould filling of the highly viscous ink, giving high scatter; SEM showed well-dispersed microballoons and good matrix-microballoon interfacial bonding with little pull-out."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": "ASTM D638 Type V",
+        "specimen_notes": "Cast in silicone moulds to ASTM D638 Type V dogbone geometry; Instron with 5 kN load cell, crosshead 1 mm/min; average of three replicates."
+      },
+      "properties": {
+        "modulus_mpa": 598.0,
+        "strength_mpa": 27.50,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "On average, the iM30K cast specimens exhibited the highest stiffness with a tensile modulus of 0.674 GPa, compared to 0.577 GPa for iM16K and 0.598 GPa for S60.",
+          "location": "Sec. 3.2.1 (Figure 9)"
+        },
+        {
+          "quote": "achieving an average tensile strength of 33.58 MPa, compared to 28.74 MPa for iM16K and 27.50 MPa for S60.",
+          "location": "Sec. 3.2.1 (Figure 9)"
+        },
+        {
+          "quote": "S60 | 30 | 0.60 | 10,000 | 1.49",
+          "location": "Table 1: Microballoon Specifications (average diameter um, true density g/cm3, crush strength psi, wall thickness um)"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "iM16K base ink - cast",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM16K",
+        "particle_true_density_g_cc": 0.46,
+        "particle_mean_diameter_um": 20.0,
+        "particle_wall_thickness_ratio": 0.928,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); glass microballoons added at 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Cast specimens contained voids and entrapped air; iM16K has the highest microballoon volume fraction of the three base inks at fixed weight fraction because of its lowest true density (0.46 g/cm3)."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": "ASTM D638 Type V",
+        "specimen_notes": "Cast in silicone moulds to ASTM D638 Type V dogbone geometry; Instron with 5 kN load cell, crosshead 1 mm/min; average of three replicates."
+      },
+      "properties": {
+        "modulus_mpa": 577.0,
+        "strength_mpa": 28.74,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "On average, the iM30K cast specimens exhibited the highest stiffness with a tensile modulus of 0.674 GPa, compared to 0.577 GPa for iM16K and 0.598 GPa for S60.",
+          "location": "Sec. 3.2.1 (Figure 9)"
+        },
+        {
+          "quote": "achieving an average tensile strength of 33.58 MPa, compared to 28.74 MPa for iM16K and 27.50 MPa for S60.",
+          "location": "Sec. 3.2.1 (Figure 9)"
+        },
+        {
+          "quote": "iM16K | 20 | 0.46 | 16,000 | 0.72",
+          "location": "Table 1: Microballoon Specifications"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "iM30K base ink - cast",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K",
+        "particle_true_density_g_cc": 0.60,
+        "particle_mean_diameter_um": 15.3,
+        "particle_wall_thickness_ratio": 0.908,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); glass microballoons added at 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Cast specimens contained voids from air entrapment; smaller particle size and higher crush strength (28,000 psi) with lower volume fraction give greater epoxy matrix continuity and better load transfer."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": "ASTM D638 Type V",
+        "specimen_notes": "Cast in silicone moulds to ASTM D638 Type V dogbone geometry; Instron with 5 kN load cell, crosshead 1 mm/min; average of three replicates."
+      },
+      "properties": {
+        "modulus_mpa": 674.0,
+        "strength_mpa": 33.58,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 888.0,
+        "specific_strength_mpa_per_g_cc": 44.2,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "the iM30K cast specimens exhibited the highest stiffness with a tensile modulus of 0.674 GPa ... achieving an average tensile strength of 33.58 MPa",
+          "location": "Sec. 3.2.1 (Figure 9)"
+        },
+        {
+          "quote": "Among the casted samples, the iM30K formulation again outperformed the other inks, achieving the highest specific tensile modulus (8.88×10-4 GPa/(kg/m3)) and specific strength (4.42×10-2 MPa/(kg/m3))",
+          "location": "Sec. 3.2.1 (Figure 13)"
+        },
+        {
+          "quote": "iM30K | 15.3 | 0.60 | 28,000 | 0.70",
+          "location": "Table 1: Microballoon Specifications"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Base ink (iM30K section representative) - DIW printed, 0 deg",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K (ink type not explicitly restated in Table 3; section context is the base iM30K ink)",
+        "particle_true_density_g_cc": 0.60,
+        "particle_mean_diameter_um": 15.3,
+        "particle_wall_thickness_ratio": 0.908,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); glass microballoons added at 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "SEM of printed cross-sections shows uniform microballoon distribution, well-fused filament interfaces with no visible print lines or delamination, sparse isolated voids, and rounded (non-rectilinear) cross-section edges; true ImageJ cross-sectional area 1.15 mm2 versus caliper-measured area (A0/A = 1.73)."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed dogbone, filaments deposited along the loading axis (0 deg); 410 um nozzle, 10 mm/s print speed, 3-13 psi pneumatic pressure; Instron 5 kN, crosshead 1 mm/min. Strength recorded here is the as-measured (caliper area) value; the area-corrected strength is 73.23 MPa."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": 42.33,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "0° | 1.15 | 1.73 | 42.33 | 73.23",
+          "location": "Table 3: Corrected strength using an area correction factor (Orientation | ImageJ Area mm2 | A0/A | Original Strength MPa | Corrected Strength MPa)"
+        },
+        {
+          "quote": "For the 0° specimen, the corrected strength rose from 42.33 MPa to 73.23 MPa, representing an increase of approximately 73%.",
+          "location": "Sec. 3.2.1 para after Table 3"
+        }
+      ],
+      "extractor_confidence": 0.5
+    },
+    {
+      "sample_label": "Base ink (iM30K section representative) - DIW printed, 45 deg",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K (ink type not explicitly restated in Table 3; section context is the base iM30K ink)",
+        "particle_true_density_g_cc": 0.60,
+        "particle_mean_diameter_um": 15.3,
+        "particle_wall_thickness_ratio": 0.908,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); glass microballoons added at 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "True ImageJ cross-sectional area 1.30 mm2 versus caliper-measured area (A0/A = 1.81); 45 deg specimens fail under a shear-dominated path along filament interfaces."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed dogbone with filaments at 45 deg to the loading axis; Instron 5 kN, crosshead 1 mm/min. As-measured strength; area-corrected strength is 68.78 MPa."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": 38.00,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "45° | 1.30 | 1.81 | 38.00 | 68.78",
+          "location": "Table 3: Corrected strength using an area correction factor"
+        }
+      ],
+      "extractor_confidence": 0.5
+    },
+    {
+      "sample_label": "Base ink (iM30K section representative) - DIW printed, 90 deg",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K (ink type not explicitly restated in Table 3; section context is the base iM30K ink)",
+        "particle_true_density_g_cc": 0.60,
+        "particle_mean_diameter_um": 15.3,
+        "particle_wall_thickness_ratio": 0.908,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); glass microballoons added at 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "True ImageJ cross-sectional area 1.41 mm2 versus caliper-measured area (A0/A = 2.40)."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed dogbone with filaments perpendicular to the loading axis (90 deg); Instron 5 kN, crosshead 1 mm/min. As-measured strength; area-corrected strength is 96.55 MPa."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": 40.23,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "90° | 1.41 | 2.40 | 40.23 | 96.55",
+          "location": "Table 3: Corrected strength using an area correction factor"
+        },
+        {
+          "quote": "the 90° specimen exhibited the largest relative increase, with the corrected strength rising from 40.23 MPa to 96.55 MPa—an enhancement of approximately 140%.",
+          "location": "Sec. 3.2.1 para after Table 3"
+        }
+      ],
+      "extractor_confidence": 0.5
+    },
+    {
+      "sample_label": "S60 base ink - DIW printed, bi-directional, X-direction compression",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S60",
+        "particle_true_density_g_cc": 0.60,
+        "particle_mean_diameter_um": 30.0,
+        "particle_wall_thickness_ratio": 0.901,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); glass microballoons added at 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Bi-directional print: 13 layers with filament direction alternating between the X and Y axes to create a woven-like structure. S60 has the largest particle size (30 um) and thickest walls (1.49 um) of the three grades."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed cube (13 layers), bi-directional print pattern, loaded in the X-direction; Instron 5 kN with compression platens, crosshead 1 mm/min; three replicates. Peak compressive strength was not reported individually for this configuration - only a range of 28.68-49.21 MPa across all base inks and print directions."
+      },
+      "properties": {
+        "modulus_mpa": 619.0,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "the S60 ink exhibited the highest compressive modulus, particularly in the Bi-X and a relatively high value in the Bi-Y directions, with values reaching 0.619 GPa.",
+          "location": "Sec. 3.3.1 (Figure 21)"
+        },
+        {
+          "quote": "The peak compressive strength for all inks was relatively comparable, generally falling within the range of 28.68 MPa to 49.21 MPa",
+          "location": "Sec. 3.3.1 (Figure 21)"
+        }
+      ],
+      "extractor_confidence": 0.6
+    },
+    {
+      "sample_label": "Hybrid ink iM30K_1 iM16K_3 (1:3 by weight) - DIW printed, 0 deg tension",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K + 3M iM16K, 1:3 weight ratio",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); total glass microballoon loading 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.635,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Measured density 0.635 g/cm3 (reported in Sec. 3.3.1 for the compression specimens of this hybrid ink)."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed dogbone, filaments along the loading axis (0 deg); Instron 5 kN, crosshead 1 mm/min; average of three replicates. Failure strain across all hybrid inks and orientations ranged 0.059-0.068 mm/mm but was not reported per condition."
+      },
+      "properties": {
+        "modulus_mpa": 621.0,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "The 30K_3 16K_1 hybrid ink exhibited the highest tensile modulus, reaching an average value of 0.842 GPa in the 0° orientation, compared to 0.791 GPa for the 30K_2 16K_2 ink and 0.621 GPa for the 30K_1 16K_3 ink.",
+          "location": "Sec. 3.2.2 (Figure 16)"
+        },
+        {
+          "quote": "which were 0.635 g/cm3 for iM30K_1 iM16K_3, 0.735 g/cm3 for iM30K_2 iM16K_2, and 0.699 g/cm3 for iM30K_3 iM16K_1.",
+          "location": "Sec. 3.3.1 (Figure 23)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Hybrid ink iM30K_2 iM16K_2 (2:2 by weight) - DIW printed, 0 deg tension",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K + 3M iM16K, 1:1 (2:2) weight ratio",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); total glass microballoon loading 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.735,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Measured density 0.735 g/cm3; identified as the optimal formulation balancing specific strength, specific modulus and crashworthiness."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed dogbone, filaments along the loading axis (0 deg); Instron 5 kN, crosshead 1 mm/min; average of three replicates."
+      },
+      "properties": {
+        "modulus_mpa": 791.0,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "The 30K_3 16K_1 hybrid ink exhibited the highest tensile modulus, reaching an average value of 0.842 GPa in the 0° orientation, compared to 0.791 GPa for the 30K_2 16K_2 ink and 0.621 GPa for the 30K_1 16K_3 ink.",
+          "location": "Sec. 3.2.2 (Figure 16)"
+        },
+        {
+          "quote": "which were 0.635 g/cm3 for iM30K_1 iM16K_3, 0.735 g/cm3 for iM30K_2 iM16K_2, and 0.699 g/cm3 for iM30K_3 iM16K_1.",
+          "location": "Sec. 3.3.1 (Figure 23)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Hybrid ink iM30K_3 iM16K_1 (3:1 by weight) - DIW printed, 0 deg tension",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K + 3M iM16K, 3:1 weight ratio",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); total glass microballoon loading 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.699,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Measured density 0.699 g/cm3."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed dogbone, filaments along the loading axis (0 deg); Instron 5 kN, crosshead 1 mm/min; average of three replicates."
+      },
+      "properties": {
+        "modulus_mpa": 842.0,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "The 30K_3 16K_1 hybrid ink exhibited the highest tensile modulus, reaching an average value of 0.842 GPa in the 0° orientation, compared to 0.791 GPa for the 30K_2 16K_2 ink and 0.621 GPa for the 30K_1 16K_3 ink.",
+          "location": "Sec. 3.2.2 (Figure 16)"
+        },
+        {
+          "quote": "which were 0.635 g/cm3 for iM30K_1 iM16K_3, 0.735 g/cm3 for iM30K_2 iM16K_2, and 0.699 g/cm3 for iM30K_3 iM16K_1.",
+          "location": "Sec. 3.3.1 (Figure 23)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Hybrid ink iM30K_1 iM16K_3 (1:3 by weight) - DIW printed, 90 deg tension",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K + 3M iM16K, 1:3 weight ratio",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); total glass microballoon loading 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.635,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed dogbone, filaments perpendicular to the loading axis (90 deg); Instron 5 kN, crosshead 1 mm/min. The text compares the three hybrid inks' average tensile strengths with the 90 deg orientation named explicitly only for the 30K_3 16K_1 ink, so the orientation of the 37.70 MPa value is inferred from that comparison."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": 37.70,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "the 30K_3 16K_1 hybrid ink achieved the highest average tensile strength of 43.05 MPa in the 90° orientation, while the 30K_2 16K_2 and 30K_1 16K_3 inks exhibited average strengths of 42.45 MPa and 37.70 MPa, respectively.",
+          "location": "Sec. 3.2.2 (Figure 16)"
+        }
+      ],
+      "extractor_confidence": 0.6
+    },
+    {
+      "sample_label": "Hybrid ink iM30K_2 iM16K_2 (2:2 by weight) - DIW printed, 90 deg tension",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K + 3M iM16K, 1:1 (2:2) weight ratio",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); total glass microballoon loading 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.735,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed dogbone, filaments perpendicular to the loading axis (90 deg); Instron 5 kN, crosshead 1 mm/min. Orientation for this value inferred from the same comparison sentence that names 90 deg for the 30K_3 16K_1 ink."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": 42.45,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "the 30K_3 16K_1 hybrid ink achieved the highest average tensile strength of 43.05 MPa in the 90° orientation, while the 30K_2 16K_2 and 30K_1 16K_3 inks exhibited average strengths of 42.45 MPa and 37.70 MPa, respectively.",
+          "location": "Sec. 3.2.2 (Figure 16)"
+        }
+      ],
+      "extractor_confidence": 0.6
+    },
+    {
+      "sample_label": "Hybrid ink iM30K_3 iM16K_1 (3:1 by weight) - DIW printed, 90 deg tension",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K + 3M iM16K, 3:1 weight ratio",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); total glass microballoon loading 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.699,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed dogbone, filaments perpendicular to the loading axis (90 deg); Instron 5 kN, crosshead 1 mm/min; average of three replicates."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": 43.05,
+        "strain_at_failure": 0.067,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "the 30K_3 16K_1 hybrid ink achieved the highest average tensile strength of 43.05 MPa in the 90° orientation",
+          "location": "Sec. 3.2.2 (Figure 16)"
+        },
+        {
+          "quote": "The 30K_3 16K_1 hybrid ink exhibited slightly higher failure strains in the 90° orientation, reaching a maximum of 0.067 mm/mm",
+          "location": "Sec. 3.2.2 (Figure 16c)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Hybrid ink iM30K_1 iM16K_3 (1:3 by weight) - DIW printed, compression (average of X, Y, Bi-X, Bi-Y)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K + 3M iM16K, 1:3 weight ratio",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); total glass microballoon loading 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.635,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Compressive response shows an elastic region, a plateau associated with microballoon crushing, then densification."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed cubes (13 layers), values averaged over the four print/loading configurations (uni-X, uni-Y, Bi-X, Bi-Y); Instron 5 kN, crosshead 1 mm/min. Crashworthiness: highest energy absorption EA = 4.360 J and specific energy absorption SEA = 41.393 J/g of the three hybrids."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": 26.28,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "while the iM30K_1 iM16K_3 hybrid ink exhibited the highest absolute EA value of 4.360 J and SEA of 41.393 J/g",
+          "location": "Sec. 3.4 (Figure 24)"
+        },
+        {
+          "quote": "which were 0.635 g/cm3 for iM30K_1 iM16K_3, 0.735 g/cm3 for iM30K_2 iM16K_2, and 0.699 g/cm3 for iM30K_3 iM16K_1.",
+          "location": "Sec. 3.3.1 (Figure 23)"
+        }
+      ],
+      "extractor_confidence": 0.55
+    },
+    {
+      "sample_label": "Hybrid ink iM30K_2 iM16K_2 (2:2 by weight) - DIW printed, compression (average of X, Y, Bi-X, Bi-Y)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K + 3M iM16K, 1:1 (2:2) weight ratio",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); total glass microballoon loading 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.735,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Optimal formulation of the study: highest specific strength and specific modulus and best crashworthiness balance."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed cubes (13 layers), values averaged over the four print/loading configurations (uni-X, uni-Y, Bi-X, Bi-Y); Instron 5 kN, crosshead 1 mm/min. Crashworthiness: highest mean crushing force MCF = 1551 N and peak crushing force PCF = 2103 N; EA within 93% and SEA within 82% of the maxima recorded for the 1:3 hybrid."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 424.0,
+        "specific_strength_mpa_per_g_cc": 81.0,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "The results show that the iM30K_2 iM16K_2 hybrid ink achieved the highest specific strength, with a value of 0.081 MPa/(kg/m³), while the specific modulus exhibited greater variability between hybrid inks, ranging from 0.000352 to 0.000424 GPa/(kg/m³).",
+          "location": "Sec. 3.3.1 (Figure 23)"
+        },
+        {
+          "quote": "the iM30K_2 iM16K_2 ink exhibited the highest mean crushing force (MCF) and peak crushing force (PCF), reaching values of 1551 N and 2103 N respectively",
+          "location": "Sec. 3.4 (Figure 24 d,e)"
+        },
+        {
+          "quote": "The hybrid ink with a 2:2 ratio (iM30K_2 iM16K_2) demonstrated the most balanced mechanical performance, achieving the highest specific strength and specific modulus values",
+          "location": "Chapter 5 Conclusion"
+        }
+      ],
+      "extractor_confidence": 0.55
+    },
+    {
+      "sample_label": "Hybrid ink iM30K_3 iM16K_1 (3:1 by weight) - DIW printed, compression (average of X, Y, Bi-X, Bi-Y)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K + 3M iM16K, 3:1 weight ratio",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); total glass microballoon loading 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.699,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "DIW printed cubes (13 layers), tested in the four print/loading configurations; Instron 5 kN, crosshead 1 mm/min. Individual specific strength / specific modulus / crashworthiness values for this formulation are shown only in Figures 23 and 24 and are not stated numerically."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "These properties were calculated by normalizing the average compressive modulus and peak compressive strength values by the measured density of each hybrid ink, which were 0.635 g/cm3 for iM30K_1 iM16K_3, 0.735 g/cm3 for iM30K_2 iM16K_2, and 0.699 g/cm3 for iM30K_3 iM16K_1.",
+          "location": "Sec. 3.3.1 (Figure 23)"
+        }
+      ],
+      "extractor_confidence": 0.7
+    },
+    {
+      "sample_label": "Hexagonal honeycomb core, iM30K_2 iM16K_2 hybrid ink, 30% infill - in-plane X-direction",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K + 3M iM16K, 50:50 weight ratio",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); total glass microballoon loading 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Architected hexagonal honeycomb core at 30% infill density (not a bulk foam specimen); designed in SOLIDWORKS with a customised multi-stroke print path. Failure in the X-direction was brittle with a consistently inclined, shear-dominated fracture and no plateau region."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "In-plane compression along the X-direction (loading across the inclined cell walls); DIW printed with 0.41 mm nozzle, 0.41 mm layer height, 10 mm/min print speed; Instron 5 kN, crosshead 1 mm/min."
+      },
+      "properties": {
+        "modulus_mpa": 236.0,
+        "strength_mpa": 6.020,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 510.0,
+        "specific_strength_mpa_per_g_cc": 13.0,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "the X-direction specimens exhibited a slightly higher average modulus of 0.236 GPa compared to 0.171 GPa for the Y-direction specimens.",
+          "location": "Sec. 4.3 (Figure 27c)"
+        },
+        {
+          "quote": "the Y-direction specimens outperformed the X-direction specimens, with an average peak strength of 9.423 MPa compared to 6.020 MPa in the X-direction.",
+          "location": "Sec. 4.3 (Figure 27d)"
+        },
+        {
+          "quote": "the specific modulus values were slightly higher in the X-direction at 0.00051 GPa/(kg/m3) compared to 0.00042 GPa/(kg/m3) for the Y-direction ... the specific strength of the Y-direction specimens was calculated as 0.0232 MPa/(kg/m3), outperforming the X-direction value of 0.0130 MPa/(kg/m3).",
+          "location": "Sec. 4.3"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Hexagonal honeycomb core, iM30K_2 iM16K_2 hybrid ink, 30% infill - in-plane Y-direction",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "EPON 815C epoxy resin with Epikure 3230 curing agent (3.13:1 by weight)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M iM30K + 3M iM16K, 50:50 weight ratio",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "additive_other",
+        "cure_or_process_temperature_c": 125.0,
+        "additional_fillers": "1 wt% fumed silica (relative to epoxy weight) plus a thixotropic additive paste (TAP); total glass microballoon loading 40 wt% relative to the weight of epoxy"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Architected hexagonal honeycomb core at 30% infill density. Y-direction loading engages the vertically aligned cell walls, giving progressive localised buckling and staged collapse rather than sudden fracture."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25.0,
+        "standard": null,
+        "specimen_notes": "In-plane compression along the Y-direction (loading parallel to the vertically aligned cell walls); DIW printed with 0.41 mm nozzle, 0.41 mm layer height, 10 mm/min print speed; Instron 5 kN, crosshead 1 mm/min."
+      },
+      "properties": {
+        "modulus_mpa": 171.0,
+        "strength_mpa": 9.423,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 420.0,
+        "specific_strength_mpa_per_g_cc": 23.2,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "the Y-direction demonstrated a higher peak compressive strength of 9.423 MPa relative to 6.020 MPa for the X-direction.",
+          "location": "Sec. 4.4 Chapter Conclusion"
+        },
+        {
+          "quote": "The X-direction exhibited a slightly higher compressive modulus of 0.236 GPa compared to 0.171 GPa for the Y-direction",
+          "location": "Sec. 4.4 Chapter Conclusion"
+        },
+        {
+          "quote": "The specific strength was higher in the Y-direction (0.0232 MPa/(kg/m3)) compared to the X-direction (0.0130 MPa/(kg/m3)). In contrast, the specific modulus was slightly higher in the X-direction (0.00052 GPa/(kg/m3)) compared to the Y-direction (0.00041 GPa/(kg/m3))",
+          "location": "Sec. 4.4 Chapter Conclusion"
+        }
+      ],
+      "extractor_confidence": 0.8
+    }
+  ],
+  "extraction_notes": "MS thesis; the whole document (84 pages) was read, including Tables 1-3 and the reference list. Most quantitative results live in figures (Figs. 9, 11-13, 15-17, 19-24, 27) whose individual bar values are not tabulated, so only values stated explicitly in the running text or in the three tables were extracted; everything else was left null rather than read off plots.\n\nUnit conversions: tensile/compressive moduli GPa -> MPa (x1000). Specific properties converted from GPa/(kg/m3) or MPa/(kg/m3) to the schema's MPa per g/cm3 by multiplying by 1e6 or 1e3 respectively: cast iM30K specific tensile modulus 8.88e-4 GPa/(kg/m3) -> 888 MPa/(g/cc) and specific tensile strength 4.42e-2 MPa/(kg/m3) -> 44.2 MPa/(g/cc); hybrid 2:2 compressive specific strength 0.081 MPa/(kg/m3) -> 81 MPa/(g/cc) and specific modulus 4.24e-4 GPa/(kg/m3) -> 424 MPa/(g/cc); honeycomb X 0.00051 GPa/(kg/m3) -> 510 and 0.0130 MPa/(kg/m3) -> 13.0; honeycomb Y 0.00042 -> 420 and 0.0232 -> 23.2 (Sec. 4.4 restates these as 0.00052 and 0.00041; the Sec. 4.3 values were used). Energy absorption for the 1:3 hybrid was converted from the reported SEA of 41.393 J/g using the paper's own measured density of 0.635 g/cm3, giving 26.28 MJ/m3; the raw EA (4.360 J) and MCF/PCF forces have no schema field and are recorded in specimen_notes.\n\nParticle wall_thickness_ratio (eta = inner/outer radius) was computed from Table 1 mean diameter and wall thickness: S60 (15-1.49)/15 = 0.901, iM16K (10-0.72)/10 = 0.928, iM30K (7.65-0.70)/7.65 = 0.908. Particle loading is reported only as '40 wt% relative to the weight of epoxy', i.e. 40 parts per 100 parts resin, not a weight fraction of the whole composite, so particle_weight_fraction was left null and the loading recorded in additional_fillers; no particle volume fractions are given anywhere in the thesis (only qualitative statements that iM16K gives the highest and iM30K the lowest volume fraction at fixed weight fraction).\n\nCaveats: (1) Table 3 (area-corrected strengths, 42.33/38.00/40.23 MPa as-measured and 73.23/68.78/96.55 MPa corrected for 0/45/90 deg) does not state which base ink the 'example specimen' came from; it appears in the base-ink section immediately after the iM30K SEM discussion, so iM30K was assumed - confidence lowered to 0.5 for those three records. (2) The hybrid tensile strengths 42.45 and 37.70 MPa are stated in the same sentence that names the 90 deg orientation only for the 43.05 MPa value; the 90 deg attribution for the other two is inferred (confidence 0.6). (3) The specific compressive modulus 0.000424 GPa/(kg/m3) is the top of a stated range and was attributed to the 2:2 hybrid on the basis of the Chapter 5 statement that it had the highest specific modulus. (4) The reported 2:2 compressive specific strength (0.081 MPa/(kg/m3) x 0.735 g/cm3 implies ~59 MPa) sits above the text's statement that printed peak compressive strengths 'remained below 50 MPa' for the base inks; both are reported as-is. (5) Base-ink compression results are given mostly as ranges (modulus 0.236-0.590 GPa for iM16K/iM30K, peak strength 28.68-49.21 MPa across all inks, strain at peak 0.104-0.245 mm/mm) without per-configuration attribution, so only the S60 Bi-X modulus of 0.619 GPa could be recorded; the S60 minimum strain at peak of 0.104 and the iM16K/iM30K maximum of 0.245 are noted here but not assigned to records. (6) Cast compression is described only as 'certain cast specimens reached compressive strengths exceeding 60 MPa' - no record created. (7) Rheology results (Herschel-Bulkley tau0 = 67.56 / 93.32 / 200.00 Pa and wall shear stress 497.87 / 448.11 / 853.23 Pa for S60 / iM16K / iM30K in Table 2; amplitude-sweep dynamic yield stresses 75.016 / 71.561 / 43.420 Pa) have no schema field and are not recorded as properties. (8) Test temperature is not stated; 25 C was used because all printing and testing was done under ambient laboratory conditions. Crosshead rate was 1 mm/min for all tests but specimen gauge lengths/heights are not given, so no strain rate could be computed. (9) Cure was 2 h at 80 C then 3 h at 125 C; 125 C recorded as the process temperature. (10) The honeycomb records describe an architected 30% infill structure, not a bulk foam, so their moduli/strengths are structural rather than material properties."
+}

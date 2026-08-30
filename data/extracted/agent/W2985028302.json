@@ -1,0 +1,451 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Collaguazo et al. (Engineering Solid Mechanics 8, 2020, 77-82) fill Nomex honeycomb cores with an epoxy / 3M K1 hollow glass microsphere syntactic foam (0, 20, 30 and 40 vol% microspheres) and close them with 3K carbon fibre face sheets. Three-point bending per ASTM D7264/D7264M-15 (5 specimens per group) and gravity impact tests per ASTM D3763-18 (drop heights 50 and 115 cm) were performed. Adding microspheres cut sandwich weight by 8.6-9.9% and raised specific flexural strength, with an optimum at 30 vol% (71.67 vs 55.1 for the unfilled reference, about 30% higher); specific stiffness fell for all filled groups relative to the microsphere-free material.",
+  "records": [
+    {
+      "sample_label": "NOMEX+RESIN (honeycomb filled with neat epoxy, 0 vol% glass microspheres)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Epoxy resin (Pf-Group, 2018 datasheet): density 1.1 g/cm3 at 20 C, modulus of elasticity 3100 N/mm2, compressive resistance 101 N/mm2; resin:hardener mixed 10:7",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M Glass Bubbles K1",
+        "particle_true_density_g_cc": 0.125,
+        "particle_mean_diameter_um": 65.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.0,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 154.0,
+        "additional_fillers": "Sandwich construction: Nomex honeycomb core (3.175 mm face-to-face cell, 6.35 mm thick, 0.048 g/cm3, 10% cell expansion) with 3K carbon fibre face sheets (E = 7600 MPa, nu = 0.39)"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Reference (unfilled) weight; the microsphere groups are quoted as 8.57% (20 vol%) and 9.86% (30 and 40 vol%) lighter than this material. Foam mixture vacuum-degassed at about 70 kPa, three cycles, before casting."
+      },
+      "test": {
+        "test_type": "flexure",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D7264/D7264M-15",
+        "specimen_notes": "Procedure A, three-point bending, span-to-thickness ratio 16:1, crosshead speed 1 mm/min, 5 specimens per group. Properties are those of the whole reinforced honeycomb sandwich, not of the syntactic foam alone."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": 55.1,
+        "strain_at_failure": 0.02,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "NOMEX+RESIN ... Ultimate strength (Mpa) ... Deformation at break (%) ... 55.65 1.77 ... 48.69 2.01 ... 53.68 2.26 ... 57.91 1.86 ... 59.9 2.09 ... Average 55.1 2",
+          "location": "Table 1 'Comparison of specific resistance', column group NOMEX+RESIN, p. 2 (five MI-FLX-18 specimens and their average)"
+        }
+      ],
+      "extractor_confidence": 0.6
+    },
+    {
+      "sample_label": "NOMEX+RESIN+MC 20% (honeycomb filled with epoxy / 20 vol% glass microspheres)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Epoxy resin (Pf-Group, 2018 datasheet): density 1.1 g/cm3 at 20 C; resin:hardener mixed 10:7",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M Glass Bubbles K1",
+        "particle_true_density_g_cc": 0.125,
+        "particle_mean_diameter_um": 65.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.2,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 154.0,
+        "additional_fillers": "Sandwich construction: Nomex honeycomb core (3.175 mm cell, 6.35 mm thick, 0.048 g/cm3) with 3K carbon fibre face sheets"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Weight reduced by 8.57% relative to the microsphere-free material. Glass bubbles reported as not evenly distributed, with air inclusions remaining in the resin."
+      },
+      "test": {
+        "test_type": "flexure",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D7264/D7264M-15",
+        "specimen_notes": "Procedure A, three-point bending, span-to-thickness ratio 16:1, crosshead speed 1 mm/min, 5 specimens. Table 1 reports only a weight-normalised ('% Weight MPa', called MPa/kg in the conclusions) ultimate strength of 64.8846616 for this group, not an absolute flexural strength."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": 0.0217,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "NOMEX+RESIN+MC 20% ... Ultimate strength f(% Weight Mpa) ... Deformation at break (%) ... 72.9638133 2.34 ... 63.7804745 2 ... 63.6930141 1.88 ... 70.3400022 2.57 ... 53.6460042 2.05 ... Average 64.8846616 2.17",
+          "location": "Table 1, column group NOMEX+RESIN+MC 20%, p. 2"
+        },
+        {
+          "quote": "The 20% concentration group of glass microspheres reduced their weight by 8.57% but in the same way improving their properties with respect to pure material.",
+          "location": "Sec. 3 Results and discussion, p. 4"
+        }
+      ],
+      "extractor_confidence": 0.55
+    },
+    {
+      "sample_label": "NOMEX+RESIN+MC 30% (honeycomb filled with epoxy / 30 vol% glass microspheres)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Epoxy resin (Pf-Group, 2018 datasheet): density 1.1 g/cm3 at 20 C; resin:hardener mixed 10:7",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M Glass Bubbles K1",
+        "particle_true_density_g_cc": 0.125,
+        "particle_mean_diameter_um": 65.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.3,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 154.0,
+        "additional_fillers": "Sandwich construction: Nomex honeycomb core (3.175 mm cell, 6.35 mm thick, 0.048 g/cm3) with 3K carbon fibre face sheets"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Weight reduced by 9.86% relative to the microsphere-free material. Best bubble distribution in the resin; failure initiates in the Nomex rather than in the resin/glass-bubble mixture."
+      },
+      "test": {
+        "test_type": "flexure",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D7264/D7264M-15",
+        "specimen_notes": "Procedure A, three-point bending, span-to-thickness ratio 16:1, crosshead speed 1 mm/min, 5 specimens. Table 1 reports only a weight-normalised ultimate strength of 71.6750053 ('71.67 MPa/kg' in the conclusions), about 30% above the 55.1 of the unfilled reference; no absolute flexural strength in MPa is given for this group."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": 0.0331,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "NOMEX+RESIN+MC 30% ... 63.643323 3.05 ... 83.522847 3.56 ... 58.1409538 3.04 ... 78.808116 2.76 ... 74.2597872 4.14 ... Average 71.6750053 3.31",
+          "location": "Table 1, column group NOMEX+RESIN+MC 30%, p. 2"
+        },
+        {
+          "quote": "it supported an ultimate flexural specific strength of 71.67MPa/kg which is roughly 30% higher than the one of pure material. For this specimen, the reduction of weight was 9.86%",
+          "location": "Sec. 4 Conclusions, p. 5"
+        }
+      ],
+      "extractor_confidence": 0.55
+    },
+    {
+      "sample_label": "NOMEX+RESIN+MC 40% (honeycomb filled with epoxy / 40 vol% glass microspheres)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Epoxy resin (Pf-Group, 2018 datasheet): density 1.1 g/cm3 at 20 C; resin:hardener mixed 10:7",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M Glass Bubbles K1",
+        "particle_true_density_g_cc": 0.125,
+        "particle_mean_diameter_um": 65.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.4,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 154.0,
+        "additional_fillers": "Sandwich construction: Nomex honeycomb core (3.175 mm cell, 6.35 mm thick, 0.048 g/cm3) with 3K carbon fibre face sheets"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Weight reduced by 9.86% relative to the microsphere-free material. Microsphere concentration described as excessive: the resin could not cover all the spaces, leaving voids in which the microspheres collide and ease crack propagation; this group gave the best specific stiffness of the filled groups. Matrix void fraction not quantified."
+      },
+      "test": {
+        "test_type": "flexure",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D7264/D7264M-15",
+        "specimen_notes": "Procedure A, three-point bending, span-to-thickness ratio 16:1, crosshead speed 1 mm/min, 5 specimens. Table 1 reports only a weight-normalised ultimate strength of 64.9628796; no absolute flexural strength in MPa is given."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": 0.0214,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "NOMEX+RESIN+MC 40% ... 59.7075366 2.14 ... 60.2474691 2.08 ... 60.8773903 1.86 ... 76.287964 2.2 ... 67.6940382 2.42 ... Average 64.9628796 2.14",
+          "location": "Table 1, column group NOMEX+RESIN+MC 40%, p. 2"
+        },
+        {
+          "quote": "In the case of the 40% group, the concentration of microspheres was excessive, so that the resin could not cover all the spaces, leaving voids in which the microspheres collide and facilitate the propagation of breakage in the specimens.",
+          "location": "Sec. 3 Results and discussion, p. 4"
+        }
+      ],
+      "extractor_confidence": 0.55
+    },
+    {
+      "sample_label": "NOMEX+RESIN+MC 20%, gravity impact from 115 cm",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Epoxy resin (Pf-Group, 2018 datasheet); resin:hardener mixed 10:7",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M Glass Bubbles K1",
+        "particle_true_density_g_cc": 0.125,
+        "particle_mean_diameter_um": 65.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.2,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 154.0,
+        "additional_fillers": "Sandwich construction: Nomex honeycomb core with 3K carbon fibre face sheets"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Poor impact resistance attributed to uneven glass-bubble distribution and air inclusions in the resin; fibre sheets separate from the core and failure runs through the Nomex."
+      },
+      "test": {
+        "test_type": "impact",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D3763-18",
+        "specimen_notes": "Gravity drop-weight impact, specimen 50 x 50 mm, 6.85 mm thick, drop height 115 cm. Measured displacement 1.43 mm (no force or absorbed energy reported; the schema has no displacement field)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "For 20% and 30% a displacement of 1.43 (mm) and 1.14 (mm) were seen, respectively.",
+          "location": "Sec. 3 Results and discussion, p. 4 (impact height h = 115 cm)"
+        }
+      ],
+      "extractor_confidence": 0.5
+    },
+    {
+      "sample_label": "NOMEX+RESIN+MC 30%, gravity impact from 115 cm",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Epoxy resin (Pf-Group, 2018 datasheet); resin:hardener mixed 10:7",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M Glass Bubbles K1",
+        "particle_true_density_g_cc": 0.125,
+        "particle_mean_diameter_um": 65.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.3,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 154.0,
+        "additional_fillers": "Sandwich construction: Nomex honeycomb core with 3K carbon fibre face sheets"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Best impact behaviour of the three groups: the specimen behaves as a single body and cell displacement is the lowest."
+      },
+      "test": {
+        "test_type": "impact",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D3763-18",
+        "specimen_notes": "Gravity drop-weight impact, specimen 50 x 50 mm, 6.85 mm thick, drop height 115 cm. Measured displacement 1.14 mm (no force or absorbed energy reported)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "For 20% and 30% a displacement of 1.43 (mm) and 1.14 (mm) were seen, respectively.",
+          "location": "Sec. 3 Results and discussion, p. 4 (impact height h = 115 cm)"
+        }
+      ],
+      "extractor_confidence": 0.5
+    },
+    {
+      "sample_label": "NOMEX+RESIN+MC 40%, gravity impact from 115 cm",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Epoxy resin (Pf-Group, 2018 datasheet); resin:hardener mixed 10:7",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M Glass Bubbles K1",
+        "particle_true_density_g_cc": 0.125,
+        "particle_mean_diameter_um": 65.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.4,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 154.0,
+        "additional_fillers": "Sandwich construction: Nomex honeycomb core with 3K carbon fibre face sheets"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Higher microsphere content transfers load to the Nomex phase, where failure occurs, displacing it downwards and detaching the carbon fibre skin."
+      },
+      "test": {
+        "test_type": "impact",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D3763-18",
+        "specimen_notes": "Gravity drop-weight impact, specimen 50 x 50 mm, 6.85 mm thick, drop height 115 cm. Measured displacement 2.57 mm (no force or absorbed energy reported)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Fig. 5 shows the failure resulted from specimen of 40% concentration glass microspheres and height of impact h=115 cm. For this specimen a relatively high displacement of 2.57 (mm) was observed.",
+          "location": "Sec. 3 Results and discussion, p. 4"
+        }
+      ],
+      "extractor_confidence": 0.5
+    },
+    {
+      "sample_label": "Neat epoxy matrix, supplier datasheet values (Pf-Group, 2018) - not measured in this paper",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Epoxy resin used as the syntactic-foam matrix (Pf-Group, 2018)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.0,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.1,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Unfilled resin; heat-deflection ('temperature without deformation') 50 C, impact resistance 21 kJ/m2."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 20.0,
+        "standard": null,
+        "specimen_notes": "Supplier datasheet values. Density quoted at 20 C; the 3100 N/mm2 value is listed simply as 'modulus of elasticity' and is not necessarily a compressive modulus."
+      },
+      "properties": {
+        "modulus_mpa": 3100.0,
+        "strength_mpa": 101.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Properties of epoxy resin Density  (20°C) 1.1 g/cm³ Modulus of elasticity 3100 N/mm² Resistance to compression 101 N/mm² Impact resistance 21 KJ/m² Temperature without deformation 50 °C (Source: (Pf-Group, 2018))",
+          "location": "Table 2, p. 2"
+        }
+      ],
+      "extractor_confidence": 0.7
+    }
+  ],
+  "extraction_notes": "SCOPE CAVEAT: the specimens are complete sandwich panels (3K carbon-fibre skins + Nomex honeycomb core whose cells are filled with the epoxy/3M K1 glass-microsphere syntactic foam). All reported mechanical values are structural properties of that sandwich, NOT properties of the syntactic foam itself, so they are not directly comparable to bulk syntactic-foam data. UNITS: deformation at break converted from % to fraction (2.00%, 2.17%, 3.31%, 2.14% -> 0.0200, 0.0217, 0.0331, 0.0214). MAIN AMBIGUITY: Table 1 reports an absolute 'Ultimate strength (Mpa)' only for the microsphere-free NOMEX+RESIN group (average 55.1 MPa). For the 20/30/40 vol% groups the column header is 'Ultimate strength f(% Weight Mpa)' and the conclusions call the value 'MPa/kg', i.e. a weight-normalised specific strength with units that cannot be reconciled with the schema's MPa or MPa per g/cm3. Those averages are 64.8846616 (20%), 71.6750053 (30%) and 64.9628796 (40%). They were therefore recorded in specimen_notes and evidence only, with strength_mpa and specific_strength_mpa_per_g_cc left null rather than guessed. Back-calculating an absolute strength from the stated 8.57%/9.86% weight reductions would require assumptions the paper does not state, so it was not done. Individual specimen values (five rows per group, all labelled MI-FLX-18) are given in the evidence quotes; one record per composition uses the group average. Flexural modulus/stiffness is discussed only through Fig. 3 ('specific stiffness vs volumetric fraction') with no numeric values, so modulus_mpa is null everywhere. Composite density was never measured; only the relative weight reductions (8.57% at 20 vol%, 9.86% at 30 and 40 vol%) are given, and they are recorded in microstructure_notes. Impact test records (ASTM D3763-18, 50 x 50 x 6.85 mm, drop heights 50 and 115 cm) carry no schema-mappable property: only striker displacements at h = 115 cm are quoted (1.43 mm at 20%, 1.14 mm at 30%, 2.57 mm at 40%), recorded in specimen_notes. No result is given for the 50 cm drop height or for a 0 vol% impact specimen, so no records were created for those. Test temperature was not stated for the mechanical tests (left null); the 20 C on the resin record is the datasheet's density reference temperature. Microsphere data from Table 3: 3M K1, true density 0.125 g/cm3, D50 = 65 um, compressive/crush strength 1.7 MPa (= 250 psi). Cure: oven 1 h at 154 C, 2.5 C/min ramp; foam vacuum-degassed at about 70 kPa in three cycles before casting."
+}

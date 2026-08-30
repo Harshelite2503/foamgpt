@@ -1,0 +1,177 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Kazymyrenko, Solomoniuk and Drozd (Polish Maritime Research 30(3), 2023, 174-180) study binder-free hot-press sintering of hollow glass microspheres (Na2O-SiO2 sodium silicate and Na2O-B2O3-SiO2 sodium borosilicate, 10-60 um diameter, 0.5-2.0 um wall) into closed-cell 'glass composites' for underwater buoyancy modules, positioned as a polymer-free analogue of syntactic foams. Sintering at 650-700 C under 0.5-1.5 MPa densifies the powder from 250-270 kg/m3 in the green state to 350-600 kg/m3, with up to 50% linear shrinkage and 20-25% shell deformation. Samples of 320, 400 and 500 kg/m3 were tested for water absorption under hydrostatic pressure to 20 MPa and for microsphere destruction to 45 MPa, and their sound-pressure attenuation was measured in a Kundt tube; all of these results are presented only as figures with no tabulated numbers.",
+  "records": [
+    {
+      "sample_label": "Sintered hollow-glass-microsphere composite, apparent density 320 kg/m3 (Fig. 8 curve 1)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other",
+        "matrix_name": "No matrix / binder: the continuous phase is formed by viscous flow and contact sintering of the microsphere walls themselves (hot pressing of bulk microspheres without plasticisers or additives in a sealed graphite container)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Sodium silicate glass Na2O-SiO2 (77.0 wt% SiO2, 23.0 wt% Na2O) and/or sodium borosilicate glass Na2O-B2O3-SiO2 (69.0 SiO2, 7.5 B2O3, 6.0 CaO, 13.5 Na2O, 2.0 ZnO, 2.0 F wt%)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": 650.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.32,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Predominantly closed-porous cellular structure with both closed and open pores between sintered microspheres; open porosity aids sound insulation while closed porosity reduces water absorption. Microsphere shells deform 20-25% of original size; shape factor (min/max particle size) falls from 1.0 to 0.75; contact-area perimeter 30-50 um. Linear shrinkage during sintering reaches up to 50%. Powder density before sintering 250-270 kg/m3. Precursor microspheres 10-60 um diameter with 0.5-2.0 um shell thickness."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "All-round hydrostatic loading in a distilled-water chamber at 2, 5, 15 and 20 MPa; loading rate 0.01 MPa/s, hold 3-5 min per level; water absorption measured by hydrostatic weighing after each loading, relative error within +/-5%. Water-absorption values appear only in Fig. 8 with no numeric values in text or tables."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Figure 8 shows the graphical dependence of the water absorption values of samples with densities of 320 kg/m3 (curve 1), 400 kg/m3 (curve 2), and 500 kg/m3 (curve 3) under conditions of gradual loading with all-round hydrostatic pressure.",
+          "location": "Results section, p. 5 (Fig. 8)"
+        },
+        {
+          "quote": "The sample was subjected to hydrostatic pressures of 2, 5, 15, and 20 MPa, and the exposure of the pressure time was 3 - 5 min at a rate of 0.01 MPa/s. The water absorption was determined by hydrostatic weighing after each loading; the relative error in the measurements did not exceed ± 5 %.",
+          "location": "Experimental details, p. 4"
+        }
+      ],
+      "extractor_confidence": 0.5
+    },
+    {
+      "sample_label": "Sintered hollow-glass-microsphere composite, apparent density 400 kg/m3 (Fig. 8 curve 2)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other",
+        "matrix_name": "No matrix / binder: continuous phase formed by contact sintering and viscous flow of the microsphere walls (hot pressing of bulk microspheres without additives)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Sodium silicate glass Na2O-SiO2 (77.0 wt% SiO2, 23.0 wt% Na2O) and/or sodium borosilicate glass Na2O-B2O3-SiO2 (69.0 SiO2, 7.5 B2O3, 6.0 CaO, 13.5 Na2O, 2.0 ZnO, 2.0 F wt%)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": 650.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.4,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Predominantly closed-porous cellular structure formed by viscous glass-phase flow; pore shape and size depend mainly on pressing pressure. Precursor microspheres 10-60 um diameter with 0.5-2.0 um shell thickness."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "All-round hydrostatic loading in distilled water at 2, 5, 15 and 20 MPa; 0.01 MPa/s, hold 3-5 min; water absorption by hydrostatic weighing, error within +/-5%. Values only in Fig. 8."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Figure 8 shows the graphical dependence of the water absorption values of samples with densities of 320 kg/m3 (curve 1), 400 kg/m3 (curve 2), and 500 kg/m3 (curve 3) under conditions of gradual loading with all-round hydrostatic pressure.",
+          "location": "Results section, p. 5 (Fig. 8)"
+        }
+      ],
+      "extractor_confidence": 0.5
+    },
+    {
+      "sample_label": "Sintered hollow-glass-microsphere composite, apparent density 500 kg/m3 (Fig. 8 curve 3)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other",
+        "matrix_name": "No matrix / binder: continuous phase formed by contact sintering and viscous flow of the microsphere walls (hot pressing of bulk microspheres without additives)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Sodium silicate glass Na2O-SiO2 (77.0 wt% SiO2, 23.0 wt% Na2O) and/or sodium borosilicate glass Na2O-B2O3-SiO2 (69.0 SiO2, 7.5 B2O3, 6.0 CaO, 13.5 Na2O, 2.0 ZnO, 2.0 F wt%)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": 650.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.5,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Predominantly closed-porous cellular structure formed by viscous glass-phase flow; higher pressing pressure gives more intense sintering and higher density. Precursor microspheres 10-60 um diameter with 0.5-2.0 um shell thickness."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "All-round hydrostatic loading in distilled water at 2, 5, 15 and 20 MPa; 0.01 MPa/s, hold 3-5 min; water absorption by hydrostatic weighing, error within +/-5%. Values only in Fig. 8."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Figure 8 shows the graphical dependence of the water absorption values of samples with densities of 320 kg/m3 (curve 1), 400 kg/m3 (curve 2), and 500 kg/m3 (curve 3) under conditions of gradual loading with all-round hydrostatic pressure.",
+          "location": "Results section, p. 5 (Fig. 8)"
+        },
+        {
+          "quote": "It was established that the formation of a predominantly closed-porous structure of glass composites with a density of 350...600 kg/m3 occurs by the mechanisms of viscous glass phase flow through liquefaction processes in the walls of microspheres. At the same time, shrinkage processes in the linear direction reach up to 50%.",
+          "location": "Abstract, p. 1"
+        }
+      ],
+      "extractor_confidence": 0.5
+    }
+  ],
+  "extraction_notes": "BORDERLINE ON-TOPIC. The material is built entirely from hollow glass microspheres, but it has NO matrix phase: the microspheres are hot-pressed and sintered together without any binder, plasticiser or additive, so the continuous phase is the sintered microsphere glass itself. The authors present it as a polymer-free competitor/analogue to syntactic foams ('The absence of a polymeric binder helps to obtain lightweight compositions whose density is 20% lower than syntactic foams with glass microspheres') and call the specimens 'syntactic glass' in the Fig. 4 caption. It was flagged is_syntactic_foam_paper=true because it is genuinely hollow-particle-based, but matrix_class was set to 'other' with an explanatory matrix_name, process_route to 'other' (binder-free hot-press sintering in a sealed graphite container), and particle_volume_fraction was left NULL rather than set to 1.0, because after sintering there is no meaningful particle/matrix volume split. Downstream users should treat these records as a sintered hollow-microsphere cellular glass, not as a matrix-filled syntactic foam. NO NUMERIC PROPERTY VALUES EXIST IN THIS PAPER. There is not a single table; every result - sintering kinetics/shrinkage (Fig. 6), sound pressure level in octave bands (Fig. 7), water absorption vs hydrostatic pressure (Fig. 8) and per-cent of destroyed microspheres Np vs hydrostatic pressure from 5 to 45 MPa (Fig. 9) - is presented only as a plot, so modulus, strength, water/moisture uptake and all other property fields are null in every record. The only quantitative sample-level data are the three apparent densities (320, 400 and 500 kg/m3 = 0.32, 0.40, 0.50 g/cm3, converted by dividing by 1000) named in the Fig. 8 text, which is why exactly three records were created. Other quantitative statements recorded in notes rather than fields: green (pre-sintering) powder density 250-270 kg/m3; sintered density range 350-600 kg/m3 (abstract) and 320-500 kg/m3 for the acoustic samples; microsphere diameter 10-60 um and shell thickness 0.5-2.0 um (a true density and a radius ratio eta could be estimated from these but are not stated, so both fields are null); sintering at 650 C isothermal (700 C quoted in the abstract as the upper criterion) at 0.5, 1.0, 1.2 and 1.5 MPa; sintering lasts 25-30 min and is most intense in the first 8 min; shrinkage starts at 550 C for Na2O-SiO2 and 500 C for Na2O-B2O3-SiO2 glasses; linear shrinkage up to 50%; shell deformation 20-25%; shape factor 1.0 -> 0.75; contact perimeter 30-50 um. The two glass chemistries (Na2O-SiO2 vs Na2O-B2O3-SiO2) are compared in Figs. 6 and 9 but no density or property number is attributed to either system individually, so the three records list both compositions in particle_grade instead of being split by glass system. Literature comparison values quoted in the introduction were NOT turned into secondary records because they are ranges for whole material classes rather than measurements of specific samples: syntactic foams 450-700 kg/m3 with operating depth to 12,000 m [ref 14]; foam glass 300-700 kg/m3 from 20-150 um powders, depth to 2000 m [ref 15]; polyurethane foam about 100 kg/m3, maximum depth 350 m, upper service temperature 60 C; syntactic-foam service-temperature limit 110-130 C."
+}

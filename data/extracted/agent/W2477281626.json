@@ -1,0 +1,6 @@
+{
+  "is_syntactic_foam_paper": false,
+  "paper_summary": "This paper presents the design and CST Microwave Studio simulation of a linearly polarized multilayered-cavity radial line slot array (RLSA) antenna at 28 GHz for 5G mobile broadband. The cavity is filled with three layers: RT/duroid 5880 laminate, a low dielectric constant syntactic foam (er = 1.2, 1.0 mm thick), and an air gap, achieving a gain of 18.13 dB, directivity 18.4 dBi, 96% efficiency and 2.34 GHz impedance bandwidth. Syntactic foam appears only as a commercial dielectric filler layer; no composition, processing or mechanical property data for a hollow-particle composite are reported.",
+  "records": [],
+  "extraction_notes": "Off-topic for the Process-Structure-Property schema. The only mention of syntactic foam is as a low-dielectric-constant cavity filling material (relative permittivity er_foam = 1.2, layer height d_foam = 1.0 mm) in the antenna stack-up (Table 1, Sec. 2.2). No matrix, hollow particle type, volume/weight fraction, density, processing route, or mechanical/thermal property data are given, and the foam is not characterized as a composite. All reported quantities are electromagnetic simulation outputs (return loss, gain, directivity, efficiency, bandwidth) that do not map to any schema field. Therefore is_syntactic_foam_paper=false and records=[]."
+}

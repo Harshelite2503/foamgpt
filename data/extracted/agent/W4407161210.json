@@ -1,0 +1,259 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "In situ synchrotron X-ray micro-computed tomography combined with generative adversarial network (GAN) super-resolution was used to track the microstructural evolution of two superlight ablator (SLA) syntactic foams - SLA-220 (silicone elastomer + silica microballoons + silica fibers) and SLA-561V (silicone elastomer + silica and phenolic microballoons + cork filler + glass/carbon fibers) - during pyrolysis to 900 C at 15 C/min in inert atmosphere. The study quantifies constituent solid volume fractions, open/closed/total porosity, envelope volume change and tortuosity as a function of temperature, and relates them to TGA decomposition chemistry. SLA-220 shrank 12% and became more tortuous with a 70-75% char yield, while SLA-561V swelled ~5% early, then shrank 32% from 450-900 C, with a 50% char yield and a large increase in open porosity caused by volatilization of the cork phase.",
+  "records": [
+    {
+      "sample_label": "SLA-220 (virgin, 23 C)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Silicone elastomer (SLA-220 superlight ablator, Lockheed Martin Corporation)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.18,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.917,
+        "particle_weight_fraction": 0.643,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "Silica fibers, 4.7 mass% / 0.5 bulk volume%, density 2.2 g/cm3"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.25,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Total (open + closed) porosity of the virgin material estimated at ~80% from the ~92% bulk volume of silica microballoons, consistent with the micro-CT analysis; initial closed porosity 46% (16% microballoon solid volume fraction). Helium pycnometry on the virgin material agreed with micro-CT porosity within 1-2%. Sparsely distributed silica fibers among silica microballoons (SEM, Fig. 1a)."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 23,
+        "standard": null,
+        "specimen_notes": "5 x 5 x 4 mm rectangular prism cut from bulk block; virgin state characterized by synchrotron micro-CT (0.65 um/pixel high-resolution and 3.24 um/pixel in situ), SEM and helium pycnometry. No mechanical testing was performed in this paper."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Silicone elastomer | 0.995 | 31 | 7.8 | | Silica fibers | 2.2 | 4.7 | 0.5 | | Silica microballoons | 0.18 | 64.3 | 91.7 | | Total | 0.250 | 100 | 100 |",
+          "location": "Table 1 (Composition of SLA-220), columns: Density g/cm3, Mass %, Bulk volume %"
+        },
+        {
+          "quote": "From the ~92% bulk volume of silica microballoons (Table 1) specified for the SLA-220 composition, a void volume fraction (total porosity) of ~80% is estimated. This value is consistent with that found from our analysis in Fig. 3.",
+          "location": "Sec. Results, Super-resolution (page 4)"
+        },
+        {
+          "quote": "This amounted in the SLA-561V's initial closed porosity to be 33% compared to the SLA-220's 46% (16% microballoons solid volume fraction).",
+          "location": "Sec. Results, Effective material properties (page 5)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "SLA-220 (charred, pyrolyzed to 900 C)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Silicone elastomer (SLA-220 superlight ablator, Lockheed Martin Corporation)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.18,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.917,
+        "particle_weight_fraction": 0.643,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "Silica fibers, 4.7 mass% / 0.5 bulk volume%, density 2.2 g/cm3"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "After pyrolysis to 900 C at 15 C/min in argon: bulk density is 85% of the virgin value (absolute charred density not stated); envelope volume shrinkage 12% with no swelling; char yield reported as 70% in one passage and 75% in another; closed porosity stayed within 1-2% of the virgin value, with few silica microballoons breaking; tortuosity factor of the void phase increased during decomposition as the pore-filling silicone matrix volatilized (values only shown in Fig. 7b)."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 900,
+        "standard": null,
+        "specimen_notes": "In situ pyrolysis in argon inside an IR-heated environmental chamber at 15 C/min up to 900 C, imaged at 2 micro-CT scans/min; independent TGA in N2 at 15 C/min (TA Instruments Q50)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "For the SLA-220, the change in the overall bulk density remains at 85% compared to its virgin state, a nearly proportional reduction in mass and envelope volume.",
+          "location": "Sec. Results, Effective material properties (page 5)"
+        },
+        {
+          "quote": "While the SLA-220 exhibited no swelling and a 12% volume shrinkage at 900 C, the SLA-561V was found to swell (5% volume increase) during the early stages of decomposition",
+          "location": "Sec. Discussion (page 6)"
+        },
+        {
+          "quote": "A char yield of 70% was measured for the SLA-220.",
+          "location": "Sec. Results, Material degradation (page 2)"
+        }
+      ],
+      "extractor_confidence": 0.6
+    },
+    {
+      "sample_label": "SLA-561V (virgin, 23 C)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Silicone elastomer (SLA-561V superlight ablator, Lockheed Martin Corporation)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.18,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.439,
+        "particle_weight_fraction": 0.351,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "Phenolic microballoons (density 0.092 g/cm3, 5.85 mass%, 14.35 bulk volume%); cork filler (0.186 g/cm3, 29.22 mass%, 35.6 bulk volume%); silica fibers (2.2 g/cm3, 2.92 mass%, 0.3 bulk volume%); carbon fibers (1.85 g/cm3, 2.34 mass%, 0.3 bulk volume%). Combined silica + phenolic microballoon bulk volume fraction is ~0.58."
+      },
+      "structure": {
+        "measured_density_g_cc": 0.225,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Initial closed porosity 33% (microballoon phases constituted 13% of the solid volume fraction); total porosity of virgin SLA-561V is 7% lower than SLA-220, with a 5% difference in open porosity. The unfilled hexagonal wall structure of the cork contributes ~75-80% of the total porosity. Helium pycnometry agreed with micro-CT porosity within 1-2%. Large void vacancies left by cork pyrolysis are visible in SEM."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 23,
+        "standard": null,
+        "specimen_notes": "5 x 5 x 4 mm rectangular prism cut from bulk block; virgin state characterized by synchrotron micro-CT, SEM and helium pycnometry. No mechanical testing was performed in this paper."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Silicone elastomer | 0.995 | 24.57 | 5.55 | | Silica fibers | 2.2 | 2.92 | 0.3 | | Silica microballoons | 0.18 | 35.1 | 43.9 | | Phenolic microballoons | 0.092 | 5.85 | 14.35 | | Cork | 0.186 | 29.22 | 35.6 | | Carbon fibers | 1.85 | 2.34 | 0.3 | | Total | 0.225 | 100 | 100 |",
+          "location": "Table 2 (Composition of SLA-561V), columns: Density g/cm3, Mass %, Bulk volume %"
+        },
+        {
+          "quote": "For SLA-561V, the two microballoon phases (silica and phenolic) are ~58% in bulk volume fraction, and the cork is ~36% (Table 2). The unfilled hexagonal wall structure of cork contributes to ~75-80% of the total porosity.",
+          "location": "Sec. Results, Super-resolution (page 4)"
+        },
+        {
+          "quote": "The total porosity of the virgin SLA-220 was 7% higher than that of the SLA-561V, with a 5% difference in open porosity. The results of the HeP on the virgin materials is shown to be within 1-2% of the micro-CT measurements for both samples.",
+          "location": "Sec. Results, Effective material properties (page 5)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "SLA-561V (charred, pyrolyzed to 900 C)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Silicone elastomer (SLA-561V superlight ablator, Lockheed Martin Corporation)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.18,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.439,
+        "particle_weight_fraction": 0.351,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "Phenolic microballoons (0.092 g/cm3, 5.85 mass%, 14.35 bulk volume%); cork (0.186 g/cm3, 29.22 mass%, 35.6 bulk volume%); silica fibers (2.92 mass%); carbon fibers (2.34 mass%)."
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "After pyrolysis to 900 C at 15 C/min in argon: bulk density is 74% of the virgin value (absolute charred density not stated); ~5% envelope volume swelling in early decomposition followed by 32% shrinkage from 450 to 900 C; char yield 50%; total porosity increased ~15%, driven mainly by open porosity from cork volatilization and opening of phenolic microballoons (25% total solid volume fraction); fully charred porosity nearly 10% larger than SLA-220; tortuosity of the void phase decreased with pyrolysis (values only in Fig. 7b). Silica fiber solid volume fraction fell from 3% to 1%."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 900,
+        "standard": null,
+        "specimen_notes": "In situ pyrolysis in argon inside an IR-heated environmental chamber at 15 C/min up to 900 C, imaged at 2 micro-CT scans/min; independent TGA in N2 at 15 C/min (TA Instruments Q50)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "In contrast, SLA-561V experienced a 74% change in bulk density because of its envelope volume change concluding pyrolysis up to 900 C.",
+          "location": "Sec. Results, Effective material properties (page 5)"
+        },
+        {
+          "quote": "the SLA-561V was found to swell (5% volume increase) during the early stages of decomposition and showed a large 32% shrinkage in volume from 450 to 900 C.",
+          "location": "Sec. Discussion (page 6)"
+        },
+        {
+          "quote": "The different char yield measured for SLA-561V (50%) compared to SLA-220 (75%) is due to the two additional charring phases (cork and phenolic microballoons).",
+          "location": "Sec. Results, Material degradation (page 3)"
+        },
+        {
+          "quote": "In the SLA-561V, much of the 15% increase to total porosity (Fig. 8c) was driven by the increase in the open porosity (Fig. 8d) due to the volatilization of the cork phase and opening of phenolic microballoons (25% total solid volume fraction).",
+          "location": "Sec. Results, Effective material properties (page 5)"
+        }
+      ],
+      "extractor_confidence": 0.6
+    }
+  ],
+  "extraction_notes": "On-topic (hollow-particle syntactic foams: silica and phenolic microballoons in a silicone elastomer matrix) but the paper contains NO mechanical or thermophysical property measurements - it is a microstructure/pyrolysis imaging study. All Properties fields are therefore null; records capture composition, density and porosity/degradation structure only. test_type is set to 'other' (in situ synchrotron micro-CT during pyrolysis + TGA), with temperature_c = 23 for the virgin state and 900 for the fully charred state. matrix_class 'other_thermoset' is used for the silicone elastomer matrix; process_route 'other' because the proprietary manufacturing route (Lockheed Martin) is not described. For SLA-561V, particle_volume_fraction/particle_weight_fraction give the silica microballoon phase only (43.9 bulk vol%, 35.1 mass%) to stay consistent with particle_type = glass_microballoon and particle_true_density = 0.18 g/cm3; the phenolic microballoons, cork and fibers are listed in additional_fillers, and the paper states the combined silica + phenolic microballoon bulk volume fraction is ~58%. The nominal compositions in Tables 1 and 2 (including the total densities 0.250 and 0.225 g/cm3) are cited by the authors from Strauss, 'Low density ablator compositions', US patent 4031059 (ref. 45); the porosity, volume fraction, envelope volume, tortuosity and char yield values are the authors' own measurements, so records are marked primary. Note an internal inconsistency in the paper: the SLA-220 char yield is given as 70% on page 2 and 75% on page 3 - both are recorded in the notes. Absolute charred densities were not stated (only 85% and 74% of virgin for SLA-220 and SLA-561V), so measured_density_g_cc is left null for the charred records rather than back-calculated. Tortuosity factors, per-phase solid volume fraction vs temperature, surface areas and RMSE values appear only in Figs. 3-8 and were not read off the plots. The class-level statements 'low density (<0.3 g/cm3), low thermal conductivity (<0.5 W/m/K)' in the introduction describe SLA materials generically and were not entered as measured values."
+}

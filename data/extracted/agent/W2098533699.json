@@ -1,0 +1,455 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "A literature/patent review (Modern Applied Science, 2015) of binding agents for syntactic foams - hollow-microsphere-filled composites - used as heat-insulating coatings on power-industry pipelines and equipment. It surveys patents combining glass, ceramic, polymer and fly-ash microspheres with acrylic latex, epoxy, polyurethane, silicone, liquid-glass, phosphate and cement binders, and tabulates the qualitative characteristics and thermal stability limits of thermoset, thermoplastic and inorganic binder classes. It concludes that organic/element-organic binders are limited to about 400 C while phosphate and aluminosilicate binders (stable to ~2000 C) are the most promising but under-studied.",
+ "records": [
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Acrylic-latex binder + air-filled ceramic and silicone microspheres (patent coating cited in Table 1; Motrikale 2008 / Belyaev 2005 patent group)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "other_thermoplastic",
+    "matrix_name": "Acrylic latex",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Air-filled ceramic and silicone microspheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "Carbon white, aerogel, expanded vermiculite, expanded perlite, antifoaming agent Sotro-145, pigment, dispersing agent, densifier, water-repelling agent"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Patent claim; the paper's Introduction explicitly criticises heat-conductivity-factor claims of ~0.001 W/(m*K) as advertising. Coating heat resistance quoted as 600-650 C (max operating temperature, not a test temperature)."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Heat-conductivity measurement; method and temperature not stated."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": 0.001,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Air-filled ceramic and silicone, carbon white; aerogel; expanded vermiculite; expanded perlite | Acrylic latex | ... Coating heat resistance is 600-650 C, heat conductivity factor is 0.001 W/m x K",
+     "location": "Table 1 (Patents describing heat-insulating materials with the use of microspheres)"
+    }
+   ],
+   "extractor_confidence": 0.45
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Epoxy binder + glass microspheres (patent coating cited in Table 1)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Epoxy resin with glycidyl ether of phosphorus acids and hardening agent",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "Glass microspheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Heat conductivity factor reported only as a range 0.02-0.03 W/(m*K); left null because no single value is stated."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Heat-conductivity measurement; method and temperature not stated."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Glass microspheres | Epoxy resin | Glycidyl ether of phosphorus acids; hardening agent | Heat conductivity factor is 0.02-0.03 W/m x K",
+     "location": "Table 1 (Patents describing heat-insulating materials with the use of microspheres)"
+    }
+   ],
+   "extractor_confidence": 0.5
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Sodium/potassium liquid-glass binder + aluminium silicate microspheres (patent, Bessonov et al. 2012, cited in Table 1)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "other",
+    "matrix_name": "Sodium and/or potassium liquid glass (water glass)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Aluminium silicate (aluminosilicate) microspheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Heat conductivity factor reported as a range 0.16-0.175 W/(m*K), left null. Compressive value stated as 'compression density of up to 11 MPa' (an upper bound, wording of the source table)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Compressive value quoted from a patent; specimen and standard not stated."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 11.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Aluminium silicate | Sodium and/or potassium liquid glass | - | It is characterized with the compression density of up to 11MPa and heat conductivity factor of 0.16-0.175 W/m x K",
+     "location": "Table 1 (Patents describing heat-insulating materials with the use of microspheres)"
+    }
+   ],
+   "extractor_confidence": 0.4
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Butadiene-styrene rubber + acrylic polymer binder with ceramic and silicone microspheres (patent coating cited in Table 1)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "other",
+    "matrix_name": "Mix of butadiene-sterol (butadiene-styrene) rubber and acrylic polymer",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Ceramic and silicone microspheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "Carbonic microfibres, pigment (titanium oxide, lead chrome), water"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Heat conductivity reported as a range 0.029-0.034 W/(m*K), left null. Breaking strength converted from 2.4 kgf/mm^2 (2.4 x 9.80665 = 23.5 MPa); the loading mode ('breaking strength') is not specified in the source."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "'Breaking strength' quoted from a patent; test mode, specimen and standard not stated."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 23.5,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Ceramic and silicone microspheres | A mix of butadiene-sterol rubber and acrylic polymer | Carbonic microfibers, pigment (titanium oxide, lead chrome), water | Increased adhesion, breaking strength of 2.4 kgf/mm2, heat conductivity: 0.029-0.034 W/m x K",
+     "location": "Table 1 (Patents describing heat-insulating materials with the use of microspheres)"
+    }
+   ],
+   "extractor_confidence": 0.4
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Polyurethane binder + ash microspheres (patent coating cited in Table 1)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "polyurethane",
+    "matrix_name": "Polyurethane",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "Ash (fly-ash) microspheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.051,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Density printed as '51kg/mm3' in the source table, read as 51 kg/m^3 = 0.051 g/cm^3 (the neighbouring polyurethane row quotes 51-75 kg/m^3)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Values quoted from a patent; specimen and standard not stated."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 1.36,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": 0.124,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Ash microspheres | Polyurethane | - | Density of 51kg/mm3, compressive strength of 1.36 MPa, heat conductivity factor: 0.124 W/m x K",
+     "location": "Table 1 (Patents describing heat-insulating materials with the use of microspheres)"
+    }
+   ],
+   "extractor_confidence": 0.45
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Polyurethane binder + glass microspheres (patent coating cited in Table 1)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "polyurethane",
+    "matrix_name": "Polyurethane",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "Glass microspheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Compressive strength stated as 'up to 0.95 MPa' (upper bound). Density reported as a range 51-75 kg/m^3, so measured_density_g_cc left null."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Values quoted from a patent; specimen and standard not stated."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 0.95,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Glass microspheres | Polyurethane | - | Compressive strength up to 0.95MPa. reduction in the material burning behaviour as compared to foamed polyurethane. Density: 51-75kg/m3",
+     "location": "Table 1 (Patents describing heat-insulating materials with the use of microspheres)"
+    }
+   ],
+   "extractor_confidence": 0.45
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Dry masonry mixture with hollow glass microspheres (Rozovskaya & Semenov, 2013, cited in Sec. 4)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "cement",
+    "matrix_name": "Cement-based dry masonry mixture",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "Hollow glass microspheres (compared with aluminosilicate microspheres)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.6,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Density given as an upper bound ('optimal density <= 600 kg/m^3' = 0.6 g/cm^3) achieved with glass microspheres."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Heat-conductivity measurement; method and temperature not stated."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": 0.16,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "It was found out that the optimal density (<= 600 kg/m3) and the heat conductivity factor (0.16 W/(m x K)) are achieved if glass microspheres are used as the filling material.",
+     "location": "Sec. 4 (Non-Organic Binding Agents), paragraph on masonry mortars"
+    }
+   ],
+   "extractor_confidence": 0.55
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Superlight cement masonry mortar with up to 50 % glass microspheres (Kirillov & Semenov, 2009, cited in Sec. 4)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "cement",
+    "matrix_name": "Cement masonry mortar",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "Glass microspheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.4,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Dry density 400 kg/m^3 = 0.4 g/cm^3. Glass-microsphere content stated only as 'up to 50 %' without specifying volume or weight basis, so both fraction fields are left null."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Only dry density reported; no mechanical or thermal test values given."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "The authors of (Kirillov and Semenov, 2009) managed to obtain a cement masonry mortar with the dry density of 400 kg/m3 where glass microspheres content is up to 50%.",
+     "location": "Sec. 4 (Non-Organic Binding Agents), paragraph on masonry mortars"
+    }
+   ],
+   "extractor_confidence": 0.6
+  }
+ ],
+ "extraction_notes": "This is a REVIEW/patent survey; the authors report no measurements of their own. Every record is therefore data_origin='secondary', with the source patent or paper named in sample_label. Only rows of Table 1 and passages of Sec. 4 that state a numeric property were turned into records; Table 1 rows with purely qualitative outcomes (modified ash microspheres/polyurethane, latex-composite coating, epoxy 'high adhesion to a pipe', Lestosil silicone/boron nitride, metallised ceramic microspheres) were skipped, as were Tables 2 and 3, which describe binder chemistry and setting behaviour rather than foam properties. Many quoted properties are ranges (0.02-0.03, 0.16-0.175, 0.029-0.034 W/(m*K); 51-75 kg/m^3); those fields are left null with the range recorded in microstructure_notes, per the no-invented-numbers rule. Values stated as 'up to X' are recorded as X with a note. Unit conversions: breaking strength 2.4 kgf/mm^2 -> 23.5 MPa (x 9.80665); densities kg/m^3 -> g/cm^3 (51 -> 0.051, 400 -> 0.4, 600 -> 0.6). The '51kg/mm3' in Table 1 is a typographic error for 51 kg/m^3. Process route, particle size, particle loading, test standards, strain rates and test temperatures are not given for any composition, so those fields are null; process_route='other' throughout. Maximum service temperatures quoted in Table 1 (150 C, 600-650 C) are operating limits, not test temperatures, so they are kept in notes rather than test.temperature_c. Confidence is low-to-moderate on all records because they are unverified patent/advertising claims - the paper itself criticises the 0.001 W/(m*K) figure as unrealistic."
+}

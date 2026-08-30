@@ -1,0 +1,399 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Orbulov and Majlinger characterise the microstructure of SL150 and SL300 ceramic hollow microspheres (Envirospheres Ltd.) and of the aluminium matrix syntactic foams (MMSFs) made from them by pressure infiltration with Al99.5, AlSi12, AlMgSi1 and AlCu5 matrices at ~60 vol% microspheres. SEM plus map and line EDS show the microsphere wall is built from Al2O3 needles (5-10 um long, <0.5 um diameter) embedded in a mullite + amorphous SiO2 matrix, and that molten aluminium reduces the SiO2-rich zones (4Al + 3SiO2 -> 2Al2O3 + 3Si), degrading the sphere wall and forming gamma-Al2O3. The reaction was intensive with Al99.5, AlMgSi1 and AlCu5 matrices but suppressed with AlSi12 (high matrix Si lowers the driving force) and for Al99.5-SL300 infiltrated at the lower temperature of 690 C; interface layers were ~2-4 um (AlMgSi1), ~3 um (AlCu5) and <1.5 um (AlSi12), with Mg dissolving into the wall for AlMgSi1 and CuAl2 precipitating on it for AlCu5. The paper reports no mechanical property measurements.",
+  "records": [
+    {
+      "sample_label": "Al99.5-SL150 (density/porosity quoted from ref. [3] I. N. Orbulov, J. Dobranszky, Periodica Polytechnica Mechanical Engineering, 52(2008)35-42)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "Al99.5 (technical purity aluminium)",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL150 (Envirospheres Ltd., Australia; 30-35 wt% Al2O3, 45-50 wt% amorphous SiO2, 19 wt% mullite, 1 wt% quartz)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 100.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.43,
+        "theoretical_density_g_cc": 1.34,
+        "matrix_porosity_fraction": -0.062,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Particle (microballoon) porosity 50.9%, total porosity 44.7%. Microsphere size range 56-183 um, specific surface 0.060 um^-1. Microsphere wall = Al2O3 needles (5-10 um long, <0.5 um diameter) embedded in a mixture of mullite and amorphous SiO2. XRD phase constitution of the foam (Table 3, measured in this paper): Al 67, Si 8, mullite 11, alpha-Al2O3 3, gamma-Al2O3 11, amorphous 0 wt%. Reductive reaction 4Al(liq)+3SiO2(sol)->2Al2O3(sol)+3Si(sol) was intensive: 11 wt% gamma-Al2O3 formed and no amorphous phase remained; the microsphere walls were severely degraded (Fig. 4a)."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "No mechanical test in this paper. Characterisation only: density/porosity (Table 2, taken from ref. [3]), XRD phase analysis (Phillips X-Pert, CuKa lambda=0.154186 nm, 40 kV / 35 mA, goniometer 0.04 deg/s), SEM (Phillips XL-30) and map/line EDS (EDAX Genesis; 15 kV for maps on bare microspheres, 20 kV for line scans on polished foam cross sections, 100 points per line, 20 s per point)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "Al99.5-SL150 | Theoretical 1.34 | Measured 1.43 | Particle porosity 50.9 | Matrix -6.2 | Total 44.7",
+          "location": "Table 2 (Calculated and measured density and porosity values of the MMSFs [3]), p. 16"
+        },
+        {
+          "quote": "Al99.5-SL150 | Al 67, Si 8, mullite 11, alpha-Al2O3 3, gamma-Al2O3 11, amorphous 0 wt%",
+          "location": "Table 3 (Phase constitution of aluminium matrix syntactic foams according to XRD measurements, wt%), p. 17"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Al99.5-SL300 (density/porosity quoted from ref. [3] I. N. Orbulov, J. Dobranszky, Periodica Polytechnica Mechanical Engineering, 52(2008)35-42)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "Al99.5 (technical purity aluminium)",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL300 (Envirospheres Ltd., Australia; 30-35 wt% Al2O3, 45-50 wt% amorphous SiO2, 19 wt% mullite, 1 wt% quartz)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 150.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": 690.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.52,
+        "theoretical_density_g_cc": 1.42,
+        "matrix_porosity_fraction": -0.072,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Particle (microballoon) porosity 48.2%, total porosity 41.0%. Microsphere size range 101-330 um, specific surface 0.040 um^-1. Microsphere wall = Al2O3 needles (5-10 um long, <0.5 um diameter) embedded in a mixture of mullite and amorphous SiO2. XRD phase constitution of the foam (Table 3, measured in this paper): Al 78, Si 0, mullite 11, alpha-Al2O3 0, gamma-Al2O3 0, amorphous 11 wt%. No exchange reaction: infiltration at the lower temperature of 690 C suppressed the diffusion-controlled reduction of amorphous SiO2, so 11 wt% amorphous phase survived and no gamma-Al2O3 formed."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "No mechanical test in this paper. Characterisation only: density/porosity (Table 2, taken from ref. [3]), XRD phase analysis (Phillips X-Pert, CuKa lambda=0.154186 nm, 40 kV / 35 mA, goniometer 0.04 deg/s), SEM (Phillips XL-30) and map/line EDS (EDAX Genesis; 15 kV for maps on bare microspheres, 20 kV for line scans on polished foam cross sections, 100 points per line, 20 s per point)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "Al99.5-SL300 | Theoretical 1.42 | Measured 1.52 | Particle porosity 48.2 | Matrix -7.2 | Total 41.0",
+          "location": "Table 2 (Calculated and measured density and porosity values of the MMSFs [3]), p. 16"
+        },
+        {
+          "quote": "Al99.5-SL300 | Al 78, Si 0, mullite 11, alpha-Al2O3 0, gamma-Al2O3 0, amorphous 11 wt%",
+          "location": "Table 3 (Phase constitution of aluminium matrix syntactic foams according to XRD measurements, wt%), p. 17"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "AlSi12-SL150 (density/porosity quoted from ref. [3] I. N. Orbulov, J. Dobranszky, Periodica Polytechnica Mechanical Engineering, 52(2008)35-42)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "AlSi12 aluminium-silicon alloy",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL150 (Envirospheres Ltd., Australia; 30-35 wt% Al2O3, 45-50 wt% amorphous SiO2, 19 wt% mullite, 1 wt% quartz)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 100.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.31,
+        "theoretical_density_g_cc": 1.32,
+        "matrix_porosity_fraction": 0.011,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Particle (microballoon) porosity 50.9%, total porosity 52.0%. Microsphere size range 56-183 um, specific surface 0.060 um^-1. Microsphere wall = Al2O3 needles (5-10 um long, <0.5 um diameter) embedded in a mixture of mullite and amorphous SiO2. XRD phase constitution of the foam (Table 3, measured in this paper): Al 72, Si 7, mullite 13, alpha-Al2O3 0, gamma-Al2O3 0, amorphous 8 wt%. Reaction suppressed by the high Si content of the matrix (reduced Si concentration gradient); microsphere walls remained unharmed (Fig. 4b). Interface layer less than 1.5 um. Larger areas of primary silicon detected by EDS."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "No mechanical test in this paper. Characterisation only: density/porosity (Table 2, taken from ref. [3]), XRD phase analysis (Phillips X-Pert, CuKa lambda=0.154186 nm, 40 kV / 35 mA, goniometer 0.04 deg/s), SEM (Phillips XL-30) and map/line EDS (EDAX Genesis; 15 kV for maps on bare microspheres, 20 kV for line scans on polished foam cross sections, 100 points per line, 20 s per point)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "AlSi12-SL150 | Theoretical 1.32 | Measured 1.31 | Particle porosity 50.9 | Matrix 1.1 | Total 52.0",
+          "location": "Table 2 (Calculated and measured density and porosity values of the MMSFs [3]), p. 16"
+        },
+        {
+          "quote": "AlSi12-SL150 | Al 72, Si 7, mullite 13, alpha-Al2O3 0, gamma-Al2O3 0, amorphous 8 wt%",
+          "location": "Table 3 (Phase constitution of aluminium matrix syntactic foams according to XRD measurements, wt%), p. 17"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "AlSi12-SL300 (density/porosity quoted from ref. [3] I. N. Orbulov, J. Dobranszky, Periodica Polytechnica Mechanical Engineering, 52(2008)35-42)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "AlSi12 aluminium-silicon alloy",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL300 (Envirospheres Ltd., Australia; 30-35 wt% Al2O3, 45-50 wt% amorphous SiO2, 19 wt% mullite, 1 wt% quartz)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 150.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.37,
+        "theoretical_density_g_cc": 1.4,
+        "matrix_porosity_fraction": 0.019,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Particle (microballoon) porosity 48.2%, total porosity 50.1%. Microsphere size range 101-330 um, specific surface 0.040 um^-1. Microsphere wall = Al2O3 needles (5-10 um long, <0.5 um diameter) embedded in a mixture of mullite and amorphous SiO2. XRD phase constitution of the foam (Table 3, measured in this paper): Al 72, Si 7, mullite 12, alpha-Al2O3 0, gamma-Al2O3 0, amorphous 8 wt%. Reaction suppressed by the high Si content of the matrix; microsphere walls unharmed. Interface layer less than 1.5 um."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "No mechanical test in this paper. Characterisation only: density/porosity (Table 2, taken from ref. [3]), XRD phase analysis (Phillips X-Pert, CuKa lambda=0.154186 nm, 40 kV / 35 mA, goniometer 0.04 deg/s), SEM (Phillips XL-30) and map/line EDS (EDAX Genesis; 15 kV for maps on bare microspheres, 20 kV for line scans on polished foam cross sections, 100 points per line, 20 s per point)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "AlSi12-SL300 | Theoretical 1.4 | Measured 1.37 | Particle porosity 48.2 | Matrix 1.9 | Total 50.1",
+          "location": "Table 2 (Calculated and measured density and porosity values of the MMSFs [3]), p. 16"
+        },
+        {
+          "quote": "AlSi12-SL300 | Al 72, Si 7, mullite 12, alpha-Al2O3 0, gamma-Al2O3 0, amorphous 8 wt%",
+          "location": "Table 3 (Phase constitution of aluminium matrix syntactic foams according to XRD measurements, wt%), p. 17"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "AlMgSi1-SL150 (density/porosity quoted from ref. [3] I. N. Orbulov, J. Dobranszky, Periodica Polytechnica Mechanical Engineering, 52(2008)35-42)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "AlMgSi1 aluminium-magnesium-silicon alloy",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL150 (Envirospheres Ltd., Australia; 30-35 wt% Al2O3, 45-50 wt% amorphous SiO2, 19 wt% mullite, 1 wt% quartz)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 100.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.52,
+        "theoretical_density_g_cc": 1.34,
+        "matrix_porosity_fraction": -0.134,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Particle (microballoon) porosity 50.9%, total porosity 37.5%. Microsphere size range 56-183 um, specific surface 0.060 um^-1. Microsphere wall = Al2O3 needles (5-10 um long, <0.5 um diameter) embedded in a mixture of mullite and amorphous SiO2. XRD phase constitution of the foam (Table 3, measured in this paper): Al 60, Si 7, mullite 8, alpha-Al2O3 0, gamma-Al2O3 25, amorphous 0 wt%. Reaction intensive (25 wt% gamma-Al2O3). Mg dissolved into the outer microsphere wall to less than 4 um depth; observable interface layer narrow (<3 um), diffusion interface ~2-4 um (6 um reported in earlier work [21])."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "No mechanical test in this paper. Characterisation only: density/porosity (Table 2, taken from ref. [3]), XRD phase analysis (Phillips X-Pert, CuKa lambda=0.154186 nm, 40 kV / 35 mA, goniometer 0.04 deg/s), SEM (Phillips XL-30) and map/line EDS (EDAX Genesis; 15 kV for maps on bare microspheres, 20 kV for line scans on polished foam cross sections, 100 points per line, 20 s per point)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "AlMgSi1-SL150 | Theoretical 1.34 | Measured 1.52 | Particle porosity 50.9 | Matrix -13.4 | Total 37.5",
+          "location": "Table 2 (Calculated and measured density and porosity values of the MMSFs [3]), p. 16"
+        },
+        {
+          "quote": "AlMgSi1-SL150 | Al 60, Si 7, mullite 8, alpha-Al2O3 0, gamma-Al2O3 25, amorphous 0 wt%",
+          "location": "Table 3 (Phase constitution of aluminium matrix syntactic foams according to XRD measurements, wt%), p. 17"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "AlMgSi1-SL300 (density/porosity quoted from ref. [3] I. N. Orbulov, J. Dobranszky, Periodica Polytechnica Mechanical Engineering, 52(2008)35-42)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "AlMgSi1 aluminium-magnesium-silicon alloy",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL300 (Envirospheres Ltd., Australia; 30-35 wt% Al2O3, 45-50 wt% amorphous SiO2, 19 wt% mullite, 1 wt% quartz)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 150.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.57,
+        "theoretical_density_g_cc": 1.42,
+        "matrix_porosity_fraction": -0.105,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Particle (microballoon) porosity 48.2%, total porosity 37.7%. Microsphere size range 101-330 um, specific surface 0.040 um^-1. Microsphere wall = Al2O3 needles (5-10 um long, <0.5 um diameter) embedded in a mixture of mullite and amorphous SiO2. XRD phase constitution of the foam (Table 3, measured in this paper): Al 60, Si 6, mullite 6, alpha-Al2O3 0, gamma-Al2O3 28, amorphous 0 wt%. Highest gamma-Al2O3 content of all samples (28 wt%); reaction intensive. Mg enrichment detected alongside the microsphere outer walls."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "No mechanical test in this paper. Characterisation only: density/porosity (Table 2, taken from ref. [3]), XRD phase analysis (Phillips X-Pert, CuKa lambda=0.154186 nm, 40 kV / 35 mA, goniometer 0.04 deg/s), SEM (Phillips XL-30) and map/line EDS (EDAX Genesis; 15 kV for maps on bare microspheres, 20 kV for line scans on polished foam cross sections, 100 points per line, 20 s per point)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "AlMgSi1-SL300 | Theoretical 1.42 | Measured 1.57 | Particle porosity 48.2 | Matrix -10.5 | Total 37.7",
+          "location": "Table 2 (Calculated and measured density and porosity values of the MMSFs [3]), p. 16"
+        },
+        {
+          "quote": "AlMgSi1-SL300 | Al 60, Si 6, mullite 6, alpha-Al2O3 0, gamma-Al2O3 28, amorphous 0 wt%",
+          "location": "Table 3 (Phase constitution of aluminium matrix syntactic foams according to XRD measurements, wt%), p. 17"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "AlCu5-SL150 (density/porosity quoted from ref. [3] I. N. Orbulov, J. Dobranszky, Periodica Polytechnica Mechanical Engineering, 52(2008)35-42)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "AlCu5 aluminium-copper alloy",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL150 (Envirospheres Ltd., Australia; 30-35 wt% Al2O3, 45-50 wt% amorphous SiO2, 19 wt% mullite, 1 wt% quartz)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 100.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.53,
+        "theoretical_density_g_cc": 1.37,
+        "matrix_porosity_fraction": -0.116,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Particle (microballoon) porosity 50.9%, total porosity 39.3%. Microsphere size range 56-183 um, specific surface 0.060 um^-1. Microsphere wall = Al2O3 needles (5-10 um long, <0.5 um diameter) embedded in a mixture of mullite and amorphous SiO2. XRD phase constitution of the foam (Table 3, measured in this paper): Al 60, Si 6, mullite 8, alpha-Al2O3 8, gamma-Al2O3 12, amorphous 0, CuAl2 6 wt%. Reaction took place (12 wt% gamma-Al2O3). CuAl2 precipitates (~1 um x 20 um) formed, some deposited on the microsphere walls as precipitation only, not dissolved into the wall. Interface layer about 3 um wide."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "No mechanical test in this paper. Characterisation only: density/porosity (Table 2, taken from ref. [3]), XRD phase analysis (Phillips X-Pert, CuKa lambda=0.154186 nm, 40 kV / 35 mA, goniometer 0.04 deg/s), SEM (Phillips XL-30) and map/line EDS (EDAX Genesis; 15 kV for maps on bare microspheres, 20 kV for line scans on polished foam cross sections, 100 points per line, 20 s per point)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "AlCu5-SL150 | Theoretical 1.37 | Measured 1.53 | Particle porosity 50.9 | Matrix -11.6 | Total 39.3",
+          "location": "Table 2 (Calculated and measured density and porosity values of the MMSFs [3]), p. 16"
+        },
+        {
+          "quote": "AlCu5-SL150 | Al 60, Si 6, mullite 8, alpha-Al2O3 8, gamma-Al2O3 12, amorphous 0, CuAl2 6 wt%",
+          "location": "Table 3 (Phase constitution of aluminium matrix syntactic foams according to XRD measurements, wt%), p. 17"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "AlCu5-SL300 (density/porosity quoted from ref. [3] I. N. Orbulov, J. Dobranszky, Periodica Polytechnica Mechanical Engineering, 52(2008)35-42)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "AlCu5 aluminium-copper alloy",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL300 (Envirospheres Ltd., Australia; 30-35 wt% Al2O3, 45-50 wt% amorphous SiO2, 19 wt% mullite, 1 wt% quartz)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 150.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.62,
+        "theoretical_density_g_cc": 1.44,
+        "matrix_porosity_fraction": -0.122,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Particle (microballoon) porosity 48.2%, total porosity 36.0%. Microsphere size range 101-330 um, specific surface 0.040 um^-1. Microsphere wall = Al2O3 needles (5-10 um long, <0.5 um diameter) embedded in a mixture of mullite and amorphous SiO2. XRD phase constitution of the foam (Table 3, measured in this paper): Al 60, Si 5, mullite 10, alpha-Al2O3 7, gamma-Al2O3 12, amorphous 0, CuAl2 6 wt%. Reaction took place (12 wt% gamma-Al2O3); CuAl2 phase present. Interface layer about 3 um wide."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "No mechanical test in this paper. Characterisation only: density/porosity (Table 2, taken from ref. [3]), XRD phase analysis (Phillips X-Pert, CuKa lambda=0.154186 nm, 40 kV / 35 mA, goniometer 0.04 deg/s), SEM (Phillips XL-30) and map/line EDS (EDAX Genesis; 15 kV for maps on bare microspheres, 20 kV for line scans on polished foam cross sections, 100 points per line, 20 s per point)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "AlCu5-SL300 | Theoretical 1.44 | Measured 1.62 | Particle porosity 48.2 | Matrix -12.2 | Total 36.0",
+          "location": "Table 2 (Calculated and measured density and porosity values of the MMSFs [3]), p. 16"
+        },
+        {
+          "quote": "AlCu5-SL300 | Al 60, Si 5, mullite 10, alpha-Al2O3 7, gamma-Al2O3 12, amorphous 0, CuAl2 6 wt%",
+          "location": "Table 3 (Phase constitution of aluminium matrix syntactic foams according to XRD measurements, wt%), p. 17"
+        }
+      ],
+      "extractor_confidence": 0.75
+    }
+  ],
+  "extraction_notes": "IMPORTANT CAVEAT: this is a purely microstructural/analytical paper (SEM, map and line EDS, XRD). It contains NO mechanical, thermal or physical property measurements of the foams, so every field in Properties is null in all eight records. The records capture the processing and structure data (matrix, microsphere grade and size, volume fraction, densities, porosities, XRD phase constitution, matrix-particle reaction state) for the eight matrix x microsphere combinations.\n\ndata_origin: the density and porosity values in Table 2 are explicitly cited to reference [3] (I. N. Orbulov, J. Dobranszky, Periodica Polytechnica Mechanical Engineering, 52(2008)35-42), the same authors' earlier paper, so all eight records are marked 'secondary' with that citation in sample_label. The XRD phase constitutions of Table 3 and all EDS/SEM observations were measured in this paper (primary) and are recorded in microstructure_notes rather than as separate records.\n\nUnit conversions: porosity percentages converted to fractions for matrix_porosity_fraction (e.g. -6.2% -> -0.062). Matrix porosity is negative for the Al99.5, AlMgSi1 and AlCu5 foams because the measured density exceeded the theoretical one, which the authors attribute to microspheres that were themselves infiltrated. Note an internal inconsistency: the text says 'the values of matrix porosity are always remained below 8%' while Table 2 lists -13.4% (AlMgSi1-SL150) and -12.2% (AlCu5-SL300); Table 2 values were used as printed. Table 2 here also differs slightly from the same data in the authors' companion paper (W136470296): matrix porosity -6.2 vs -6.3% for Al99.5-SL150, and theoretical density 1.42 vs 1.41 g/cm3 for Al99.5-SL300.\n\nparticle_volume_fraction = 0.60 comes from the text ('The volume fraction of the microspheres was maintained at relatively high (~60 vol%) level'); it is a nominal target, not a per-block measurement. The 50.9% / 48.2% values in Table 2 are the porosity contributed by the hollow interiors, not the sphere volume fraction, and are kept in microstructure_notes. particle_true_density_g_cc and particle_wall_thickness_ratio are null because Table 1 of this paper gives average diameter, size range and specific surface but no wall thickness or density. cure_or_process_temperature_c is filled only for Al99.5-SL300 (690 C, the only infiltration temperature stated numerically); the others are described only as higher. test_type is 'other' (density / XRD / SEM-EDS characterisation, no mechanical loading) and test temperature is left null since none is stated. Quartz content is given as 1 wt% and mullite 19 wt% in Table 1 of this paper (the companion paper quotes 15-20% mullite and 0-5% quartz ranges). Literature results cited in the introduction were not turned into records."
+}

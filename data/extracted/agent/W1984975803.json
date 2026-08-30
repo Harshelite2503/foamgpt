@@ -1,6 +1,181 @@
 {
  "is_syntactic_foam_paper": true,
- "paper_summary": "Analytical paper proposing a closed-form model (Benveniste-Miloh equivalent filler + Eshelby/Mori-Tanaka) for the thermal conductivity of syntactic foams with spherical microballoons. It is validated against literature data (Liang & Li, Polym. Test. 2006/2007) for polypropylene filled with silicate hollow microballoons TK35 (35 um, 680 kg/m3, core fraction 0.692) and TK70 (70 um, 210 kg/m3, core fraction 0.905) at microballoon volume fractions up to 0.25, and parametric studies vary volume fraction, relative wall thickness and shell/matrix conductivity ratio.",
- "records": [],
- "extraction_notes": "No numerical composite property values are reported in text or tables: predicted, experimental and FEA thermal conductivities appear only as normalized curves in Fig. 2 (keff/km vs fmb) and parametric plots in Fig. 3, so no records were created (reading values off the plots is not permitted). Table 1 gives only constituent data (secondary, from Liang & Li refs 16,17): PP matrix k = 0.235 W/mK; shell density 2210 kg/m3, k = 0.17934 W/mK; core (gas) 0.0899 kg/m3, k = 0.0228 W/mK; TK35 microballoon 680 kg/m3, k_mb = 0.06035 W/mK, OD 35 um, ID 30.963 um; TK70 210 kg/m3, k_mb = 0.03364 W/mK, OD 70 um, ID 67.710 um. Core volume fractions 0.692 (TK35) and 0.905 (TK70), i.e. radius ratio eta = 0.885 and 0.967. Any experimental composite data should be sourced from Liang & Li (2006, 2007)."
+ "paper_summary": "Analytical paper proposing a closed-form model for the thermal conductivity of syntactic foams with spherical microballoons: the hollow microballoon is first replaced by an equivalent homogeneous filler (Benveniste-Miloh), then the composite conductivity is derived with an Eshelby model modified by the Mori-Tanaka mean-field approach. The model system is polypropylene filled with hollow silicate microballoons TK35 (35 um OD, 680 kg/m3) and TK70 (70 um OD, 210 kg/m3) at microballoon volume fractions up to 0.25, with constituent data taken from Liang & Li (Polym. Test. 2006, 2007). Predictions agree well with the literature experiments and lie between the experimental and 3D FEA results; parametric studies show the foam conductivity rises with relative wall thickness and volume fraction, strongly so for high shell/matrix conductivity ratio.",
+ "records": [
+  {
+   "sample_label": "Unfilled polypropylene matrix (property taken from Liang & Li, Polym. Test. 25 (2006) 527-531 and 26 (2007) 419-424, refs 16,17)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "pp",
+    "matrix_name": "polypropylene",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.0,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Neat matrix baseline (fmb = 0) used to normalise all foam conductivities in Figs. 2 and 3 (keff/km)."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Thermal conductivity (steady-state), value listed as an input property in Table 1; process route and test temperature not stated in this paper."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": 0.235,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Thermal conductivity [W/mC] 0.235 0.17934 0.0228 0.06035 0.03364",
+     "location": "Table 1 (columns: Matrix, Shell, Core, TK35, TK70)"
+    },
+    {
+     "quote": "The model composite is a polypropylene matrix containing microballoons made of the silicate.",
+     "location": "Sec. 3 Results and Discussion, para 1"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "TK35 hollow silicate microballoon (shell + gas core, core volume fraction fc = 0.692); effective particle conductivity computed by the present model, eq. (6)",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "other",
+    "matrix_name": "silicate microballoon shell (density 2210 kg/m3, k = 0.17934 W/mK)",
+    "particle_type": "other",
+    "particle_grade": "TK35",
+    "particle_true_density_g_cc": 0.68,
+    "particle_mean_diameter_um": 35.0,
+    "particle_wall_thickness_ratio": 0.885,
+    "particle_volume_fraction": 0.692,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.68,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Two concentric spheres: outer diameter 35 um, inner diameter 30.963 um, so radius ratio eta = 0.885 and core (gas) volume fraction fc = (Rc/Rs)^3 = 0.692; relative wall thickness t/Rs = 1 - fc^(1/3) = 0.115. Enclosed gas core: density 0.0899 kg/m3, k = 0.0228 W/mK."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Analytical (Benveniste-Miloh equivalent-filler) prediction of the effective thermal conductivity of the hollow particle itself, not of the PP composite."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": 0.06035,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "The core volume fractions in the microballoons, TK35 and TK70, are computed using eq. (26) to be 0.692 and 0.905, respectively. Based on these volume fractions and eq. (6), the thermal conductivities of the microballoons are computed and summarized in Table 1.",
+     "location": "Sec. 3 Results and Discussion, para 3"
+    },
+    {
+     "quote": "Density [Kg/m3] — 2210 0.0899 680 210 ... Thermal conductivity [W/mC] 0.235 0.17934 0.0228 0.06035 0.03364 ... Outer diameter [mm] 35 70 ... Inner diameter [mm] 30.963 67.710",
+     "location": "Table 1 (TK35 column; 'mm' in the table is a typesetting error for um)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "TK70 hollow silicate microballoon (shell + gas core, core volume fraction fc = 0.905); effective particle conductivity computed by the present model, eq. (6)",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "other",
+    "matrix_name": "silicate microballoon shell (density 2210 kg/m3, k = 0.17934 W/mK)",
+    "particle_type": "other",
+    "particle_grade": "TK70",
+    "particle_true_density_g_cc": 0.21,
+    "particle_mean_diameter_um": 70.0,
+    "particle_wall_thickness_ratio": 0.967,
+    "particle_volume_fraction": 0.905,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.21,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Two concentric spheres: outer diameter 70 um, inner diameter 67.710 um, so radius ratio eta = 0.967 and core (gas) volume fraction fc = (Rc/Rs)^3 = 0.905; relative wall thickness t/Rs = 1 - fc^(1/3) = 0.033. Enclosed gas core: density 0.0899 kg/m3, k = 0.0228 W/mK."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Analytical (Benveniste-Miloh equivalent-filler) prediction of the effective thermal conductivity of the hollow particle itself, not of the PP composite."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": 0.03364,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "The core volume fractions in the microballoons, TK35 and TK70, are computed using eq. (26) to be 0.692 and 0.905, respectively. Based on these volume fractions and eq. (6), the thermal conductivities of the microballoons are computed and summarized in Table 1.",
+     "location": "Sec. 3 Results and Discussion, para 3"
+    },
+    {
+     "quote": "Density [Kg/m3] — 2210 0.0899 680 210 ... Thermal conductivity [W/mC] 0.235 0.17934 0.0228 0.06035 0.03364 ... Outer diameter [mm] 35 70 ... Inner diameter [mm] 30.963 67.710",
+     "location": "Table 1 (TK70 column; 'mm' in the table is a typesetting error for um)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  }
+ ],
+ "extraction_notes": "The paper reports NO numerical composite (PP + microballoon) property values: predicted, experimental and 3D-FEA conductivities appear only as normalized curves keff/km vs fmb in Fig. 2 (fmb = 0-0.25) and as parametric curves in Fig. 3, so composite records at specific microballoon volume fractions could not be created (reading values off plots is not permitted, and reproducing them by evaluating eq. (22) myself would be generating rather than extracting numbers). The three records above cover every number the paper does state numerically, all from Table 1 and Sec. 3: (1) the unfilled PP matrix conductivity 0.235 W/mK (secondary - Table 1 constituent data cited to Liang & Li, refs 16,17); (2)-(3) the model-computed effective conductivities of the TK35 and TK70 hollow microballoons themselves, 0.06035 and 0.03364 W/mK (data_origin 'model', eq. (6)). For records 2 and 3 the hollow particle is encoded as its own two-phase system: matrix_class = 'other' is the silicate shell (2210 kg/m3, k = 0.17934 W/mK) and particle_volume_fraction is the enclosed gas core volume fraction fc (0.692 / 0.905, stated in the text), NOT a microballoon loading in a foam. particle_wall_thickness_ratio eta = inner/outer radius was obtained from the stated inner and outer diameters (30.963/35 = 0.885; 67.710/70 = 0.967) and is consistent with the stated fc = eta^3. Unit conversions: densities kg/m3 -> g/cm3 (680 -> 0.68, 210 -> 0.21); Table 1 labels the diameters 'mm' but they are micrometres (text: 'the average diameters of the microballoons, TK35 and TK70, are 35 and 70 mm'). Experimental composite conductivity data for these systems must be sourced from the original papers, Liang & Li, Polym. Test. 25 (2006) 527-531 and 26 (2007) 419-424."
 }

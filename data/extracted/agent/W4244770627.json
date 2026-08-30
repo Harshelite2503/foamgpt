@@ -1,0 +1,1639 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "7055 Al-alloy matrix syntactic foams reinforced with 1-2 mm Al2O3 hollow particles (52 vol.%) were made by simple gravity infiltration casting at 740, 770, 800 and 830 C, then normalized, annealed, quenched or solution-aged (470 C/1 h base). Average foam density was 1.73 g/cm3 with 40.89 % porosity. Quasi-static compression (1e-3 /s) gave the best as-cast properties at 800 C infiltration (yield 78.23 MPa, compressive strength 79.52 MPa, plateau 26.6 MPa); solution-aging gave the highest strength (95.32/96.45 MPa) and normalizing the best plateau stress (78.63 MPa) and energy absorption (48.14 MJ/m3, 28.04 kJ/kg).",
+ "records": [
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "As-cast, infiltration at 740 C",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "7055 Al alloy (Al-Zn-Mg-Cu, 8.35Zn-2.38Cu-2.27Mg wt.%)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Al2O3 hollow particles (>99 wt.% Al2O3), 1-2 mm, Gongyi City Hongle Mineral Products",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.52,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": 740,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.75,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Total porosity of the syntactic foam (from hollow particles) = 40.23 %; 7055-Al matrix density 2.81 g/cm3. As-cast condition."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.001,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimens phi 8 mm x 12 mm, universal testing machine WDW3100, ambient temperature"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 65.18,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 15.93,
+    "plateau_stress_mpa": 19.51,
+    "densification_strain": 0.7058,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Infiltration at 740 C  61.46  65.18  19.51  70.58",
+     "location": "Table 6 (Compressive properties of syntactic foams at different conditions)"
+    },
+    {
+     "quote": "Syntactic foam, infiltration at 740 C  1.75  40.23",
+     "location": "Table 5 (Density and porosity of syntactic foams)"
+    },
+    {
+     "quote": "Infiltration at 740 C  70.58  15.93  9.15",
+     "location": "Table 7 (Energy absorption properties)"
+    }
+   ],
+   "extractor_confidence": 0.9
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "As-cast, infiltration at 770 C",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "7055 Al alloy (Al-Zn-Mg-Cu, 8.35Zn-2.38Cu-2.27Mg wt.%)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Al2O3 hollow particles (>99 wt.% Al2O3), 1-2 mm, Gongyi City Hongle Mineral Products",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.52,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": 770,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.73,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Total porosity of the syntactic foam (from hollow particles) = 40.98 %; 7055-Al matrix density 2.81 g/cm3. As-cast condition."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.001,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimens phi 8 mm x 12 mm, universal testing machine WDW3100, ambient temperature"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 75.45,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 20.34,
+    "plateau_stress_mpa": 25.94,
+    "densification_strain": 0.7041,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Infiltration at 770 C  74.74  75.45  25.94  70.41",
+     "location": "Table 6 (Compressive properties of syntactic foams at different conditions)"
+    },
+    {
+     "quote": "Syntactic foam, infiltration at 770 C  1.73  40.98",
+     "location": "Table 5 (Density and porosity of syntactic foams)"
+    },
+    {
+     "quote": "Infiltration at 770 C  70.41  20.34  11.75",
+     "location": "Table 7 (Energy absorption properties)"
+    }
+   ],
+   "extractor_confidence": 0.9
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "As-cast, infiltration at 800 C",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "7055 Al alloy (Al-Zn-Mg-Cu, 8.35Zn-2.38Cu-2.27Mg wt.%)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Al2O3 hollow particles (>99 wt.% Al2O3), 1-2 mm, Gongyi City Hongle Mineral Products",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.52,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": 800,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.74,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Total porosity of the syntactic foam (from hollow particles) = 40.61 %; 7055-Al matrix density 2.81 g/cm3. As-cast condition."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.001,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimens phi 8 mm x 12 mm, universal testing machine WDW3100, ambient temperature"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 79.52,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 20.58,
+    "plateau_stress_mpa": 26.6,
+    "densification_strain": 0.6983,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Infiltration at 800 C  78.23  79.52  26.6  69.83",
+     "location": "Table 6 (Compressive properties of syntactic foams at different conditions)"
+    },
+    {
+     "quote": "Syntactic foam, infiltration at 800 C  1.74  40.61",
+     "location": "Table 5 (Density and porosity of syntactic foams)"
+    },
+    {
+     "quote": "Infiltration at 800 C  69.83  20.58  11.84",
+     "location": "Table 7 (Energy absorption properties)"
+    }
+   ],
+   "extractor_confidence": 0.9
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "As-cast, infiltration at 830 C",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "7055 Al alloy (Al-Zn-Mg-Cu, 8.35Zn-2.38Cu-2.27Mg wt.%)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Al2O3 hollow particles (>99 wt.% Al2O3), 1-2 mm, Gongyi City Hongle Mineral Products",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.52,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": 830,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.77,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Total porosity of the syntactic foam (from hollow particles) = 39.46 %; 7055-Al matrix density 2.81 g/cm3. As-cast condition."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.001,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimens phi 8 mm x 12 mm, universal testing machine WDW3100, ambient temperature"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 77.74,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 12.95,
+    "plateau_stress_mpa": 13.62,
+    "densification_strain": 0.7288,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Infiltration at 830 C  77.47  77.74  13.62  72.88",
+     "location": "Table 6 (Compressive properties of syntactic foams at different conditions)"
+    },
+    {
+     "quote": "Syntactic foam, infiltration at 830 C  1.77  39.46",
+     "location": "Table 5 (Density and porosity of syntactic foams)"
+    },
+    {
+     "quote": "Infiltration at 830 C  72.88  12.95  7.38",
+     "location": "Table 7 (Energy absorption properties)"
+    }
+   ],
+   "extractor_confidence": 0.9
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Normalizing, 470 C/1 h/AC",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "7055 Al alloy (Al-Zn-Mg-Cu, 8.35Zn-2.38Cu-2.27Mg wt.%)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Al2O3 hollow particles (>99 wt.% Al2O3), 1-2 mm, Gongyi City Hongle Mineral Products",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.52,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": 800,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.72,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Total porosity of the syntactic foam (from hollow particles) = 41.36 %; 7055-Al matrix density 2.81 g/cm3. Heat-treated after gravity infiltration casting at 800 C: Normalizing, 470 C/1 h/AC."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.001,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimens phi 8 mm x 12 mm, universal testing machine WDW3100, ambient temperature"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 84.54,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 48.14,
+    "plateau_stress_mpa": 78.63,
+    "densification_strain": 0.6316,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Normalizing, 470 C/1 h/AC  83.28  84.54  78.63  63.16",
+     "location": "Table 6 (Compressive properties of syntactic foams at different conditions)"
+    },
+    {
+     "quote": "Syntactic foam, Normalizing, 470 C/1 h/AC  1.72  41.36",
+     "location": "Table 5 (Density and porosity of syntactic foams)"
+    },
+    {
+     "quote": "Normalizing, 470 C/1 h/AC  63.16  48.14  28.04",
+     "location": "Table 7 (Energy absorption properties)"
+    }
+   ],
+   "extractor_confidence": 0.9
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Annealing, 470 C/1 h/FC",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "7055 Al alloy (Al-Zn-Mg-Cu, 8.35Zn-2.38Cu-2.27Mg wt.%)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Al2O3 hollow particles (>99 wt.% Al2O3), 1-2 mm, Gongyi City Hongle Mineral Products",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.52,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": 800,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.76,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Total porosity of the syntactic foam (from hollow particles) = 39.85 %; 7055-Al matrix density 2.81 g/cm3. Heat-treated after gravity infiltration casting at 800 C: Annealing, 470 C/1 h/FC."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.001,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimens phi 8 mm x 12 mm, universal testing machine WDW3100, ambient temperature"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 64.58,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 20.67,
+    "plateau_stress_mpa": 28.87,
+    "densification_strain": 0.6791,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Annealing, 470 C/1 h/FC  63.19  64.58  28.87  67.91",
+     "location": "Table 6 (Compressive properties of syntactic foams at different conditions)"
+    },
+    {
+     "quote": "Syntactic foam, Annealing, 470 C/1 h/FC  1.76  39.85",
+     "location": "Table 5 (Density and porosity of syntactic foams)"
+    },
+    {
+     "quote": "Annealing, 470 C/1 h/FC  67.91  20.67  11.73",
+     "location": "Table 7 (Energy absorption properties)"
+    }
+   ],
+   "extractor_confidence": 0.9
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Quenching, 470 C/1 h/WQ",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "7055 Al alloy (Al-Zn-Mg-Cu, 8.35Zn-2.38Cu-2.27Mg wt.%)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Al2O3 hollow particles (>99 wt.% Al2O3), 1-2 mm, Gongyi City Hongle Mineral Products",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.52,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": 800,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.61,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Total porosity of the syntactic foam (from hollow particles) = 45.54 %; 7055-Al matrix density 2.81 g/cm3. Heat-treated after gravity infiltration casting at 800 C: Quenching, 470 C/1 h/WQ."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.001,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimens phi 8 mm x 12 mm, universal testing machine WDW3100, ambient temperature"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 71.53,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 27.93,
+    "plateau_stress_mpa": 37.97,
+    "densification_strain": 0.7174,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Quenching, 470 C/1 h/WQ  68.53  71.53  37.97  71.74",
+     "location": "Table 6 (Compressive properties of syntactic foams at different conditions)"
+    },
+    {
+     "quote": "Syntactic foam, Quenching, 470 C/1 h/WQ  1.61  45.54",
+     "location": "Table 5 (Density and porosity of syntactic foams)"
+    },
+    {
+     "quote": "Quenching, 470 C/1 h/WQ  71.74  27.93  17.39",
+     "location": "Table 7 (Energy absorption properties)"
+    }
+   ],
+   "extractor_confidence": 0.9
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Solution-aging, 470 C/1 h/WQ + 120 C/24 h/AC",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "7055 Al alloy (Al-Zn-Mg-Cu, 8.35Zn-2.38Cu-2.27Mg wt.%)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Al2O3 hollow particles (>99 wt.% Al2O3), 1-2 mm, Gongyi City Hongle Mineral Products",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.52,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": 800,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.78,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Total porosity of the syntactic foam (from hollow particles) = 39.1 %; 7055-Al matrix density 2.81 g/cm3. Heat-treated after gravity infiltration casting at 800 C: Solution-aging, 470 C/1 h/WQ + 120 C/24 h/AC."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.001,
+    "temperature_c": 25,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimens phi 8 mm x 12 mm, universal testing machine WDW3100, ambient temperature"
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 96.45,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 32.84,
+    "plateau_stress_mpa": 43.43,
+    "densification_strain": 0.7246,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Solution-aging, 470 C/1 h/WQ + 120 C/24 h/AC  95.32  96.45  43.43  72.46",
+     "location": "Table 6 (Compressive properties of syntactic foams at different conditions)"
+    },
+    {
+     "quote": "Syntactic foam, Solution-aging, 470 C/1 h/WQ + 120 C/24 h/AC  1.78  39.1",
+     "location": "Table 5 (Density and porosity of syntactic foams)"
+    },
+    {
+     "quote": "Solution-aging, 470 C/1 h/WQ + 120 C/24 h/AC  72.46  32.84  18.45",
+     "location": "Table 7 (Energy absorption properties)"
+    }
+   ],
+   "extractor_confidence": 0.9
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Pure Al, Microwave sintering - literature value cited in Table 8, ref [57] Akinwekomi et al. 2019",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Pure Al",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "powder_metallurgy",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.85,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 18.61,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Microwave sintering  Pure Al  1.85  18.61  8.09  [57]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "ZL111 Al alloy, Stirring casting - literature value cited in Table 8, ref [25] Su et al. 2019",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "ZL111 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 2.05,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 47.31,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Stirring casting  ZL111 Al alloy  2.05  47.31  23.08  [25]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "AA2014 Al alloy, Stirring casting - literature value cited in Table 8, ref [58] Sahu et al. 2019",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "AA2014 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.99,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 65.0,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Stirring casting  AA2014 Al alloy  1.99  65.0  32.66  [58]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "A356 Al alloy, Counter-gravity infiltration - literature value cited in Table 8, ref [23] Taherishargh et al. 2018 (density reported as a range 1.06-1.11 g/cm3)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "A356 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 19.8,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Counter-gravity infiltration  A356 Al alloy  1.06-1.11  19.8  17.8-18.7  [23]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "5A03 Al alloy, Pressure infiltration - literature value cited in Table 8, ref [9] Zhang et al. 2018",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "5A03 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 51.2,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Pressure infiltration  5A03 Al alloy  1.22  51.2  42.0  [9]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "A356 Al alloy, Pressure infiltration - literature value cited in Table 8, ref [27] Broxtermann et al. 2017",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "A356 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.76,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 6.6,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Pressure infiltration  A356 Al alloy  0.76  6.6  8.68  [27]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Pure Al, Pressure infiltration - literature value cited in Table 8, ref [12] Lin et al. 2017",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Pure Al",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.2,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 35.7,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Pressure infiltration  Pure Al  1.2  35.7  29.8  [12]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "5A03 Al alloy, Pressure infiltration - literature value cited in Table 8, ref [12] Lin et al. 2017",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "5A03 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.23,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 60.8,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Pressure infiltration  5A03 Al alloy  1.23  60.8  49.4  [12]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "5A06 Al alloy, Pressure infiltration - literature value cited in Table 8, ref [12] Lin et al. 2017",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "5A06 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.4,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 62.8,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Pressure infiltration  5A06 Al alloy  1.4  62.8  44.9  [12]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "AA2014 alloy, Stirring casting - literature value cited in Table 8, ref [59] Birla et al. 2017",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "AA2014 alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 2.11,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 23.5,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Stirring casting  AA2014 alloy  2.11  23.5  11.15  [59]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Al-12Si alloy, Vacuum casting - literature value cited in Table 8, ref [60] Wright & Kennedy 2017",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-12Si alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.13,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 7.0,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Vacuum casting  Al-12Si alloy  1.13  7.0  6.2  [60]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Pure Al, Squeeze casting - literature value cited in Table 8, ref [61] Zhang et al. 2016",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Pure Al",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 2.2,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 15.42,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Squeeze casting  Pure Al  2.2  15.42  7  [61]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "A356 Al alloy, Pressure infiltration - literature value cited in Table 8, ref [62] Taherishargh et al. 2016",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "A356 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 2.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 55.19,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Pressure infiltration  A356 Al alloy  2.32  55.19  23.78  [62]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "A356 Al alloy, Pressure infiltration - literature value cited in Table 8, ref [2] Taherishargh et al. 2015",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "A356 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.07,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 26.5,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Pressure infiltration  A356 Al alloy  1.07  26.5  24.8  [2]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Pure Al, Powder metallurgy - literature value cited in Table 8, ref [46] Luong et al. 2015",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Pure Al",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "powder_metallurgy",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 2.36,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 34.88,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Powder metallurgy  Pure Al  2.36  34.88  14.8  [46]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "A380 Al alloy, Pressure infiltration - literature value cited in Table 8, ref [63] Santa Maria et al. 2014",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "A380 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.86,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 57.7,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Pressure infiltration  A380 Al alloy  1.86  57.7  31  [63]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "A355.0 Al alloy, Gravity infiltration - literature value cited in Table 8, ref [64] Bazzaz Bonabi et al. 2014",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "A355.0 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.2,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 18.0,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Gravity infiltration  A355.0 Al alloy  1.2  18.0  15  [64]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "A206 Al alloy, Pressure infiltration - literature value cited in Table 8, ref [17] Rocha Rivero et al. 2013",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "A206 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.93,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 63.2,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Pressure infiltration  A206 Al alloy  1.93  63.2  32.75  [17]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "6082 Al alloy, Pressure infiltration - literature value cited in Table 8, ref [48] Tao et al. 2009",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "6082 Al alloy",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.24,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 30.9,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Pressure infiltration  6082 Al alloy  1.24  30.9  25  [48]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "record_id": null,
+   "paper_id": null,
+   "sample_label": "Pure Al, Squeeze casting - literature value cited in Table 8, ref [49] Wu et al. 2007 (W reported as a range 20-35 MJ/m3)",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Pure Al",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.43,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Comparison row in Table 8; hollow-particle type not stated in this paper."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Test conditions not restated in the comparison table."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Squeeze casting  Pure Al  1.43  20-35  14-23  [49]",
+     "location": "Table 8 (Comparison of compressive energy absorption capacity of syntactic foams from the present work with AMSFs reported in recent years)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  }
+ ],
+ "extraction_notes": "Process route: the paper uses gravity infiltration casting, which is not in the ProcessRoute enum (no applied pressure/vacuum), so process_route='other' for the primary records; the Table 8 rows for gravity/counter-gravity infiltration also use 'other', squeeze casting is mapped to pressure_infiltration and microwave sintering to powder_metallurgy. strength_mpa holds the reported compressive (peak) strength; the separately reported 0.2 % yield strength is included verbatim in each record's Table 6 evidence quote (740/770/800/830 C: 61.46/74.74/78.23/77.47 MPa; normalizing/annealing/quenching/solution-aging: 83.28/63.19/68.53/95.32 MPa). No elastic modulus, tensile or flexural data are reported. Densification strain converted from % to fraction. The 39-46 % porosity in Table 5 is the total foam porosity contributed by the hollow particles, not unintended matrix voids, so matrix_porosity_fraction is left null and the value is recorded in microstructure_notes. Particle volume fraction 0.52 is stated once in Sec. 3.3 ('the hollow particle volume fraction was 52 %') and applied to all primary samples. Particle true density is left null: Table 2 gives only a manufacturer range (bulk density 0.5-1 g/cm3); particle diameter is left null because only a 1-2 mm screened range is given, no mean. Test temperature recorded as 25 C for 'ambient temperature'. The 20 Table 8 comparison rows are literature values from other papers, marked data_origin='secondary' with the cited reference in sample_label; only density and energy absorption are given there (specific energy absorption in kJ/kg has no schema field, so it is kept only in the evidence quote). Two Table 8 entries report ranges (density 1.06-1.11 g/cm3 for ref [23]; W 20-35 MJ/m3 for ref [49]); those fields are left null. The 'Present work' row of Table 8 duplicates the normalizing primary record and was not repeated. Values in Fig. 6 and Fig. 7 were not digitized; all extracted numbers come from Tables 5-8 and the text."
+}

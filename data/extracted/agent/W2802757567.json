@@ -1,0 +1,230 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Brown, Carroll, Huddleston, Casias and Long (Sandia, J. Mater. Sci.) study damage mechanisms in elastomeric syntactic foams made of a Sylgard 184 PDMS matrix filled with 3M A16/500 borosilicate glass microballoons at 10, 20, 30, 37 and 46.2 vol%. Cyclic uniaxial compression tests to 60% strain (strain rate 0.15 1/s) are combined with analytic composite theory (Nielsen-Landel solid-sphere equivalent plus Christensen composite spheres) and finite-element homogenisation of RVEs containing 60 GMBs, for undamaged, fully debonded and fully crushed GMB states. The composite bulk modulus collapses when even 5% of the GMBs are crushed while being nearly insensitive to debonding, whereas the shear modulus degrades roughly linearly with crushed fraction and is also reduced by debonding; debonding additionally destroys major symmetry of the homogenised stiffness tensor.",
+  "records": [
+    {
+      "sample_label": "Neat Sylgard 184 matrix (100:10 base resin:curing agent, cured at 71 C) - literature/derived constants",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Sylgard 184 PDMS silicone elastomer (Dow), 100:10 parts by weight base resin to curing agent",
+        "particle_type": "other",
+        "particle_grade": null,
+        "particle_volume_fraction": 0.0,
+        "particle_weight_fraction": 0.0,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 71.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "Unfilled matrix baseline used to normalise all composite moduli in the paper."
+      },
+      "test": {
+        "test_type": "other",
+        "temperature_c": 25,
+        "specimen_notes": "Elastic constants tabulated as model inputs, not measured in this work: bulk modulus K = 920 MPa (Sandia polymer properties database, ref [2]), shear modulus mu = 0.84 MPa (LANL torsional dynamic modulus report, ref [21]), Poisson's ratio 0.4995 and Young's modulus 2.52 MPa marked as calculated quantities. Only Young's modulus fits the schema; K and mu are recorded here."
+      },
+      "properties": {
+        "modulus_mpa": 2.52
+      },
+      "evidence": [
+        {
+          "quote": "Table 2 Sylgard 184 (100-10 PBW base resin to curing agent cured at 71 C) and Borosilicate Glass elastic constants | K (MPa) 920 [2] | E (MPa) 2.52* | mu (MPa) 0.84 [21] | nu 0.4995* | * Calculated quantity",
+          "location": "Table 2 (p. 8)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Sylgard 184 / A16-500 GMB, 100:10:1.98 (10 vol% GMB)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Sylgard 184 PDMS silicone elastomer (Dow), 100:10 parts by weight base resin to curing agent",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M A16/500 borosilicate glass bubbles",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 60.0,
+        "particle_wall_thickness_ratio": 0.9667,
+        "particle_volume_fraction": 0.10,
+        "particle_weight_fraction": 0.018,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 71.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "GMB diameter range 30-115 um (manufacturer), mean 60 um, nominal radius ratio eta = ri/ro = 0.9667; GMBs sieved through a no. 100 sieve and dried 1 h at 107 C. Cast in 10 mL syringes, cured vertically 16 h at 71 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.15,
+        "temperature_c": 25,
+        "standard": null,
+        "specimen_notes": "Cyclic uniaxial compression, servohydraulic frame, displacement control, ~28 mm long x 14.310 mm dia cylinders between tungsten carbide platens with 2 N preload; loaded in 5% strain increments with full unloading between increments up to 60% strain. Two tests per volume fraction. Undamaged Young's modulus = slope of initial loading between 5-10% strain; fully damaged Young's modulus = slope of final unloading between 5-10% strain. Both values are reported only in Fig. 8 and are not stated numerically, so modulus_mpa is left null."
+      },
+      "properties": {},
+      "evidence": [
+        {
+          "quote": "Table 1 Compositions of Sylgard 184/GMB elastomeric syntactic foam | Resin:Hardener:GMB 100 : 10 : 1.98 | GMB weight % 1.8 | GMB volume % 10",
+          "location": "Table 1 (p. 5)"
+        },
+        {
+          "quote": "Each sample was tested in uniaxial compression using a servohydraulic load frame at room temperature using displacement control at a strain rate of 0.15 s-1.",
+          "location": "Sec. 2 Experimental Details (p. 6)"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "Sylgard 184 / A16-500 GMB, 100:10:4.38 (20 vol% GMB)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Sylgard 184 PDMS silicone elastomer (Dow), 100:10 parts by weight base resin to curing agent",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M A16/500 borosilicate glass bubbles",
+        "particle_mean_diameter_um": 60.0,
+        "particle_wall_thickness_ratio": 0.9667,
+        "particle_volume_fraction": 0.20,
+        "particle_weight_fraction": 0.038,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 71.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "GMB diameter range 30-115 um, mean 60 um, nominal radius ratio 0.9667. Cast in 10 mL syringes, cured vertically 16 h at 71 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.15,
+        "temperature_c": 25,
+        "standard": null,
+        "specimen_notes": "Cyclic uniaxial compression to 60% strain in 5% load/unload increments (Fig. 7a is this composition). Modulus values appear only in Fig. 8 so modulus_mpa is left null; the densification-like stiffening strain is quoted in the text as 'around 50% compressive strain'."
+      },
+      "properties": {
+        "densification_strain": 0.50
+      },
+      "evidence": [
+        {
+          "quote": "Table 1 Compositions of Sylgard 184/GMB elastomeric syntactic foam | 100 : 10 : 4.38 | 3.8 | 20",
+          "location": "Table 1 (p. 5)"
+        },
+        {
+          "quote": "Around 50% compressive strain a rapid stiffening of the tangent modulus is seen. This likely corresponds to most GMBs and void space being fully crushed such that the solid elastomeric silicone response is recovered at the highest strains.",
+          "location": "Sec. 5.3 (p. 22), describing Fig. 7a (20% GMB volume fraction)"
+        }
+      ],
+      "extractor_confidence": 0.7
+    },
+    {
+      "sample_label": "Sylgard 184 / A16-500 GMB, 100:10:7.38 (30 vol% GMB)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Sylgard 184 PDMS silicone elastomer (Dow), 100:10 parts by weight base resin to curing agent",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M A16/500 borosilicate glass bubbles",
+        "particle_mean_diameter_um": 60.0,
+        "particle_wall_thickness_ratio": 0.9667,
+        "particle_volume_fraction": 0.30,
+        "particle_weight_fraction": 0.063,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 71.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "GMB diameter range 30-115 um, mean 60 um, nominal radius ratio 0.9667. Cast in 10 mL syringes, cured vertically 16 h at 71 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.15,
+        "temperature_c": 25,
+        "standard": null,
+        "specimen_notes": "Cyclic uniaxial compression to 60% strain in 5% load/unload increments; undamaged and fully damaged Young's moduli reported only in Fig. 8, so modulus_mpa is left null."
+      },
+      "properties": {},
+      "evidence": [
+        {
+          "quote": "Table 1 Compositions of Sylgard 184/GMB elastomeric syntactic foam | 100 : 10 : 7.38 | 6.3 | 30",
+          "location": "Table 1 (p. 5)"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "Sylgard 184 / A16-500 GMB, 100:10:10 (37 vol% GMB)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Sylgard 184 PDMS silicone elastomer (Dow), 100:10 parts by weight base resin to curing agent",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M A16/500 borosilicate glass bubbles",
+        "particle_mean_diameter_um": 60.0,
+        "particle_wall_thickness_ratio": 0.9667,
+        "particle_volume_fraction": 0.37,
+        "particle_weight_fraction": 0.091,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 71.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "GMB diameter range 30-115 um, mean 60 um, nominal radius ratio 0.9667. Cast in 10 mL syringes, cured vertically 16 h at 71 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.15,
+        "temperature_c": 25,
+        "standard": null,
+        "specimen_notes": "Cyclic uniaxial compression to 60% strain in 5% load/unload increments; undamaged and fully damaged Young's moduli reported only in Fig. 8, so modulus_mpa is left null."
+      },
+      "properties": {},
+      "evidence": [
+        {
+          "quote": "Table 1 Compositions of Sylgard 184/GMB elastomeric syntactic foam | 100 : 10 : 10 | 9.1 | 37",
+          "location": "Table 1 (p. 5)"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "Sylgard 184 / A16-500 GMB, 100:10:14.7 (46.2 vol% GMB)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Sylgard 184 PDMS silicone elastomer (Dow), 100:10 parts by weight base resin to curing agent",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M A16/500 borosilicate glass bubbles",
+        "particle_mean_diameter_um": 60.0,
+        "particle_wall_thickness_ratio": 0.9667,
+        "particle_volume_fraction": 0.462,
+        "particle_weight_fraction": 0.118,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 71.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "GMB diameter range 30-115 um, mean 60 um, nominal radius ratio 0.9667. Cast in 10 mL syringes, cured vertically 16 h at 71 C. Highest loading tested; composite theory still tracks the measured Young's modulus reasonably at this volume fraction."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.15,
+        "temperature_c": 25,
+        "standard": null,
+        "specimen_notes": "Cyclic uniaxial compression to 60% strain in 5% load/unload increments; undamaged and fully damaged Young's moduli reported only in Fig. 8, so modulus_mpa is left null."
+      },
+      "properties": {},
+      "evidence": [
+        {
+          "quote": "Table 1 Compositions of Sylgard 184/GMB elastomeric syntactic foam | 100 : 10 : 14.7 | 11.8 | 46.2",
+          "location": "Table 1 (p. 5)"
+        },
+        {
+          "quote": "Even so, composite theory predictions of Young's modulus were reasonably close to experimentally measured values at GMB volume fractions up to 46%.",
+          "location": "Sec. 6 Conclusions (p. 32)"
+        }
+      ],
+      "extractor_confidence": 0.85
+    }
+  ],
+  "extraction_notes": "This paper contains only two numeric tables: Table 1 (compositions) and Table 2 (constituent elastic constants). Every composite property in the paper - experimental Young's modulus (Fig. 8), predicted bulk/shear moduli vs GMB volume fraction (Figs 3, 4), vs crushed fraction (Fig. 10), vs radius ratio (Fig. 13), and the RVE-size and spacing studies (Figs 14-16) - is presented only as plots, normalised by the neat-matrix value. Per the extraction rules no values were read off those plots, so the five composition records carry composition, processing and test-condition metadata with null moduli.\n\nUnit/format conversions: GMB volume percentages 10, 20, 30, 37, 46.2 -> fractions 0.10, 0.20, 0.30, 0.37, 0.462; GMB weight percentages 1.8, 3.8, 6.3, 9.1, 11.8 -> 0.018, 0.038, 0.063, 0.091, 0.118. Radius ratio eta = ri/ro = 0.9667 is the nominal value stated for the A16 GMBs. Particle true density is not stated in the paper (only the 3M grade name A16/500) and is therefore left null.\n\nThe 0.50 densification_strain on the 20 vol% record is the 'around 50% compressive strain' at which the text says a rapid stiffening of the tangent modulus occurs in Fig. 7a (the 20% GMB composite); it is an approximate value stated in the text, not read off the plot, and confidence is lowered accordingly.\n\nNot extracted, with reasons: (1) Table 2 rows for borosilicate glass (E = 61 GPa, K = 32,790 MPa, mu = 25,630 MPa, nu = 0.19) and for the solid-sphere-equivalent GMB phase (K = 1,673 MPa, mu = 2,478 MPa) are constituent/phase properties, not syntactic-foam composite properties, so no records were created for them. (2) All modelled results are quoted as approximate ratios to the neat matrix rather than absolute values - e.g. 'At a GMB volume fraction of 30%, the bulk modulus is approximately 1.2 times higher and the shear modulus is approximately 3 times higher than the neat matrix', 'with 30% GMB volume fraction, the shear modulus is reduced to approximately 1/2 of the neat matrix while the bulk modulus is less than 1% of the neat matrix value' (fully crushed), and 'with fcrush = 0.05 it is only 12-16% of its undamaged value'. Since bulk and shear moduli have no dedicated schema fields and the multipliers are explicitly approximate, no 'model' records were created; these figures are flagged here instead. (3) The 20% modulus reduction in compression and 40% in tension for debonded GMBs in a glassy matrix (Em = 3.2 GPa) is quoted from Cho et al. [7] and concerns a different, unspecified material, so it was not recorded as a secondary datum. (4) The remark that matrix micro-cracking is absent until global failure near 70% compressive engineering strain comes from the authors' related synchrotron work (Patterson et al. [33]) and is not tied to a specific composition here, so no strain_at_failure was recorded. (5) No densities, strengths, or energy-absorption values are reported anywhere in the paper."
+}

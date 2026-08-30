@@ -1,0 +1,2629 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "PhD thesis (Choqueuse, Universite de Franche-Comte / Ifremer, 2012) on the mechanical behaviour of glass-microsphere syntactic foams for deep-sea buoyancy and pipeline thermal insulation. Two cast commercial foams filled with 3M S38/S38HS hollow glass microspheres were characterized: GSEP (glass syntactic epoxy, specific gravity 0.720) and GSPU (glass syntactic polyurethane, specific gravity 0.860). Elastic constants were obtained from immersion ultrasonic wave speeds, plus uniaxial compression, a newly developed buoyancy-based instrumented hydrostatic compression test (bulk modulus and crush pressure to 80 MPa and up to 150 C), Iosipescu and modified Arcan shear tests, and DIC. GSEP is stiff and brittle (E = 3340 MPa, compressive strength 98 MPa, K = 2620 MPa, crush pressure 83 MPa) while GSPU is compliant, visco-elasto-plastic and damageable (E = 432 MPa, strength 12 MPa, K = 1930 MPa, crush pressure 32 MPa). Damage was shown to be microsphere collapse, followed in situ by X-ray microtomography under pressure, ex situ by gas-pycnometer filler specific gravity after loading, and by acoustic emission; a self-consistent homogenization model with sphere-removal damage was fitted to a GSPP foam.",
+  "records": [
+    {
+      "sample_label": "GSEP - ultrasonic wave speed evaluation",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Glass syntactic epoxy (GSEP); commercial deep-sea buoyancy/insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.72,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": null,
+        "specimen_notes": "Elastic constants from immersion through-transmission ultrasonic wave speed measurement (Christoffel tensor method). 100 mm square blocks, 10 and 20 mm thick, tap water coupling, 20 C +/- 1 C, 0.5 and 2 MHz sensors, mean of 3 measurements. Compression wave 2492 m/s (0.5 MHz) / 2535 m/s (2 MHz); shear wave 1325 m/s (0.5 MHz) / 1337 m/s (2 MHz). Derived constants: E = 3 GPa, G = 1.15 GPa (1115 MPa in Table 18), K = 2.56 GPa, Poisson ratio 0.3. modulus_mpa holds Young's modulus."
+      },
+      "properties": {
+        "modulus_mpa": 3000.0,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Young’s modulus E | 3 GPa | 393 MPa |",
+          "location": "Table 7, p.59-60 (mechanical properties from ultrasonic evaluation)"
+        },
+        {
+          "quote": "| Shear modulus G | 1.15 GPa | 133 MPa |",
+          "location": "Table 7, p.60"
+        },
+        {
+          "quote": "| GSPE | Glass syntactic epoxy | 3M S38 | 0.720 | Casting |",
+          "location": "Table 3, p.43 (nominal characteristics of the materials tested)"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "GSPU - ultrasonic wave speed evaluation",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": null,
+        "specimen_notes": "Elastic constants from immersion through-transmission ultrasonic wave speed measurement. 100 mm square blocks, 10 and 20 mm thick, tap water, 20 C +/- 1 C. Compression wave 1949 m/s (0.5 MHz) / 2008 m/s (2 MHz); shear wave only measurable at 2 MHz (390 m/s, CV > 10%) because of strong damping. Derived constants: E = 393 MPa, G = 133 MPa, K = 3.3 GPa, Poisson ratio 0.48. Authors state shear-wave based values for GSPU are of low accuracy. modulus_mpa holds Young's modulus."
+      },
+      "properties": {
+        "modulus_mpa": 393.0,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Young’s modulus E | 3 GPa | 393 MPa |",
+          "location": "Table 7, p.59-60 (mechanical properties from ultrasonic evaluation)"
+        },
+        {
+          "quote": "| Shear modulus G | 1.15 GPa | 133 MPa |",
+          "location": "Table 7, p.60"
+        },
+        {
+          "quote": "| GSPU | Glass syntactic polyurethane | 3M S38 | 0.860 | Casting |",
+          "location": "Table 3, p.43 (nominal characteristics of the materials tested)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "GSEP - uniaxial compression (type 3 specimen)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Glass syntactic epoxy (GSEP); commercial deep-sea buoyancy/insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.72,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "ASTM D695M / ASTM D1621 discussed; non-standard type 3 dog-bone cylinder used",
+        "specimen_notes": "Uniaxial compression, type 3 dog-bone cylinder specimen (13 mm diameter, 65 mm long, 27 mm calibrated length), mean of 3 samples, 20 C +/- 1 C, 50% RH, crosshead 2 mm/min (strain rate not stated by the authors). Modulus = apparent initial modulus from linear regression between 0.001% and 0.01% strain measured with strain gauges/extensometer. Sample geometry follows the discussion of ASTM D695M and ASTM D1621 but is a new proposed design. Poisson's ratio 0.34 +/- 2%."
+      },
+      "properties": {
+        "modulus_mpa": 3340.0,
+        "strength_mpa": 97.8,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| E comp (MPa) | 3340 +/- 6.1% | 432 +/-8.4% |",
+          "location": "Table 9, p.66 (uniaxial compression test)"
+        },
+        {
+          "quote": "| Stress at break (MPa) | 97.8 +/- 5.3% | 11.7 +/- 7.5% |",
+          "location": "Table 9, p.66"
+        },
+        {
+          "quote": "The apparent initial elastic parameters (linear regression between 0.001% and 0.01%) of the materials are reported in Table 9 (mean of 3 samples type 3).",
+          "location": "Sec. 2.2.2, p.66"
+        }
+      ],
+      "extractor_confidence": 0.9
+    },
+    {
+      "sample_label": "GSPU - uniaxial compression (type 3 specimen)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "ASTM D695M / ASTM D1621 discussed; non-standard type 3 dog-bone cylinder used",
+        "specimen_notes": "Uniaxial compression, type 3 dog-bone cylinder specimen (13 mm diameter, 65 mm long, 27 mm calibrated length), mean of 3 samples, 20 C +/- 1 C, 50% RH, crosshead 2 mm/min (strain rate not stated by the authors). Modulus = apparent initial modulus from linear regression between 0.001% and 0.01% strain measured with strain gauges/extensometer. Sample geometry follows the discussion of ASTM D695M and ASTM D1621 but is a new proposed design. Poisson's ratio 0.49 +/- 8%. The authors note that following the standard (global displacement measurement) would give a Young's modulus around 250 MPa because of early edge damage."
+      },
+      "properties": {
+        "modulus_mpa": 432.0,
+        "strength_mpa": 11.7,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| E comp (MPa) | 3340 +/- 6.1% | 432 +/-8.4% |",
+          "location": "Table 9, p.66 (uniaxial compression test)"
+        },
+        {
+          "quote": "| Stress at break (MPa) | 97.8 +/- 5.3% | 11.7 +/- 7.5% |",
+          "location": "Table 9, p.66"
+        },
+        {
+          "quote": "It should be mentioned that the evaluation of the modulus for GSPU, by following the standard (measure of the global displacement) will provide a Young’s modulus value around 250 MPa.",
+          "location": "Sec. 2.2.2, p.66"
+        }
+      ],
+      "extractor_confidence": 0.9
+    },
+    {
+      "sample_label": "GSEP - hydrostatic compression at 20 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Glass syntactic epoxy (GSEP); commercial deep-sea buoyancy/insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.72,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Under hydrostatic pressure microsphere collapse starts around 22-25 MPa (X-ray microtomography) but the matrix skeleton and the specimen volume remain unchanged; final collapse at ~83 MPa is governed by compressive failure of the matrix skeleton."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "No standard available (ASTM D2736 and D2926 withdrawn); new test proposed for standardization",
+        "specimen_notes": "Instrumented hydrostatic compression test developed at Ifremer, based on continuous buoyancy measurement with a pressure/temperature compensated waterproof balance in a hyperbaric tank; water loading medium, sample volume about 1 dm3, mean of 3 tests at 20 C. Bulk modulus taken as the secant modulus at 1% volume strain; crush pressure taken as the intersection of the bulk modulus slope with the plateau slope. modulus_mpa holds the bulk modulus K and strength_mpa the hydrostatic crush (collapse) pressure. Linear behaviour up to 80 MPa then sudden collapse and cracking of the block. CV 0.01 on K and 0.02 on crush pressure."
+      },
+      "properties": {
+        "modulus_mpa": 2620.0,
+        "strength_mpa": 83.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Bulk modulus (GPa) | 2.62 | 0.01 | 1.93 | 0.03 |",
+          "location": "Table 15, p.86 (hydrostatic compression test at 20 C)"
+        },
+        {
+          "quote": "| Crush pressure (MPa) | 83 | 0.02 | 32 | 0.05 |",
+          "location": "Table 15, p.86"
+        },
+        {
+          "quote": "For the GSEP, the material exhibits initially a linear behaviour up to 80 MPa followed by a sudden collapse of the material.",
+          "location": "Sec. 2.3.5, p.85-86"
+        }
+      ],
+      "extractor_confidence": 0.9
+    },
+    {
+      "sample_label": "GSPU - hydrostatic compression at 20 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Under hydrostatic pressure the collapsed microspheres are filled by visco-elastic matrix flow, so microsphere collapse translates directly into volume loss; between 35 and 45 MPa the volume strain increases from 2% to 12%, and densification starts from 50 MPa."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "No standard available (ASTM D2736 and D2926 withdrawn); new test proposed for standardization",
+        "specimen_notes": "Instrumented hydrostatic compression test developed at Ifremer, based on continuous buoyancy measurement with a pressure/temperature compensated waterproof balance in a hyperbaric tank; water loading medium, sample volume about 1 dm3, mean of 3 tests at 20 C. Bulk modulus taken as the secant modulus at 1% volume strain; crush pressure taken as the intersection of the bulk modulus slope with the plateau slope. modulus_mpa holds the bulk modulus K and strength_mpa the hydrostatic crush (collapse) pressure. Non-linear from the start with a plateau at about 40 MPa. CV 0.03 on K and 0.05 on crush pressure."
+      },
+      "properties": {
+        "modulus_mpa": 1930.0,
+        "strength_mpa": 32.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Bulk modulus (GPa) | 2.62 | 0.01 | 1.93 | 0.03 |",
+          "location": "Table 15, p.86 (hydrostatic compression test at 20 C)"
+        },
+        {
+          "quote": "| Crush pressure (MPa) | 83 | 0.02 | 32 | 0.05 |",
+          "location": "Table 15, p.86"
+        },
+        {
+          "quote": "From 30-35 MPa large volume deformation occurs. Between 35 and 45 MPa the volume strain increased significantly, from 2% to 12%.",
+          "location": "Sec. 2.3.5, p.87 (load-unload cycles, Fig. 53)"
+        }
+      ],
+      "extractor_confidence": 0.9
+    },
+    {
+      "sample_label": "GSEP - Iosipescu shear, 3 mm thick specimen (strain gauges)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Glass syntactic epoxy (GSEP); commercial deep-sea buoyancy/insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.72,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "ASTM D5379 (V-notched beam / Iosipescu)",
+        "specimen_notes": "Iosipescu V-notched beam shear test, strain gauges on both faces, crosshead 2 mm/min, room temperature. modulus_mpa holds the shear modulus G and strength_mpa the shear stress at break. The authors judge the strain-gauge readings unreliable and prefer the DIC-based Iosipescu values of Table 18. 3 mm thick specimens, 3 samples tested. "
+      },
+      "properties": {
+        "modulus_mpa": 870.0,
+        "strength_mpa": 13.7,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| GSEP | 3 mm | 870 +/- 90 | 13.7 +/- 2 |",
+          "location": "Table 16, p.94 (Iosipescu test results)"
+        },
+        {
+          "quote": "samples of two difference thicknesses (3 mm and 10 mm) have been machined in GSEP and GSPU, strain gauged and tested at 2 mm/min.",
+          "location": "Sec. 2.4.2, p.92"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "GSEP - Iosipescu shear, 10 mm thick specimen (strain gauges)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Glass syntactic epoxy (GSEP); commercial deep-sea buoyancy/insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.72,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "ASTM D5379 (V-notched beam / Iosipescu)",
+        "specimen_notes": "Iosipescu V-notched beam shear test, strain gauges on both faces, crosshead 2 mm/min, room temperature. modulus_mpa holds the shear modulus G and strength_mpa the shear stress at break. The authors judge the strain-gauge readings unreliable and prefer the DIC-based Iosipescu values of Table 18. 10 mm thick specimens, 1 sample tested. "
+      },
+      "properties": {
+        "modulus_mpa": 750.0,
+        "strength_mpa": 5.46,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| GSEP | 10 mm | 750 | 5.46 |",
+          "location": "Table 16, p.94 (Iosipescu test results)"
+        },
+        {
+          "quote": "samples of two difference thicknesses (3 mm and 10 mm) have been machined in GSEP and GSPU, strain gauged and tested at 2 mm/min.",
+          "location": "Sec. 2.4.2, p.92"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "GSPU - Iosipescu shear, 3 mm thick specimen (strain gauges)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "ASTM D5379 (V-notched beam / Iosipescu)",
+        "specimen_notes": "Iosipescu V-notched beam shear test, strain gauges on both faces, crosshead 2 mm/min, room temperature. modulus_mpa holds the shear modulus G and strength_mpa the shear stress at break. The authors judge the strain-gauge readings unreliable and prefer the DIC-based Iosipescu values of Table 18. 3 mm thick specimens, 3 samples tested. Shear strength not reported (N/A) because the fixture limits the shear deformation and failure was not reached for GSPU."
+      },
+      "properties": {
+        "modulus_mpa": 292.0,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| GSPU | 3 mm | 292 +/- 40 | N/A |",
+          "location": "Table 16, p.94 (Iosipescu test results)"
+        },
+        {
+          "quote": "samples of two difference thicknesses (3 mm and 10 mm) have been machined in GSEP and GSPU, strain gauged and tested at 2 mm/min.",
+          "location": "Sec. 2.4.2, p.92"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "GSPU - Iosipescu shear, 10 mm thick specimen (strain gauges)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "ASTM D5379 (V-notched beam / Iosipescu)",
+        "specimen_notes": "Iosipescu V-notched beam shear test, strain gauges on both faces, crosshead 2 mm/min, room temperature. modulus_mpa holds the shear modulus G and strength_mpa the shear stress at break. The authors judge the strain-gauge readings unreliable and prefer the DIC-based Iosipescu values of Table 18. 10 mm thick specimens, 1 sample tested. Shear strength not reported (N/A) because the fixture limits the shear deformation and failure was not reached for GSPU."
+      },
+      "properties": {
+        "modulus_mpa": 198.0,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| GSPU | 10 mm | 198 | N/A |",
+          "location": "Table 16, p.94 (Iosipescu test results)"
+        },
+        {
+          "quote": "samples of two difference thicknesses (3 mm and 10 mm) have been machined in GSEP and GSPU, strain gauged and tested at 2 mm/min.",
+          "location": "Sec. 2.4.2, p.92"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "GSEP - Iosipescu shear, 6 mm specimen with digital image correlation",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Glass syntactic epoxy (GSEP); commercial deep-sea buoyancy/insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.72,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "ASTM D5379 (V-notched beam / Iosipescu) with Aramis 5M DIC",
+        "specimen_notes": "6 mm thick specimens, 2 GSEP samples, crosshead 2 mm/min (0.5 mm/min for the second specimen), strains from Aramis 5M 3D DIC at the centre of the specimen. These values are preferred by the authors over the strain-gauge values of Table 16. modulus_mpa holds the shear modulus G, strength_mpa the shear stress at break, strain_at_failure the shear strain at break."
+      },
+      "properties": {
+        "modulus_mpa": 1800.0,
+        "strength_mpa": 14.0,
+        "strain_at_failure": 0.008,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Shear test Iosipescu | G (MPa) | 1800 | 175 |",
+          "location": "Table 18, p.114 (synthesis of results from test)"
+        },
+        {
+          "quote": "The material exhibits elastic behaviour and the deformation at break is very low, 0.008.",
+          "location": "Sec. 2.5.3, p.112 (GSEP Iosipescu with DIC)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "GSPU - Iosipescu shear, 6 mm specimen with digital image correlation",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "ASTM D5379 (V-notched beam / Iosipescu) with Aramis 5M DIC",
+        "specimen_notes": "6 mm thick specimens, 3 GSPU samples, crosshead 2 mm/min, strains from Aramis 5M 3D DIC at the centre of the specimen. Preferred by the authors over the strain-gauge values of Table 16. modulus_mpa holds the shear modulus G and strength_mpa the maximum shear stress reached (about 5 MPa, Fig. 87 and Fig. 91)."
+      },
+      "properties": {
+        "modulus_mpa": 175.0,
+        "strength_mpa": 5.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Shear test Iosipescu | G (MPa) | 1800 | 175 |",
+          "location": "Table 18, p.114 (synthesis of results from test)"
+        },
+        {
+          "quote": "Figure 91 : GSPU material, left, shear strain and right, longitudinal strain at 5 MPa",
+          "location": "Fig. 91 caption, p.113"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSEP - modified Arcan shear (2 mm plate)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Glass syntactic epoxy (GSEP); commercial deep-sea buoyancy/insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.72,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": 0.0083,
+        "temperature_c": 20,
+        "standard": "Modified Arcan fixture (non-standard, after Cognard et al.)",
+        "specimen_notes": "Modified Arcan (Cognard) pure-shear test, 2 x 7.6 x 66 mm3 plates bonded to chamfered aluminium supports with Araldite 420 A/B, DIC displacement measurement, crosshead 1 mm/min giving a shear strain rate of 0.0083 /s, mean of two tests, room temperature. modulus_mpa holds the shear modulus G and strength_mpa the shear stress at failure. Deformation of the adhesive joint pollutes the GSEP strain measurement, so the authors consider the GSEP shear modulus unreliable; an inverse method is still needed."
+      },
+      "properties": {
+        "modulus_mpa": 630.0,
+        "strength_mpa": 32.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| GSEP | 630 | 32 |",
+          "location": "Table 17, p.102 (modified Arcan results)"
+        },
+        {
+          "quote": "The global loading speed was 1 mm/min, corresponding to a shear deformation rate of  of 0.0083/s. In this case both GSPU and GSEP samples were tested.",
+          "location": "Sec. 2.4.3, p.99"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU - modified Arcan shear (2 mm plate)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP."
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": 0.0083,
+        "temperature_c": 20,
+        "standard": "Modified Arcan fixture (non-standard, after Cognard et al.)",
+        "specimen_notes": "Modified Arcan (Cognard) pure-shear test, 2 x 7.6 x 66 mm3 plates bonded to chamfered aluminium supports with Araldite 420 A/B, DIC displacement measurement, crosshead 1 mm/min giving a shear strain rate of 0.0083 /s, mean of two tests, room temperature. modulus_mpa holds the shear modulus G and strength_mpa the shear stress at failure. For GSPU the 4 MPa value is the stress at the plateau, not a break stress; shear strains up to 100% were reached. Separate rate-effect tests on 0.5 mm specimens (0.05 to 50 mm/min) showed the same initial slope but an increasing plateau level with rate; those values are only given in Fig. 75."
+      },
+      "properties": {
+        "modulus_mpa": 55.0,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": 4.0,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| GSPU | 55 | 4* |",
+          "location": "Table 17, p.102 (modified Arcan results); footnote '* Value at the plateau'"
+        },
+        {
+          "quote": "These tests highlight the shear behaviour of these materials and significant levels of strain are obtained for GSPU (strain up to 100%) and for GSEP.",
+          "location": "Sec. 2.4.3, p.101"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSEP (nominal insulation material properties, Table 1)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Glass syntactic epoxy",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.7,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Nominal specific gravity 0.7 kg/dm3; specific heat capacity 1.2 J/g.K; quoted maximum service depth 3000 m."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": null,
+        "specimen_notes": "Nominal (industry reference) properties of insulation materials tabulated by the author for comparison; not measured on the samples characterized in this thesis. No test method or specimen is described."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": 0.14,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Glass syntactic Epoxy | GSEP | 0.7 | 1.2 | .14 | 3000 |",
+          "location": "Table 1, p.36 (nominal properties of insulation material)"
+        }
+      ],
+      "extractor_confidence": 0.6
+    },
+    {
+      "sample_label": "GSPU (nominal insulation material properties, Table 1)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.72,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Nominal specific gravity 0.72 kg/dm3; specific heat capacity 1.7 J/g.K; quoted maximum service depth 2000 m."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": null,
+        "specimen_notes": "Nominal (industry reference) properties of insulation materials tabulated by the author for comparison; not measured on the samples characterized in this thesis. No test method or specimen is described."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": 0.17,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Glass syntactic Polyurethane | GSPU | 0.72 | 1.7 | .17 | 2000 |",
+          "location": "Table 1, p.36 (nominal properties of insulation material)"
+        }
+      ],
+      "extractor_confidence": 0.6
+    },
+    {
+      "sample_label": "GSPP (nominal insulation material properties, Table 1)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "pp",
+        "matrix_name": "Glass syntactic polypropylene",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.66,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Nominal specific gravity 0.66 kg/dm3; specific heat capacity 2.0 J/g.K; quoted maximum service depth 3000 m."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": null,
+        "specimen_notes": "Nominal (industry reference) properties of insulation materials tabulated by the author for comparison; not measured on the samples characterized in this thesis. No test method or specimen is described."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": 0.17,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Glass syntactic Polypropylene | GSPP | 0.66 | 2 | .17 | 3000 |",
+          "location": "Table 1, p.36 (nominal properties of insulation material)"
+        }
+      ],
+      "extractor_confidence": 0.6
+    },
+    {
+      "sample_label": "GSPP insulation layer of a 5LPP pipe coating (design data example, Appendix 6.3)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "pp",
+        "matrix_name": "Glass syntactic polypropylene (GSPP), 4th layer of a five-layer syntactic polypropylene pipe coating",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "extrusion",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.66,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Layer thickness 141 mm, specific heat capacity 1300 J/kg/K, density 0.66; data used to size a real (unnamed) field insulation design."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": null,
+        "specimen_notes": "Design/datasheet values used in a cool-down-time calculation example; not measured in this study."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": 0.16,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 4nd layer GSPP | 141 | .16 | 1300 | .66 |",
+          "location": "Appendix 6.3, p.181 (5LPP system data used for performance evaluation)"
+        }
+      ],
+      "extractor_confidence": 0.55
+    },
+    {
+      "sample_label": "GSPP - homogenization + damage model identification (Tables 21-23)",
+      "data_origin": "model",
+      "processing": {
+        "matrix_class": "pp",
+        "matrix_name": "Polypropylene matrix (E = 1.3 GPa, Poisson ratio 0.4)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 40.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.45,
+        "particle_weight_fraction": null,
+        "process_route": "extrusion",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Model input: microsphere volume fraction 0.45, mean diameter 40 um, wall thickness 1.5 um, glass E = 75 GPa and Poisson ratio 0.2; wall thickness/outer radius = 1.5/20 so the radius ratio is about 0.925 (not stated by the authors)."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "Self-consistent (three-phase) homogenization with damage by progressive removal of hollow spheres plus a plastic strain term; parameters fitted with Matlab",
+        "specimen_notes": "Identification example on a glass syntactic polypropylene tested at 20 C. Fitted coefficients A1 = 6.21e9, A2 = 5.53e9, B1 = 2.79, B2 = 1.32; model parameters D = 0.005, alpha1 = 0.072, alpha2 = 0.781. The model output is the volume-change vs pressure curve (Fig. 118); no numeric modulus or strength is tabulated."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| Volume fraction of micro spheres | 0.45 |",
+          "location": "Table 21, p.165 (parameters used in the model)"
+        },
+        {
+          "quote": "| Mean diameter of micro spheres | 40 µm |",
+          "location": "Table 21, p.165"
+        },
+        {
+          "quote": "An example of parameter identification is provided hereafter for a GSPP (Glass Syntactic polypropylene) material tested at 20°C.",
+          "location": "Sec. 4.3.5, p.165"
+        }
+      ],
+      "extractor_confidence": 0.7
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 1-2 - filler after hydrostatic loading to 0 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4175,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 0 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4175 g/cm3 on 1.3126 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 0 MPa (0 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 1-2 | 0 | 1.3126 | 0.4175 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 2-2 - filler after hydrostatic loading to 0 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4338,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 0 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4338 g/cm3 on 1.3799 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 0 MPa (0 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 2-2 | 0 | 1.3799 | 0.4338 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 1-3 - filler after hydrostatic loading to 0 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4209,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 0 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4209 g/cm3 on 1.3708 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 0 MPa (0 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 1-3 | 0 | 1.3708 | 0.4209 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 1-1 - filler after hydrostatic loading to 0 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4251,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 0 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4251 g/cm3 on 1.2518 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 0 MPa (0 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 1-1 | 0 | 1.2518 | 0.4251 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 2-1 - filler after hydrostatic loading to 0 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.428,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 0 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.428 g/cm3 on 1.3116 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 0 MPa (0 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 2-1 | 0 | 1.3116 | 0.428 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 3-1 - filler after hydrostatic loading to 5 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4207,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 5 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4207 g/cm3 on 1.4472 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 5 MPa (50 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 3-1 | 50 | 1.4472 | 0.4207 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 4-1 - filler after hydrostatic loading to 10 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4226,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 10 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4226 g/cm3 on 1.3118 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 10 MPa (100 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 4-1 | 100 | 1.3118 | 0.4226 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 4-2 - filler after hydrostatic loading to 10 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.422,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 10 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.422 g/cm3 on 1.3525 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 10 MPa (100 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 4-2 | 100 | 1.3525 | 0.422 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 5-1 - filler after hydrostatic loading to 15 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4425,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 15 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4425 g/cm3 on 1.4205 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 15 MPa (150 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 5-1 | 150 | 1.4205 | 0.4425 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 5-2 - filler after hydrostatic loading to 15 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4396,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 15 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4396 g/cm3 on 1.4976 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 15 MPa (150 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 5-2 | 150 | 1.4976 | 0.4396 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 6-1 - filler after hydrostatic loading to 20 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4487,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 20 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4487 g/cm3 on 1.4166 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 20 MPa (200 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 6-1 | 200 | 1.4166 | 0.4487 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 6-2 - filler after hydrostatic loading to 20 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4509,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 20 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4509 g/cm3 on 1.3044 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 20 MPa (200 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 6-2 | 200 | 1.3044 | 0.4509 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 7-1 - filler after hydrostatic loading to 25 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4557,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 25 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4557 g/cm3 on 1.5079 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 25 MPa (250 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 7-1 | 250 | 1.5079 | 0.4557 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 7-2 - filler after hydrostatic loading to 25 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4476,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 25 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4476 g/cm3 on 1.4263 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 25 MPa (250 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 7-2 | 250 | 1.4263 | 0.4476 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 8-1 - filler after hydrostatic loading to 30 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4648,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 30 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4648 g/cm3 on 1.5284 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 30 MPa (300 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 8-1 | 300 | 1.5284 | 0.4648 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 8-2 - filler after hydrostatic loading to 30 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.4614,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 30 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.4614 g/cm3 on 1.3975 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 30 MPa (300 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 8-2 | 300 | 1.3975 | 0.4614 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 9-1 - filler after hydrostatic loading to 35 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.5542,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 35 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.5542 g/cm3 on 1.4968 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 35 MPa (350 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 9-1 | 350 | 1.4968 | 0.5542 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 9-2 - filler after hydrostatic loading to 35 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.5545,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 35 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.5545 g/cm3 on 1.5223 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 35 MPa (350 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 9-2 | 350 | 1.5223 | 0.5545 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 10-1 - filler after hydrostatic loading to 40 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.6732,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 40 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.6732 g/cm3 on 1.7492 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 40 MPa (400 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 10-1 | 400 | 1.7492 | 0.6732 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 10-2 - filler after hydrostatic loading to 40 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.6676,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 40 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.6676 g/cm3 on 1.7244 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 40 MPa (400 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 10-2 | 400 | 1.7244 | 0.6676 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 11-1 - filler after hydrostatic loading to 50 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.7717,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 50 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.7717 g/cm3 on 1.8642 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 50 MPa (500 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 11-1 | 500 | 1.8642 | 0.7717 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 11-2 - filler after hydrostatic loading to 50 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.7744,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 50 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.7744 g/cm3 on 2.0028 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 50 MPa (500 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 11-2 | 500 | 2.0028 | 0.7744 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 12-1 - filler after hydrostatic loading to 60 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.8493,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 60 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.8493 g/cm3 on 1.9286 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 60 MPa (600 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 12-1 | 600 | 1.9286 | 0.8493 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 12-2 - filler after hydrostatic loading to 60 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.8559,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 60 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.8559 g/cm3 on 1.9666 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 60 MPa (600 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 12-2 | 600 | 1.9666 | 0.8559 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 13-1 - filler after hydrostatic loading to 80 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.9834,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 80 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.9834 g/cm3 on 1.9837 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 80 MPa (800 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 13-1 | 800 | 1.9837 | 0.9834 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "GSPU pycnometer coupon 13-2 - filler after hydrostatic loading to 80 MPa",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "polyurethane",
+        "matrix_name": "Glass syntactic polyurethane (GSPU); commercial deep-sea insulation foam, supplier not disclosed (NDA)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "3M S38 (S38HS referred to in the damage analysis)",
+        "particle_true_density_g_cc": 0.9935,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "For GSPU a humidity absorber (mineral filler) is normally included in addition to the microspheres"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.86,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microspheres are 3M S38 (the later damage analysis refers to grade S38HS: 3M size distribution 10th vol% < 19 um, 50th vol% < 65 um, 90th vol% < 70 um, effective max 85 um; mean wall thickness 1.3 um quoted from ref [44]). Microsphere volume content of the tested materials is not stated; the paper only says generically that 50-60 vol% is typical for epoxy foams and ~25 vol% for GSPU/GSPP. Filler recovered by calcination (450 C, >=24 h) after hydrostatic loading to 80 MPa; AccuPyc II 1340 gas pycnometer specific gravity 0.9935 g/cm3 on 2.269 g of filler. The specific gravity rises from about 0.42 g/cm3 unloaded towards the glass density as microspheres collapse, and is the authors' ex-situ measure of damage (glass specific gravity 2.52-2.7 g/cm3; at 80 MPa about 1.0 g/cm3, i.e. not all microspheres are collapsed). CV < 1%."
+      },
+      "test": {
+        "test_type": "hydrostatic",
+        "strain_rate_per_s": null,
+        "temperature_c": 20,
+        "standard": "EN ISO 1183-3 gas pycnometer method (density measurement); no standard for the hydrostatic loading",
+        "specimen_notes": "Coupon about 5x5x5 cm hydrostatically loaded in water at 20 C to 80 MPa (800 bar) at about 20 bar/min, held 10 min, then the matrix was burnt off at 450 C for at least 24 h and the recovered microsphere specific gravity was measured with an AccuPyc II 1340 helium pycnometer. Two coupons per pressure level (five unloaded references). No mechanical property is measured in this test; the measured value is carried in processing.particle_true_density_g_cc. The corresponding volume fraction of broken spheres is only given graphically (Fig. 102)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "| 13-2 | 800 | 2.269 | 0.9935 |",
+          "location": "Appendix 6.13, Table p.206 (Accupyc result for GSPU)"
+        },
+        {
+          "quote": "The others samples in pairs were hydrostatically loaded in water at 20°C  to different pressures. The rate of increase of pressure was about 20 bar/min. The maximum pressure was maintained for 10 minutes.",
+          "location": "Sec. 3.2.2, p.135 (pycnometer measurement procedure)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    }
+  ],
+  "extraction_notes": "UNITS: moduli given in GPa converted to MPa (3 GPa -> 3000, 2.62 GPa -> 2620, 1.93 GPa -> 1930, 1.15 GPa -> 1150). Pycnometer pressures converted from bar to MPa (10 bar = 1 MPa). Specific gravities in the appendix table are printed as 'density (kg/m3)' but the values (0.4175 - 0.9935) are g/cm3, consistent with the text ('after a pressure increase up to 80 MPa the specific gravity of the filler is about 1000 kg/m3'). FIELD MAPPING: for hydrostatic tests modulus_mpa holds the bulk modulus K and strength_mpa the crush (collapse) pressure; for shear tests modulus_mpa holds G and strength_mpa the shear stress at break; for the ultrasonic records modulus_mpa holds Young's modulus (G, K and Poisson's ratio are given in test.specimen_notes since the schema has no fields for them). For the 26 pycnometer records the measured quantity is the recovered filler specific gravity after loading, stored in processing.particle_true_density_g_cc with the applied pressure in test.specimen_notes; those records carry no mechanical property. COMPOSITION: the microsphere volume fraction of the two tested foams is never stated. The thesis only says generically that 'typically a volume content of 50-60% is reached for the epoxy material, while volume contents around 25% are obtained for GSPP and GSPU', so particle_volume_fraction is left null. Manufacturers and grades of the commercial foams are withheld under NDA. NOT EXTRACTED (figure-only, no tabulated/quoted numbers): hydrostatic compression of GSEP at 4, 50 and 100 C (Fig. 51 - crush pressure drops with temperature but no values); GSPU hydrostatic load-unload/creep spectrum (Fig. 53); uniaxial compression and DIC stress-strain curves for specimen types 1-4 (Figs. 31, 32, 78-85); modified Arcan loading-rate series on 0.5 mm GSPU (Fig. 75, 0.05-50 mm/min) and the GSEP thickness series (2 and 0.7 mm at 0.0119 /s, Fig. 74); the % of broken spheres vs pressure curve (Fig. 102); acoustic emission hit counts (Figs. 104-105, damage onset stated as ~10 MPa for GSPU); thermal conductivity vs water uptake (Fig. 108). DUPLICATE/CONFLICTING VALUES: Table 18 repeats the test results and is consistent with Tables 7, 9, 15 and 17 except (a) US shear modulus for GSEP is 1115 MPa in Table 18 vs 1.15 GPa in Table 7, and (b) the Iosipescu row of Table 18 (G = 1800 / 175 MPa) comes from the later DIC tests, not from the strain-gauge results of Table 16 (870 / 292 MPa); both sets are recorded as separate test conditions. Table 19 (indirectly calculated K, G and Poisson's ratio assuming isotropy, several values flagged as suspect by the authors, including negative bulk moduli) was not turned into records. Table 1 and Appendix 6.3 give nominal industry/design values for GSEP, GSPU and GSPP and are marked data_origin=secondary; note that Table 1's nominal GSPU density (0.72) differs from the tested GSPU (0.860, Table 3). The GSPP model identification of Sec. 4.3.5 is marked data_origin=model and has no measured property values."
+}

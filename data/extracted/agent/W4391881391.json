@@ -1,0 +1,475 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Buddhacosa et al. manufactured epoxy-matrix syntactic foams from West System 105/206 bisphenol A/F epoxy and West System 410 sodium borosilicate hollow glass microspheres by VARTM, partially replacing the microspheres with end-of-life tyre-derived milled crumb rubber particles (250-425 um) at HGM:rubber weight ratios from 1:0 to 1:5. Increasing rubber content raised foam density from 518 to 635 kg/m3, lowered HGM volume fraction from 64 to 50 vol.%, and kept manufacturing void content below 0.5 vol.%. Thermogravimetric analysis (10 and 30 C/min, N2 and air), TGA-FTIR evolved-gas analysis, SEM/EDS and ATR-FTIR char characterisation, cone calorimetry at 35 and 50 kW/m2 and UL94 horizontal-burn tests showed that rubber increased residual char and total heat release, raised the fire growth rate at 35 kW/m2 but lowered it at 50 kW/m2, and reduced the flame spread rate from 81.3 to 45.0 mm/min so that all rubber-reinforced foams achieved a UL94 HB rating.",
+ "records": [
+  {
+   "sample_label": "SYN(1:0)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol A/F epoxy resin blend, West System 105, with West System 206 slow hardener (Gougeon Brothers Inc.)",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "West System 410 Microlight, amorphous sodium borosilicate hollow glass microspheres (HGM)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 32.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.641,
+    "particle_weight_fraction": 0.125,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": 60.0,
+    "additional_fillers": "None (baseline unmodified syntactic foam)"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.518,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.002,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Table 1 composition: epoxy 87.5 wt.% / 35.7 vol.%, HGM 12.5 wt.% / 64.1 vol.%, rubber 0.0 wt.% / 0.0 vol.%, unintended void 0.2 +/- 0.2 vol.%. Measured bulk density 518 +/- 7 kg/m3; total foam porosity (including hollow HGM interiors) 56.8 +/- 1.3 %. Void content (CT, VolMaxStudio) below 0.5 vol.%, far below the 2-10 vol.% typical of stir-cast foam. HGM particle size 32 +/- 23 um, rubber 255 +/- 123 um (Gaussian, optical image analysis, ImageJ). SEM showed debonding/microcracking at the rubber/epoxy interface (chemically unfunctionalised, hydrophobic rubber vs hydrophilic epoxy) but good HGM/epoxy bonding with no interfacial microcracks."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ISO 5660-1 AMD 1 (cone calorimetry); UL 94 (horizontal burn); ASTM C136-19 (rubber sieving)",
+    "specimen_notes": "No mechanical test was performed on these foams in this paper; only thermal, fire-reaction and flame-spread properties were measured, none of which map onto fields of this schema. Values are recorded here verbatim. TGA (Table 2), Tmax at max mass-loss rate / residual char at 850 C: 30 C/min in N2 = 404 +/- 2 C / 10.9 +/- 0.7 %; 10 C/min in N2 = 371 +/- 11 C / 8.7 +/- 0.5 %; 30 C/min in air = 341 +/- 8 C / 5.4 +/- 0.3 %. Cone calorimeter, 100x100x3 mm specimen, 25 mm below the cone heater. At 35 kW/m2 (Table 3): t_ign = 28 +/- 3 s, pHRR1 = 556 +/- 18 kW/m2 at 38 +/- 5 s, pHRR2 = 610 +/- 40 kW/m2 at 108 +/- 2 s, THR = 50 +/- 3 MJ/m2, HC = 2.30 +/- 0.04 MJ/(g m2), FIGRA = 15 +/- 2 kW/(s m2). At 50 kW/m2 (Table 4): t_ign = 3 +/- 0 s, pHRR1 = 637 +/- 35 kW/m2 at 13 +/- 3 s, pHRR2 = 561 +/- 10 kW/m2 at 57 +/- 2 s, THR = 44 +/- 0 MJ/m2, HC = 2.42 +/- 0.01 MJ/(g m2), FIGRA = 49 +/- 4 kW/(s m2). UL94 horizontal burn, 200x12.4x3.0 mm specimen, n=5 (Table 5): elapsed flame time = 60.0 +/- 6.7 s, burning rate = 81.3 +/- 3.7 mm/min, rating = no rating (borderline HB)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SYN(1:0) 87.5 35.7 12.5 64.1 0.0 0.0 0.2 +/- 0.2 518 +/- 7 56.8 +/- 1.3",
+     "location": "Table 1: Composition and physical properties of rubber incorporated syntactic foam (epoxy wt/vol %, HGM wt/vol %, rubber wt/vol %, void vol %, density kg/m3, porosity %)"
+    },
+    {
+     "quote": "SYN(1:0) 404 +/- 2 10.9 +/- 0.7 371 +/- 11 8.7 +/- 0.5 341 +/- 8 5.4 +/- 0.3",
+     "location": "Table 2: Thermal properties (Tmax C and char % at 30 C/min N2, 10 C/min N2, 30 C/min air)"
+    },
+    {
+     "quote": "SYN(1:0) 28 +/- 3 556 +/- 18 38 +/- 5 610 +/- 40 108 +/- 2 50 +/- 3 2.30 +/- 0.04 15 +/- 2",
+     "location": "Table 3: Fire reaction properties at an incident heat flux of 35 kW/m2"
+    },
+    {
+     "quote": "SYN(1:0) 3 +/- 0 637 +/- 35 13 +/- 3 561 +/- 10 57 +/- 2 44 +/- 0 2.42 +/- 0.01 49 +/- 4",
+     "location": "Table 4: Fire reaction properties at an incident heat flux of 50 kW/m2"
+    },
+    {
+     "quote": "SYN(1:0) 60.0 +/- 6.7 81.3 +/- 3.7 no rating (borderline HB)",
+     "location": "Table 5: UL94 classification of rubber-reinforced syntactic foam"
+    },
+    {
+     "quote": "Syntactic foam panels incorporating rubber particles derived from EOLTs were manufactured using an epoxy resin blend of bisphenol A and F (West System 105), a slow hardener (West System 206) and amorphous sodium borosilicate hollow glass microspheres (HGM) (West System 410 Microlight)",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 1"
+    },
+    {
+     "quote": "The rubber/HGM/epoxy foam panel was cured at ambient temperature (23C), under 1 atm pressure over 24 h. The ambient temperature-cured syntactic foam incorporating rubber particles was post-cured for 8 h at 60C using a conventional oven.",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 3"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "SYN(1:1)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol A/F epoxy resin blend, West System 105, with West System 206 slow hardener (Gougeon Brothers Inc.)",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "West System 410 Microlight, amorphous sodium borosilicate hollow glass microspheres (HGM)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 32.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.618,
+    "particle_weight_fraction": 0.102,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": 60.0,
+    "additional_fillers": "End-of-life tyre (EOLT) derived milled crumb rubber particles / elastomeric filler (TyreCycle Australia), 250-425 um sieved fraction, mean size 255 +/- 123 um; 10.3 wt.% and 9.1 vol.% of the foam"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.538,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.001,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Table 1 composition: epoxy 79.5 wt.% / 29.0 vol.%, HGM 10.2 wt.% / 61.8 vol.%, rubber 10.3 wt.% / 9.1 vol.%, unintended void 0.1 +/- 0.0 vol.%. Measured bulk density 538 +/- 3 kg/m3; total foam porosity (including hollow HGM interiors) 55.1 +/- 0.8 %. Void content (CT, VolMaxStudio) below 0.5 vol.%, far below the 2-10 vol.% typical of stir-cast foam. HGM particle size 32 +/- 23 um, rubber 255 +/- 123 um (Gaussian, optical image analysis, ImageJ). SEM showed debonding/microcracking at the rubber/epoxy interface (chemically unfunctionalised, hydrophobic rubber vs hydrophilic epoxy) but good HGM/epoxy bonding with no interfacial microcracks."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ISO 5660-1 AMD 1 (cone calorimetry); UL 94 (horizontal burn); ASTM C136-19 (rubber sieving)",
+    "specimen_notes": "No mechanical test was performed on these foams in this paper; only thermal, fire-reaction and flame-spread properties were measured, none of which map onto fields of this schema. Values are recorded here verbatim. TGA (Table 2), Tmax at max mass-loss rate / residual char at 850 C: 30 C/min in N2 = 412 +/- 4 C / 14.7 +/- 0.3 %; 10 C/min in N2 = 379 +/- 3 C / 11.1 +/- 0.1 %; 30 C/min in air = 342 +/- 3 C / 6.2 +/- 0.2 %. Cone calorimeter, 100x100x3 mm specimen, 25 mm below the cone heater. At 35 kW/m2 (Table 3): t_ign = 26 +/- 2 s, pHRR1 = 601 +/- 19 kW/m2 at 30 +/- 4 s, pHRR2 = 599 +/- 8 kW/m2 at 110 +/- 4 s, THR = 53 +/- 2 MJ/m2, HC = 2.45 +/- 0.04 MJ/(g m2), FIGRA = 20 +/- 2 kW/(s m2). At 50 kW/m2 (Table 4): t_ign = 5 +/- 2 s, pHRR1 = 782 +/- 30 kW/m2 at 15 +/- 0 s, pHRR2 = 621 +/- 10 kW/m2 at 82 +/- 2 s, THR = 53 +/- 1 MJ/m2, HC = 2.45 +/- 0.06 MJ/(g m2), FIGRA = 52 +/- 2 kW/(s m2). UL94 horizontal burn, 200x12.4x3.0 mm specimen, n=5 (Table 5): elapsed flame time = 75.0 +/- 5.4 s, burning rate = 60.3 +/- 4.4 mm/min, rating = HB."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SYN(1:1) 79.5 29.0 10.2 61.8 10.3 9.1 0.1 +/- 0.0 538 +/- 3 55.1 +/- 0.8",
+     "location": "Table 1: Composition and physical properties of rubber incorporated syntactic foam (epoxy wt/vol %, HGM wt/vol %, rubber wt/vol %, void vol %, density kg/m3, porosity %)"
+    },
+    {
+     "quote": "SYN(1:1) 412 +/- 4 14.7 +/- 0.3 379 +/- 3 11.1 +/- 0.1 342 +/- 3 6.2 +/- 0.2",
+     "location": "Table 2: Thermal properties (Tmax C and char % at 30 C/min N2, 10 C/min N2, 30 C/min air)"
+    },
+    {
+     "quote": "SYN(1:1) 26 +/- 2 601 +/- 19 30 +/- 4 599 +/- 8 110 +/- 4 53 +/- 2 2.45 +/- 0.04 20 +/- 2",
+     "location": "Table 3: Fire reaction properties at an incident heat flux of 35 kW/m2"
+    },
+    {
+     "quote": "SYN(1:1) 5 +/- 2 782 +/- 30 15 +/- 0 621 +/- 10 82 +/- 2 53 +/- 1 2.45 +/- 0.06 52 +/- 2",
+     "location": "Table 4: Fire reaction properties at an incident heat flux of 50 kW/m2"
+    },
+    {
+     "quote": "SYN(1:1) 75.0 +/- 5.4 60.3 +/- 4.4 HB",
+     "location": "Table 5: UL94 classification of rubber-reinforced syntactic foam"
+    },
+    {
+     "quote": "Syntactic foam panels incorporating rubber particles derived from EOLTs were manufactured using an epoxy resin blend of bisphenol A and F (West System 105), a slow hardener (West System 206) and amorphous sodium borosilicate hollow glass microspheres (HGM) (West System 410 Microlight)",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 1"
+    },
+    {
+     "quote": "The rubber/HGM/epoxy foam panel was cured at ambient temperature (23C), under 1 atm pressure over 24 h. The ambient temperature-cured syntactic foam incorporating rubber particles was post-cured for 8 h at 60C using a conventional oven.",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 3"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "SYN(1:2)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol A/F epoxy resin blend, West System 105, with West System 206 slow hardener (Gougeon Brothers Inc.)",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "West System 410 Microlight, amorphous sodium borosilicate hollow glass microspheres (HGM)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 32.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.566,
+    "particle_weight_fraction": 0.082,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": 60.0,
+    "additional_fillers": "End-of-life tyre (EOLT) derived milled crumb rubber particles / elastomeric filler (TyreCycle Australia), 250-425 um sieved fraction, mean size 255 +/- 123 um; 16.4 wt.% and 16.3 vol.% of the foam"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.573,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.0,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Table 1 composition: epoxy 75.4 wt.% / 27.1 vol.%, HGM 8.2 wt.% / 56.6 vol.%, rubber 16.4 wt.% / 16.3 vol.%, unintended void 0.0 +/- 0.0 vol.%. Measured bulk density 573 +/- 7 kg/m3; total foam porosity (including hollow HGM interiors) 52.2 +/- 1.1 %. Void content (CT, VolMaxStudio) below 0.5 vol.%, far below the 2-10 vol.% typical of stir-cast foam. HGM particle size 32 +/- 23 um, rubber 255 +/- 123 um (Gaussian, optical image analysis, ImageJ). SEM showed debonding/microcracking at the rubber/epoxy interface (chemically unfunctionalised, hydrophobic rubber vs hydrophilic epoxy) but good HGM/epoxy bonding with no interfacial microcracks."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ISO 5660-1 AMD 1 (cone calorimetry); UL 94 (horizontal burn); ASTM C136-19 (rubber sieving)",
+    "specimen_notes": "No mechanical test was performed on these foams in this paper; only thermal, fire-reaction and flame-spread properties were measured, none of which map onto fields of this schema. Values are recorded here verbatim. TGA (Table 2), Tmax at max mass-loss rate / residual char at 850 C: 30 C/min in N2 = 412 +/- 3 C / 16.3 +/- 0.4 %; 10 C/min in N2 = 380 +/- 5 C / 14.2 +/- 0.4 %; 30 C/min in air = 382 +/- 4 C / 6.2 +/- 0.2 %. Cone calorimeter, 100x100x3 mm specimen, 25 mm below the cone heater. At 35 kW/m2 (Table 3): t_ign = 30 +/- 4 s, pHRR1 = 662 +/- 13 kW/m2 at 32 +/- 5 s, pHRR2 = 641 +/- 58 kW/m2 at 127 +/- 6 s, THR = 63 +/- 3 MJ/m2, HC = 2.60 +/- 0.04 MJ/(g m2), FIGRA = 21 +/- 3 kW/(s m2). At 50 kW/m2 (Table 4): t_ign = 4 +/- 1 s, pHRR1 = 641 +/- 28 kW/m2 at 15 +/- 4 s, pHRR2 = 608 +/- 20 kW/m2 at 90 +/- 5 s, THR = 56 +/- 3 MJ/m2, HC = 2.56 +/- 0.03 MJ/(g m2), FIGRA = 46 +/- 11 kW/(s m2). UL94 horizontal burn, 200x12.4x3.0 mm specimen, n=5 (Table 5): elapsed flame time = 75.7 +/- 4.5 s, burning rate = 59.7 +/- 3.4 mm/min, rating = HB."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SYN(1:2) 75.4 27.1 8.2 56.6 16.4 16.3 0.0 +/- 0.0 573 +/- 7 52.2 +/- 1.1",
+     "location": "Table 1: Composition and physical properties of rubber incorporated syntactic foam (epoxy wt/vol %, HGM wt/vol %, rubber wt/vol %, void vol %, density kg/m3, porosity %)"
+    },
+    {
+     "quote": "SYN(1:2) 412 +/- 3 16.3 +/- 0.4 380 +/- 5 14.2 +/- 0.4 382 +/- 4 6.2 +/- 0.2",
+     "location": "Table 2: Thermal properties (Tmax C and char % at 30 C/min N2, 10 C/min N2, 30 C/min air)"
+    },
+    {
+     "quote": "SYN(1:2) 30 +/- 4 662 +/- 13 32 +/- 5 641 +/- 58 127 +/- 6 63 +/- 3 2.60 +/- 0.04 21 +/- 3",
+     "location": "Table 3: Fire reaction properties at an incident heat flux of 35 kW/m2"
+    },
+    {
+     "quote": "SYN(1:2) 4 +/- 1 641 +/- 28 15 +/- 4 608 +/- 20 90 +/- 5 56 +/- 3 2.56 +/- 0.03 46 +/- 11",
+     "location": "Table 4: Fire reaction properties at an incident heat flux of 50 kW/m2"
+    },
+    {
+     "quote": "SYN(1:2) 75.7 +/- 4.5 59.7 +/- 3.4 HB",
+     "location": "Table 5: UL94 classification of rubber-reinforced syntactic foam"
+    },
+    {
+     "quote": "Syntactic foam panels incorporating rubber particles derived from EOLTs were manufactured using an epoxy resin blend of bisphenol A and F (West System 105), a slow hardener (West System 206) and amorphous sodium borosilicate hollow glass microspheres (HGM) (West System 410 Microlight)",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 1"
+    },
+    {
+     "quote": "The rubber/HGM/epoxy foam panel was cured at ambient temperature (23C), under 1 atm pressure over 24 h. The ambient temperature-cured syntactic foam incorporating rubber particles was post-cured for 8 h at 60C using a conventional oven.",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 3"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "SYN(1:3)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol A/F epoxy resin blend, West System 105, with West System 206 slow hardener (Gougeon Brothers Inc.)",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "West System 410 Microlight, amorphous sodium borosilicate hollow glass microspheres (HGM)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 32.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.538,
+    "particle_weight_fraction": 0.074,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": 60.0,
+    "additional_fillers": "End-of-life tyre (EOLT) derived milled crumb rubber particles / elastomeric filler (TyreCycle Australia), 250-425 um sieved fraction, mean size 255 +/- 123 um; 22.2 wt.% and 19.6 vol.% of the foam"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.58,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.001,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Table 1 composition: epoxy 70.4 wt.% / 26.5 vol.%, HGM 7.4 wt.% / 53.8 vol.%, rubber 22.2 wt.% / 19.6 vol.%, unintended void 0.1 +/- 0.1 vol.%. Measured bulk density 580 +/- 12 kg/m3; total foam porosity (including hollow HGM interiors) 51.7 +/- 1.5 %. Void content (CT, VolMaxStudio) below 0.5 vol.%, far below the 2-10 vol.% typical of stir-cast foam. HGM particle size 32 +/- 23 um, rubber 255 +/- 123 um (Gaussian, optical image analysis, ImageJ). SEM showed debonding/microcracking at the rubber/epoxy interface (chemically unfunctionalised, hydrophobic rubber vs hydrophilic epoxy) but good HGM/epoxy bonding with no interfacial microcracks."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ISO 5660-1 AMD 1 (cone calorimetry); UL 94 (horizontal burn); ASTM C136-19 (rubber sieving)",
+    "specimen_notes": "No mechanical test was performed on these foams in this paper; only thermal, fire-reaction and flame-spread properties were measured, none of which map onto fields of this schema. Values are recorded here verbatim. TGA (Table 2), Tmax at max mass-loss rate / residual char at 850 C: 30 C/min in N2 = 410 +/- 0 C / 18.0 +/- 0.4 %; 10 C/min in N2 = 381 +/- 3 C / 14.7 +/- 0.0 %; 30 C/min in air = 384 +/- 1 C / 5.8 +/- 0.2 %. Cone calorimeter, 100x100x3 mm specimen, 25 mm below the cone heater. At 35 kW/m2 (Table 3): t_ign = 32 +/- 2 s, pHRR1 = 621 +/- 11 kW/m2 at 35 +/- 0 s, pHRR2 = 670 +/- 27 kW/m2 at 125 +/- 8 s, THR = 65 +/- 3 MJ/m2, HC = 2.64 +/- 0.03 MJ/(g m2), FIGRA = 18 +/- 0 kW/(s m2). At 50 kW/m2 (Table 4): t_ign = 4 +/- 1 s, pHRR1 = 666 +/- 30 kW/m2 at 15 +/- 0 s, pHRR2 = 570 +/- 17 kW/m2 at 92 +/- 4 s, THR = 61 +/- 1 MJ/m2, HC = 2.67 +/- 0.01 MJ/(g m2), FIGRA = 44 +/- 2 kW/(s m2). UL94 horizontal burn, 200x12.4x3.0 mm specimen, n=5 (Table 5): elapsed flame time = 79.3 +/- 4.5 s, burning rate = 56.9 +/- 3.4 mm/min, rating = HB."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SYN(1:3) 70.4 26.5 7.4 53.8 22.2 19.6 0.1 +/- 0.1 580 +/- 12 51.7 +/- 1.5",
+     "location": "Table 1: Composition and physical properties of rubber incorporated syntactic foam (epoxy wt/vol %, HGM wt/vol %, rubber wt/vol %, void vol %, density kg/m3, porosity %)"
+    },
+    {
+     "quote": "SYN(1:3) 410 +/- 0 18.0 +/- 0.4 381 +/- 3 14.7 +/- 0.0 384 +/- 1 5.8 +/- 0.2",
+     "location": "Table 2: Thermal properties (Tmax C and char % at 30 C/min N2, 10 C/min N2, 30 C/min air)"
+    },
+    {
+     "quote": "SYN(1:3) 32 +/- 2 621 +/- 11 35 +/- 0 670 +/- 27 125 +/- 8 65 +/- 3 2.64 +/- 0.03 18 +/- 0",
+     "location": "Table 3: Fire reaction properties at an incident heat flux of 35 kW/m2"
+    },
+    {
+     "quote": "SYN(1:3) 4 +/- 1 666 +/- 30 15 +/- 0 570 +/- 17 92 +/- 4 61 +/- 1 2.67 +/- 0.01 44 +/- 2",
+     "location": "Table 4: Fire reaction properties at an incident heat flux of 50 kW/m2"
+    },
+    {
+     "quote": "SYN(1:3) 79.3 +/- 4.5 56.9 +/- 3.4 HB",
+     "location": "Table 5: UL94 classification of rubber-reinforced syntactic foam"
+    },
+    {
+     "quote": "Syntactic foam panels incorporating rubber particles derived from EOLTs were manufactured using an epoxy resin blend of bisphenol A and F (West System 105), a slow hardener (West System 206) and amorphous sodium borosilicate hollow glass microspheres (HGM) (West System 410 Microlight)",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 1"
+    },
+    {
+     "quote": "The rubber/HGM/epoxy foam panel was cured at ambient temperature (23C), under 1 atm pressure over 24 h. The ambient temperature-cured syntactic foam incorporating rubber particles was post-cured for 8 h at 60C using a conventional oven.",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 3"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "SYN(1:4)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol A/F epoxy resin blend, West System 105, with West System 206 slow hardener (Gougeon Brothers Inc.)",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "West System 410 Microlight, amorphous sodium borosilicate hollow glass microspheres (HGM)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 32.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.514,
+    "particle_weight_fraction": 0.069,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": 60.0,
+    "additional_fillers": "End-of-life tyre (EOLT) derived milled crumb rubber particles / elastomeric filler (TyreCycle Australia), 250-425 um sieved fraction, mean size 255 +/- 123 um; 27.7 wt.% and 28.8 vol.% of the foam"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.616,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.003,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Table 1 composition: epoxy 65.4 wt.% / 19.5 vol.%, HGM 6.9 wt.% / 51.4 vol.%, rubber 27.7 wt.% / 28.8 vol.%, unintended void 0.3 +/- 0.2 vol.%. Measured bulk density 616 +/- 5 kg/m3; total foam porosity (including hollow HGM interiors) 48.7 +/- 0.8 %. Void content (CT, VolMaxStudio) below 0.5 vol.%, far below the 2-10 vol.% typical of stir-cast foam. HGM particle size 32 +/- 23 um, rubber 255 +/- 123 um (Gaussian, optical image analysis, ImageJ). SEM showed debonding/microcracking at the rubber/epoxy interface (chemically unfunctionalised, hydrophobic rubber vs hydrophilic epoxy) but good HGM/epoxy bonding with no interfacial microcracks."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ISO 5660-1 AMD 1 (cone calorimetry); UL 94 (horizontal burn); ASTM C136-19 (rubber sieving)",
+    "specimen_notes": "No mechanical test was performed on these foams in this paper; only thermal, fire-reaction and flame-spread properties were measured, none of which map onto fields of this schema. Values are recorded here verbatim. TGA (Table 2), Tmax at max mass-loss rate / residual char at 850 C: 30 C/min in N2 = 408 +/- 1 C / 19.4 +/- 0.3 %; 10 C/min in N2 = 373 +/- 6 C / 14.7 +/- 0.7 %; 30 C/min in air = 387 +/- 3 C / 6.3 +/- 0.0 %. Cone calorimeter, 100x100x3 mm specimen, 25 mm below the cone heater. At 35 kW/m2 (Table 3): t_ign = 29 +/- 1 s, pHRR1 = 633 +/- 20 kW/m2 at 30 +/- 0 s, pHRR2 = 527 +/- 12 kW/m2 at 138 +/- 2 s, THR = 70 +/- 1 MJ/m2, HC = 2.64 +/- 0.04 MJ/(g m2), FIGRA = 21 +/- 1 kW/(s m2). At 50 kW/m2 (Table 4): t_ign = 7 +/- 3 s, pHRR1 = 719 +/- 7 kW/m2 at 20 +/- 0 s, pHRR2 = 689 +/- 30 kW/m2 at 118 +/- 4 s, THR = 78 +/- 1 MJ/m2, HC = 2.68 +/- 0.04 MJ/(g m2), FIGRA = 36 +/- 0 kW/(s m2). UL94 horizontal burn, 200x12.4x3.0 mm specimen, n=5 (Table 5): elapsed flame time = 91.3 +/- 4.8 s, burning rate = 49.5 +/- 2.7 mm/min, rating = HB."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SYN(1:4) 65.4 19.5 6.9 51.4 27.7 28.8 0.3 +/- 0.2 616 +/- 5 48.7 +/- 0.8",
+     "location": "Table 1: Composition and physical properties of rubber incorporated syntactic foam (epoxy wt/vol %, HGM wt/vol %, rubber wt/vol %, void vol %, density kg/m3, porosity %)"
+    },
+    {
+     "quote": "SYN(1:4) 408 +/- 1 19.4 +/- 0.3 373 +/- 6 14.7 +/- 0.7 387 +/- 3 6.3 +/- 0.0",
+     "location": "Table 2: Thermal properties (Tmax C and char % at 30 C/min N2, 10 C/min N2, 30 C/min air)"
+    },
+    {
+     "quote": "SYN(1:4) 29 +/- 1 633 +/- 20 30 +/- 0 527 +/- 12 138 +/- 2 70 +/- 1 2.64 +/- 0.04 21 +/- 1",
+     "location": "Table 3: Fire reaction properties at an incident heat flux of 35 kW/m2"
+    },
+    {
+     "quote": "SYN(1:4) 7 +/- 3 719 +/- 7 20 +/- 0 689 +/- 30 118 +/- 4 78 +/- 1 2.68 +/- 0.04 36 +/- 0",
+     "location": "Table 4: Fire reaction properties at an incident heat flux of 50 kW/m2"
+    },
+    {
+     "quote": "SYN(1:4) 91.3 +/- 4.8 49.5 +/- 2.7 HB",
+     "location": "Table 5: UL94 classification of rubber-reinforced syntactic foam"
+    },
+    {
+     "quote": "Syntactic foam panels incorporating rubber particles derived from EOLTs were manufactured using an epoxy resin blend of bisphenol A and F (West System 105), a slow hardener (West System 206) and amorphous sodium borosilicate hollow glass microspheres (HGM) (West System 410 Microlight)",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 1"
+    },
+    {
+     "quote": "The rubber/HGM/epoxy foam panel was cured at ambient temperature (23C), under 1 atm pressure over 24 h. The ambient temperature-cured syntactic foam incorporating rubber particles was post-cured for 8 h at 60C using a conventional oven.",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 3"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "SYN(1:5)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Bisphenol A/F epoxy resin blend, West System 105, with West System 206 slow hardener (Gougeon Brothers Inc.)",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "West System 410 Microlight, amorphous sodium borosilicate hollow glass microspheres (HGM)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 32.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.496,
+    "particle_weight_fraction": 0.067,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": 60.0,
+    "additional_fillers": "End-of-life tyre (EOLT) derived milled crumb rubber particles / elastomeric filler (TyreCycle Australia), 250-425 um sieved fraction, mean size 255 +/- 123 um; 33.3 wt.% and 34.6 vol.% of the foam"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.635,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.003,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Table 1 composition: epoxy 60.0 wt.% / 15.5 vol.%, HGM 6.7 wt.% / 49.6 vol.%, rubber 33.3 wt.% / 34.6 vol.%, unintended void 0.3 +/- 0.3 vol.%. Measured bulk density 635 +/- 8 kg/m3; total foam porosity (including hollow HGM interiors) 47.1 +/- 1.0 %. Void content (CT, VolMaxStudio) below 0.5 vol.%, far below the 2-10 vol.% typical of stir-cast foam. HGM particle size 32 +/- 23 um, rubber 255 +/- 123 um (Gaussian, optical image analysis, ImageJ). SEM showed debonding/microcracking at the rubber/epoxy interface (chemically unfunctionalised, hydrophobic rubber vs hydrophilic epoxy) but good HGM/epoxy bonding with no interfacial microcracks."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ISO 5660-1 AMD 1 (cone calorimetry); UL 94 (horizontal burn); ASTM C136-19 (rubber sieving)",
+    "specimen_notes": "No mechanical test was performed on these foams in this paper; only thermal, fire-reaction and flame-spread properties were measured, none of which map onto fields of this schema. Values are recorded here verbatim. TGA (Table 2), Tmax at max mass-loss rate / residual char at 850 C: 30 C/min in N2 = 409 +/- 2 C / 19.9 +/- 0.1 %; 10 C/min in N2 = 381 +/- 5 C / 16.3 +/- 1.0 %; 30 C/min in air = 386 +/- 2 C / 6.6 +/- 0.7 %. Cone calorimeter, 100x100x3 mm specimen, 25 mm below the cone heater. At 35 kW/m2 (Table 3): t_ign = 25 +/- 4 s, pHRR1 = 602 +/- 41 kW/m2 at 27 +/- 2 s, pHRR2 = 540 +/- 12 kW/m2 at 137 +/- 2 s, THR = 71 +/- 0 MJ/m2, HC = 2.70 +/- 0.01 MJ/(g m2), FIGRA = 22 +/- 0 kW/(s m2). At 50 kW/m2 (Table 4): t_ign = 10 +/- 1 s, pHRR1 = 676 +/- 19 kW/m2 at 22 +/- 2 s, pHRR2 = 639 +/- 31 kW/m2 at 117 +/- 2 s, THR = 77 +/- 2 MJ/m2, HC = 2.70 +/- 0.01 MJ/(g m2), FIGRA = 32 +/- 4 kW/(s m2). UL94 horizontal burn, 200x12.4x3.0 mm specimen, n=5 (Table 5): elapsed flame time = 100.0 +/- 2.8 s, burning rate = 45.0 +/- 1.2 mm/min, rating = HB."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SYN(1:5) 60.0 15.5 6.7 49.6 33.3 34.6 0.3 +/- 0.3 635 +/- 8 47.1 +/- 1.0",
+     "location": "Table 1: Composition and physical properties of rubber incorporated syntactic foam (epoxy wt/vol %, HGM wt/vol %, rubber wt/vol %, void vol %, density kg/m3, porosity %)"
+    },
+    {
+     "quote": "SYN(1:5) 409 +/- 2 19.9 +/- 0.1 381 +/- 5 16.3 +/- 1.0 386 +/- 2 6.6 +/- 0.7",
+     "location": "Table 2: Thermal properties (Tmax C and char % at 30 C/min N2, 10 C/min N2, 30 C/min air)"
+    },
+    {
+     "quote": "SYN(1:5) 25 +/- 4 602 +/- 41 27 +/- 2 540 +/- 12 137 +/- 2 71 +/- 0 2.70 +/- 0.01 22 +/- 0",
+     "location": "Table 3: Fire reaction properties at an incident heat flux of 35 kW/m2"
+    },
+    {
+     "quote": "SYN(1:5) 10 +/- 1 676 +/- 19 22 +/- 2 639 +/- 31 117 +/- 2 77 +/- 2 2.70 +/- 0.01 32 +/- 4",
+     "location": "Table 4: Fire reaction properties at an incident heat flux of 50 kW/m2"
+    },
+    {
+     "quote": "SYN(1:5) 100.0 +/- 2.8 45.0 +/- 1.2 HB",
+     "location": "Table 5: UL94 classification of rubber-reinforced syntactic foam"
+    },
+    {
+     "quote": "Syntactic foam panels incorporating rubber particles derived from EOLTs were manufactured using an epoxy resin blend of bisphenol A and F (West System 105), a slow hardener (West System 206) and amorphous sodium borosilicate hollow glass microspheres (HGM) (West System 410 Microlight)",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 1"
+    },
+    {
+     "quote": "The rubber/HGM/epoxy foam panel was cured at ambient temperature (23C), under 1 atm pressure over 24 h. The ambient temperature-cured syntactic foam incorporating rubber particles was post-cured for 8 h at 60C using a conventional oven.",
+     "location": "Sec. 2.1 Materials and syntactic foam manufacturing, para 3"
+    }
+   ],
+   "extractor_confidence": 0.88
+  }
+ ],
+ "extraction_notes": "On-topic syntactic-foam paper (epoxy matrix + hollow glass microspheres), but it reports NO mechanical properties: no modulus, strength, strain, energy absorption, plateau stress, thermal conductivity, CTE, DMA or moisture uptake are measured for these foams. The measured quantities are physical (density, porosity, void content, phase fractions) plus thermal-degradation (Tmax, residual char), fire-reaction (t_ign, pHRR1/2, THR, heat of combustion, FIGRA) and flame-spread (UL94 elapsed flame time, burning rate, rating) properties, none of which have a field in this schema. Every Properties field is therefore null; the numbers are preserved verbatim in test.specimen_notes and in the per-table evidence items so nothing is lost.\nRECORD GRANULARITY: six records are emitted, one per foam composition SYN(1:0) through SYN(1:5). Although the paper reports six test conditions per composition (TGA at 30 C/min in N2, 10 C/min in N2 and 30 C/min in air; cone calorimetry at 35 and 50 kW/m2; UL94), none of those conditions produces a value that maps to a schema property field, so splitting each composition into six records would yield 36 rows that are byte-identical in Processing, Structure and Properties. All six test conditions are instead captured inside each composition's single record.\nUNIT CONVERSIONS: measured density kg/m3 -> g/cm3 (e.g. 518 -> 0.518); HGM vol.% and wt.% -> fractions (e.g. 64.1 vol.% -> 0.641); void vol.% -> matrix_porosity_fraction (e.g. 0.2 -> 0.002).\nFIELD CHOICES: matrix_porosity_fraction holds the Table 1 'Void' column (unintended VARTM porosity, 0.0-0.3 vol.%), NOT the Table 1 'Porosity' column (47-57 %), which is the total foam porosity including the hollow interiors of the HGM particles; that value is recorded in microstructure_notes to avoid conflating the two. cure_or_process_temperature_c = 60 C, the 8 h post-cure; the 24 h primary cure at ambient 23 C is noted in evidence. particle_true_density_g_cc left null (never stated). particle_wall_thickness_ratio left null (never stated). test.temperature_c left null because the tests are ramped-temperature or radiant-heat-flux exposures with no single test temperature. test_type = 'other' for all records, since none of compression/tension/flexure/shear/impact/dma/fatigue/hydrostatic applies to TGA, cone calorimetry or UL94.\nEXCLUDED ROWS: Table 2 also lists the three neat constituents (HGM alone Tmax 228 +/- 3 C, char 63.6 +/- 1.2 %; rubber alone 418 +/- 4 C, 35.9 +/- 0.2 %; epoxy alone 419 +/- 2 C, 8.0 +/- 0.3 %). These are single-phase reference materials, not hollow-particle composites, so no records were created for them. Literature heats of combustion quoted in the discussion (tyre rubber 39-45 MJ/kg, bisphenol resin 31 MJ/kg) are secondary values from refs 36-38 and are not schema properties, so no 'secondary' records were created either. The text states compression strength and modulus of VARTM foam were 'at least 10% higher' than stir-cast foam measured in the authors' laboratories, but gives no absolute numbers, so no modulus or strength value was recorded.\nMINOR TEXT INCONSISTENCY: the running text says rubber content increased 'from 10.2 wt.% in SYN(1:1) to 33.5 wt.% in SYN(1:5)'; 10.2 wt.% is the HGM column value and 33.5 wt.% differs slightly from the 33.3 wt.% given in Table 1. Table 1 values were used throughout."
+}

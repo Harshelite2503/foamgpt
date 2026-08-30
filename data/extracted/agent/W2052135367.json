@@ -1,0 +1,631 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Silicone-rubber (Smooth-On Mold Star 30) syntactic foams were hand-mixed and cast with 3M A16/500 (GB500) and A20/1000 (GB1000) glass bubbles at 10, 20 and 30 wt%, giving densities from 748 down to 360 kg/m3 versus 1120 kg/m3 for the neat resin (a 63-68% reduction at 30 wt%). Quasi-static compression was run at room temperature on virgin specimens and on specimens heat treated by holding one face at 500 C for 1 h. Increasing glass-bubble content raised the plateau stress and lengthened the plateau (crush) region, improving energy absorption, while the 500 C treatment produced a brittle heat-resistant surface layer (two-layer structure) without considerably changing the compression response.",
+ "records": [
+  {
+   "sample_label": "10% GB500, virgin",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.1,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A16/500 glass bubbles (crush test pressure 3.44 MPa / 500 psi)",
+    "particle_true_density_g_cc": 0.16,
+    "particle_mean_diameter_um": 115.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.73978,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. As-cured (virgin) condition."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature in the virgin (untreated) state."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    },
+    {
+     "quote": "A syntactic foam was produced by mixing silicone rubber and glass bubbles by hand. After mixing for 20 min, the raw material was filled in a wax mold and compressed by hand. The specimen was designed to be cylindrical with a diameter of 25 mm and a height of 17 mm.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "10% GB500, 500 C heat treated",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.1,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 500.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A16/500 glass bubbles (crush test pressure 3.44 MPa / 500 psi)",
+    "particle_true_density_g_cc": 0.16,
+    "particle_mean_diameter_um": 115.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.73978,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. After one-sided 500 C / 1 h exposure the foam becomes a two-layer structure: a white, brittle, heat-resistive front layer extending less than 1/3 of the section height and a back layer that stays elastic/plastic like the unheated foam; SEM shows the glass bubbles remain intact at 500 C (they rupture at 750 C). Steady-state back-face temperature 130 C."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature after one-sided 500 +/- 10 C / 1 h heat treatment."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "High temperature heating of specimens were performed by applying a constant temperature of 500 +/- 10 C to one side of the specimen for a duration of one hour. During this time, the specimen's opposite surface was left exposed to ambient temperatures.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "20% GB500, virgin",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.2,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A16/500 glass bubbles (crush test pressure 3.44 MPa / 500 psi)",
+    "particle_true_density_g_cc": 0.16,
+    "particle_mean_diameter_um": 115.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.47225,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. As-cured (virgin) condition."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature in the virgin (untreated) state."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    },
+    {
+     "quote": "A syntactic foam was produced by mixing silicone rubber and glass bubbles by hand. After mixing for 20 min, the raw material was filled in a wax mold and compressed by hand. The specimen was designed to be cylindrical with a diameter of 25 mm and a height of 17 mm.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "20% GB500, 500 C heat treated",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.2,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 500.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A16/500 glass bubbles (crush test pressure 3.44 MPa / 500 psi)",
+    "particle_true_density_g_cc": 0.16,
+    "particle_mean_diameter_um": 115.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.47225,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. After one-sided 500 C / 1 h exposure the foam becomes a two-layer structure: a white, brittle, heat-resistive front layer extending less than 1/3 of the section height and a back layer that stays elastic/plastic like the unheated foam; SEM shows the glass bubbles remain intact at 500 C (they rupture at 750 C). Steady-state back-face temperature 130 C."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature after one-sided 500 +/- 10 C / 1 h heat treatment."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "High temperature heating of specimens were performed by applying a constant temperature of 500 +/- 10 C to one side of the specimen for a duration of one hour. During this time, the specimen's opposite surface was left exposed to ambient temperatures.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "30% GB500, virgin",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.3,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A16/500 glass bubbles (crush test pressure 3.44 MPa / 500 psi)",
+    "particle_true_density_g_cc": 0.16,
+    "particle_mean_diameter_um": 115.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.36038,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. As-cured (virgin) condition."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature in the virgin (untreated) state."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    },
+    {
+     "quote": "A syntactic foam was produced by mixing silicone rubber and glass bubbles by hand. After mixing for 20 min, the raw material was filled in a wax mold and compressed by hand. The specimen was designed to be cylindrical with a diameter of 25 mm and a height of 17 mm.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "30% GB500, 500 C heat treated",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.3,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 500.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A16/500 glass bubbles (crush test pressure 3.44 MPa / 500 psi)",
+    "particle_true_density_g_cc": 0.16,
+    "particle_mean_diameter_um": 115.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.36038,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. After one-sided 500 C / 1 h exposure the foam becomes a two-layer structure: a white, brittle, heat-resistive front layer extending less than 1/3 of the section height and a back layer that stays elastic/plastic like the unheated foam; SEM shows the glass bubbles remain intact at 500 C (they rupture at 750 C). Steady-state back-face temperature 130 C."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature after one-sided 500 +/- 10 C / 1 h heat treatment."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "High temperature heating of specimens were performed by applying a constant temperature of 500 +/- 10 C to one side of the specimen for a duration of one hour. During this time, the specimen's opposite surface was left exposed to ambient temperatures.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "10% GB1000, virgin",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.1,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A20/1000 glass bubbles (crush test pressure 6.90 MPa / 1000 psi)",
+    "particle_true_density_g_cc": 0.2,
+    "particle_mean_diameter_um": 105.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.74795,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. As-cured (virgin) condition."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature in the virgin (untreated) state."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    },
+    {
+     "quote": "A syntactic foam was produced by mixing silicone rubber and glass bubbles by hand. After mixing for 20 min, the raw material was filled in a wax mold and compressed by hand. The specimen was designed to be cylindrical with a diameter of 25 mm and a height of 17 mm.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "10% GB1000, 500 C heat treated",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.1,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 500.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A20/1000 glass bubbles (crush test pressure 6.90 MPa / 1000 psi)",
+    "particle_true_density_g_cc": 0.2,
+    "particle_mean_diameter_um": 105.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.74795,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. After one-sided 500 C / 1 h exposure the foam becomes a two-layer structure: a white, brittle, heat-resistive front layer extending less than 1/3 of the section height and a back layer that stays elastic/plastic like the unheated foam; SEM shows the glass bubbles remain intact at 500 C (they rupture at 750 C). Steady-state back-face temperature 130 C."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature after one-sided 500 +/- 10 C / 1 h heat treatment."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "High temperature heating of specimens were performed by applying a constant temperature of 500 +/- 10 C to one side of the specimen for a duration of one hour. During this time, the specimen's opposite surface was left exposed to ambient temperatures.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "20% GB1000, virgin",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.2,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A20/1000 glass bubbles (crush test pressure 6.90 MPa / 1000 psi)",
+    "particle_true_density_g_cc": 0.2,
+    "particle_mean_diameter_um": 105.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.53957,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. As-cured (virgin) condition."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature in the virgin (untreated) state."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    },
+    {
+     "quote": "A syntactic foam was produced by mixing silicone rubber and glass bubbles by hand. After mixing for 20 min, the raw material was filled in a wax mold and compressed by hand. The specimen was designed to be cylindrical with a diameter of 25 mm and a height of 17 mm.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "20% GB1000, 500 C heat treated",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.2,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 500.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A20/1000 glass bubbles (crush test pressure 6.90 MPa / 1000 psi)",
+    "particle_true_density_g_cc": 0.2,
+    "particle_mean_diameter_um": 105.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.53957,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. After one-sided 500 C / 1 h exposure the foam becomes a two-layer structure: a white, brittle, heat-resistive front layer extending less than 1/3 of the section height and a back layer that stays elastic/plastic like the unheated foam; SEM shows the glass bubbles remain intact at 500 C (they rupture at 750 C). Steady-state back-face temperature 130 C."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature after one-sided 500 +/- 10 C / 1 h heat treatment."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "High temperature heating of specimens were performed by applying a constant temperature of 500 +/- 10 C to one side of the specimen for a duration of one hour. During this time, the specimen's opposite surface was left exposed to ambient temperatures.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "30% GB1000, virgin",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.3,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A20/1000 glass bubbles (crush test pressure 6.90 MPa / 1000 psi)",
+    "particle_true_density_g_cc": 0.2,
+    "particle_mean_diameter_um": 105.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.40961,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. As-cured (virgin) condition."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature in the virgin (untreated) state."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    },
+    {
+     "quote": "A syntactic foam was produced by mixing silicone rubber and glass bubbles by hand. After mixing for 20 min, the raw material was filled in a wax mold and compressed by hand. The specimen was designed to be cylindrical with a diameter of 25 mm and a height of 17 mm.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "30% GB1000, 500 C heat treated",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "Platinum-cure liquid silicone rubber, Smooth-On Mold Star 30 (30 Shore A, tensile strength 2.90 MPa, modulus 0.66 MPa, service range -53 to 232 C)",
+    "particle_type": "glass_microballoon",
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.3,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 500.0,
+    "additional_fillers": null,
+    "particle_grade": "3M A20/1000 glass bubbles (crush test pressure 6.90 MPa / 1000 psi)",
+    "particle_true_density_g_cc": 0.2,
+    "particle_mean_diameter_um": 105.0
+   },
+   "structure": {
+    "measured_density_g_cc": 0.40961,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam, glass bubbles dispersed in silicone rubber. After one-sided 500 C / 1 h exposure the foam becomes a two-layer structure: a white, brittle, heat-resistive front layer extending less than 1/3 of the section height and a back layer that stays elastic/plastic like the unheated foam; SEM shows the glass bubbles remain intact at 500 C (they rupture at 750 C). Steady-state back-face temperature 130 C."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.00098,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical specimen D=25 mm, H=17 mm; Instron 5585, 1 mm/min crosshead speed; tested at room temperature after one-sided 500 +/- 10 C / 1 h heat treatment."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "Weight percentage of glass bubbles / Density [kg/m3] GB500 GB1000: 10% 739.78 747.95 | 20% 472.25 539.57 | 30% 360.38 409.61 | silicone rubber resin 1120",
+     "location": "Table II Density of the syntactic foams"
+    },
+    {
+     "quote": "High temperature heating of specimens were performed by applying a constant temperature of 500 +/- 10 C to one side of the specimen for a duration of one hour. During this time, the specimen's opposite surface was left exposed to ambient temperatures.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "Compression experiments were performed by using Instron 5585 universal testing machine with a 1 mm/min cross head speed. Experiments were performed at room temperature for specimens with and without heat treatment.",
+     "location": "Sec. 2 Experimental procedure"
+    },
+    {
+     "quote": "A16/500 3.44 (500) 0.16 115 0.06-0.16 | A20/1000 6.90 (1000) 0.20 105 0.06-0.16",
+     "location": "Table I Properties of the glass bubbles"
+    }
+   ],
+   "extractor_confidence": 0.7
+  }
+ ],
+ "extraction_notes": "Densities converted from kg/m3 to g/cm3 (Table II divided by 1000). Weight percentages converted to fractions (particle_weight_fraction); volume fractions are not reported and were not computed because the paper does not give the resin density needed together with a stated mixing rule. All compression results (stress-strain curves, plateau stress, densification strain, energy absorption) appear only as plots in Figs. 2 and 4 with no numeric values in text or tables, so every Properties field is null; the records carry composition, density and test-condition metadata only. strain_rate_per_s = 0.00098 1/s was derived from the stated 1 mm/min crosshead speed and 17 mm specimen height (1/60 mm/s / 17 mm); it is not stated as a strain rate in the paper. cure_or_process_temperature_c is 25 C for the virgin foams (6 h room-temperature cure) and 500 C for the heat-treated foams (one face held at 500 +/- 10 C for 1 h); all compression tests themselves were done at room temperature, so test.temperature_c is 25 C for every record. The neat silicone rubber resin reference (1120 kg/m3) contains no hollow particles and was not recorded. The 0.06-0.16 W/(m K) thermal conductivity in Table I is a property of the glass bubbles quoted from the 3M datasheet, not a measured foam property, so it was not entered. Glass-bubble crush pressures (3.44 and 6.90 MPa) are supplier particle data and are recorded in particle_grade rather than as foam strength."
+}

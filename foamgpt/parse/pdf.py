@@ -28,7 +28,7 @@ def _table_to_md(tab) -> str:
     return f"{head}\n{sep}\n{body}"
 
 
-def pdf_to_text(pdf_path: Path, max_pages: int = 40) -> str:
+def pdf_to_text(pdf_path: Path, max_pages: int = 300) -> str:
     doc = fitz.open(pdf_path)
     parts: list[str] = []
     for i, page in enumerate(doc):

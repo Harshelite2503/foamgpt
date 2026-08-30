@@ -1,0 +1,1967 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "LSU MSc thesis (P. Wehmer, 2008) on the high-strain-rate compressive behaviour of rubber-modified ('hybrid') syntactic foams: DGEBA epoxy (D.E.R. 332 / D.E.H. 24 / GE-8 diluent) filled with 63 vol% 3M Scotchlite glass microspheres (S22, S32, S38 or K46 - same ~40 um outer diameter, different wall thickness) plus 2 vol% ground waste-tyre crumb rubber of 40 or 75 um. Split Hopkinson Pressure Bar tests at 437-1017 /s show peak stress rising with strain rate (strongly for the denser S38/K46 foams, weakly for S22/S32) and compressive modulus rising ~60% from 450 to 1050 /s. Rubber addition lowers modulus relative to plain 65 vol% syntactic foams at low-to-medium rates; 75 um rubber gives ~20% higher peak stress and more than double the modulus of the 40 um rubber foams.",
+ "records": [
+  {
+   "sample_label": "S22R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S22 borosilicate glass microspheres (isostatic crush strength for 80% survival 2.76 MPa, wall 1.26 um)",
+    "particle_true_density_g_cc": 0.22,
+    "particle_mean_diameter_um": 35.0,
+    "particle_wall_thickness_ratio": 0.9703,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.504,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.075,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 480.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=4.8% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 786.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22R40 | Static | 870 | S22 | Static | 1547 |  |  480 | 786 (SD=4.8%) |  | 830 | 1777 |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "S22R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S22 borosilicate glass microspheres (isostatic crush strength for 80% survival 2.76 MPa, wall 1.26 um)",
+    "particle_true_density_g_cc": 0.22,
+    "particle_mean_diameter_um": 35.0,
+    "particle_wall_thickness_ratio": 0.9703,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.504,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.075,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 877.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=5.8% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 1001.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "|  | 877 | 1001 (SD=5.8%) |  | 1200 | 1969 |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "S22R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S22 borosilicate glass microspheres (isostatic crush strength for 80% survival 2.76 MPa, wall 1.26 um)",
+    "particle_true_density_g_cc": 0.22,
+    "particle_mean_diameter_um": 35.0,
+    "particle_wall_thickness_ratio": 0.9703,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.504,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.075,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 897.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=4.7% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 1882.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "|  | 897 | 1882 (SD=4.7%) |  | 1688 | 2503 |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "S32R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32 borosilicate glass microspheres (isostatic crush strength for 80% survival 13.79 MPa, wall 1.86 um)",
+    "particle_true_density_g_cc": 0.32,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9561,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.563,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.1483,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 450.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=5.3% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 955.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S32R40 | 450 | 955 (SD=5.3%) |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "S32R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32 borosilicate glass microspheres (isostatic crush strength for 80% survival 13.79 MPa, wall 1.86 um)",
+    "particle_true_density_g_cc": 0.32,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9561,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.563,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.1483,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 878.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=2.6% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 1158.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "|  | 878 | 1158 (SD=2.6%) |  | 1164 | 2372 |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "S32R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32 borosilicate glass microspheres (isostatic crush strength for 80% survival 13.79 MPa, wall 1.86 um)",
+    "particle_true_density_g_cc": 0.32,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9561,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.563,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.1483,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 1017.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=1.5% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 1734.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "|  | 1017 | 1734 (SD=1.5%) |  | 1636 | 2601 |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "S38R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S38 borosilicate glass microspheres (isostatic crush strength for 80% survival 27.58 MPa, wall 2.23 um)",
+    "particle_true_density_g_cc": 0.38,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9474,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.606,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.0775,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 437.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=6.0% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 1825.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S38R40 | 437 | 1825 (SD=6.0%) | S38 | 830 | 2796 |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "S38R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S38 borosilicate glass microspheres (isostatic crush strength for 80% survival 27.58 MPa, wall 2.23 um)",
+    "particle_true_density_g_cc": 0.38,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9474,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.606,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.0775,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 747.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=5.9% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 2098.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "|  | 747 | 2098 (SD=5.9%) |  | 1030 | 2888 |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "S38R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S38 borosilicate glass microspheres (isostatic crush strength for 80% survival 27.58 MPa, wall 2.23 um)",
+    "particle_true_density_g_cc": 0.38,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9474,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.606,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.0775,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 909.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=11.6% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 3127.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "|  | 909 | 3127 (SD=11.6%) |  | 1324 | 1864 |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "K46R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46 borosilicate glass microspheres (isostatic crush strength for 80% survival 41.37 MPa, wall 2.74 um)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9356,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.601,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.1168,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 447.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=2.4% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 3194.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46R40 | 447 | 3194 (SD=2.4%) | K46 | 979 | 3132 |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "K46R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46 borosilicate glass microspheres (isostatic crush strength for 80% survival 41.37 MPa, wall 2.74 um)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9356,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.601,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.1168,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 649.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=23.5% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 3396.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "|  | 649 | 3396 (SD=23.5%) |  | 1015 | 3161 |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "K46R40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46 borosilicate glass microspheres (isostatic crush strength for 80% survival 41.37 MPa, wall 2.74 um)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9356,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.601,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.1168,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-phase hybrid foam: epoxy matrix + 63 vol% glass microspheres + 2 vol% crumb rubber + entrapped-air voids (no degassing applied)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 835.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB / Kolsky bar); no ASTM standard cited",
+    "specimen_notes": "Split Hopkinson Pressure Bar (Kolsky bar), maraging steel 18Ni(350) bars; core-drilled cylinder 9.38 mm dia. x 14.0-14.6 mm long, MoS2 grease lubricated interfaces, mild steel pulse shaper (6.73 mm dia. x 3.29 mm). Three duplicate tests per material per strain-rate level. Reported scatter SD=12.3% of the mean modulus."
+   },
+   "properties": {
+    "modulus_mpa": 5282.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "|  | 835 | 5282 (SD=12.3%) |  | 1460 | 3564 |",
+     "location": "Table 9 (p. 45): Comparison on modulus of hybrid and plain syntactic foams"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.88
+  },
+  {
+   "sample_label": "S22R40 (quasi-static value quoted from prior work, refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S22 borosilicate glass microspheres (isostatic crush strength for 80% survival 2.76 MPa, wall 1.26 um)",
+    "particle_true_density_g_cc": 0.22,
+    "particle_mean_diameter_um": 35.0,
+    "particle_wall_thickness_ratio": 0.9703,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.504,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.075,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Same hybrid foam composition as the SHPB specimens; quasi-static properties taken from earlier studies by the same group."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Quasi-static compression ('Static' column of Table 9); strain rate not stated."
+   },
+   "properties": {
+    "modulus_mpa": 870.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22R40 | Static | 870 |",
+     "location": "Table 9 (p. 45), left block 'Static' row; table caption cites refs [10,20,30]"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "S32R40 (quasi-static value quoted from prior work, refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32 borosilicate glass microspheres (isostatic crush strength for 80% survival 13.79 MPa, wall 1.86 um)",
+    "particle_true_density_g_cc": 0.32,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9561,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.563,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.1483,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Same hybrid foam composition as the SHPB specimens; quasi-static properties taken from earlier studies by the same group."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Quasi-static compression ('Static' column of Table 9); strain rate not stated."
+   },
+   "properties": {
+    "modulus_mpa": 1025.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S32R40 | Static | 1025 |",
+     "location": "Table 9 (p. 45), left block 'Static' row; table caption cites refs [10,20,30]"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "S38R40 (quasi-static value quoted from prior work, refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S38 borosilicate glass microspheres (isostatic crush strength for 80% survival 27.58 MPa, wall 2.23 um)",
+    "particle_true_density_g_cc": 0.38,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9474,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.606,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.0775,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Same hybrid foam composition as the SHPB specimens; quasi-static properties taken from earlier studies by the same group."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Quasi-static compression ('Static' column of Table 9); strain rate not stated."
+   },
+   "properties": {
+    "modulus_mpa": 2350.0,
+    "strength_mpa": 58.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S38R40 | Static | 2350 |",
+     "location": "Table 9 (p. 45), left block 'Static' row; table caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "For example in quasi-static, the S38R40 foam had a peak stress of 58 MPa while the S38R75 was 52 MPa.[10]",
+     "location": "Sec. 4.1.1, p. 41"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "K46R40 (quasi-static value quoted from prior work, refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46 borosilicate glass microspheres (isostatic crush strength for 80% survival 41.37 MPa, wall 2.74 um)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9356,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-170, 40 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.601,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.1168,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Same hybrid foam composition as the SHPB specimens; quasi-static properties taken from earlier studies by the same group."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Quasi-static compression ('Static' column of Table 9); strain rate not stated."
+   },
+   "properties": {
+    "modulus_mpa": 2550.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46R40 | Static | 2550 |",
+     "location": "Table 9 (p. 45), left block 'Static' row; table caption cites refs [10,20,30]"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "S22 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S22 borosilicate glass microspheres (isostatic crush strength for 80% survival 2.76 MPa, wall 1.26 um)",
+    "particle_true_density_g_cc": 0.22,
+    "particle_mean_diameter_um": 35.0,
+    "particle_wall_thickness_ratio": 0.9703,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 1547.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22 | Static | 1547 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S22 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S22 borosilicate glass microspheres (isostatic crush strength for 80% survival 2.76 MPa, wall 1.26 um)",
+    "particle_true_density_g_cc": 0.22,
+    "particle_mean_diameter_um": 35.0,
+    "particle_wall_thickness_ratio": 0.9703,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 830.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 1777.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22 | 830 | 1777 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S22 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S22 borosilicate glass microspheres (isostatic crush strength for 80% survival 2.76 MPa, wall 1.26 um)",
+    "particle_true_density_g_cc": 0.22,
+    "particle_mean_diameter_um": 35.0,
+    "particle_wall_thickness_ratio": 0.9703,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 1200.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 1969.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22 | 1200 | 1969 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S22 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S22 borosilicate glass microspheres (isostatic crush strength for 80% survival 2.76 MPa, wall 1.26 um)",
+    "particle_true_density_g_cc": 0.22,
+    "particle_mean_diameter_um": 35.0,
+    "particle_wall_thickness_ratio": 0.9703,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 1688.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 2503.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22 | 1688 | 2503 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S32 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32 borosilicate glass microspheres (isostatic crush strength for 80% survival 13.79 MPa, wall 1.86 um)",
+    "particle_true_density_g_cc": 0.32,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9561,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 2025.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S32 | Static | 2025 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S32 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32 borosilicate glass microspheres (isostatic crush strength for 80% survival 13.79 MPa, wall 1.86 um)",
+    "particle_true_density_g_cc": 0.32,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9561,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 703.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 2191.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S32 | 703 | 2191 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S32 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32 borosilicate glass microspheres (isostatic crush strength for 80% survival 13.79 MPa, wall 1.86 um)",
+    "particle_true_density_g_cc": 0.32,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9561,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 1164.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 2372.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S32 | 1164 | 2372 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S32 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32 borosilicate glass microspheres (isostatic crush strength for 80% survival 13.79 MPa, wall 1.86 um)",
+    "particle_true_density_g_cc": 0.32,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9561,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 1636.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 2601.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S32 | 1636 | 2601 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S38 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S38 borosilicate glass microspheres (isostatic crush strength for 80% survival 27.58 MPa, wall 2.23 um)",
+    "particle_true_density_g_cc": 0.38,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9474,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 2394.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S38 | Static | 2394 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S38 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S38 borosilicate glass microspheres (isostatic crush strength for 80% survival 27.58 MPa, wall 2.23 um)",
+    "particle_true_density_g_cc": 0.38,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9474,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 830.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 2796.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S38 | 830 | 2796 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S38 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S38 borosilicate glass microspheres (isostatic crush strength for 80% survival 27.58 MPa, wall 2.23 um)",
+    "particle_true_density_g_cc": 0.38,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9474,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 1030.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 2888.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S38 | 1030 | 2888 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S38 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S38 borosilicate glass microspheres (isostatic crush strength for 80% survival 27.58 MPa, wall 2.23 um)",
+    "particle_true_density_g_cc": 0.38,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9474,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 1324.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 1864.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S38 | 1324 | 1864 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "K46 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46 borosilicate glass microspheres (isostatic crush strength for 80% survival 41.37 MPa, wall 2.74 um)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9356,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 2639.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46 | Static | 2639 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "K46 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46 borosilicate glass microspheres (isostatic crush strength for 80% survival 41.37 MPa, wall 2.74 um)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9356,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 979.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 3132.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46 | 979 | 3132 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "K46 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46 borosilicate glass microspheres (isostatic crush strength for 80% survival 41.37 MPa, wall 2.74 um)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9356,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 1015.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 3161.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46 | 1015 | 3161 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "K46 plain syntactic foam (65 vol% microspheres, no rubber; quoted from refs [10,20,30])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46 borosilicate glass microspheres (isostatic crush strength for 80% survival 41.37 MPa, wall 2.74 um)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9356,
+    "particle_volume_fraction": 0.65,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain two/three-phase syntactic foam, same epoxy system; 65 vol% microspheres, no rubber. Density not reported in this thesis."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 1460.0,
+    "temperature_c": 25.0,
+    "standard": "Split Hopkinson Pressure Bar (SHPB)",
+    "specimen_notes": "Comparison data taken from earlier studies (Table 9 caption cites refs [10,20,30]), not measured in this thesis."
+   },
+   "properties": {
+    "modulus_mpa": 3564.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46 | 1460 | 3564 |",
+     "location": "Table 9 (p. 45), right block (plain syntactic foams); caption cites refs [10,20,30]"
+    },
+    {
+     "quote": "The plain syntactic foams shown here had 65% volume microspheres and used the same epoxy resin composition used in the hybrid syntactic foams.",
+     "location": "Sec. 4.1.2, p. 44"
+    }
+   ],
+   "extractor_confidence": 0.65
+  },
+  {
+   "sample_label": "S38R75 (quasi-static peak stress quoted from ref. [10])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S38 borosilicate glass microspheres (isostatic crush strength for 80% survival 27.58 MPa, wall 2.23 um)",
+    "particle_true_density_g_cc": 0.38,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9474,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-80, 75 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.605,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.0734,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Hybrid foam identical to S38R40 except the crumb rubber is 75 um instead of 40 um."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Quasi-static compression; value quoted from earlier work [10]."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 52.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "For example in quasi-static, the S38R40 foam had a peak stress of 58 MPa while the S38R75 was 52 MPa.[10]",
+     "location": "Sec. 4.1.1, p. 41"
+    },
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "S32R75",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) + 5 vol% Erisys GE-8 C12-C14 aliphatic glycidyl ether diluent, cured with D.E.H. 24",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32 borosilicate glass microspheres (isostatic crush strength for 80% survival 13.79 MPa, wall 1.86 um)",
+    "particle_true_density_g_cc": 0.32,
+    "particle_mean_diameter_um": 40.0,
+    "particle_wall_thickness_ratio": 0.9561,
+    "particle_volume_fraction": 0.63,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": "2 vol% ground (crumb) rubber, Rouse Polymerics GF-80, 75 um mean particle size, specific gravity 1.12-1.15; rubber/matrix volume ratio ~5.7%"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.516,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.0711,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Hybrid foam identical to S32R40 except the crumb rubber is 75 um instead of 40 um."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Density / void-fraction determination. This foam was also SHPB tested (450-1100 /s) but its peak stress and modulus appear only in Figs. 14 and 17, with no numbers stated in the text or tables."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22 S32 S38 K46 S32 S38 | 40 40 40 40 75 75 | S 22R40 S 32R40 S 38R40 K46R40 S 32R75 S 38R75 | 504 563 606 601 516 605 | 7.50 14.83 7.75 11.68 7.11 7.34 |",
+     "location": "Table 8 (p. 31): Density & Void Fraction of Samples"
+    },
+    {
+     "quote": "Table 7 Properties of Microspheres ... S22 20 35 60 220 1.26 2.76 0.9703 / S32 20 40 75 320 1.86 13.79 0.9561 / S38 15 40 75 380 2.23 27.58 0.9474 / K46 15 40 70 460 2.74 41.37 0.9356",
+     "location": "Table 7 (p. 29): Properties of Microspheres"
+    }
+   ],
+   "extractor_confidence": 0.85
+  }
+ ],
+ "extraction_notes": "All numeric mechanical values in this thesis come from Table 9 (modulus vs strain rate) plus two peak-stress numbers quoted in the text; every peak-stress vs strain-rate data point is plotted only (Figs. 13, 14, 16, 17) with no numbers printed, so no values were read off the plots. data_origin: the twelve Table 9 rows carrying an SD (S22R40/S32R40/S38R40/K46R40 at 437-1017 /s) are the author's own SHPB measurements = primary. The 'Static' rows and the entire right-hand block of Table 9 (plain S22/S32/S38/K46 foams, 65 vol% microspheres, no rubber, including their 703-1688 /s SHPB values) are comparison data whose caption cites refs [10,20,30], so they are marked secondary with the citation kept in sample_label. The two quasi-static peak stresses (S38R40 58 MPa, S38R75 52 MPa) are likewise quoted from ref. [10]. INCONSISTENCY IN THE SOURCE: Table 2 (p. 23) lists quasi-static moduli of 870, 1025, 1300 and 1400 for S22R40, S32R40, S38R40 and K46R40, while Table 9 (p. 45) gives 870, 1025, 2350 and 2550 for the same samples; the Table 9 values were used because Table 9 is the results table. Table 2's modulus column is also headed 'GPa' although the values are clearly MPa (they match Table 9's MPa column); MPa was assumed. Densities from Table 8 (kg/m3 -> g/cm^3) and void volume fractions (% -> fraction, stored as matrix_porosity_fraction) are attached to every hybrid-foam record; the plain foams of the comparison block have no reported density. Microsphere true density, mean diameter (50th percentile), radius ratio and wall thickness are from Table 7. Strain at peak is not tabulated per sample - the text only says peak stress occurs at 1.5-2.0% compressive strain for all foams - so strain_at_failure is null everywhere. Test temperature was set to 25 C (ambient SHPB testing); it is not stated explicitly. cure_or_process_temperature_c = 100 C is the 3 h post-cure (gelled >=36 h at room temperature first); no degassing or pressure was applied during casting. S32R75 has only density/void data in numeric form, so it is recorded once with test_type 'other'."
+}

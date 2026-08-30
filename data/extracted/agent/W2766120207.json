@@ -1,0 +1,667 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Salleh et al. synthesised vinyl ester / glass microballoon syntactic foams (Potters Q-CEL 5020 borosilicate hollow microspheres, 72 um mean size, 110 kg/m3 bulk density) at 2, 4, 6, 8 and 10 wt% by stir mixing and open-mould casting, and characterised density, porosity/void content, tensile (ASTM D638) and compressive (ASTM D695) behaviour plus SEM fractography. Density falls linearly with microballoon content while both tensile and compressive strength and moduli fall below neat vinyl ester; SCFT-01 (2 wt%) gives the best specific tensile and specific compressive properties. Tensile moduli are reported to be 70-80% higher than compressive moduli, attributed to particle-matrix debonding and to microballoon fracture within the 40-90 MPa range used for the compressive modulus fit.",
+  "records": [
+    {
+      "sample_label": "Pure VE (neat vinyl ester)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.0,
+        "particle_weight_fraction": 0.0,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Neat resin baseline, no microballoons."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D638",
+        "specimen_notes": "Dog-bone steel mould specimen, MTS Insight UTM, crosshead speed 1.25 mm/min, strain from 25 mm gauge extensometer; at least three specimens per composition."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": 39.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "The tensile strength is led by pure vinyl ester at 39 MPa and all specimens show a decrease when the glass microballoon content increases.",
+          "location": "Sec. 3.3 Mechanical Properties, p. 0008"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Pure VE (neat vinyl ester)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.0,
+        "particle_weight_fraction": 0.0,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Neat resin baseline, no microballoons."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D695",
+        "specimen_notes": "Cylindrical PVC-mould specimen, diameter 22.0 mm x length 44.0 mm, MTS test system, crosshead speed 2 mm/min."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": 112.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "The compressive stress for SCFT-01 is higher at 89 MPa but still lower than pure vinyl ester with 112 MPa.",
+          "location": "Sec. 3.3 Mechanical Properties, p. 0009"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "SCFT-01 (2 wt.%)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Q-CEL Spherical Hollow Microspheres, part no. 5020 (referred to as VE110)",
+        "particle_true_density_g_cc": 0.11,
+        "particle_mean_diameter_um": 72.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.04,
+        "particle_weight_fraction": 0.02,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Reported as having the lowest cavity porosity (57%) and matrix porosity (16%) of the series; broken microballoons partly refilled with resin. These porosity figures conflict with other statements in the same paper (average 12% total porosity, void content 2.7-3.8%), so no numeric porosity value was entered."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D638",
+        "specimen_notes": "Dog-bone steel mould specimen, MTS Insight UTM, crosshead speed 1.25 mm/min, 25 mm gauge extensometer. Tensile strength stated only as 'about 10%' below neat resin, so no absolute value recorded."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "The decreased tensile strength is observed starting from SCFT-01 at about 10% from the neat resin then continues to reduce for SCFT-02 and no significant change occurs until SCFT-04",
+          "location": "Sec. 3.3 Mechanical Properties, p. 0008"
+        },
+        {
+          "quote": "the specimen SCFT-01 (2 wt.%) with the volume fraction (Vf) 4% has a higher density but it is still lower than pure VE density",
+          "location": "Sec. 3.1 Density of Syntactic Foams, p. 0006"
+        }
+      ],
+      "extractor_confidence": 0.5
+    },
+    {
+      "sample_label": "SCFT-01 (2 wt.%)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Q-CEL Spherical Hollow Microspheres, part no. 5020 (referred to as VE110)",
+        "particle_true_density_g_cc": 0.11,
+        "particle_mean_diameter_um": 72.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.04,
+        "particle_weight_fraction": 0.02,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Barrelling with shear yielding failure mode; longest time to fracture of the foam series."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D695",
+        "specimen_notes": "Cylindrical specimen 22.0 mm diameter x 44.0 mm length, MTS test system, crosshead speed 2 mm/min."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": 89.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": 86.0,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "The compressive stress for SCFT-01 is higher at 89 MPa but still lower than pure vinyl ester with 112 MPa.",
+          "location": "Sec. 3.3 Mechanical Properties, p. 0009"
+        },
+        {
+          "quote": "The highest specific compressive strength still belongs to SCFT-01 at 86 MPa/mgm-3.",
+          "location": "Sec. 3.3 Mechanical Properties, p. 0008"
+        }
+      ],
+      "extractor_confidence": 0.7
+    },
+    {
+      "sample_label": "SCFT-02 (4 wt.%)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Q-CEL Spherical Hollow Microspheres, part no. 5020 (referred to as VE110)",
+        "particle_true_density_g_cc": 0.11,
+        "particle_mean_diameter_um": 72.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.04,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Lower cavity porosity than SCFT-01 but the highest matrix porosity of the pair; some broken microballoons filled with smaller microballoons and resin (Fig. 6d)."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D638",
+        "specimen_notes": "Dog-bone specimen, MTS Insight UTM, crosshead speed 1.25 mm/min, 25 mm gauge extensometer."
+      },
+      "properties": {
+        "modulus_mpa": 9920.0,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "the comparison of Young's modulus of all specimens shows that, specimen SCFT-2 is higher with content of 4 wt,% of glass microballoon at 9.92GPa",
+          "location": "Sec. 3.3 Mechanical Properties, p. 0008"
+        }
+      ],
+      "extractor_confidence": 0.35
+    },
+    {
+      "sample_label": "SCFT-02 (4 wt.%)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Q-CEL Spherical Hollow Microspheres, part no. 5020 (referred to as VE110)",
+        "particle_true_density_g_cc": 0.11,
+        "particle_mean_diameter_um": 72.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.04,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Barrel-shaped compressive failure mode (Fig. 11b)."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D695",
+        "specimen_notes": "Cylindrical specimen 22.0 mm diameter x 44.0 mm length, crosshead speed 2 mm/min. No numeric value reported in the available text (Table 1 missing)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "All the specimens were as Pure VE, SCFT-01 (2 wt.%), SCFT-02 (4 wt.%), SCFT-03 (6 wt.%), SCFT-04 (8 wt.%) and SCFT-05(10 wt.%).",
+          "location": "Sec. 3.1 Density of Syntactic Foams, p. 0005"
+        }
+      ],
+      "extractor_confidence": 0.4
+    },
+    {
+      "sample_label": "SCFT-03 (6 wt.%)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Q-CEL Spherical Hollow Microspheres, part no. 5020 (referred to as VE110)",
+        "particle_true_density_g_cc": 0.11,
+        "particle_mean_diameter_um": 72.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.06,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Twist hackle lines on the tensile fracture surface (Fig. 9d)."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D638",
+        "specimen_notes": "No numeric tensile value reported in the available text (Table 1 missing)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Fifteen types of syntactic foams are fabricated using one type of microballoon in five different weight percentages (wt.%) for both of tensile and compression testing.",
+          "location": "Sec. 1 Introduction, p. 0003"
+        }
+      ],
+      "extractor_confidence": 0.4
+    },
+    {
+      "sample_label": "SCFT-03 (6 wt.%)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Q-CEL Spherical Hollow Microspheres, part no. 5020 (referred to as VE110)",
+        "particle_true_density_g_cc": 0.11,
+        "particle_mean_diameter_um": 72.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.06,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Barrelling with shear yielding up to 6 wt%; spalling observed at higher loadings."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D695",
+        "specimen_notes": "No numeric compressive value reported in the available text (Table 1 missing)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "For the specimens SCFT-01 with 2wt% to SCFT-03 with 6wt% of glass microballoons, the modes are barrelling along with shear yielding alone until crack in the middle of 10wt% specimen is observed",
+          "location": "Sec. 3.4 Compressive Fracture Analysis, p. 0009"
+        }
+      ],
+      "extractor_confidence": 0.4
+    },
+    {
+      "sample_label": "SCFT-04 (8 wt.%)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Q-CEL Spherical Hollow Microspheres, part no. 5020 (referred to as VE110)",
+        "particle_true_density_g_cc": 0.11,
+        "particle_mean_diameter_um": 72.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.08,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Both cavity and matrix porosity clearly visible (Fig. 6a); higher void volume fraction than the 2-6 wt% foams, which is why measured moduli fall below the differential-scheme prediction."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D638",
+        "specimen_notes": "No numeric tensile value reported in the available text (Table 1 missing). Tensile fracture dominated by particle-matrix debonding."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "It can be observed in Table 3 that, for syntactic foams containing 8 and 10wt.% glass microballoons, the void volume fraction is higher, which is not included in the model as well.",
+          "location": "Sec. 4.1, p. 0011"
+        }
+      ],
+      "extractor_confidence": 0.4
+    },
+    {
+      "sample_label": "SCFT-04 (8 wt.%)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Q-CEL Spherical Hollow Microspheres, part no. 5020 (referred to as VE110)",
+        "particle_true_density_g_cc": 0.11,
+        "particle_mean_diameter_um": 72.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.08,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Extensive microballoon fracture and debris on the compressive fracture surface (Fig. 12a); spalling failure mode; flattest stress plateau of the series."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D695",
+        "specimen_notes": "No numeric compressive value reported in the available text (Table 1 missing)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "if more glass microballoons are added, the linearity of the mean plateau shows greater flatness, for example specimens SCFT-04 and SCFT-05",
+          "location": "Sec. 4.2, p. 0011"
+        }
+      ],
+      "extractor_confidence": 0.4
+    },
+    {
+      "sample_label": "SCFT-05 (10 wt.%)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Q-CEL Spherical Hollow Microspheres, part no. 5020 (referred to as VE110)",
+        "particle_true_density_g_cc": 0.11,
+        "particle_mean_diameter_um": 72.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.08,
+        "particle_weight_fraction": 0.1,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Lowest density and highest total (cavity + matrix) porosity of the series, stated as more than 10% higher than SCFT-01; largest amount of fractured microballoon debris."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D638",
+        "specimen_notes": "No numeric tensile value reported in the available text (Table 1 missing)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "While the highest content for both porosities was led by specimen SCFT-05 which was more than 10% higher compared to SCFT-01.",
+          "location": "Sec. 3.2 Composite Porosity and Voids, p. 0006"
+        },
+        {
+          "quote": "the specimen with low density such as 10 wt% with the volume fraction 8% has low densities in their composition",
+          "location": "Sec. 3.1 Density of Syntactic Foams, p. 0006"
+        }
+      ],
+      "extractor_confidence": 0.4
+    },
+    {
+      "sample_label": "SCFT-05 (10 wt.%)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester (bisphenol-A based) with MEKP catalyst, NOROX",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Q-CEL Spherical Hollow Microspheres, part no. 5020 (referred to as VE110)",
+        "particle_true_density_g_cc": 0.11,
+        "particle_mean_diameter_um": 72.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.08,
+        "particle_weight_fraction": 0.1,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Heavy microballoon fracture and debris (Fig. 12b); severe matrix plastic deformation; central crack and spalling failure mode."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "ASTM D695",
+        "specimen_notes": "No numeric compressive value reported in the available text (Table 1 missing)."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "While SCFT-5 those containing 10 wt.% glass microballoons occurred many fractured and debris of glass microballoons shown in Fig. 12 (b).",
+          "location": "Sec. 3.4 Compressive Fracture Analysis, p. 0010"
+        }
+      ],
+      "extractor_confidence": 0.4
+    }
+  ],
+  "extraction_notes": "MAJOR LIMITATION: Table 1 - the paper's single data table, which holds the per-specimen density, wall thickness, radius ratio, cavity/matrix porosity, void content and the tensile and compressive strength/modulus values with CoVs - is NOT present in the extracted text. Figures 4, 7, 8 and 13 (density, stress-strain curves, strength/modulus vs wt%, relative modulus) are also images only. Consequently only the four numeric property values quoted in the running text could be captured: neat vinyl ester tensile strength 39 MPa, neat vinyl ester compressive strength 112 MPa, SCFT-01 compressive strength 89 MPa with specific compressive strength 86 MPa/(g/cm3), and SCFT-02 tensile modulus 9.92 GPa (recorded as 9920 MPa). The 9.92 GPa figure is physically implausible for a vinyl ester syntactic foam (neat vinyl ester is typically ~3-3.5 GPa) and the paper's own statement that tensile modulus is 70-80% above compressive modulus is not consistent with any other reported number; it is recorded verbatim as printed with low extractor_confidence and should be treated as suspect. Remaining composition x test cells are kept as records with null properties so the experimental matrix is preserved. Unit conversions: GPa x 1000 -> MPa; wt% and vol% -> fractions (0-1); particle bulk density 110 kg/m3 -> 0.11 g/cm3 (the paper calls this 'bulk density' from the manufacturer data sheet but uses it as the microballoon density throughout, and elsewhere quotes 190 kg/m3 from the missing Table 1). Volume fractions are stated only for SCFT-01 (4 vol%) and SCFT-05 (8 vol%); the rest are left null rather than interpolated. Porosity values in the text are mutually inconsistent (SCFT-01 cavity 57% / matrix 16%, versus 'on average 12% contain both porosities', versus void content 2.7-3.8%, versus 'increased from 33% to 53%'), so no numeric matrix_porosity_fraction was entered; the figures are recorded in microstructure_notes instead. Curing was 24 h at room temperature followed by 4 h post-cure at 60-80 C; no single cure temperature is stated so cure_or_process_temperature_c is left null. Test temperature set to 25 C (ambient; the paper states the pycnometry was done at 25 C but does not state a mechanical test temperature). Strain rates left null: only crosshead speeds are given (1.25 mm/min tension, 2 mm/min compression), and the tensile gauge length is ambiguous (25 mm extensometer on an ASTM D638 dog bone). Comparison data for other vinyl ester syntactic foams (Fig. 14/15, from ref [17] Gupta et al.) are plotted only, with no readable numbers, so no secondary records were created."
+}

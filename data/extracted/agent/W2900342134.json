@@ -1,0 +1,1619 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "LSU MSc thesis (K. Chittineni, 2009) on integrated functionally gradient syntactic foams (IFGSFs): four-layer DGEBA epoxy (D.E.R. 332 / GE-8 diluent / D.E.H. 24) foams in which each layer holds 60 vol% 3M Scotchlite glass microballoons of a different wall thickness (S22, S32, S38, K46), the layers being cast one over another and integrated before solidification instead of being adhesively bonded. Five layer sequences (S22-K46-K46-S22, K46-S22-S22-K46, S32-S38-S38-S32, S38-S32-S32-S38 and the unsymmetric K46-S38-S32-S22) were tested in flat-wise and edge-wise quasi-static compression and in drop-weight impact at 1, 2 and 3 m/s. IFGSFs absorb 210-280% more flat-wise energy than plain foam of similar density (stress plateau 8-60% strain vs 10-20%), raise edge-wise yield strength 25-40%, and beat adhesively bonded FGSF by 50% in yield strength and 75% in energy absorption; sequences with the denser layers in the centre absorb the most energy.",
+ "records": [
+  {
+   "sample_label": "S22-K46-K46-S22",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22 glass microballoons, layer sequence S22-K46-K46-S22 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.627,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": 0.0383,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S22-K46-K46-S22, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM C 365/C 365M-05 (flat-wise compression)",
+    "specimen_notes": "Flat-wise quasi-static compression on MTS-810 servo-hydraulic machine, ~32x32x16 mm specimens, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption = area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 703.3,
+    "strength_mpa": 42.54,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 31.0,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22-K46-K46-S22 | 703.3\u00b110 | 42.54\u00b10.9 | 31.0\u00b11.2 |",
+     "location": "Table 6 (p. 35): Flat-wise compressive properties of plain and IFGSF configurations"
+    },
+    {
+     "quote": "| S22-K46-K46-S22 | 658 | 627 \u00b1 4.2 | 641.5\u00b13.0 | 3.83 \u00b1 0.6 | 2.10\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "K46-S22-S22-K46",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22 glass microballoons, layer sequence K46-S22-S22-K46 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.623,
+    "theoretical_density_g_cc": 0.652,
+    "matrix_porosity_fraction": 0.045,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence K46-S22-S22-K46, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM C 365/C 365M-05 (flat-wise compression)",
+    "specimen_notes": "Flat-wise quasi-static compression on MTS-810 servo-hydraulic machine, ~32x32x16 mm specimens, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption = area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 722.7,
+    "strength_mpa": 42.72,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 26.42,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46-S22-S22-K46 | 722.7\u00b120 | 42.72\u00b11.6 | 26.42\u00b10.5 |",
+     "location": "Table 6 (p. 35): Flat-wise compressive properties of plain and IFGSF configurations"
+    },
+    {
+     "quote": "| K46-S22-S22-K46 | 652 | 623 \u00b1 4.6 | 638.6\u00b12.8 | 4.50 \u00b1 0.7 | 2.28\u00b10.3 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "S32-S38-S38-S32",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32/S38 glass microballoons, layer sequence S32-S38-S38-S32 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.622,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": 0.0545,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S32-S38-S38-S32, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM C 365/C 365M-05 (flat-wise compression)",
+    "specimen_notes": "Flat-wise quasi-static compression on MTS-810 servo-hydraulic machine, ~32x32x16 mm specimens, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption = area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 795.0,
+    "strength_mpa": 60.34,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 32.5,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S32-S38-S38-S32 | 795.0\u00b115 | 60.34\u00b10.3 | 32.50\u00b10.2 |",
+     "location": "Table 6 (p. 35): Flat-wise compressive properties of plain and IFGSF configurations"
+    },
+    {
+     "quote": "| S32-S38-S38-S32 | 658 | 622 \u00b1 2.4 | 635.7\u00b11.5 | 5.45 \u00b1 0.4 | 3.40\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "S38-S32-S32-S38",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32/S38 glass microballoons, layer sequence S38-S32-S32-S38 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.628,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": 0.0455,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S38-S32-S32-S38, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM C 365/C 365M-05 (flat-wise compression)",
+    "specimen_notes": "Flat-wise quasi-static compression on MTS-810 servo-hydraulic machine, ~32x32x16 mm specimens, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption = area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 783.9,
+    "strength_mpa": 60.89,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 28.22,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S38-S32-S32-S38 | 783.9\u00b113 | 60.89\u00b10.8 | 28.22\u00b10.6 |",
+     "location": "Table 6 (p. 35): Flat-wise compressive properties of plain and IFGSF configurations"
+    },
+    {
+     "quote": "| S38-S32-S32-S38 | 658 | 628 \u00b1 4.9 | 638.6\u00b13.5 | 4.55 \u00b1 0.7 | 3.34\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "K46-S38-S32-S22",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22/S32/S38 glass microballoons, layer sequence K46-S38-S32-S22 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.629,
+    "theoretical_density_g_cc": 0.655,
+    "matrix_porosity_fraction": 0.0396,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence K46-S38-S32-S22, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM C 365/C 365M-05 (flat-wise compression)",
+    "specimen_notes": "Flat-wise quasi-static compression on MTS-810 servo-hydraulic machine, ~32x32x16 mm specimens, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption = area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 722.4,
+    "strength_mpa": 49.38,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 28.98,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46-S38-S32-S22 | 722.4\u00b117 | 49.38\u00b11.4 | 28.98\u00b10.5 |",
+     "location": "Table 6 (p. 35): Flat-wise compressive properties of plain and IFGSF configurations"
+    },
+    {
+     "quote": "| K46-S38-S32-S22 | 655 | 629 \u00b1 4.8 | 640.2\u00b12.3 | 3.96 \u00b1 0.7 | 2.38\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "Plain Foam (non-gradient syntactic foam of similar density)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite glass microballoons (plain, single-layer foam of similar density to the IFGSFs; type not stated)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain (non-gradient) syntactic foam fabricated by the same route with a density similar to the IFGSFs; its density is not tabulated. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM C 365/C 365M-05 (flat-wise compression)",
+    "specimen_notes": "Flat-wise quasi-static compression on MTS-810 servo-hydraulic machine, ~32x32x16 mm specimens, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption = area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 585.7,
+    "strength_mpa": 47.9,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 8.54,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Plain Foam | 585.7\u00b16 | 47.90\u00b11.7 | 8.54\u00b10.4 |",
+     "location": "Table 6 (p. 35): Flat-wise compressive properties of plain and IFGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "S22-K46-K46-S22",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22 glass microballoons, layer sequence S22-K46-K46-S22 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.6415,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": 0.021,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S22-K46-K46-S22, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D 695-96 (edge-wise compression)",
+    "specimen_notes": "Edge-wise quasi-static compression on MTS-810 servo-hydraulic machine, 16x16x32 mm specimens loaded on the layer edges, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption by trapezoidal area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 1842.0,
+    "strength_mpa": 55.11,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 3.42,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22-K46-K46-S22 | 55.11\u00b12.5 | 1842\u00b180 | 3.42\u00b10.3 |",
+     "location": "Table 7 (p. 48): Edge-wise compressive properties of IFGSF specimens"
+    },
+    {
+     "quote": "| S22-K46-K46-S22 | 658 | 627 \u00b1 4.2 | 641.5\u00b13.0 | 3.83 \u00b1 0.6 | 2.10\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "K46-S22-S22-K46",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22 glass microballoons, layer sequence K46-S22-S22-K46 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.6386000000000001,
+    "theoretical_density_g_cc": 0.652,
+    "matrix_porosity_fraction": 0.0228,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence K46-S22-S22-K46, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D 695-96 (edge-wise compression)",
+    "specimen_notes": "Edge-wise quasi-static compression on MTS-810 servo-hydraulic machine, 16x16x32 mm specimens loaded on the layer edges, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption by trapezoidal area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 1826.0,
+    "strength_mpa": 54.72,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 2.93,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46-S22-S22-K46 | 54.72\u00b11.0 | 1826\u00b161 | 2.93\u00b10.2 |",
+     "location": "Table 7 (p. 48): Edge-wise compressive properties of IFGSF specimens"
+    },
+    {
+     "quote": "| K46-S22-S22-K46 | 652 | 623 \u00b1 4.6 | 638.6\u00b12.8 | 4.50 \u00b1 0.7 | 2.28\u00b10.3 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "S32-S38-S38-S32",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32/S38 glass microballoons, layer sequence S32-S38-S38-S32 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.6357,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": 0.034,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S32-S38-S38-S32, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D 695-96 (edge-wise compression)",
+    "specimen_notes": "Edge-wise quasi-static compression on MTS-810 servo-hydraulic machine, 16x16x32 mm specimens loaded on the layer edges, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption by trapezoidal area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 1918.0,
+    "strength_mpa": 61.19,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 3.7,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S32-S38-S38-S32 | 61.19\u00b12.6 | 1918\u00b160 | 3.70\u00b10.2 |",
+     "location": "Table 7 (p. 48): Edge-wise compressive properties of IFGSF specimens"
+    },
+    {
+     "quote": "| S32-S38-S38-S32 | 658 | 622 \u00b1 2.4 | 635.7\u00b11.5 | 5.45 \u00b1 0.4 | 3.40\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "S38-S32-S32-S38",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32/S38 glass microballoons, layer sequence S38-S32-S32-S38 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.6386000000000001,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": 0.0334,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S38-S32-S32-S38, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D 695-96 (edge-wise compression)",
+    "specimen_notes": "Edge-wise quasi-static compression on MTS-810 servo-hydraulic machine, 16x16x32 mm specimens loaded on the layer edges, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption by trapezoidal area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 1930.0,
+    "strength_mpa": 61.9,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 3.8,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S38-S32-S32-S38 | 61.90\u00b12.5 | 1930\u00b180 | 3.80\u00b10.3 |",
+     "location": "Table 7 (p. 48): Edge-wise compressive properties of IFGSF specimens"
+    },
+    {
+     "quote": "| S38-S32-S32-S38 | 658 | 628 \u00b1 4.9 | 638.6\u00b13.5 | 4.55 \u00b1 0.7 | 3.34\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "K46-S38-S32-S22",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22/S32/S38 glass microballoons, layer sequence K46-S38-S32-S22 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 0.6402,
+    "theoretical_density_g_cc": 0.655,
+    "matrix_porosity_fraction": 0.0238,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence K46-S38-S32-S22, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D 695-96 (edge-wise compression)",
+    "specimen_notes": "Edge-wise quasi-static compression on MTS-810 servo-hydraulic machine, 16x16x32 mm specimens loaded on the layer edges, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption by trapezoidal area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 1920.0,
+    "strength_mpa": 57.01,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 3.45,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46-S38-S32-S22 | 57.01\u00b11.6 | 1920\u00b150 | 3.45\u00b10.2 |",
+     "location": "Table 7 (p. 48): Edge-wise compressive properties of IFGSF specimens"
+    },
+    {
+     "quote": "| K46-S38-S32-S22 | 655 | 629 \u00b1 4.8 | 640.2\u00b12.3 | 3.96 \u00b1 0.7 | 2.38\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "Plain Foams (non-gradient syntactic foam of similar density)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite glass microballoons (plain, single-layer foam of similar density to the IFGSFs; type not stated)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Plain (non-gradient) syntactic foam fabricated by the same route with a density similar to the IFGSFs; its density is not tabulated. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um)."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D 695-96 (edge-wise compression)",
+    "specimen_notes": "Edge-wise quasi-static compression on MTS-810 servo-hydraulic machine, 16x16x32 mm specimens loaded on the layer edges, crosshead 1.3 mm/min (strain rate not stated), 5 specimens per configuration. Energy absorption by trapezoidal area under the stress-strain curve (MPa-mm/mm = MJ/m^3)."
+   },
+   "properties": {
+    "modulus_mpa": 1181.0,
+    "strength_mpa": 44.18,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 2.85,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Plain Foams | 44.18\u00b12.4 | 1181\u00b140 | 2.85\u00b10.3 |",
+     "location": "Table 7 (p. 48): Edge-wise compressive properties of IFGSF specimens"
+    }
+   ],
+   "extractor_confidence": 0.92
+  },
+  {
+   "sample_label": "S22-K46-K46-S22",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22 glass microballoons, layer sequence S22-K46-K46-S22 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S22-K46-K46-S22, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 1 m/s (total energy 1.7 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 1.08\u00b10.01 J, propagation energy 0.61\u00b10.01 J, maximum load 1.10\u00b10.01 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22-K46-K46-S22 | 1 | 1.08\u00b10.01 | 0.61\u00b10.01 | 1.10\u00b10.01 |",
+     "location": "Table 8 (p. 56): Impacted with 1.7 J (Total Energy)"
+    },
+    {
+     "quote": "| S22-K46-K46-S22 | 658 | 627 \u00b1 4.2 | 641.5\u00b13.0 | 3.83 \u00b1 0.6 | 2.10\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "K46-S22-S22-K46",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22 glass microballoons, layer sequence K46-S22-S22-K46 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.652,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence K46-S22-S22-K46, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 1 m/s (total energy 1.7 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 1.09\u00b10.05 J, propagation energy 0.61\u00b10.05 J, maximum load 1.16\u00b10.01 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46-S22-S22-K46 | 1 | 1.09\u00b10.05 | 0.61\u00b10.05 | 1.16\u00b10.01 |",
+     "location": "Table 8 (p. 56): Impacted with 1.7 J (Total Energy)"
+    },
+    {
+     "quote": "| K46-S22-S22-K46 | 652 | 623 \u00b1 4.6 | 638.6\u00b12.8 | 4.50 \u00b1 0.7 | 2.28\u00b10.3 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "S32-S38-S38-S32",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32/S38 glass microballoons, layer sequence S32-S38-S38-S32 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S32-S38-S38-S32, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 1 m/s (total energy 1.7 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 1.05\u00b10.02 J, propagation energy 0.64\u00b10.02 J, maximum load 1.25\u00b10.06 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S32-S38-S38-S32 | 1 | 1.05\u00b10.02 | 0.64\u00b10.02 | 1.25\u00b10.06 |",
+     "location": "Table 8 (p. 56): Impacted with 1.7 J (Total Energy)"
+    },
+    {
+     "quote": "| S32-S38-S38-S32 | 658 | 622 \u00b1 2.4 | 635.7\u00b11.5 | 5.45 \u00b1 0.4 | 3.40\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "S38-S32-S32-S38",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32/S38 glass microballoons, layer sequence S38-S32-S32-S38 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S38-S32-S32-S38, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 1 m/s (total energy 1.7 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 1.08\u00b10.05 J, propagation energy 0.61\u00b10.05 J, maximum load 1.21\u00b10.05 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S38-S32-S32-S38 | 1 | 1.08\u00b10.05 | 0.61\u00b10.05 | 1.21\u00b10.05 |",
+     "location": "Table 8 (p. 56): Impacted with 1.7 J (Total Energy)"
+    },
+    {
+     "quote": "| S38-S32-S32-S38 | 658 | 628 \u00b1 4.9 | 638.6\u00b13.5 | 4.55 \u00b1 0.7 | 3.34\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "K46-S38-S32-S22",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22/S32/S38 glass microballoons, layer sequence K46-S38-S32-S22 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.655,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence K46-S38-S32-S22, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 1 m/s (total energy 1.7 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 1.07\u00b10.04 J, propagation energy 0.63\u00b10.04 J, maximum load 1.10\u00b10.02 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46-S38-S32-S22 | 1 | 1.07\u00b10.04 | 0.63\u00b10.04 | 1.10\u00b10.02 |",
+     "location": "Table 8 (p. 56): Impacted with 1.7 J (Total Energy)"
+    },
+    {
+     "quote": "| K46-S38-S32-S22 | 655 | 629 \u00b1 4.8 | 640.2\u00b12.3 | 3.96 \u00b1 0.7 | 2.38\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "S22-K46-K46-S22",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22 glass microballoons, layer sequence S22-K46-K46-S22 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S22-K46-K46-S22, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 2 m/s (total energy 6.8 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 4.75\u00b10.07 J, propagation energy 2.04\u00b10.07 J, maximum load 2.70\u00b10.01 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22-K46-K46-S22 | 2 | 4.75\u00b10.07 | 2.04\u00b10.07 | 2.70\u00b10.01 |",
+     "location": "Table 9 (p. 56): Impacted with 6.8 J (Total Energy)"
+    },
+    {
+     "quote": "| S22-K46-K46-S22 | 658 | 627 \u00b1 4.2 | 641.5\u00b13.0 | 3.83 \u00b1 0.6 | 2.10\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "K46-S22-S22-K46",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22 glass microballoons, layer sequence K46-S22-S22-K46 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.652,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence K46-S22-S22-K46, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 2 m/s (total energy 6.8 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 4.64\u00b10.14 J, propagation energy 2.18\u00b10.14 J, maximum load 3.03\u00b10.01 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46-S22-S22-K46 | 2 | 4.64\u00b10.14 | 2.18\u00b10.14 | 3.03\u00b10.01 |",
+     "location": "Table 9 (p. 56): Impacted with 6.8 J (Total Energy)"
+    },
+    {
+     "quote": "| K46-S22-S22-K46 | 652 | 623 \u00b1 4.6 | 638.6\u00b12.8 | 4.50 \u00b1 0.7 | 2.28\u00b10.3 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "S32-S38-S38-S32",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32/S38 glass microballoons, layer sequence S32-S38-S38-S32 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S32-S38-S38-S32, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 2 m/s (total energy 6.8 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 4.61\u00b10.16 J, propagation energy 2.19\u00b10.16 J, maximum load 2.98\u00b10.10 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S32-S38-S38-S32 | 2 | 4.61\u00b10.16 | 2.19\u00b10.16 | 2.98\u00b10.10 |",
+     "location": "Table 9 (p. 56): Impacted with 6.8 J (Total Energy)"
+    },
+    {
+     "quote": "| S32-S38-S38-S32 | 658 | 622 \u00b1 2.4 | 635.7\u00b11.5 | 5.45 \u00b1 0.4 | 3.40\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "S38-S32-S32-S38",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32/S38 glass microballoons, layer sequence S38-S32-S32-S38 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S38-S32-S32-S38, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 2 m/s (total energy 6.8 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 4.72\u00b10.10 J, propagation energy 2.08\u00b10.10 J, maximum load 2.95\u00b10.01 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S38-S32-S32-S38 | 2 | 4.72\u00b10.10 | 2.08\u00b10.10 | 2.95\u00b10.01 |",
+     "location": "Table 9 (p. 56): Impacted with 6.8 J (Total Energy)"
+    },
+    {
+     "quote": "| S38-S32-S32-S38 | 658 | 628 \u00b1 4.9 | 638.6\u00b13.5 | 4.55 \u00b1 0.7 | 3.34\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "K46-S38-S32-S22",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22/S32/S38 glass microballoons, layer sequence K46-S38-S32-S22 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.655,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence K46-S38-S32-S22, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 2 m/s (total energy 6.8 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 5.21\u00b10.06 J, propagation energy 1.60\u00b10.06 J, maximum load 3.01\u00b10.02 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46-S38-S32-S22 | 2 | 5.21\u00b10.06 | 1.60\u00b10.06 | 3.01\u00b10.02 |",
+     "location": "Table 9 (p. 56): Impacted with 6.8 J (Total Energy)"
+    },
+    {
+     "quote": "| K46-S38-S32-S22 | 655 | 629 \u00b1 4.8 | 640.2\u00b12.3 | 3.96 \u00b1 0.7 | 2.38\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "S22-K46-K46-S22",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22 glass microballoons, layer sequence S22-K46-K46-S22 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S22-K46-K46-S22, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 3 m/s (total energy 15.3 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 14.40\u00b10.10 J, propagation energy 0.80\u00b10.11 J, maximum load 16.40\u00b11.40 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S22-K46-K46-S22 | 3 | 14.40\u00b10.10 | 0.80\u00b10.11 | 16.40\u00b11.40 |",
+     "location": "Table 10 (p. 60): Impacted with 15.3 J (Total energy)"
+    },
+    {
+     "quote": "| S22-K46-K46-S22 | 658 | 627 \u00b1 4.2 | 641.5\u00b13.0 | 3.83 \u00b1 0.6 | 2.10\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "K46-S22-S22-K46",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22 glass microballoons, layer sequence K46-S22-S22-K46 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.652,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence K46-S22-S22-K46, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 3 m/s (total energy 15.3 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 14.60\u00b10.30 J, propagation energy 0.60\u00b10.14 J, maximum load 18.10\u00b14.02 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46-S22-S22-K46 | 3 | 14.60\u00b10.30 | 0.60\u00b10.14 | 18.10\u00b14.02 |",
+     "location": "Table 10 (p. 60): Impacted with 15.3 J (Total energy)"
+    },
+    {
+     "quote": "| K46-S22-S22-K46 | 652 | 623 \u00b1 4.6 | 638.6\u00b12.8 | 4.50 \u00b1 0.7 | 2.28\u00b10.3 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "S32-S38-S38-S32",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32/S38 glass microballoons, layer sequence S32-S38-S38-S32 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S32-S38-S38-S32, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 3 m/s (total energy 15.3 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 14.80\u00b10.10 J, propagation energy 0.26\u00b10.12 J, maximum load 14.12\u00b14.08 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S32-S38-S38-S32 | 3 | 14.80\u00b10.10 | 0.26\u00b10.12 | 14.12\u00b14.08 |",
+     "location": "Table 10 (p. 60): Impacted with 15.3 J (Total energy)"
+    },
+    {
+     "quote": "| S32-S38-S38-S32 | 658 | 622 \u00b1 2.4 | 635.7\u00b11.5 | 5.45 \u00b1 0.4 | 3.40\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "S38-S32-S32-S38",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite S32/S38 glass microballoons, layer sequence S38-S32-S32-S38 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.658,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence S38-S32-S32-S38, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 3 m/s (total energy 15.3 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 14.60\u00b10.05 J, propagation energy 0.55\u00b10.01 J, maximum load 14.10\u00b13.48 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| S38-S32-S32-S38 | 3 | 14.60\u00b10.05 | 0.55\u00b10.01 | 14.10\u00b13.48 |",
+     "location": "Table 10 (p. 60): Impacted with 15.3 J (Total energy)"
+    },
+    {
+     "quote": "| S38-S32-S32-S38 | 658 | 628 \u00b1 4.9 | 638.6\u00b13.5 | 4.55 \u00b1 0.7 | 3.34\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "K46-S38-S32-S22",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M Scotchlite K46/S22/S32/S38 glass microballoons, layer sequence K46-S38-S32-S22 (each layer 60 vol% microballoons)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 100.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": 0.655,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Four-layer integrated functionally gradient syntactic foam, layer sequence K46-S38-S32-S22, each layer 60 vol% microballoons; layers integrated before full solidification, vacuum 30-45 min. Microballoon properties (Table 1): S22 rho=220 kg/m3, eta=0.9703, wall 0.52 um, 35 um median dia.; S32 320 kg/m3, 0.9561, 0.88 um; S38 380 kg/m3, 0.9474, 1.05 um; K46 460 kg/m3, 0.9356, 1.29 um (S32/S38/K46 median dia. 40 um). Table 5 lists specimen densities only for the flat-wise and edge-wise compression coupons, so no measured density is assigned to the impact coupons."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "Instron Dynatup 8250 drop-weight low-velocity impact (no ASTM standard cited)",
+    "specimen_notes": "Drop-weight impact at 3 m/s (total energy 15.3 J), 3.4 kg drop weight, 16 mm hemispherical tup, 101.6x101.6x16 mm specimens, 3 samples per configuration. MEASURED (no schema field exists for these): initiation energy 14.80\u00b10.20 J, propagation energy 0.46\u00b10.01 J, maximum load 18.26\u00b15.11 kN."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| K46-S38-S32-S22 | 3 | 14.80\u00b10.20 | 0.46\u00b10.01 | 18.26\u00b15.11 |",
+     "location": "Table 10 (p. 60): Impacted with 15.3 J (Total energy)"
+    },
+    {
+     "quote": "| K46-S38-S32-S22 | 655 | 629 \u00b1 4.8 | 640.2\u00b12.3 | 3.96 \u00b1 0.7 | 2.38\u00b10.2 |",
+     "location": "Table 5 (p. 28): Measured densities and open cell porosity in FGSF configurations"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Adhesively bonded FGSF, same layer sequencing (comparison data from Gupta & Ricci, ref. [16])",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "DGEBA epoxy D.E.R. 332 (Dow) with 5 vol% Erisys GE-8 C12-C14 aliphatic mono-glycidyl ether diluent and 13 vol% D.E.H. 24 (TETA) hardener",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "Layered syntactic foam with the same layer sequencing as K46-S38-S32-S22, layers joined with adhesive",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "Adhesive bond layers between the syntactic foam layers"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Gradient foam whose layers are adhesively bonded rather than integrated while still liquid; peeling stresses at the adhesive interfaces."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Flat-wise compression comparison data quoted from earlier work (Gupta et al. [16]), not measured here."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 32.7,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 16.5,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "It is evident that the compressive yield strength values have increased from around 32.7 MPa for adhesively bonded FGSF to 49 MPa for IFGSF, an increase of 50%. Additionally, it is found that the overall energy absorption of IFGSF (28.9 MPa-mm/mm) is found to be 75% more than the energy absorption of adhesively bonded FGSFs (16.5 MPa-mm/mm).",
+     "location": "Sec. 5.1, p. 37"
+    }
+   ],
+   "extractor_confidence": 0.7
+  }
+ ],
+ "extraction_notes": "28 records = 6 flat-wise compression (Table 6: 5 IFGSF + plain foam), 6 edge-wise compression (Table 7), 15 drop-weight impact (Tables 8-10: 5 configurations x 3 velocities) and 1 secondary record for the adhesively bonded FGSF comparison quoted from Gupta & Ricci [16]. Energy absorption is reported as MPa-mm/mm, i.e. stress x strain, which equals MJ/m^3, so the values were carried into energy_absorption_mj_m3 unchanged. Densities from Table 5 were converted kg/m3 -> g/cm^3, and 'open cell porosity' (the matrix void content from mechanical mixing, as opposed to the closed porosity inside the microballoons) was converted from % to a fraction and stored as matrix_porosity_fraction. Table 5 gives separate specimen densities for the flat-wise and edge-wise coupons, and each is attached to the matching test; no density is tabulated for the impact coupons or for the plain foams, so those are null. IMPACT RECORDS CARRY NO PROPERTY VALUES: the schema has no field for initiation energy (J), propagation energy (J) or maximum contact load (kN), and converting them into MJ/m^3 or a stress would require inventing an effective volume/area, so the measured numbers are preserved verbatim in each record's evidence quote and in test.specimen_notes instead. Plain-foam impact values exist only as bars in Figs. 33-35 and 37-39 and were not read off. Strain rate is null everywhere: the compression tests state only a 1.3 mm/min crosshead speed. Test temperature was set to 25 C (ambient; not stated explicitly). For the four configurations built from two microballoon grades, particle_true_density_g_cc, mean diameter and radius ratio are left null because they differ layer by layer; the per-grade values from Table 1 are recorded in microstructure_notes. particle_volume_fraction = 0.60 is the constant per-layer microballoon loading. cure_or_process_temperature_c = 100 C is the 3 h post-cure (24 h room-temperature cure first). Note that Table 1's wall thicknesses (0.52, 0.88, 1.05, 1.29 um) are about half those quoted for the same 3M grades in other theses from this group; the values are reproduced as printed. The plain-foam comparison samples were fabricated in this study (hence primary) but their microballoon grade is not stated."
+}

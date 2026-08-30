@@ -1,0 +1,6 @@
+{
+  "is_syntactic_foam_paper": false,
+  "paper_summary": "This paper documents the conservation and restoration of a polychrome (painted) wooden coffin from the Dahshur archaeological area, Egypt, dating to the Late Period. It covers documentation, wood identification (Faidherbia albida), insect/microbial sterilization with nanochitosan, mechanical and chemical cleaning, reattachment of gesso layers with Paraloid B72, and consolidation of the painted layer with calcium oxide nanoparticles in Klucel G. Glass microballoons mixed with Paraloid B72 and earth pigments were used only as a gap-filling paste for the edges of the ground layer.",
+  "records": [],
+  "extraction_notes": "Off-topic for syntactic foams. The only mention of hollow particles is the use of glass microballoons combined with Paraloid B72 in acetone (15 W/V) as a restoration filling material for cracks/voids at the edges of the gesso ground layer of an archaeological wooden coffin. No composition series, no volume/weight fractions, no mechanical, thermal or physical property measurements of a hollow-particle composite are reported anywhere in the paper. Therefore is_syntactic_foam_paper=false and records is empty."
+}

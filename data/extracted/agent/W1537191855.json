@@ -1,0 +1,170 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Conference abstract (24th Compatibility Aging Stockpile Stewardship Conference, LANL/KCP, 2002) on replacing obsolete polymeric materials in the LANL stockpile. One of its three sections concerns the high-temperature syntactic foam used as the W76 aft support: carbon microballoons (CMB) in a polyimide binder (Kerimid 601, discontinued because of MDA) replaced by an APO-BMI binder, with thermally activated (TA) CMB and removal of the Thornel carbon mat. Table 1 compares flexural and compressive properties of the 1977 baseline material, stockpile returns, and new 40/60 APO-BMI billets, and concludes that comparable flexural properties are obtained without Thornel mat and without sacrificing compressive properties.",
+  "records": [
+    {
+      "sample_label": "Table 1 col. 1 - CMB/Kerimid 601 syntactic foam, H. McIlroy, 'High Temperature Syntactic Foam', BDX-613-1534 (1977)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Kerimid 601 polyimide resin",
+        "particle_type": "carbon_hollow",
+        "particle_grade": "carbon microballoons (CMB)",
+        "process_route": "other",
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "40/60 designation = CMB + resin only; 40/60/5 = 5 wt% Thornel carbon mat added. Table 1 column headings were destroyed in the OCR of this scanned document, so it is not recoverable which of columns 1 and 2 is 40/60 and which is 40/60/5."
+      },
+      "test": {
+        "test_type": "flexure"
+      },
+      "properties": {
+        "strain_at_failure": 0.0094
+      },
+      "evidence": [
+        {
+          "quote": "Columns 1 and 2 are taken from a report written by H. McIlroy (High Temperature Syntactic Foam BDX-613-1534) in 1977 during the original development of the material.",
+          "location": "Sec. 'Replacement Issues for W76 Aft Support Manufacture', para 1 (text lightly cleaned of OCR errors)"
+        },
+        {
+          "quote": "FbihPtz &wain ... 0.94 ... 1 AG",
+          "location": "Table 1, flexural strain (%) row, columns 1 and 2 (raw OCR; 0.94 % read as 0.0094)"
+        }
+      ],
+      "extractor_confidence": 0.3
+    },
+    {
+      "sample_label": "Table 1 col. 2 - CMB/Kerimid 601 syntactic foam, H. McIlroy, 'High Temperature Syntactic Foam', BDX-613-1534 (1977)",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Kerimid 601 polyimide resin",
+        "particle_type": "carbon_hollow",
+        "particle_grade": "carbon microballoons (CMB)",
+        "process_route": "other",
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "40/60 designation = CMB + resin only; 40/60/5 = 5 wt% Thornel carbon mat added. Column headings lost in OCR, so the 40/60 vs 40/60/5 assignment of columns 1 and 2 is unknown."
+      },
+      "test": {
+        "test_type": "flexure"
+      },
+      "properties": {
+        "strain_at_failure": 0.0146
+      },
+      "evidence": [
+        {
+          "quote": "Columns 1 and 2 are taken from a report written by H. McIlroy (High Temperature Syntactic Foam BDX-613-1534) in 1977 during the original development of the material.",
+          "location": "Sec. 'Replacement Issues for W76 Aft Support Manufacture', para 1 (text lightly cleaned of OCR errors)"
+        },
+        {
+          "quote": "FbihPtz &wain ... 0.94 ... 1 AG",
+          "location": "Table 1, flexural strain (%) row, columns 1 and 2 (raw OCR; '1 AG' read as 1.46 % = 0.0146)"
+        }
+      ],
+      "extractor_confidence": 0.25
+    },
+    {
+      "sample_label": "Table 1 col. 6 - 40/60 CMB/APO-BMI, as-received carbon microballoons, 3x5 in. test billet",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "APO-BMI replacement binder (bismaleimide), replacing Kerimid 601",
+        "particle_type": "carbon_hollow",
+        "particle_grade": "carbon microballoons (CMB), as received",
+        "process_route": "other",
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "40/60 = CMB + resin only, no Thornel mat. Intensive mixing needed to disperse Thornel mat breaks CMB, so mat removal avoids particle breakage."
+      },
+      "test": {
+        "test_type": "flexure",
+        "specimen_notes": "3 x 5 inch test billet"
+      },
+      "properties": {
+        "strain_at_failure": 0.0053
+      },
+      "evidence": [
+        {
+          "quote": "Columns 6 and 7 are 3x5\" test billets with as received and thermally activated (TA) carbon microballoons (CMB), respectively.",
+          "location": "Sec. 'Replacement Issues for W76 Aft Support Manufacture', para 1 (OCR lightly cleaned)"
+        },
+        {
+          "quote": "0.53 -+ .04",
+          "location": "Table 1, flexural strain (%) row, first of the three mean +/- sd columns (0.53 % = 0.0053)"
+        }
+      ],
+      "extractor_confidence": 0.3
+    },
+    {
+      "sample_label": "Table 1 col. 7 - 40/60 CMB/APO-BMI, thermally activated (TA) carbon microballoons, 3x5 in. test billet",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "APO-BMI replacement binder (bismaleimide), replacing Kerimid 601",
+        "particle_type": "carbon_hollow",
+        "particle_grade": "carbon microballoons (CMB), thermally activated (TA)",
+        "process_route": "other",
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "Thermal activation absorbs oxygen into the CMB surface to improve interfacial bonding; used as the mitigation step to increase flexural properties. No Thornel mat."
+      },
+      "test": {
+        "test_type": "flexure",
+        "specimen_notes": "3 x 5 inch test billet"
+      },
+      "properties": {
+        "strain_at_failure": 0.0046
+      },
+      "evidence": [
+        {
+          "quote": "thermally activated absorption of oxygen into the surface of the CMB (TA) ... The TA process was the mitigation step used to increase flexural properties of the syntactic foam.",
+          "location": "Sec. 'Replacement Issues for W76 Aft Support Manufacture', para 1 (OCR lightly cleaned)"
+        },
+        {
+          "quote": "0.46 f 0.02",
+          "location": "Table 1, flexural strain (%) row, second of the three mean +/- sd columns (0.46 % = 0.0046)"
+        }
+      ],
+      "extractor_confidence": 0.3
+    },
+    {
+      "sample_label": "Table 1 col. 8 - 40/60 CMB/APO-BMI inner support billet (current process: new molding technique, new CMB carbonization cycle, TA CMB, no Thornel mat)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "APO-BMI replacement binder (bismaleimide)",
+        "particle_type": "carbon_hollow",
+        "particle_grade": "carbon microballoons (CMB), new carbonization cycle + thermal activation",
+        "process_route": "other",
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "Culmination of developmental improvements: new molding technique and processing cycle, new carbonization cycle for the microballoons, TA CMB, APO-BMI binder, Thornel mat removed."
+      },
+      "test": {
+        "test_type": "flexure",
+        "specimen_notes": "specimens taken from a recent inner support billet"
+      },
+      "properties": {
+        "strain_at_failure": 0.0056
+      },
+      "evidence": [
+        {
+          "quote": "The last column presents data from specimens taken from a recent inner support billet. It represents the culmination of developmental improvements in the current project.",
+          "location": "Sec. 'Replacement Issues for W76 Aft Support Manufacture', para 1 (OCR lightly cleaned)"
+        },
+        {
+          "quote": "0.56 f .02",
+          "location": "Table 1, flexural strain (%) row, third of the three mean +/- sd columns (0.56 % = 0.0056)"
+        }
+      ],
+      "extractor_confidence": 0.3
+    }
+  ],
+  "extraction_notes": "This is a scanned 2002 conference abstract; the OCR of Table 1 is severely degraded. The column headings and all row/column alignment are lost - only a loose stream of numbers survives: strength/modulus-scale values 571, 587, 480, 670, 552+/-48, 897+/-17, 878+/-21, 553+/-22, 735+/-62, 648+/-44; strength-scale values 7.93, 7.51, 5.93+/-0.36, 7.52+/-0.35, 7.51+/-0.40; strain values 0.94, 1.46, 0.53+/-0.04, 0.46+/-0.02, 0.56+/-0.02; plus orphan fragments '76' and '9.'. The surviving row labels are 'Flexural Strength, MPa', 'Modulus, MPa', 'Flexural Strain (%)' and 'Compressive Strength, MPa'. Because two distinct hundreds-of-MPa groups survive but only one modulus label, it cannot be determined which numbers are flexural modulus, which are compressive modulus/strength, and which are flexural strength; those values were therefore left null rather than guessed. Only the strain row is unambiguous by magnitude (the only sub-unity values with a '(%)' label), so strain_at_failure is the only property extracted, converted from percent to fraction. The paper says the table has 8 columns; the five surviving value groups were mapped as columns 1-2 (McIlroy 1977, Kerimid 601, secondary data) and columns 6-8 (as-received CMB, TA CMB, inner support billet, all APO-BMI), based on the text's statement that thermal activation increased the flexural properties (the three +/- columns rise from the first to the second value in every row). Columns 3, 4 and 5 (including the stockpile-return averages) produced no recoverable numbers. Particle loading was left null: the '40/60' and '40/60/5' designations are stated but the paper never says whether the numbers are weight or volume percent, nor which of columns 1/2 is which formulation. Test temperature, standard, density and particle geometry are not reported. All confidences are low; this extraction should be re-done from the original PDF/report if precise values are needed."
+}

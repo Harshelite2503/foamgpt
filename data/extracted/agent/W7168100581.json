@@ -1,0 +1,877 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Aluminium matrix syntactic foams were made by stir casting Al-2014 alloy with 15, 20 and 25 vol% untreated fly ash cenospheres (60-90 um) and tested for dry sliding wear on a pin-on-disc tribometer (ASTM G99) at 5-25 N load and 4-8 m/s sliding velocity over 2000 m. Increasing cenosphere content lowered the specific wear rate and the friction coefficient (0.46-0.57 across the 15 runs), with the lowest wear at 25 vol%. A Gaussian Process Regression surrogate (training R2 = 0.9228, hold-out R2 = 0.8221) plus Sobol global sensitivity analysis showed cenosphere content (S1 = 0.4963) and applied load (S1 = 0.4752) dominate wear, while sliding velocity is almost irrelevant (S1 = 0.0257).",
+ "records": [
+  {
+   "sample_label": "Run 1 - Al-2014 + 15 vol% FAC, 5 N, 4 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.15,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Porosity not quantified for this composition."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 5 N, sliding velocity 4 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.56, weight loss 0.12 g (initial 50 g -> final 49.88 g), wear rate 6e-05 g/m, specific wear rate 0.00444 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "1 5 4 15 50 49.88 0.56 0.12 6e-05 0.00444",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 1 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 2 - Al-2014 + 25 vol% FAC, 5 N, 8 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.25,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.036,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Localized micro-porosity area fraction 3.6% by ImageJ threshold segmentation."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 5 N, sliding velocity 8 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.46, weight loss 0.08 g (initial 50 g -> final 49.92 g), wear rate 4e-05 g/m, specific wear rate 0.00296 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "2 5 8 25 50 49.92 0.46 0.08 4e-05 0.00296",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 2 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 3 - Al-2014 + 25 vol% FAC, 25 N, 4 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.25,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.036,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Localized micro-porosity area fraction 3.6% by ImageJ threshold segmentation."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 25 N, sliding velocity 4 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.48, weight loss 0.35 g (initial 50 g -> final 49.65 g), wear rate 0.000175 g/m, specific wear rate 0.00259 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "3 25 4 25 50 49.65 0.48 0.35 0.000175 0.00259",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 3 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 4 - Al-2014 + 15 vol% FAC, 25 N, 8 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.15,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Porosity not quantified for this composition."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 25 N, sliding velocity 8 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.52, weight loss 0.45 g (initial 50 g -> final 49.55 g), wear rate 0.000225 g/m, specific wear rate 0.00333 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "4 25 8 15 50 49.55 0.52 0.45 0.000225 0.00333",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 4 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 5 - Al-2014 + 20 vol% FAC, 15 N, 6 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.2,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.028,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Localized micro-porosity area fraction 2.8% by ImageJ threshold segmentation."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 15 N, sliding velocity 6 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.52, weight loss 0.3 g (initial 50 g -> final 49.7 g), wear rate 0.00015 g/m, specific wear rate 0.0037 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "5 15 6 20 50 49.7 0.52 0.3 0.00015 0.0037",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 5 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 6 - Al-2014 + 20 vol% FAC, 5 N, 6 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.2,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.028,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Localized micro-porosity area fraction 2.8% by ImageJ threshold segmentation."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 5 N, sliding velocity 6 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.51, weight loss 0.09 g (initial 50 g -> final 49.91 g), wear rate 4.5e-05 g/m, specific wear rate 0.00333 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "6 5 6 20 50 49.91 0.51 0.09 4.5e-05 0.00333",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 6 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 7 - Al-2014 + 20 vol% FAC, 25 N, 6 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.2,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.028,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Localized micro-porosity area fraction 2.8% by ImageJ threshold segmentation."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 25 N, sliding velocity 6 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.54, weight loss 0.4 g (initial 50 g -> final 49.6 g), wear rate 0.0002 g/m, specific wear rate 0.00296 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "7 25 6 20 50 49.6 0.54 0.4 0.0002 0.00296",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 7 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 8 - Al-2014 + 25 vol% FAC, 15 N, 4 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.25,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.036,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Localized micro-porosity area fraction 3.6% by ImageJ threshold segmentation."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 15 N, sliding velocity 4 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.48, weight loss 0.26 g (initial 50 g -> final 49.74 g), wear rate 0.00013 g/m, specific wear rate 0.00321 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "8 15 4 25 50 49.74 0.48 0.26 0.00013 0.00321",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 8 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 9 - Al-2014 + 15 vol% FAC, 15 N, 8 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.15,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Porosity not quantified for this composition."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 15 N, sliding velocity 8 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.53, weight loss 0.31 g (initial 50 g -> final 49.69 g), wear rate 0.000155 g/m, specific wear rate 0.00382 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "9 15 8 15 50 49.69 0.53 0.31 0.000155 0.00382",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 9 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 10 - Al-2014 + 15 vol% FAC, 15 N, 4 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.15,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Porosity not quantified for this composition."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 15 N, sliding velocity 4 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.57, weight loss 0.28 g (initial 50 g -> final 49.72 g), wear rate 0.00014 g/m, specific wear rate 0.00345 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "10 15 4 15 50 49.72 0.57 0.28 0.00014 0.00345",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 10 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 11 - Al-2014 + 25 vol% FAC, 15 N, 8 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.25,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.036,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Localized micro-porosity area fraction 3.6% by ImageJ threshold segmentation."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 15 N, sliding velocity 8 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.49, weight loss 0.25 g (initial 50 g -> final 49.75 g), wear rate 0.000125 g/m, specific wear rate 0.00308 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "11 15 8 25 50 49.75 0.49 0.25 0.000125 0.00308",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 11 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 12 - Al-2014 + 15 vol% FAC, 25 N, 6 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.15,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Porosity not quantified for this composition."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 25 N, sliding velocity 6 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.53, weight loss 0.5 g (initial 50 g -> final 49.5 g), wear rate 0.00025 g/m, specific wear rate 0.0037 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "12 25 6 15 50 49.5 0.53 0.5 0.00025 0.0037",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 12 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 13 - Al-2014 + 25 vol% FAC, 5 N, 6 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.25,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.036,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Localized micro-porosity area fraction 3.6% by ImageJ threshold segmentation."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 5 N, sliding velocity 6 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.45, weight loss 0.06 g (initial 50 g -> final 49.94 g), wear rate 3e-05 g/m, specific wear rate 0.00222 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "13 5 6 25 50 49.94 0.45 0.06 3e-05 0.00222",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 13 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 14 - Al-2014 + 25 vol% FAC, 5 N, 4 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.25,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": 0.036,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Localized micro-porosity area fraction 3.6% by ImageJ threshold segmentation."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 5 N, sliding velocity 4 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.47, weight loss 0.07 g (initial 50 g -> final 49.93 g), wear rate 3.5e-05 g/m, specific wear rate 0.00259 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "14 5 4 25 50 49.93 0.47 0.07 3.5e-05 0.00259",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 14 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "Run 15 - Al-2014 + 15 vol% FAC, 25 N, 4 m/s",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al-2014 aluminium alloy (Al-Cu)",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "fly ash cenospheres recovered by water floatation, sieved 60-90 um, untreated",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.15,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cenospheres retain spherical shape, good interfacial bonding, minor local clustering; mean inter-particle spacing 92 +/- 18 um (measured on the 20 vol% sample). Porosity not quantified for this composition."
+   },
+   "test": {
+    "test_type": "other",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM G99",
+    "specimen_notes": "Dry sliding pin-on-disc wear test (Ducom), 10 mm dia x 30 mm pin against EN-31 steel disc (~62 HRC, Ra ~0.5 um); applied load 25 N, sliding velocity 4 m/s, sliding distance 2000 m. Tribological results (no schema field exists for them): friction coefficient 0.55, weight loss 0.4 g (initial 50 g -> final 49.6 g), wear rate 0.0002 g/m, specific wear rate 0.00296 mm3/N.m."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "15 25 4 15 50 49.6 0.55 0.4 0.0002 0.00296",
+     "location": "Table 1 (Experimental design matrix and corresponding tribological results), Run 15 - columns: Run, Load (N), Sliding Velocity (m/s), Ceno Content (%), Initial Weight (g), Final Weight (g), Friction Coefficient, Weight Loss (g), Wear Rate (g/m), Specific Wear rate (mm3/N.m)"
+    },
+    {
+     "quote": "The cenospheres were added at controlled volume fractions of 15%, 20%, and 25%.",
+     "location": "Sec. 2.2 Fabrication of Aluminium-Cenosphere Syntactic Foams"
+    }
+   ],
+   "extractor_confidence": 0.85
+  }
+ ],
+ "extraction_notes": "This is a genuine hollow-particle (cenosphere) metal-matrix syntactic foam paper, but it reports ONLY tribological responses - friction coefficient, weight loss, wear rate and specific wear rate. None of these map to any field in the Properties schema, so every property field is null and the measured tribological numbers are recorded verbatim in test.specimen_notes for each of the 15 I-optimal design runs of Table 1. test_type is set to 'other' (dry sliding pin-on-disc); strain_rate_per_s is left null because sliding velocity (m/s) is not a strain rate. No mechanical properties (modulus, strength, density) and no measured foam density are reported anywhere in the paper. Cenosphere bulk density is given only as a range (0.6-0.9 g/cm3) and particle size only as a sieve range (60-90 um), so particle_true_density_g_cc and particle_mean_diameter_um are left null. Melt temperature is given as a range (750-800 C) so cure_or_process_temperature_c is left null. matrix_porosity_fraction uses the ImageJ-measured localized micro-porosity area fractions stated in Sec. 3.1 (<2.8% area for 20% FAC, 3.6% for 25% FAC); the paper states quantitative porosity measurement was not performed for the 15% composition, so it is null there. The 15%/20%/25% cenosphere contents are explicitly by volume, entered as fractions 0.15/0.20/0.25. Table 1 rows appear in the extracted text as one value per line; evidence quotes reproduce each row's values in column order. Values cited from other authors (Mehta et al., Zhang et al., Hussein and Eqal, Rugele et al., Doddamani et al.) in the Introduction/Discussion are literature comparisons for other material systems and were not extracted as records. GPR/Sobol results are model outputs about wear, not material properties, so they are summarised only."
+}

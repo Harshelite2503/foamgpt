@@ -1,0 +1,217 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Orbulov, Nemeth and Dobranszky (Gepeszet 2008) produce metal matrix syntactic foams (AlSi12Mg or commercially pure Al infiltrated into ~60 vol% hollow ceramic microspheres, 150 um mean diameter, 15 um wall) and unidirectional carbon-fibre aluminium MMCs by argon pressure infiltration, then characterise them by optical microscopy, SEM, XRD, tensile and upsetting tests. The syntactic foam has a density of ~1300 kg/m3, infiltrates almost fully at a ~0.5 MPa threshold pressure, and shows a long compressive plateau followed by densification. Upsetting specimen aspect ratio matters: mean modulus rises from 19.37 to 23.57 to 28.85 MPa for aspect ratios 1, 1.5 and 2, while aspect ratio 2 gives a lower peak stress than 1 and 1.5.",
+ "records": [
+  {
+   "sample_label": "AlSi12Mg / ceramic hollow microsphere syntactic foam, upsetting aspect ratio 1.0",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "AlSi12Mg eutectic Al alloy (commercially pure Al, cp-Al, also used for some blocks; the matrix of the upsetting specimens is not stated explicitly)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Hollow ceramic microspheres, Sphere Services Inc. (USA); 55-65 wt% SiO2, 25-35 wt% Al2O3, 1-5 wt% Fe2O3, 0.5-1.5 wt% TiO2",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 150.0,
+    "particle_wall_thickness_ratio": 0.8,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.3,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Argon pressure infiltration at ~0.5 MPa threshold pressure; almost complete infiltration with only a few broken shells and a little residual porosity between the closely packed spheres. Microsphere walls themselves contain micro-porosity. No interface reaction layer in AlSi12Mg; in cp-Al the reaction 4Al+3SiO2 -> 3Si+2Al2O3 disorders the sphere wall."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.0022,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Upsetting (compression) test, Tiratest 2300 with 100 kN load cell; cylindrical specimen diameter 15 mm, aspect ratio 1.0, crosshead speed 2 mm/min, lubricated ends to prevent barrelling; compressed to about half the initial height. Long plateau region followed by densification."
+   },
+   "properties": {
+    "modulus_mpa": 19.37,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "The average value of modulus was 19.37, 23.57 and 28.85 MPa in the case of aspect ratios 1, 1.5 and 2 respectively.",
+     "location": "Sec. 4 Results and Discussion, page 7 (discussion of Fig. 14)"
+    },
+    {
+     "quote": "cylindrical O15 mm upsetting specimens with aspect ratio of 1, 1.5 or 2 were machined. The crosshead speed was 2 mm/min this corresponds to strain rates of ~0.0022 s-1, ~0.0014 s-1, ~0.0011 s-1 respectively.",
+     "location": "Sec. 3 Experimental methods, page 4"
+    },
+    {
+     "quote": "Density measurements indicated ~1300 kgm-3 and ~2250 kgm-3 in the case of syntactic foam and carbon fibre reinforced MMCs respectively.",
+     "location": "Sec. 4 Results and Discussion, page 4"
+    },
+    {
+     "quote": "The microspheres are packed closely, so the volume fraction of them was ~60%.",
+     "location": "Sec. 2.2 Syntactic foams, page 3"
+    },
+    {
+     "quote": "Bulk density of the microspheres is ~400 kgm-3 and they are in the 130-170 um diameter range with a mean diameter of 150 um. Wall thickness is about 15 um (~10% of the average diameter).",
+     "location": "Sec. 2.2 Syntactic foams, page 2"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "AlSi12Mg / ceramic hollow microsphere syntactic foam, upsetting aspect ratio 1.5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "AlSi12Mg eutectic Al alloy (commercially pure Al, cp-Al, also used for some blocks; the matrix of the upsetting specimens is not stated explicitly)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Hollow ceramic microspheres, Sphere Services Inc. (USA); 55-65 wt% SiO2, 25-35 wt% Al2O3, 1-5 wt% Fe2O3, 0.5-1.5 wt% TiO2",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 150.0,
+    "particle_wall_thickness_ratio": 0.8,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.3,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Argon pressure infiltration at ~0.5 MPa threshold pressure; almost complete infiltration with only a few broken shells and a little residual porosity between the closely packed spheres. Microsphere walls themselves contain micro-porosity. No interface reaction layer in AlSi12Mg; in cp-Al the reaction 4Al+3SiO2 -> 3Si+2Al2O3 disorders the sphere wall."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.0014,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Upsetting (compression) test, Tiratest 2300 with 100 kN load cell; cylindrical specimen diameter 15 mm, aspect ratio 1.5, crosshead speed 2 mm/min, lubricated ends to prevent barrelling; compressed to about half the initial height. Long plateau region followed by densification."
+   },
+   "properties": {
+    "modulus_mpa": 23.57,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "The average value of modulus was 19.37, 23.57 and 28.85 MPa in the case of aspect ratios 1, 1.5 and 2 respectively.",
+     "location": "Sec. 4 Results and Discussion, page 7 (discussion of Fig. 14)"
+    },
+    {
+     "quote": "cylindrical O15 mm upsetting specimens with aspect ratio of 1, 1.5 or 2 were machined. The crosshead speed was 2 mm/min this corresponds to strain rates of ~0.0022 s-1, ~0.0014 s-1, ~0.0011 s-1 respectively.",
+     "location": "Sec. 3 Experimental methods, page 4"
+    },
+    {
+     "quote": "Density measurements indicated ~1300 kgm-3 and ~2250 kgm-3 in the case of syntactic foam and carbon fibre reinforced MMCs respectively.",
+     "location": "Sec. 4 Results and Discussion, page 4"
+    },
+    {
+     "quote": "The microspheres are packed closely, so the volume fraction of them was ~60%.",
+     "location": "Sec. 2.2 Syntactic foams, page 3"
+    },
+    {
+     "quote": "Bulk density of the microspheres is ~400 kgm-3 and they are in the 130-170 um diameter range with a mean diameter of 150 um. Wall thickness is about 15 um (~10% of the average diameter).",
+     "location": "Sec. 2.2 Syntactic foams, page 2"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "AlSi12Mg / ceramic hollow microsphere syntactic foam, upsetting aspect ratio 2.0",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "AlSi12Mg eutectic Al alloy (commercially pure Al, cp-Al, also used for some blocks; the matrix of the upsetting specimens is not stated explicitly)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Hollow ceramic microspheres, Sphere Services Inc. (USA); 55-65 wt% SiO2, 25-35 wt% Al2O3, 1-5 wt% Fe2O3, 0.5-1.5 wt% TiO2",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": 150.0,
+    "particle_wall_thickness_ratio": 0.8,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.3,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Argon pressure infiltration at ~0.5 MPa threshold pressure; almost complete infiltration with only a few broken shells and a little residual porosity between the closely packed spheres. Microsphere walls themselves contain micro-porosity. No interface reaction layer in AlSi12Mg; in cp-Al the reaction 4Al+3SiO2 -> 3Si+2Al2O3 disorders the sphere wall."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.0011,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Upsetting (compression) test, Tiratest 2300 with 100 kN load cell; cylindrical specimen diameter 15 mm, aspect ratio 2.0, crosshead speed 2 mm/min, lubricated ends to prevent barrelling; compressed to about half the initial height. Long plateau region followed by densification."
+   },
+   "properties": {
+    "modulus_mpa": 28.85,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "The average value of modulus was 19.37, 23.57 and 28.85 MPa in the case of aspect ratios 1, 1.5 and 2 respectively.",
+     "location": "Sec. 4 Results and Discussion, page 7 (discussion of Fig. 14)"
+    },
+    {
+     "quote": "cylindrical O15 mm upsetting specimens with aspect ratio of 1, 1.5 or 2 were machined. The crosshead speed was 2 mm/min this corresponds to strain rates of ~0.0022 s-1, ~0.0014 s-1, ~0.0011 s-1 respectively.",
+     "location": "Sec. 3 Experimental methods, page 4"
+    },
+    {
+     "quote": "Density measurements indicated ~1300 kgm-3 and ~2250 kgm-3 in the case of syntactic foam and carbon fibre reinforced MMCs respectively.",
+     "location": "Sec. 4 Results and Discussion, page 4"
+    },
+    {
+     "quote": "The microspheres are packed closely, so the volume fraction of them was ~60%.",
+     "location": "Sec. 2.2 Syntactic foams, page 3"
+    },
+    {
+     "quote": "Bulk density of the microspheres is ~400 kgm-3 and they are in the 130-170 um diameter range with a mean diameter of 150 um. Wall thickness is about 15 um (~10% of the average diameter).",
+     "location": "Sec. 2.2 Syntactic foams, page 2"
+    }
+   ],
+   "extractor_confidence": 0.6
+  }
+ ],
+ "extraction_notes": "3 records = the single syntactic-foam composition (Al matrix + ~60 vol% hollow ceramic microspheres) tested at 3 upsetting aspect ratios / strain rates, the only quantitative property table in the paper for the foam. SCOPE: the paper also covers carbon-fibre reinforced Al MMCs (density ~2250 kg/m3, XRD phase fractions in Table 1). Those are not hollow-particle composites, so no records were created for them; Table 1 is XRD phase content, not a mechanical property. UNITS: density converted 1300 kg/m3 -> 1.30 g/cm3; volume fraction 60% -> 0.60. CAUTION ON MODULUS: the paper reports the upsetting moduli as 19.37 / 23.57 / 28.85 MPa. These are implausibly low for an aluminium-matrix syntactic foam (GPa would be expected) and are most likely apparent moduli from the raw machine compliance, or a unit slip in the original text. They are transcribed exactly as printed, without correction; downstream users should treat them as suspect. Extractor confidence lowered accordingly. NOT EXTRACTED: peak (compressive) stress and UTS are only shown as curves in Figs. 11-15 with no numeric values, so strength_mpa, plateau_stress_mpa and densification_strain are null. The absorbed specific mechanical energy is given only as an approximate range shared with the fibre MMC ('~30-40 Jg-1'), and in J/g rather than MJ/m3, so energy_absorption_mj_m3 is left null rather than converted from a range. PARTICLE DENSITY: the '~400 kg/m3' quoted for the microspheres is a bulk (tap) density, not a true particle density, so particle_true_density_g_cc is null. DERIVED VALUE: particle_wall_thickness_ratio = 0.8 is computed arithmetically from the stated 150 um mean diameter and 15 um wall thickness ((75-15)/75); the paper does not print eta itself. Matrix: the paper made blocks with both AlSi12Mg and cp-Al but does not say which matrix the upsetting specimens used; matrix_name records both. Test temperature is never stated (tests are ambient in practice), so temperature_c is left null rather than assumed. No infiltration temperature is given numerically."
+}

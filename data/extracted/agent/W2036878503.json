@@ -1,0 +1,77 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Orbulov studies the pressure-infiltration production of aluminium metal matrix syntactic foams (MMSFs) made from AlSi12 alloy and SLG-type ceramic hollow microballoons (E-spheres, Envirospheres) tapped to ~64 vol%. A purpose-built, thermally controlled infiltration rig was used to measure the infiltrated length as a function of Ar gas pressure (0.5-4 bar) and infiltration time (1-5 s) at ~640 C melt temperature. The measured threshold pressure lay between 0.5 and 1 bar, supporting the Kaptay capillary model over the Trumble and Rohatgi models, and the infiltrated length grew with a time exponent of ~1.5-2.7 rather than the theoretically predicted square-root dependence.",
+  "records": [
+    {
+      "sample_label": "AlSi12 + SLG E-spheres (64 vol%), pressure infiltration",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "AlSi12 aluminium alloy",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SLG type E-spheres (Envirospheres Pty. Ltd.)",
+        "particle_true_density_g_cc": 0.64,
+        "particle_mean_diameter_um": 130.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.64,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": 640.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microballoon chemistry 36-40 wt% Al2O3, 55-60 wt% SiO2, 1.4-1.6 wt% TiO2, 0.4-0.5 wt% Fe2O3; average outer diameter 130 um and average wall thickness ~5.4 um (calculated by the author from the real density of the microballoons and the density of their wall). Microballoons were poured into a 10 mm OD / 1 mm wall, 150 mm long 316L stainless tube and tapped rigorously to reach a randomly close packed ~64 vol% (R-CPES), versus 74 vol% for ideal close packing. Possible interfacial reaction 4Al+3SiO2=3Si+2Al2O3 (dG ~ -300 kJ/mol at 700-850 C) noted at longer infiltration times."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 640.0,
+        "standard": null,
+        "specimen_notes": "No mechanical test was performed. The measured quantity is the infiltration length L (mm) of the AlSi12 melt into the tapped microballoon bed, under Ar pressure of 0.5-4 bar for 1-5 s, melt superheated to melting point + 70 C (thermocouple T4 = 640 C in all runs). Measured L: 0 mm at 0.5 bar / 5 s; 17, 29, 41, 68 mm at 1-4 bar for 1 s; 21, 41, 54, 95 mm at 1-4 bar for 3 s; 43, 71, 94, 146 mm at 1-4 bar for 5 s. Threshold pressure between 0.5 and 1 bar. These infiltration-length values have no field in this schema."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "AlSi12 aluminium alloy was used as matrix material. ... As microballoons, SLG type of E-spheres were used (supplier: Envirospheres Pty. Ltd. [14]). E-Spheres have low real density (~640 kgm-3) and favourable chemical composition (36-40 wt% Al2O3, 55-60 wt% SiO2, 1.4-1.6 wt% TiO2 and 0.4-0.5 wt% Fe2O3).",
+          "location": "Sec. 2 Materials and experimental methods, para 1"
+        },
+        {
+          "quote": "Their average outer diameter was 130 um and they had average wall thickness ~5.4 um (calculated from the real density of the microballons and from the density of their wall).",
+          "location": "Sec. 2 Materials and experimental methods, para 1"
+        },
+        {
+          "quote": "The tube was fulﬁlled with microballons and they were tapped rigorously in order to achieve ~64% volume fraction.",
+          "location": "Sec. 2 Materials and experimental methods, para 2"
+        },
+        {
+          "quote": "When the matrix alloy melted and superheated (melting point +70 C), the valve was operated through a timer. ... T4 measured the temperature of the matrix material.",
+          "location": "Sec. 2 Materials and experimental methods, para 3; Table 1 column T4 = 640 C for every run"
+        },
+        {
+          "quote": "The ﬁrst row shows that below 0.5 bar there was no inﬁltration, therefore the real threshold pressure for the investigated system is between 0.5 and 1 bar.",
+          "location": "Sec. 3 Results and discussion, para 1 (Table 1)"
+        }
+      ],
+      "extractor_confidence": 0.85
+    }
+  ],
+  "extraction_notes": "This is a genuine syntactic-foam paper (aluminium matrix syntactic foam, hollow ceramic microballoons) but it is a PROCESSING/INFILTRATION-KINETICS study only: it reports no mechanical, thermal or density properties of the produced foam. Every field in Properties and in Structure density is therefore null. Only ONE record is emitted because the material system is fixed (AlSi12 + 64 vol% SLG E-spheres) and the variables the paper sweeps - infiltration pressure (0.5-4 bar) and infiltration time (1-5 s) - have no representation in this schema; emitting 13 records would produce 13 identical rows. The 13 measured infiltrated lengths and the fitted power-surface coefficients (Tables 1-4) are recorded verbatim in test.specimen_notes rather than being forced into an unrelated schema field. Unit conversions: particle real density 640 kg/m3 -> 0.64 g/cm3; volume fraction 64 vol% -> 0.64. particle_wall_thickness_ratio left null: the paper gives outer diameter (130 um) and wall thickness (5.4 um) but never states the inner/outer radius ratio, so it was not derived. particle_type set to ceramic_hollow following the paper's own wording ('ceramic hollow microballoons'); note that Envirospheres E-spheres are fly-ash derived, and the stated Al2O3/SiO2 chemistry is cenosphere-like, but the paper never calls them fly ash. Test temperature 640 C is the matrix thermocouple reading T4, constant across all runs. Threshold-pressure model equations (Kaptay, Trumble, Rohatgi) and Fig. 1 are analytical predictions of pressure, not of any schema property, so no 'model' records were created."
+}

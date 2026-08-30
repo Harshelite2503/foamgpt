@@ -43,7 +43,7 @@ def _pipeline(model, num_feats: list[str]) -> Pipeline:
     pre = ColumnTransformer(
         [
             ("cat", OneHotEncoder(handle_unknown="ignore"), CAT),
-            ("num", Pipeline([("imp", SimpleImputer(strategy="median")), ("sc", StandardScaler())]), num_feats),
+            ("num", Pipeline([("imp", SimpleImputer(strategy="median", keep_empty_features=True)), ("sc", StandardScaler())]), num_feats),
         ]
     )
     return Pipeline([("pre", pre), ("model", model)])
@@ -64,6 +64,8 @@ def run(df: pd.DataFrame, n_splits: int = 5, test_type: str | None = "compressio
             d = d[d["test_type"] == test_type]
         feats = [c for c in NUM if c != target]
         d = d[(d["flags"].fillna("") == "") & (d["data_origin"] == "primary")]  # sane, primary rows
+        d = d[d[target] > 0]  # log-scale targets must be positive
+        d = d.replace([np.inf, -np.inf], np.nan)
         if d["paper_id"].nunique() < n_splits or len(d) < 30:
             results.append({"target": target, "model": "-", "n": len(d), "note": "too few rows/papers"})
             continue

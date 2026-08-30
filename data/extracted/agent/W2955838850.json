@@ -1,0 +1,935 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Syntactic foams made by mixing fused borosilicate (hollow glass) microballoons at 2-10 wt.% into a vinyl ester matrix resin were characterised by thermomechanical analysis (TMA) to obtain the coefficient of thermal expansion (CTE) at 30, 50 and 70 oC, alongside neat vinyl ester. CTE fell monotonically with microballoon content, giving a 53-63% reduction relative to the neat resin (30-70% over the whole data set), with the lowest CTE at 10 wt.%. Experimental CTE was compared against a modified Turner model extended to include radius ratio, cavity porosity and matrix porosity, which predicted reductions of 66-36% (radius ratio), 78-44% (cavity porosity) and 80-45% (matrix porosity).",
+  "records": [
+    {
+      "sample_label": "Pure VE (neat resin baseline)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.0,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Neat vinyl ester resin, no hollow particles (0 wt.%); used as the CTE baseline."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 30,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 0.00010018,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 100.18 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 100.18e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)).",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "2wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.02,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 30,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 6.37e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 63.7 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 63.7e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -36.41%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "2wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.02,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 50,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 6.859e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 68.59 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 68.59e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -31.53%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "2wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.02,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 70,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 6.95e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 69.5 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 69.5e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -30.62%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "4wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.04,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 30,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 5.915e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 59.15 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 59.15e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -40.95%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "4wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.04,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 50,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 5.899e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 58.99 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 58.99e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -41.12%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "4wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.04,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 70,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 4.58e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 45.8 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 45.8e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -54.27%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "6wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.06,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 30,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 4.158e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 41.58 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 41.58e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -58.49%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "6wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.06,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 50,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 5.688e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 56.88 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 56.88e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -43.22%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "6wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.06,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 70,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 3.28e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 32.8 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 32.8e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -67.25%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "8wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.08,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 30,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 3.889e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 38.89 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 38.89e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -61.18%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "8wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.08,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 50,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 4.538e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 45.38 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 45.38e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -54.69%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "8wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.08,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 70,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 5.706e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 57.06 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 57.06e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -43.04%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "10wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.1,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 30,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 3.671e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 36.71 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 36.71e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -63.35%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "10wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.1,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 50,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 4.461e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 44.61 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 44.61e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -55.46%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    },
+    {
+      "sample_label": "10wt.% glass microballoon syntactic foam",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "Vinyl ester resin (grade not stated; modelling used Em = 22.82 GPa, Poisson's ratio 0.35)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Fused borosilicate glass microballoon (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": 0.1,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Average glass microballoon diameter reported as 72-75 um, with average outer and inner radii estimated in the range 36-38 um; the exact mean diameter, radius ratio, cavity porosity, matrix porosity and void content of each specimen are not tabulated. SEM of fractured surfaces (Fig. 3) shows broken microballoons contributing porosity and voids."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 70,
+        "standard": null,
+        "specimen_notes": "Thermomechanical analysis (TMA, TA Instruments, expansion probe), 3 x 3 x 2 mm specimens, 0.02 N preload, heating rate 3 oC/min from ambient to 80 oC, minimum 3 coupons per composition. CTE taken as the slope of the dimension-change vs temperature curve."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": 4.677e-05,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1: CTE syntactic foam at different temperature ... Pure VE 100.18 | 2wt.% 63.70 -36.41 68.59 -31.53 69.50 -30.62 | 4wt.% 59.15 -40.95 58.99 -41.12 45.80 -54.27 | 6wt.% 41.58 -58.49 56.88 -43.22 32.80 -67.25 | 8wt.% 38.89 -61.18 45.38 -54.69 57.06 -43.04 | 10wt.% 36.71 -63.35 44.61 -55.46 46.77",
+          "location": "Table 1 (CTE syntactic foam at different temperature), page 7"
+        },
+        {
+          "quote": "CTE reported as 46.77 in the paper's unit '(um oC-1)'; interpreted as um/(m.oC) = 46.77e-6 1/K (linear CTE per Eq. 1, alpha = (1/l)(dl/dT)). Reduction relative to neat vinyl ester at the same temperature: -53.31%.",
+          "location": "Unit conversion applied to the Table 1 value for this row"
+        }
+      ],
+      "extractor_confidence": 0.65
+    }
+  ],
+  "extraction_notes": "On-topic: hollow glass (fused borosilicate) microballoons in a vinyl ester matrix. The paper's ONLY quantitative property is the coefficient of thermal expansion; no density, modulus, strength or TGA numbers are reported (TGA is described in the Methods but no TGA/kinetics results are given in the text). 16 records = Table 1 (5 filler loadings x 3 temperatures, plus the neat vinyl ester baseline which is only reported at 30 oC). UNIT CAVEAT: Table 1 labels CTE as '(um oC-1)', which is dimensionally incomplete for a linear CTE; given Eq. (1) alpha = (1/l)(dl/dT) and the magnitudes (~100 for neat vinyl ester), the values were interpreted as um/(m.oC) = ppm/K and converted to cte_per_k by multiplying by 1e-6. If the authors actually meant un-normalised um/oC these numbers would need rescaling. test_type is 'other' (TMA / dilatometry); test temperature_c is the TMA measurement temperature (30, 50 or 70 oC). Filler content is a WEIGHT fraction (the authors explicitly used wt.% rather than volume fraction in the rule of mixtures); volume fractions are never reported, so particle_volume_fraction is null. process_route 'mechanical_mixing_cast' is inferred from 'prepared by mixing fused borosilicate or glass microballoon with matrix resin' - no processing details, cure schedule or particle grade are given. Particle mean diameter is left null because the paper only gives a 72-75 um range (recorded in microstructure_notes) rather than a single value. Table 2 gives only PERCENTAGE differences of the modified Turner model predictions (radius ratio, cavity porosity, matrix porosity at 30/50/70 oC), not absolute CTE values, so no data_origin='model' records were created - back-calculating them from the neat-resin baseline would be inventing numbers. Model input constants quoted from other works (Eg = 60 GPa, nu_g = 0.21, Em = 22.82 GPa, nu_m = 0.35) are not measurements of these specimens and were not recorded as properties. Note the data is not perfectly monotonic with temperature (e.g. 6 wt.% at 50 oC and 8 wt.% at 70 oC are out of trend); values are transcribed exactly as tabulated."
+}

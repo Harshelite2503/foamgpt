@@ -1,0 +1,65 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Yu, Qian, Liang & Li (Ceramics-Silikaty 60(1) 77-84, 2016) is a purely numerical (ANSYS 14.0 finite-element) study of the effective elastic modulus of hollow-glass-microsphere/epoxy syntactic foams reinforced with randomly oriented short glass fibres, using 180 x 180 x 180 um representative volume elements built by random sequential adsorption. Six microsphere volume fractions (5-30 %), six relative wall thicknesses eta = 0.02-0.12 and three fibre volume fractions (2, 4, 6 %) were simulated under 1 % compressive strain. The modulus falls with increasing microsphere content below a critical relative wall thickness of 0.04-0.05 and rises above it, a kink/maximum appears near eta = 0.06 at 25 vol.% microspheres, adding glass fibres raises the modulus and lowers the critical wall thickness, and the peak von-Mises stress sits on the microsphere equator perpendicular to the loading direction, moving onto the fibres as the wall thickens.",
+  "records": [
+    {
+      "sample_label": "Neat epoxy resin matrix (FE model input constituent; Vs = 0, Vf = 0)",
+      "data_origin": "model",
+      "processing": {
+        "matrix_class": "epoxy",
+        "matrix_name": "Epoxy resin (generic; properties chosen as representative of epoxy syntactic foams in the literature)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.0,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "None in this baseline; the study also models short E-glass fibres (16 um diameter, 80 um length) at 2, 4 and 6 vol.%"
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": 1.16,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Reference (unfilled) matrix Em used to normalise all reported composite results as E/Em. The syntactic-foam models place 50 um diameter hollow glass microspheres (E = 70 GPa, nu = 0.20, rho = 2.18 g/cm3) and 16 um x 80 um glass fibres (E = 73 GPa, nu = 0.20, rho = 2.18 g/cm3) randomly in a 180 x 180 x 180 um RVE with perfect interfaces."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "Finite-element RVE (ANSYS 14.0); modulus obtained by applying 1 % compressive strain along the y direction with free/simply-supported boundary conditions."
+      },
+      "properties": {
+        "modulus_mpa": 3000,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 1. Material properties. Elastic modulus E (GPa) / Poisson's ratio / Density rho (g/cm3): Epoxy resin 3, 0.35, 1.16; Hollow glass microsphere 70, 0.20, 2.18; Glass fiber 73, 0.20, 2.18",
+          "location": "Table 1, p. 78"
+        },
+        {
+          "quote": "The elastic modulus is calculated by applying 1 % compressive strain along the y direction on the model. All the simulations are performed with ANSYS 14.0.",
+          "location": "Sec. Experimental / Analysis parameters, p. 78"
+        }
+      ],
+      "extractor_confidence": 0.6
+    }
+  ],
+  "extraction_notes": "This is a purely numerical (FEM/RVE) paper on hollow glass microsphere + short glass fibre epoxy syntactic foams; no specimens were made or tested, so no primary data exist. Every composite result is reported ONLY as a normalised relative modulus E/Em plotted in Figures 2-5 (six microsphere volume fractions 5, 10, 15, 20, 25, 30 %; six relative wall thicknesses eta = 0.02, 0.04, 0.06, 0.08, 0.10, 0.12; fibre volume fractions Vf = 0, 2, 4, 6 %). No E/Em value is stated numerically in the text or in any table, so per the extraction rules none of those ~144 modelled conditions could be turned into records without reading values off plots - they are all omitted rather than estimated. The single record kept is the model's unfilled epoxy matrix input (Em = 3 GPa = 3000 MPa, rho = 1.16 g/cm3) from Table 1, marked data_origin = model; it is the normalising baseline for every figure. Other Table 1 inputs, recorded here only in notes: hollow glass microsphere E = 70 GPa, nu = 0.20, rho = 2.18 g/cm3, diameter 50 um; glass fibre E = 73 GPa, nu = 0.20, rho = 2.18 g/cm3, diameter 16 um, length 80 um. Qualitative numeric findings without extractable property values: critical relative wall thickness 0.04 with fibres and 0.05 without; modulus maximum near eta = 0.06 at Vs = 25 %; maximum 4.8 % deviation between free and periodic boundary conditions at Vs = 30 %. No process route applies (simulation), so process_route = other."
+}

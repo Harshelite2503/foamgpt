@@ -1,0 +1,255 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Four thin heat-insulating syntactic-foam coatings based on a water dispersion of an acrylic polymer filled with hollow microspheres were sprayed onto glass plates and characterised for structure (light microscopy), thermal conductivity (TCi modified transient plane source analyser, ISO 22007-2:2015) and infrared thermography: SFC-1 and SFC-2 with 60 and 80 vol.% alumino-silicate ceramic spheres (1-40 um) and SFG-1 and SFG-2 with 80 vol.% glass spheres (9-25 um and 20-80 um). Coating density fell from 315 to 125 kg/m3 with filler type and loading, and the coating thermal conductivity ranged from 0.029 W/(m*K) (SFC-1) to 0.205 W/(m*K) (SFG-2). The best insulation came from 60 vol.% ceramic spheres of 1-40 um and from 80 vol.% fine glass spheres of 9-25 um (both R = 0.008 (m2*K)/W); raising the ceramic sphere content from 60 to 80 vol.% left the spheres unenveloped by the unchanged binder amount and increased k about four-fold.",
+  "records": [
+    {
+      "sample_label": "SFC-1",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoplastic",
+        "matrix_name": "Water dispersion of an acrylic polymer (acrylic binder)",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "Alumino-silicate (ceramic) hollow microspheres",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.315,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Sprayed thin coating on a 200 x 200 x 8 mm glass plate; mean coating thickness 0.253 +/- 0.020 mm, coating density 315 kg/m3 (Table 1). Microsphere size range 1 - 40 um, 60 vol.%. Light-microscopy (METAM LV-41) observations: well-expressed surface relief with air gaps between spheres and matrix; the continuous 1-40 um size range forms thin layers in the coating structure. Thermal resistance R = 0.008 (m2*K)/W and equivalent (glass plate + coating) conductivity keq = 0.395 W/(m*K) are reported but have no schema field. Infrared thermography (Table 3): through-thickness temperature difference dt = 10.4 C, Dtmax = 8.5 cm, D(t=16.7 C) = 10.4 cm."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ISO 22007-2:2015",
+        "specimen_notes": "Thermal conductivity by TCi analyser, modified transient plane source (MTPS) method, one-sided sensor contact, 10 measurements at 10 points per sample, 10 specimens per composition, calibrated against Pyrex before each measurement; relative standard deviation < 1% (this sample RSD = 0.7%). The reported k is the coating-only conductivity back-calculated from the measured equivalent conductivity keq of the glass-plate + coating system using the method of ref. [14]. Test temperature not stated."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": 0.029,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 2: Results for the thermal characteristics of the tested samples. | SFC-1 | keq 0.395 | RSD 0.7 | k 0.029 | R 0.008",
+          "location": "Table 2, p. 4"
+        },
+        {
+          "quote": "Table 1: Composition of the samples with thin heat-insulation coatings. | SFC-1 | Alumino-silicate | 1 - 40 um / 60 % | 0.253 +/- 0.020 mm | 315 kg/m3",
+          "location": "Table 1, p. 2"
+        },
+        {
+          "quote": "Four compositions (SFC-1, SFC-2, SFG-1 and SFG-2) of syntactic foams based on water dispersion of an acrylic polymer with hollow microspheres of different type and quantity were studied",
+          "location": "Sec. 2.1 Materials and sample preparation, p. 2"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "SFC-2",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoplastic",
+        "matrix_name": "Water dispersion of an acrylic polymer (acrylic binder)",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "Alumino-silicate (ceramic) hollow microspheres",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.8,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.215,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Sprayed thin coating on a 200 x 200 x 8 mm glass plate; mean coating thickness 0.347 +/- 0.020 mm, coating density 215 kg/m3 (Table 1). Microsphere size range 1 - 40 um, 80 vol.%. Light-microscopy (METAM LV-41) observations: non-compact, rough structure - the doubled specific area of the spheres leaves them unenveloped because the binder quantity was unchanged; air gaps between spheres and matrix. Thermal resistance R = 0.002 (m2*K)/W and equivalent (glass plate + coating) conductivity keq = 0.722 W/(m*K) are reported but have no schema field. Infrared thermography (Table 3): through-thickness temperature difference dt = 6.8 C, Dtmax = 10.8 cm, D(t=16.7 C) = 16.8 cm."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ISO 22007-2:2015",
+        "specimen_notes": "Thermal conductivity by TCi analyser, modified transient plane source (MTPS) method, one-sided sensor contact, 10 measurements at 10 points per sample, 10 specimens per composition, calibrated against Pyrex before each measurement; relative standard deviation < 1% (this sample RSD = 0.5%). The reported k is the coating-only conductivity back-calculated from the measured equivalent conductivity keq of the glass-plate + coating system using the method of ref. [14]. Test temperature not stated."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": 0.116,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 2: Results for the thermal characteristics of the tested samples. | SFC-2 | keq 0.722 | RSD 0.5 | k 0.116 | R 0.002",
+          "location": "Table 2, p. 4"
+        },
+        {
+          "quote": "Table 1: Composition of the samples with thin heat-insulation coatings. | SFC-2 | Alumino-silicate | 1 - 40 um / 80 % | 0.347 +/- 0.020 mm | 215 kg/m3",
+          "location": "Table 1, p. 2"
+        },
+        {
+          "quote": "Four compositions (SFC-1, SFC-2, SFG-1 and SFG-2) of syntactic foams based on water dispersion of an acrylic polymer with hollow microspheres of different type and quantity were studied",
+          "location": "Sec. 2.1 Materials and sample preparation, p. 2"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "SFG-1",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoplastic",
+        "matrix_name": "Water dispersion of an acrylic polymer (acrylic binder)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Hollow glass microspheres",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.8,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.125,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Sprayed thin coating on a 200 x 200 x 8 mm glass plate; mean coating thickness 0.716 +/- 0.012 mm, coating density 125 kg/m3 (Table 1). Microsphere size range 9 - 25 um, 80 vol.%. Light-microscopy (METAM LV-41) observations: relatively smooth, compact surface; spheres well enveloped by the matrix with no air gaps; thin matrix layers between spheres and the lowest density of the four coatings. Thermal resistance R = 0.008 (m2*K)/W and equivalent (glass plate + coating) conductivity keq = 0.421 W/(m*K) are reported but have no schema field. Infrared thermography (Table 3): through-thickness temperature difference dt = 7.8 C, Dtmax = 4.3 x10 cm, D(t=16.7 C) = 11.8 cm."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ISO 22007-2:2015",
+        "specimen_notes": "Thermal conductivity by TCi analyser, modified transient plane source (MTPS) method, one-sided sensor contact, 10 measurements at 10 points per sample, 10 specimens per composition, calibrated against Pyrex before each measurement; relative standard deviation < 1% (this sample RSD = 0.6%). The reported k is the coating-only conductivity back-calculated from the measured equivalent conductivity keq of the glass-plate + coating system using the method of ref. [14]. Test temperature not stated."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": 0.087,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 2: Results for the thermal characteristics of the tested samples. | SFG-1 | keq 0.421 | RSD 0.6 | k 0.087 | R 0.008",
+          "location": "Table 2, p. 4"
+        },
+        {
+          "quote": "Table 1: Composition of the samples with thin heat-insulation coatings. | SFG-1 | Hollow glass microspheres | 9 - 25 um / 80 % | 0.716 +/- 0.012 mm | 125 kg/m3",
+          "location": "Table 1, p. 2"
+        },
+        {
+          "quote": "Four compositions (SFC-1, SFC-2, SFG-1 and SFG-2) of syntactic foams based on water dispersion of an acrylic polymer with hollow microspheres of different type and quantity were studied",
+          "location": "Sec. 2.1 Materials and sample preparation, p. 2"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "SFG-2",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoplastic",
+        "matrix_name": "Water dispersion of an acrylic polymer (acrylic binder)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Hollow glass microspheres",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.8,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 0.165,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Sprayed thin coating on a 200 x 200 x 8 mm glass plate; mean coating thickness 0.465 +/- 0.040 mm, coating density 165 kg/m3 (Table 1). Microsphere size range 20 - 80 um, 80 vol.%. Light-microscopy (METAM LV-41) observations: non-compact, rough structure with strongly expressed relief; spheres not well enveloped by the binder, air gaps visible between spheres and matrix. Sec. 3.1 quotes this size range as 20-90 um whereas Table 1 gives 20-80 um. Thermal resistance R = 0.002 (m2*K)/W and equivalent (glass plate + coating) conductivity keq = 0.818 W/(m*K) are reported but have no schema field. Infrared thermography (Table 3): through-thickness temperature difference dt = 7.0 C, Dtmax = 9.3 cm, D(t=16.7 C) = 12.4 cm."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ISO 22007-2:2015",
+        "specimen_notes": "Thermal conductivity by TCi analyser, modified transient plane source (MTPS) method, one-sided sensor contact, 10 measurements at 10 points per sample, 10 specimens per composition, calibrated against Pyrex before each measurement; relative standard deviation < 1% (this sample RSD = 0.5%). The reported k is the coating-only conductivity back-calculated from the measured equivalent conductivity keq of the glass-plate + coating system using the method of ref. [14]. Test temperature not stated."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": 0.205,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Table 2: Results for the thermal characteristics of the tested samples. | SFG-2 | keq 0.818 | RSD 0.5 | k 0.205 | R 0.002",
+          "location": "Table 2, p. 4"
+        },
+        {
+          "quote": "Table 1: Composition of the samples with thin heat-insulation coatings. | SFG-2 | Hollow glass microspheres | 20 - 80 um / 80 % | 0.465 +/- 0.040 mm | 165 kg/m3",
+          "location": "Table 1, p. 2"
+        },
+        {
+          "quote": "Four compositions (SFC-1, SFC-2, SFG-1 and SFG-2) of syntactic foams based on water dispersion of an acrylic polymer with hollow microspheres of different type and quantity were studied",
+          "location": "Sec. 2.1 Materials and sample preparation, p. 2"
+        }
+      ],
+      "extractor_confidence": 0.85
+    }
+  ],
+  "extraction_notes": "Only thermal data are reported - no mechanical testing - so all Properties fields except thermal_conductivity_w_mk are null. Unit conversions: coating densities converted from kg/m3 to g/cm3 (315 -> 0.315, 215 -> 0.215, 125 -> 0.125, 165 -> 0.165); microsphere loadings converted from vol.% to fractions (60% -> 0.60, 80% -> 0.80). matrix_class set to 'other_thermoplastic' for the acrylic-polymer water dispersion (no acrylic entry in the MatrixClass enum); process_route set to 'other' - the coatings were spray-applied in two layers with a spray gun, the second layer after 6 h of room-temperature drying, so no numeric cure temperature is given. test_type set to 'other' because transient-plane-source thermal conductivity is not in the TestType enum, and the test temperature is not stated (the 15 C room / 45 C plate / 65 C source values belong to the separate infrared thermography setup, not to the TCi measurement). Only size ranges are given for the microspheres, never a mean diameter, so particle_mean_diameter_um is left null and the ranges recorded in microstructure_notes. Discrepancies in the source: the running text of Sec. 3.2 gives k = 0.089 W/(m*K) for SFG-1 while Table 2, the abstract and the same paragraph's comparison give 0.087 - the table value 0.087 was used; and Sec. 3.1 gives the SFG-2 sphere size as 20-90 um while Table 1 gives 20-80 um. The equivalent conductivity keq, the thermal resistance R and the infrared thermography results (Table 3: dt, Dtmax, D at 16.7 C) have no schema fields and were placed in microstructure_notes; infrared thermography was not made into separate records because it yields no schema-mappable property value. Reference conductivities quoted from the literature (glass plate 1.18 W/(m*K) [14], acrylic matrix 0.2 W/(m*K) [15]) are not foam data and were not extracted."
+}

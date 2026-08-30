@@ -1,0 +1,175 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "A review/short study from Moscow Power Engineering Institute on syntactic foams (hollow-microsphere-filled polymer coatings) used as thin-film thermal insulation for heat supply equipment and pipelines. It classifies insulating materials, compares aluminosilicate (fly-ash), solid/hollow glass and thermoplastic polymer microspheres, and reports measured thermal conductivity of one-layer syntactic foam coatings made with de-aerated (rarefied-air-filled) versus gas-filled hollow glass microspheres at 60 C and 100 C. The main finding is that coatings based on de-aerated hollow glass microspheres have roughly an order of magnitude lower thermal conductivity than gas-filled ones, while polymer microspheres are limited to ~90 C service temperature.",
+  "records": [
+    {
+      "sample_label": "One-layer syntactic foam coating, hollow glass microspheres with rarefied (de-aerated) air, 60 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": "sodium-borosilicate hollow glass microspheres, de-aerated (vacuum-chamber / ultrasound vibrator route)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Hollow glass microspheres 15-500 um, bulk specific weight of hollow glass microspheres quoted as 0.05-0.4 g/cm3; interior at vacuum-chamber (rarefied) pressure. Binder type not stated."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 60,
+        "standard": null,
+        "specimen_notes": "Thermal conductivity of a one-layer coating on a cylindrical sample; lambda computed from the Fourier cylindrical-wall equation (Eq. 1) with a controlled surface heater."
+      },
+      "properties": {
+        "thermal_conductivity_w_mk": 0.022
+      },
+      "evidence": [
+        {
+          "quote": "In particular, the heat conductivity coefficient of a one-layer syntactic foam coating was 0.022 W/m·K at 600С and 0.030 W/m·K at 1000С for microsphere coating with rarefied air",
+          "location": "Sec. 5 (p. 6), last paragraph; also Fig. 1"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "One-layer syntactic foam coating, hollow glass microspheres with rarefied (de-aerated) air, 100 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": "sodium-borosilicate hollow glass microspheres, de-aerated (vacuum-chamber / ultrasound vibrator route)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Same coating as the 60 C record; hollow glass microspheres with rarefied air inside. Binder type not stated."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 100,
+        "standard": null,
+        "specimen_notes": "Thermal conductivity of a one-layer coating on a cylindrical sample; surface temperatures held in the +50 to +120 C range with an electronically controlled heater."
+      },
+      "properties": {
+        "thermal_conductivity_w_mk": 0.03
+      },
+      "evidence": [
+        {
+          "quote": "In particular, the heat conductivity coefficient of a one-layer syntactic foam coating was 0.022 W/m·K at 600С and 0.030 W/m·K at 1000С for microsphere coating with rarefied air",
+          "location": "Sec. 5 (p. 6), last paragraph; also Fig. 1"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "One-layer syntactic foam coating, gas-filled hollow microspheres, 60 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": "gas-filled hollow glass microspheres (CO2/SO2/O2 filled)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Hollow microspheres containing a gaseous phase rather than rarefied air. The paper also notes aluminosilicate (fly-ash) gas-filled microspheres were among those studied, so the exact particle chemistry of this coating is ambiguous."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 60,
+        "standard": null,
+        "specimen_notes": "Measured under the same conditions as the rarefied-air coating (one-layer coating on a cylindrical sample)."
+      },
+      "properties": {
+        "thermal_conductivity_w_mk": 0.14
+      },
+      "evidence": [
+        {
+          "quote": "and 0.14 W/m·K and 0.18 W/m·K for coatings with gas-filled microspheres under the similar conditions. The results shown in Figure1 demonstrate that the heat conductivity coefficient of syntactic foams when gas-filled microspheres are used ... is much higher.",
+          "location": "Sec. 5 end of p. 6 continuing on p. 7; also Fig. 1"
+        }
+      ],
+      "extractor_confidence": 0.7
+    },
+    {
+      "sample_label": "One-layer syntactic foam coating, gas-filled hollow microspheres, 100 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": "gas-filled hollow glass microspheres (CO2/SO2/O2 filled)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Same gas-filled microsphere coating as the 60 C record."
+      },
+      "test": {
+        "test_type": "other",
+        "strain_rate_per_s": null,
+        "temperature_c": 100,
+        "standard": null,
+        "specimen_notes": "Measured under the same conditions as the rarefied-air coating (one-layer coating on a cylindrical sample)."
+      },
+      "properties": {
+        "thermal_conductivity_w_mk": 0.18
+      },
+      "evidence": [
+        {
+          "quote": "and 0.14 W/m·K and 0.18 W/m·K for coatings with gas-filled microspheres under the similar conditions.",
+          "location": "Sec. 5, p. 7 first paragraph; also Fig. 1"
+        }
+      ],
+      "extractor_confidence": 0.7
+    }
+  ],
+  "extraction_notes": "Review-style paper with only one set of the authors' own quantitative measurements (thermal conductivity of one-layer syntactic foam coatings). OCR mangles degree signs: '+500C - +1200C' is the +50 to +120 C range, '600C'=60 C and '1000C'=100 C; temperatures were read accordingly. test_type set to 'other' because the measurement is steady-state thermal conductivity, not a mechanical test. Matrix/binder is never identified (the paper only says 'various binding agents'), so matrix_class='other' and matrix_name=null; process_route='other' since the coating application method is not described. Particle volume/weight fraction is not reported for the tested coatings. Table 1 (materials classification) and Table 3 (microsphere characteristics) contain no composite property data. Table 2 lists properties of conventional insulants (mineral wool, PU foam, foamed concrete, etc.), which are not hollow-particle composites, so no records were made from it. Fig. 1 values were not read off the plot; only the values stated in the text were used. Particle size and density ranges quoted in Sec. 4 are generic literature ranges for microsphere classes, not measurements on the tested coatings, so they were left null and only noted in microstructure_notes."
+}

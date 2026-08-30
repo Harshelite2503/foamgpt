@@ -1,0 +1,312 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Metal matrix syntactic foams made by inert-gas (Ar) pressure-assisted liquid infiltration of Al99.5, AlSi12, AlMgSi1 and AlCu5 matrices around ceramic hollow spheres (Globocer, 1444 um; SL300, 150 um) at ~64 vol% random close packing were examined after quasi-static (0.01 1/s), split-Hopkinson high strain rate (933 and 2629 1/s) and cyclic compression (R=0.1, f=10 Hz, k=0.7-0.9). Quasi-static loading damages the foam by matrix plasticity with progressive sphere fracture and barrelling, whereas at high strain rate the spheres crack parallel to the load already at ~2.5% strain and fully disintegrate at 2629 1/s, splitting the specimen. Under fatigue the unalloyed Al99.5 matrix foams fail along a single ~45 deg shear band while the harder Si-alloyed AlSi12 foams fail in a lenticular zone between two compression cones, which the authors attribute to the relative yield strength of matrix and ceramic spheres.",
+ "records": [
+  {
+   "sample_label": "Al99.5 - Globocer",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al99.5 commercially pure aluminium (99.5 wt% Al)",
+    "particle_type": "ceramic_hollow",
+    "particle_volume_fraction": 0.64,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null,
+    "particle_grade": "Globocer (Hollomet GmbH), 33 wt% Al2O3 / 48 wt% amorphous SiO2 / 19 wt% mullite",
+    "particle_true_density_g_cc": 0.816,
+    "particle_mean_diameter_um": 1444.0,
+    "particle_wall_thickness_ratio": 0.92
+   },
+   "structure": {
+    "microstructure_notes": "Random close packed ceramic hollow spheres, ~64 vol%. After 2% engineering deformation the hollow spheres are intact and deformation is carried by matrix plasticity; at 30% the spheres in the specimen centre are broken and the specimen barrels; at 60% the spheres are broken throughout the specimen. No breakage fraction quantified."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 0.01,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cylindrical D=12.7 mm, H/D=1, MTS 810 hydraulic machine, compressed to 50% engineering strain (sections examined at 2/30/60% deformation); specimens homogenized 520 C / 30 min and water cooled, tested immediately."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "The quasi-static tests were performed on a MTS 810 type hydraulic materials testing machine at room temperature. For the test a 4 column compression tool were used and the tests were made up to 50% engineering deformation with 0.01 s-1 deformation rate.",
+     "location": "Sec. 2 Materials and Methods"
+    },
+    {
+     "quote": "As filler material two different ceramics hollow spheres were used: Globocer-type made by Hollomet GmbH, and SL300-type made by Envinospheres Ltd. ... The volume fraction of the investigated foams was ~64% due to random close packing (RCP) order",
+     "location": "Sec. 2 Materials and Methods"
+    },
+    {
+     "quote": "The investigated metal matrix syntactic foams were produced by inert gas (Ar) pressure assisted liquid phase infiltration.",
+     "location": "Sec. 2 Materials and Methods"
+    },
+    {
+     "quote": "Fig. 2 shows the section of a specimen after 30% engineering deformation in the case of quasi-static compression. It can be seen the hollow spheres which were in the middle of the material are broken. The barrelling of the specimens can be observed as well.",
+     "location": "Sec. 3.1 Results"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "Al99.5 - Globocer",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al99.5 commercially pure aluminium (99.5 wt% Al)",
+    "particle_type": "ceramic_hollow",
+    "particle_volume_fraction": 0.64,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null,
+    "particle_grade": "Globocer (Hollomet GmbH), 33 wt% Al2O3 / 48 wt% amorphous SiO2 / 19 wt% mullite",
+    "particle_true_density_g_cc": 0.816,
+    "particle_mean_diameter_um": 1444.0,
+    "particle_wall_thickness_ratio": 0.92
+   },
+   "structure": {
+    "microstructure_notes": "At 933 1/s the ceramic hollow spheres are already cracked at eps=2.45% engineering deformation, with cracks parallel to the load direction that run from the sphere walls into the matrix; spheres crack but do not come apart."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 933.0,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Split-Hopkinson pressure bar, C350 steel bars 1.8 m long, 19.05 mm diameter, striker 72.2 mm at 138 kPa (~15 m/s); cylindrical specimen D=12.7 mm, H/D=1; section examined at eps=2.45%."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "By these two pressure levels 933 and 2629 s-1 strain rates could be reached which correspond to a ~15 and a ~36 m/s collision. In these tests MMSF made by Al99.5, AlSi12, AlMgSi1 or AlCu5 matrices and Globocer type filler material were used.",
+     "location": "Sec. 2 Materials and Methods"
+    },
+    {
+     "quote": "As filler material two different ceramics hollow spheres were used: Globocer-type made by Hollomet GmbH, and SL300-type made by Envinospheres Ltd. ... The volume fraction of the investigated foams was ~64% due to random close packing (RCP) order",
+     "location": "Sec. 2 Materials and Methods"
+    },
+    {
+     "quote": "Fig. 4a shows a longitudinal section of a specimens after a 933 s-1 strain rate compression (split-Hopkinson bar test). The engineering deformation of the foam was eps=2.45%.",
+     "location": "Sec. 3.1 Results"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "Al99.5 - Globocer",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al99.5 commercially pure aluminium (99.5 wt% Al)",
+    "particle_type": "ceramic_hollow",
+    "particle_volume_fraction": 0.64,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null,
+    "particle_grade": "Globocer (Hollomet GmbH), 33 wt% Al2O3 / 48 wt% amorphous SiO2 / 19 wt% mullite",
+    "particle_true_density_g_cc": 0.816,
+    "particle_mean_diameter_um": 1444.0,
+    "particle_wall_thickness_ratio": 0.92
+   },
+   "structure": {
+    "microstructure_notes": "At 2629 1/s and eps=8.12% the ceramic hollow spheres are broken throughout the specimen and come apart, cells collapse and large load-parallel cracks split the specimen into 2-3 pieces; cracks wider than at 933 1/s."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": 2629.0,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Split-Hopkinson pressure bar, striker driven at 552 kPa (~36 m/s); cylindrical specimen D=12.7 mm, H/D=1; section examined at eps=8.12%."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "By these two pressure levels 933 and 2629 s-1 strain rates could be reached which correspond to a ~15 and a ~36 m/s collision. In these tests MMSF made by Al99.5, AlSi12, AlMgSi1 or AlCu5 matrices and Globocer type filler material were used.",
+     "location": "Sec. 2 Materials and Methods"
+    },
+    {
+     "quote": "Fig. 5a shows a longitudinal section of a specimen after a 2629 s-1 strain rate compression (split-Hopkinson bar test). The engineering deformation of the foam was eps=8.12%.",
+     "location": "Sec. 3.1 Results"
+    },
+    {
+     "quote": "Filler type Diameter (um) Wall thickness (um) Density (gcm-3) | Globocer 1444 58.0 0.816 | SL300 150 6.75 0.691",
+     "location": "Table 2 The properties of the ceramics hollow spheres"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "Al99.5 - SL300",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al99.5 commercially pure aluminium (99.5 wt% Al)",
+    "particle_type": "ceramic_hollow",
+    "particle_volume_fraction": 0.64,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null,
+    "particle_grade": "SL300 (Envirospheres Ltd.), 33 wt% Al2O3 / 48 wt% amorphous SiO2 / 19 wt% mullite",
+    "particle_true_density_g_cc": 0.691,
+    "particle_mean_diameter_um": 150.0,
+    "particle_wall_thickness_ratio": 0.91
+   },
+   "structure": {
+    "microstructure_notes": "Damage concentrated in a narrow band inclined 40-45 deg to the load axis; inside the band the hollow spheres are broken and the cells collapsed and the two halves slide on each other, outside it the foam is unchanged."
+   },
+   "test": {
+    "test_type": "fatigue",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cyclic compression-compression, Instron 8872, R=0.1, f=10 Hz, load ratio k=sigma_max/sigma_c = 0.7-0.9 (damage shown for k=0.9); cylindrical specimen D=8.50 mm, H/D=1.5; failure criterion eps=2%, tests continued to eps=10%."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "The loading of the specimen was cyclic compression with R=0.1 at different load ratios (k=sigma_max/sigma_c ...) from 0.7 up to 0.9. The frequency of the fatigue tests was set to f=10 Hz. As failure criterion a deformation limit was applied",
+     "location": "Sec. 2 Materials and Methods"
+    },
+    {
+     "quote": "Fig. 6 shows a longitudinal section of an Al99.5 matrix - SL300 type ceramics hollow spheres filled syntactic foam after the fatigue test. ... The deformation concentrated on a narrow band which inclined 40-45 deg to the direction of the compression load.",
+     "location": "Sec. 3.2 Results"
+    },
+    {
+     "quote": "As filler material two different ceramics hollow spheres were used: Globocer-type made by Hollomet GmbH, and SL300-type made by Envinospheres Ltd. ... The volume fraction of the investigated foams was ~64% due to random close packing (RCP) order",
+     "location": "Sec. 2 Materials and Methods"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "AlSi12 - SL300",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "AlSi12 aluminium alloy (12.8 wt% Si)",
+    "particle_type": "ceramic_hollow",
+    "particle_volume_fraction": 0.64,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null,
+    "particle_grade": "SL300 (Envirospheres Ltd.), 33 wt% Al2O3 / 48 wt% amorphous SiO2 / 19 wt% mullite",
+    "particle_true_density_g_cc": 0.691,
+    "particle_mean_diameter_um": 150.0,
+    "particle_wall_thickness_ratio": 0.91
+   },
+   "structure": {
+    "microstructure_notes": "Damage confined between two compression cones formed at the tool plates; lenticular failure zone with secondary shear bands at its perimeter; foam far from the zone unchanged."
+   },
+   "test": {
+    "test_type": "fatigue",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cyclic compression-compression, Instron 8872, R=0.1, f=10 Hz, load ratio k=sigma_max/sigma_c = 0.7-0.9 (damage shown for k=0.9); cylindrical specimen D=8.50 mm, H/D=1.5; failure criterion eps=2%, tests continued to eps=10%."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "The loading of the specimen was cyclic compression with R=0.1 at different load ratios (k=sigma_max/sigma_c ...) from 0.7 up to 0.9. The frequency of the fatigue tests was set to f=10 Hz. As failure criterion a deformation limit was applied",
+     "location": "Sec. 2 Materials and Methods"
+    },
+    {
+     "quote": "Fig. 7 shows a longitudinal section of an AlSi12-SL300 syntactic foam after the fatigue test. ... In this case the failure concentrated between two compression cones formed on the tool plates. The shape of the failure zone was usually lenticular combined with secondary shear bands",
+     "location": "Sec. 3.2 Results"
+    },
+    {
+     "quote": "As filler material two different ceramics hollow spheres were used: Globocer-type made by Hollomet GmbH, and SL300-type made by Envinospheres Ltd. ... The volume fraction of the investigated foams was ~64% due to random close packing (RCP) order",
+     "location": "Sec. 2 Materials and Methods"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "Al99.5 - Globocer",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al99.5 commercially pure aluminium (99.5 wt% Al)",
+    "particle_type": "ceramic_hollow",
+    "particle_volume_fraction": 0.64,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null,
+    "particle_grade": "Globocer (Hollomet GmbH), 33 wt% Al2O3 / 48 wt% amorphous SiO2 / 19 wt% mullite",
+    "particle_true_density_g_cc": 0.816,
+    "particle_mean_diameter_um": 1444.0,
+    "particle_wall_thickness_ratio": 0.92
+   },
+   "structure": {
+    "microstructure_notes": "Shear band(s) inclined ~45 deg to the load direction in which the matrix deformed plastically, the hollow spheres broke and the cells collapsed; structure far from the bands remained in the original condition."
+   },
+   "test": {
+    "test_type": "fatigue",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cyclic compression-compression, Instron 8872, R=0.1, f=10 Hz, load ratio k=sigma_max/sigma_c = 0.7-0.9 (damage shown for k=0.9); cylindrical specimen D=8.50 mm, H/D=1.5; failure criterion eps=2%, tests continued to eps=10%."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "The loading of the specimen was cyclic compression with R=0.1 at different load ratios (k=sigma_max/sigma_c ...) from 0.7 up to 0.9. The frequency of the fatigue tests was set to f=10 Hz. As failure criterion a deformation limit was applied",
+     "location": "Sec. 2 Materials and Methods"
+    },
+    {
+     "quote": "Fig. 8 shows a longitudinal section of an Al99.5 matrix - Globocer grade ceramic hollow spheres filled syntactic foam after the fatigue test. ... shear band(s) were occurred inclined ~45 deg to the direction of the compression load",
+     "location": "Sec. 3.2 Results"
+    },
+    {
+     "quote": "As filler material two different ceramics hollow spheres were used: Globocer-type made by Hollomet GmbH, and SL300-type made by Envinospheres Ltd. ... The volume fraction of the investigated foams was ~64% due to random close packing (RCP) order",
+     "location": "Sec. 2 Materials and Methods"
+    }
+   ],
+   "extractor_confidence": 0.7
+  },
+  {
+   "sample_label": "AlSi12 - Globocer",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "AlSi12 aluminium alloy (12.8 wt% Si)",
+    "particle_type": "ceramic_hollow",
+    "particle_volume_fraction": 0.64,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null,
+    "particle_grade": "Globocer (Hollomet GmbH), 33 wt% Al2O3 / 48 wt% amorphous SiO2 / 19 wt% mullite",
+    "particle_true_density_g_cc": 0.816,
+    "particle_mean_diameter_um": 1444.0,
+    "particle_wall_thickness_ratio": 0.92
+   },
+   "structure": {
+    "microstructure_notes": "Failure concentrated between two compression cones formed on the tool plates, lenticular damage zone combined with cone-like shear bands; hollow spheres far from the zone unharmed."
+   },
+   "test": {
+    "test_type": "fatigue",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": null,
+    "specimen_notes": "Cyclic compression-compression, Instron 8872, R=0.1, f=10 Hz, load ratio k=sigma_max/sigma_c = 0.7-0.9 (damage shown for k=0.9); cylindrical specimen D=8.50 mm, H/D=1.5; failure criterion eps=2%, tests continued to eps=10%."
+   },
+   "properties": {},
+   "evidence": [
+    {
+     "quote": "The loading of the specimen was cyclic compression with R=0.1 at different load ratios (k=sigma_max/sigma_c ...) from 0.7 up to 0.9. The frequency of the fatigue tests was set to f=10 Hz. As failure criterion a deformation limit was applied",
+     "location": "Sec. 2 Materials and Methods"
+    },
+    {
+     "quote": "Fig. 9 shows a longitudinal section of an AlSi12-Globocer ceramic hollow spheres filled syntactic foam after the fatigue test. ... the failure concentrated between two compression cones formed on the tool plates. The shape of the failure zone was lenticular combined with cone-like shear bands.",
+     "location": "Sec. 3.2 Results"
+    },
+    {
+     "quote": "As filler material two different ceramics hollow spheres were used: Globocer-type made by Hollomet GmbH, and SL300-type made by Envinospheres Ltd. ... The volume fraction of the investigated foams was ~64% due to random close packing (RCP) order",
+     "location": "Sec. 2 Materials and Methods"
+    }
+   ],
+   "extractor_confidence": 0.7
+  }
+ ],
+ "extraction_notes": "This is a purely microstructural/fractographic damage study: it reports NO measured mechanical property values (no modulus, strength, plateau stress, energy absorption or fatigue life numbers) in text or tables, so all Properties fields are null and the records carry composition, structure and test-condition metadata only. particle_volume_fraction=0.64 comes from the stated '~64%' random close packing value and applies to all foams. particle_wall_thickness_ratio was computed as eta=(D/2 - t)/(D/2) from Table 2 (Globocer: (722-58)/722=0.92; SL300: (75-6.75)/75=0.91); it is not stated directly in the paper. Engineering deformations quoted in the figures (2%, 2.45%, 8.12%, 10%, 30%, 60%) are the imposed sectioning strains, not strains at failure, so strain_at_failure was left null. Test temperature set to 25 C (quasi-static tests stated 'at room temperature'; the SHPB and fatigue tests are assumed room temperature). Records were created only for the (matrix x filler x test condition) combinations for which results are actually presented. The Materials section also lists AlSi12, AlMgSi1 (O and T6) and AlCu5 (O and T6) matrices with Globocer filler for the monotone compression tests, but the paper states the damage mechanism was 'very similar' and presents no separate data for them, so no records were created for those. Homogenisation 520 C/30 min (and 170 C/14 h T6 ageing for AlMgSi1 and AlCu5) is heat treatment after infiltration; the infiltration temperature is not given, so cure_or_process_temperature_c is null."
+}

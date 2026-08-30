@@ -1,0 +1,513 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "HDPE (Braskem SHA7260, described as green polyethylene) syntactic foams filled with 1 and 5 wt% 3M iM16K hollow glass microspheres (0.46 g/cm3, 20 um, 16000 psi crush strength) plus a constant 5 wt% PE-g-MA compatibiliser were compounded by single screw and by co-rotating twin screw extrusion, compression moulded, and tested in tension (ASTM D638) and notched Izod impact (ASTM D256). SEM showed poor matrix/filler adhesion and incomplete wetting throughout, with the twin screw route giving better HGM dispersion but far more microsphere breakage and glass debris. Twin screw processing cut elastic modulus, tensile strength and strain by roughly 20, 10 and 23 %, and raising HGM from 1 to 5 wt% reduced properties further (5 % for modulus up to 50 % for strain); impact strength was the exception, rising 315 % for TS1 and 215 % for TS5 over the neat matrix while SS1 fell 12 %.",
+ "records": [
+  {
+   "sample_label": "SS1",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "hdpe",
+    "matrix_name": "HDPE SHA7260 (Braskem), density 0.955 g/cm3; described in the title/abstract as 'green polyethylene'",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M iM16K hollow glass microspheres (crushing strength 16000 psi ~ 110 MPa)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 20.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.01,
+    "process_route": "extrusion",
+    "cure_or_process_temperature_c": 150.0,
+    "additional_fillers": "PE-g-MA compatibiliser, Orevac 18507 (Arkema), 5 wt%; density 0.954 g/cm3, MFI 5 g/10 min (190 C/2.16 kg), melting point 128 C"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "SEM of tensile fracture surfaces: few microsphere agglomerates, incomplete wetting of the filler by the matrix, but some HGM-matrix adhesion visible; overall a high HGM integrity index, i.e. most microspheres survived single screw processing intact, with only limited glass sediment (debris). Compounded by single screw extruder (AX-16, AX Plasticos), 50 rpm, 140-150 C profile."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D638",
+    "specimen_notes": "EMIC DL 30000 universal testing machine, 50 mm/min crosshead, 50 kN load cell, room temperature, mean of 5 specimens. Pellets from the extruder were compression moulded at 180 C in an MH-08-MN hydraulic press: 2 min pre-press at 1 t, 1 min unloaded, then 3 min at 3 t. Gauge length not stated, so the nominal strain rate could not be computed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 1. Composite formulation. Legend / HDPE (wt%) / PE-g-MA (wt%) / HGM (wt%) / Processing: SS1 94 5 1 Single screw extruder; SS5 90 5 5 Single screw extruder; TS1 94 5 1 Twin screw extruder; TS5 90 5 5 Twin screw extruder",
+     "location": "Table 1 (Sec. 2.2 Processing)"
+    },
+    {
+     "quote": "The polymer matrix used in this paper was HDPE (SHA7260 grade, Braskem)... density (0.955g.cm-3). The hollow glass microsphere (iM16K) (3M) used as an inorganic filler and had the following specifications: density of 0.46g.cm-3, average diameter of 20 um and crushing strength of 16000 Psi.",
+     "location": "Sec. 2.1 Materials"
+    },
+    {
+     "quote": "The foams were processed in a bench top single screw extruder model AX-16 (AX Plasticos) under the following operating conditions: screw rotation speed of 50 rpm, temperature profile from the feeding zone to the matrix of 140C to 150C.",
+     "location": "Sec. 2.2.1 Single Screw Extruder"
+    },
+    {
+     "quote": "Tensile testing was performed in an EMIC DL 30000 Universal Testing Machine operating at 50mm/min with a load cell of 50 kN, according to ASTM D638 at room temperature... All results reported are a mean of 5 specimens.",
+     "location": "Sec. 2.4.2 Mechanical tests"
+    },
+    {
+     "quote": "Single screw extrusion led to materials with similar or slightly higher modulus than that of the neat matrix, particularly that with 5% HGM... the foams obtained via a twin screw extruder showed a 20% reduction in the elastic modulus",
+     "location": "Sec. 3.2.1 Tensile strength (data from Fig. 4)"
+    },
+    {
+     "quote": "for the single screw extruded samples strain reduction on compared to the matrix was 6.06% and 50.73% for SS1 and SS5, respectively, and for those produced by twin screw extrusion reductions of 25.62% and 42.04% for TS1 and TS5, respectively, were observed.",
+     "location": "Sec. 3.2.1 Tensile strength (data from Fig. 7)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "SS5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "hdpe",
+    "matrix_name": "HDPE SHA7260 (Braskem), density 0.955 g/cm3; described in the title/abstract as 'green polyethylene'",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M iM16K hollow glass microspheres (crushing strength 16000 psi ~ 110 MPa)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 20.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.05,
+    "process_route": "extrusion",
+    "cure_or_process_temperature_c": 150.0,
+    "additional_fillers": "PE-g-MA compatibiliser, Orevac 18507 (Arkema), 5 wt%; density 0.954 g/cm3, MFI 5 g/10 min (190 C/2.16 kg), melting point 128 C"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "SEM of tensile fracture surfaces: few microsphere agglomerates, incomplete wetting of the filler by the matrix, but some HGM-matrix adhesion visible; overall a high HGM integrity index for single screw processing, with some glass sediment attributed mainly to knife-mill pelletising. Compounded by single screw extruder (AX-16, AX Plasticos), 50 rpm, 140-150 C profile."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D638",
+    "specimen_notes": "EMIC DL 30000 universal testing machine, 50 mm/min crosshead, 50 kN load cell, room temperature, mean of 5 specimens. Pellets from the extruder were compression moulded at 180 C in an MH-08-MN hydraulic press: 2 min pre-press at 1 t, 1 min unloaded, then 3 min at 3 t. Gauge length not stated, so the nominal strain rate could not be computed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 1. Composite formulation. Legend / HDPE (wt%) / PE-g-MA (wt%) / HGM (wt%) / Processing: SS1 94 5 1 Single screw extruder; SS5 90 5 5 Single screw extruder; TS1 94 5 1 Twin screw extruder; TS5 90 5 5 Twin screw extruder",
+     "location": "Table 1 (Sec. 2.2 Processing)"
+    },
+    {
+     "quote": "The polymer matrix used in this paper was HDPE (SHA7260 grade, Braskem)... density (0.955g.cm-3). The hollow glass microsphere (iM16K) (3M) used as an inorganic filler and had the following specifications: density of 0.46g.cm-3, average diameter of 20 um and crushing strength of 16000 Psi.",
+     "location": "Sec. 2.1 Materials"
+    },
+    {
+     "quote": "The foams were processed in a bench top single screw extruder model AX-16 (AX Plasticos) under the following operating conditions: screw rotation speed of 50 rpm, temperature profile from the feeding zone to the matrix of 140C to 150C.",
+     "location": "Sec. 2.2.1 Single Screw Extruder"
+    },
+    {
+     "quote": "Tensile testing was performed in an EMIC DL 30000 Universal Testing Machine operating at 50mm/min with a load cell of 50 kN, according to ASTM D638 at room temperature... All results reported are a mean of 5 specimens.",
+     "location": "Sec. 2.4.2 Mechanical tests"
+    },
+    {
+     "quote": "Single screw extrusion led to materials with similar or slightly higher modulus than that of the neat matrix, particularly that with 5% HGM... the foams obtained via a twin screw extruder showed a 20% reduction in the elastic modulus",
+     "location": "Sec. 3.2.1 Tensile strength (data from Fig. 4)"
+    },
+    {
+     "quote": "for the single screw extruded samples strain reduction on compared to the matrix was 6.06% and 50.73% for SS1 and SS5, respectively, and for those produced by twin screw extrusion reductions of 25.62% and 42.04% for TS1 and TS5, respectively, were observed.",
+     "location": "Sec. 3.2.1 Tensile strength (data from Fig. 7)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "TS1",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "hdpe",
+    "matrix_name": "HDPE SHA7260 (Braskem), density 0.955 g/cm3; described in the title/abstract as 'green polyethylene'",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M iM16K hollow glass microspheres (crushing strength 16000 psi ~ 110 MPa)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 20.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.01,
+    "process_route": "extrusion",
+    "cure_or_process_temperature_c": 190.0,
+    "additional_fillers": "PE-g-MA compatibiliser, Orevac 18507 (Arkema), 5 wt%; density 0.954 g/cm3, MFI 5 g/10 min (190 C/2.16 kg), melting point 128 C"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "SEM shows morphology similar to the single screw foams but with greater matrix/filler contact and the most pronounced glass sediment from broken HGM, caused by the higher shear of the kneading blocks; poor adhesion and hollow spaces remain. Better HGM dispersion than single screw. Compounded by co-rotating twin screw extruder (NZ SJ-20, 22 mm, L/D 38, two intensive-shear kneading block sections), 300 rpm, 170-190 C profile."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D638",
+    "specimen_notes": "EMIC DL 30000 universal testing machine, 50 mm/min crosshead, 50 kN load cell, room temperature, mean of 5 specimens. Pellets from the extruder were compression moulded at 180 C in an MH-08-MN hydraulic press: 2 min pre-press at 1 t, 1 min unloaded, then 3 min at 3 t. Gauge length not stated, so the nominal strain rate could not be computed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 1. Composite formulation. Legend / HDPE (wt%) / PE-g-MA (wt%) / HGM (wt%) / Processing: SS1 94 5 1 Single screw extruder; SS5 90 5 5 Single screw extruder; TS1 94 5 1 Twin screw extruder; TS5 90 5 5 Twin screw extruder",
+     "location": "Table 1 (Sec. 2.2 Processing)"
+    },
+    {
+     "quote": "The polymer matrix used in this paper was HDPE (SHA7260 grade, Braskem)... density (0.955g.cm-3). The hollow glass microsphere (iM16K) (3M) used as an inorganic filler and had the following specifications: density of 0.46g.cm-3, average diameter of 20 um and crushing strength of 16000 Psi.",
+     "location": "Sec. 2.1 Materials"
+    },
+    {
+     "quote": "The composites were prepared in a modular co-rotating twin screw extruder (NZ, model SJ-20), diameter of 22 mm, L/D = 38... The temperature profile employed from the feeding zone to the matrix was 170C to 190 C and screw speed was 300 rpm.",
+     "location": "Sec. 2.2.2 Twin Screw Extruder"
+    },
+    {
+     "quote": "Tensile testing was performed in an EMIC DL 30000 Universal Testing Machine operating at 50mm/min with a load cell of 50 kN, according to ASTM D638 at room temperature... All results reported are a mean of 5 specimens.",
+     "location": "Sec. 2.4.2 Mechanical tests"
+    },
+    {
+     "quote": "Single screw extrusion led to materials with similar or slightly higher modulus than that of the neat matrix, particularly that with 5% HGM... the foams obtained via a twin screw extruder showed a 20% reduction in the elastic modulus",
+     "location": "Sec. 3.2.1 Tensile strength (data from Fig. 4)"
+    },
+    {
+     "quote": "for the single screw extruded samples strain reduction on compared to the matrix was 6.06% and 50.73% for SS1 and SS5, respectively, and for those produced by twin screw extrusion reductions of 25.62% and 42.04% for TS1 and TS5, respectively, were observed.",
+     "location": "Sec. 3.2.1 Tensile strength (data from Fig. 7)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "TS5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "hdpe",
+    "matrix_name": "HDPE SHA7260 (Braskem), density 0.955 g/cm3; described in the title/abstract as 'green polyethylene'",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M iM16K hollow glass microspheres (crushing strength 16000 psi ~ 110 MPa)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 20.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.05,
+    "process_route": "extrusion",
+    "cure_or_process_temperature_c": 190.0,
+    "additional_fillers": "PE-g-MA compatibiliser, Orevac 18507 (Arkema), 5 wt%; density 0.954 g/cm3, MFI 5 g/10 min (190 C/2.16 kg), melting point 128 C"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "SEM shows morphology similar to the single screw foams but with greater matrix/filler contact and the most pronounced glass sediment from broken HGM, caused by the higher shear of the kneading blocks; poor adhesion and hollow spaces remain. Better HGM dispersion than single screw. Compounded by co-rotating twin screw extruder (NZ SJ-20, 22 mm, L/D 38, two intensive-shear kneading block sections), 300 rpm, 170-190 C profile."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": 25.0,
+    "standard": "ASTM D638",
+    "specimen_notes": "EMIC DL 30000 universal testing machine, 50 mm/min crosshead, 50 kN load cell, room temperature, mean of 5 specimens. Pellets from the extruder were compression moulded at 180 C in an MH-08-MN hydraulic press: 2 min pre-press at 1 t, 1 min unloaded, then 3 min at 3 t. Gauge length not stated, so the nominal strain rate could not be computed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 1. Composite formulation. Legend / HDPE (wt%) / PE-g-MA (wt%) / HGM (wt%) / Processing: SS1 94 5 1 Single screw extruder; SS5 90 5 5 Single screw extruder; TS1 94 5 1 Twin screw extruder; TS5 90 5 5 Twin screw extruder",
+     "location": "Table 1 (Sec. 2.2 Processing)"
+    },
+    {
+     "quote": "The polymer matrix used in this paper was HDPE (SHA7260 grade, Braskem)... density (0.955g.cm-3). The hollow glass microsphere (iM16K) (3M) used as an inorganic filler and had the following specifications: density of 0.46g.cm-3, average diameter of 20 um and crushing strength of 16000 Psi.",
+     "location": "Sec. 2.1 Materials"
+    },
+    {
+     "quote": "The composites were prepared in a modular co-rotating twin screw extruder (NZ, model SJ-20), diameter of 22 mm, L/D = 38... The temperature profile employed from the feeding zone to the matrix was 170C to 190 C and screw speed was 300 rpm.",
+     "location": "Sec. 2.2.2 Twin Screw Extruder"
+    },
+    {
+     "quote": "Tensile testing was performed in an EMIC DL 30000 Universal Testing Machine operating at 50mm/min with a load cell of 50 kN, according to ASTM D638 at room temperature... All results reported are a mean of 5 specimens.",
+     "location": "Sec. 2.4.2 Mechanical tests"
+    },
+    {
+     "quote": "Single screw extrusion led to materials with similar or slightly higher modulus than that of the neat matrix, particularly that with 5% HGM... the foams obtained via a twin screw extruder showed a 20% reduction in the elastic modulus",
+     "location": "Sec. 3.2.1 Tensile strength (data from Fig. 4)"
+    },
+    {
+     "quote": "for the single screw extruded samples strain reduction on compared to the matrix was 6.06% and 50.73% for SS1 and SS5, respectively, and for those produced by twin screw extrusion reductions of 25.62% and 42.04% for TS1 and TS5, respectively, were observed.",
+     "location": "Sec. 3.2.1 Tensile strength (data from Fig. 7)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "SS1",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "hdpe",
+    "matrix_name": "HDPE SHA7260 (Braskem), density 0.955 g/cm3; described in the title/abstract as 'green polyethylene'",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M iM16K hollow glass microspheres (crushing strength 16000 psi ~ 110 MPa)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 20.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.01,
+    "process_route": "extrusion",
+    "cure_or_process_temperature_c": 150.0,
+    "additional_fillers": "PE-g-MA compatibiliser, Orevac 18507 (Arkema), 5 wt%; density 0.954 g/cm3, MFI 5 g/10 min (190 C/2.16 kg), melting point 128 C"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "SEM of tensile fracture surfaces: few microsphere agglomerates, incomplete wetting of the filler by the matrix, but some HGM-matrix adhesion visible; overall a high HGM integrity index, i.e. most microspheres survived single screw processing intact, with only limited glass sediment (debris). Compounded by single screw extruder (AX-16, AX Plasticos), 50 rpm, 140-150 C profile."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D256",
+    "specimen_notes": "Notched Izod, CEAST Resil 5.5, 2.75 J hammer, notch depth 2.5 mm, mean of 5 specimens. Specimens compression moulded at 180 C from extruded pellets (2 min pre-press at 1 t, 1 min unloaded, 3 min at 3 t). Test temperature not stated."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 1. Composite formulation. Legend / HDPE (wt%) / PE-g-MA (wt%) / HGM (wt%) / Processing: SS1 94 5 1 Single screw extruder; SS5 90 5 5 Single screw extruder; TS1 94 5 1 Twin screw extruder; TS5 90 5 5 Twin screw extruder",
+     "location": "Table 1 (Sec. 2.2 Processing)"
+    },
+    {
+     "quote": "The polymer matrix used in this paper was HDPE (SHA7260 grade, Braskem)... density (0.955g.cm-3). The hollow glass microsphere (iM16K) (3M) used as an inorganic filler and had the following specifications: density of 0.46g.cm-3, average diameter of 20 um and crushing strength of 16000 Psi.",
+     "location": "Sec. 2.1 Materials"
+    },
+    {
+     "quote": "The foams were processed in a bench top single screw extruder model AX-16 (AX Plasticos) under the following operating conditions: screw rotation speed of 50 rpm, temperature profile from the feeding zone to the matrix of 140C to 150C.",
+     "location": "Sec. 2.2.1 Single Screw Extruder"
+    },
+    {
+     "quote": "Izod impact tests were performed according to ASTM D256 on a CEAST Resil 5.5 equipment, operating with a 2.75J hammer. The specimens were notched (notch depth = 2.5mm) before impact.",
+     "location": "Sec. 2.4.2 Mechanical tests"
+    },
+    {
+     "quote": "Regarding the impact strength, the composite SS1 showed a decrease of 12.17%, and the processing using a twin screw extruder increased the strength of foams. While the composite TS1 had an increase of 315.13%, TS5 revealed an increase of 215.35%",
+     "location": "Sec. 4 Conclusions (data from Fig. 8)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "TS1",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "hdpe",
+    "matrix_name": "HDPE SHA7260 (Braskem), density 0.955 g/cm3; described in the title/abstract as 'green polyethylene'",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M iM16K hollow glass microspheres (crushing strength 16000 psi ~ 110 MPa)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 20.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.01,
+    "process_route": "extrusion",
+    "cure_or_process_temperature_c": 190.0,
+    "additional_fillers": "PE-g-MA compatibiliser, Orevac 18507 (Arkema), 5 wt%; density 0.954 g/cm3, MFI 5 g/10 min (190 C/2.16 kg), melting point 128 C"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "SEM shows morphology similar to the single screw foams but with greater matrix/filler contact and the most pronounced glass sediment from broken HGM, caused by the higher shear of the kneading blocks; poor adhesion and hollow spaces remain. Better HGM dispersion than single screw. Compounded by co-rotating twin screw extruder (NZ SJ-20, 22 mm, L/D 38, two intensive-shear kneading block sections), 300 rpm, 170-190 C profile."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D256",
+    "specimen_notes": "Notched Izod, CEAST Resil 5.5, 2.75 J hammer, notch depth 2.5 mm, mean of 5 specimens. Specimens compression moulded at 180 C from extruded pellets (2 min pre-press at 1 t, 1 min unloaded, 3 min at 3 t). Test temperature not stated."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 1. Composite formulation. Legend / HDPE (wt%) / PE-g-MA (wt%) / HGM (wt%) / Processing: SS1 94 5 1 Single screw extruder; SS5 90 5 5 Single screw extruder; TS1 94 5 1 Twin screw extruder; TS5 90 5 5 Twin screw extruder",
+     "location": "Table 1 (Sec. 2.2 Processing)"
+    },
+    {
+     "quote": "The polymer matrix used in this paper was HDPE (SHA7260 grade, Braskem)... density (0.955g.cm-3). The hollow glass microsphere (iM16K) (3M) used as an inorganic filler and had the following specifications: density of 0.46g.cm-3, average diameter of 20 um and crushing strength of 16000 Psi.",
+     "location": "Sec. 2.1 Materials"
+    },
+    {
+     "quote": "The composites were prepared in a modular co-rotating twin screw extruder (NZ, model SJ-20), diameter of 22 mm, L/D = 38... The temperature profile employed from the feeding zone to the matrix was 170C to 190 C and screw speed was 300 rpm.",
+     "location": "Sec. 2.2.2 Twin Screw Extruder"
+    },
+    {
+     "quote": "Izod impact tests were performed according to ASTM D256 on a CEAST Resil 5.5 equipment, operating with a 2.75J hammer. The specimens were notched (notch depth = 2.5mm) before impact.",
+     "location": "Sec. 2.4.2 Mechanical tests"
+    },
+    {
+     "quote": "Regarding the impact strength, the composite SS1 showed a decrease of 12.17%, and the processing using a twin screw extruder increased the strength of foams. While the composite TS1 had an increase of 315.13%, TS5 revealed an increase of 215.35%",
+     "location": "Sec. 4 Conclusions (data from Fig. 8)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "TS5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "hdpe",
+    "matrix_name": "HDPE SHA7260 (Braskem), density 0.955 g/cm3; described in the title/abstract as 'green polyethylene'",
+    "particle_type": "glass_microballoon",
+    "particle_grade": "3M iM16K hollow glass microspheres (crushing strength 16000 psi ~ 110 MPa)",
+    "particle_true_density_g_cc": 0.46,
+    "particle_mean_diameter_um": 20.0,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": 0.05,
+    "process_route": "extrusion",
+    "cure_or_process_temperature_c": 190.0,
+    "additional_fillers": "PE-g-MA compatibiliser, Orevac 18507 (Arkema), 5 wt%; density 0.954 g/cm3, MFI 5 g/10 min (190 C/2.16 kg), melting point 128 C"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "SEM shows morphology similar to the single screw foams but with greater matrix/filler contact and the most pronounced glass sediment from broken HGM, caused by the higher shear of the kneading blocks; poor adhesion and hollow spaces remain. Better HGM dispersion than single screw. Compounded by co-rotating twin screw extruder (NZ SJ-20, 22 mm, L/D 38, two intensive-shear kneading block sections), 300 rpm, 170-190 C profile."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D256",
+    "specimen_notes": "Notched Izod, CEAST Resil 5.5, 2.75 J hammer, notch depth 2.5 mm, mean of 5 specimens. Specimens compression moulded at 180 C from extruded pellets (2 min pre-press at 1 t, 1 min unloaded, 3 min at 3 t). Test temperature not stated."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 1. Composite formulation. Legend / HDPE (wt%) / PE-g-MA (wt%) / HGM (wt%) / Processing: SS1 94 5 1 Single screw extruder; SS5 90 5 5 Single screw extruder; TS1 94 5 1 Twin screw extruder; TS5 90 5 5 Twin screw extruder",
+     "location": "Table 1 (Sec. 2.2 Processing)"
+    },
+    {
+     "quote": "The polymer matrix used in this paper was HDPE (SHA7260 grade, Braskem)... density (0.955g.cm-3). The hollow glass microsphere (iM16K) (3M) used as an inorganic filler and had the following specifications: density of 0.46g.cm-3, average diameter of 20 um and crushing strength of 16000 Psi.",
+     "location": "Sec. 2.1 Materials"
+    },
+    {
+     "quote": "The composites were prepared in a modular co-rotating twin screw extruder (NZ, model SJ-20), diameter of 22 mm, L/D = 38... The temperature profile employed from the feeding zone to the matrix was 170C to 190 C and screw speed was 300 rpm.",
+     "location": "Sec. 2.2.2 Twin Screw Extruder"
+    },
+    {
+     "quote": "Izod impact tests were performed according to ASTM D256 on a CEAST Resil 5.5 equipment, operating with a 2.75J hammer. The specimens were notched (notch depth = 2.5mm) before impact.",
+     "location": "Sec. 2.4.2 Mechanical tests"
+    },
+    {
+     "quote": "Regarding the impact strength, the composite SS1 showed a decrease of 12.17%, and the processing using a twin screw extruder increased the strength of foams. While the composite TS1 had an increase of 315.13%, TS5 revealed an increase of 215.35%",
+     "location": "Sec. 4 Conclusions (data from Fig. 8)"
+    }
+   ],
+   "extractor_confidence": 0.75
+  }
+ ],
+ "extraction_notes": "NO absolute property values are reported anywhere in this paper. Elastic modulus (Fig. 4), maximum tensile strength (Fig. 6), strain at maximum strength (Fig. 7) and Izod impact strength (Fig. 8) are all shown only as bar charts with no axis values quoted in the text, and there is no property table. The text gives only PERCENTAGE CHANGES relative to the neat HDPE matrix, and the schema has no field for a relative change, so every Properties field is null per rule 2. The reported changes are preserved verbatim in the evidence quotes: twin screw processing reduced elastic modulus, tensile strength and strain by 20 %, 10 % and 23 %; increasing HGM content reduced properties by 5 % (modulus) up to 50 % (strain); strain at break fell 6.06 % (SS1), 50.73 % (SS5), 25.62 % (TS1) and 42.04 % (TS5) versus the matrix; Izod impact strength changed by -12.17 % (SS1), +315.13 % (TS1) and +215.35 % (TS5). 7 records = 4 formulations (SS1, SS5, TS1, TS5) x tension, plus 3 impact records - SS5 has no impact record because the paper states its impact performance 'was not assessed due to the equipment limitations'. No neat-HDPE baseline record was created: the matrix is used as the 100 % reference in every figure but is not listed as a processed formulation in Table 1 and no numbers are given for it. Only weight fractions are reported (1 and 5 wt% HGM, 5 wt% PE-g-MA); particle_volume_fraction is left null - it was NOT converted, because although the HDPE (0.955 g/cm3) and iM16K (0.46 g/cm3) densities are given, the paper never reports a foam density and the PE-g-MA/HDPE split would have to be assumed. process_route='extrusion' covers the compounding step that distinguishes the samples (single vs twin screw); the test specimens were subsequently compression moulded at 180 C, which is recorded in specimen_notes. cure_or_process_temperature_c is the top of the extruder temperature profile: 150 C for the single screw samples (140-150 C) and 190 C for the twin screw samples (170-190 C). Tensile temperature_c=25 encodes the paper's 'at room temperature'; the impact test temperature is not stated and is left null. Strain rate is null for the tensile tests: the crosshead speed (50 mm/min) is given but the gauge length is not, so no 1/s value could be derived. Inconsistency worth flagging: the title, abstract and keywords call the matrix 'green polyethylene' (Braskem's sugarcane-derived PE), but Sec. 2.1 identifies it only as HDPE grade SHA7260 with no bio-based content stated. Also note a stray sentence in Sec. 3.2.1 referring to 'better performance for LMS', an undefined acronym that appears nowhere else."
+}

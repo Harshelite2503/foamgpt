@@ -1,0 +1,1125 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Aluminium 2024 matrix syntactic foams were made by vacuum casting (-1 bar vacuum, 560 C, then 15 bar argon pressure, three-step mould filling with vibration) around packed beds of three low-cost lightweight porous aggregates sieved to 2.5-4.5 mm: expanded perlite, LECA (expanded clay) and pumice. Foam densities were 1.09, 1.385 and 2.05 g/cm3 with aggregate volume fractions of 66.8, 62.8 and 50.0% and total porosities of 62.6, 50.5 and 33.2%. Quasi-static uniaxial compression (ISO 13314) gave plateau stresses of 14.12, 19.31 and 31.1 MPa, unloading moduli of 3.97, 6.19 and 7.2 GPa, densification strains of 65, 69 and 60%, energy absorption of 5.4, 11.2 and 17.5 MJ/m3 and energy absorption efficiencies of 66, 70.5 and 79% at 50% strain; compressive properties and energy absorption rose with density, and low-density foams failed in a shear band while high-density pumice foam deformed uniformly.",
+ "records": [
+  {
+   "sample_label": "Perlite/Al2024",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Aluminium alloy 2024 (3.9% Cu, 1.4% Mg, 0.34% Mn, 0.33% Fe, 0.24% Si, 0.2% Zn, 0.1% Cr)",
+    "particle_type": "other",
+    "particle_grade": "expanded perlite, sieved to 2.5-4.5 mm",
+    "particle_true_density_g_cc": 0.24,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.668,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": 560,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.09,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Total porosity of the foam F_TP = 62.55% (Table 3); the expanded perlite particles themselves are about 92% porous with a solid-phase density of 2.81 g/cm3. Aggregates are evenly distributed with a distinct boundary to the matrix; aluminium did not penetrate the aggregate cavities and no debonding was seen. Table 3 lists the foam density as 1.09 g/cm3. This lower-density foam deformed locally along a large shear band."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ISO 13314 (plateau stress = mean stress between 20 and 40% strain)",
+    "specimen_notes": "Uniaxial quasi-static compression on a DMG (Denison Mayes Group) universal testing machine. Quasi-elastic gradient QE = 2.03 GPa; the modulus reported here is the unloading modulus E_UL = 3.97 GPa. Energy absorption W and efficiency eta = 66% are computed to 50% strain."
+   },
+   "properties": {
+    "modulus_mpa": 3970.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 5.4,
+    "plateau_stress_mpa": 14.12,
+    "densification_strain": 0.65,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Perlite/Al2024 | 1.09 | 2.03 | 3.97 | 14.12 | 18.36 | 65 | 5.4 | 66 |",
+     "location": "Table 4 (mechanical properties of Al2024/aggregate syntactic foams)"
+    },
+    {
+     "quote": "| 62.55 | 66.80 | 0.24 | 1.09 | 26.83 | 29.25 | 4.34 | Perlite/Al2024 |",
+     "location": "Table 3 (physical properties of syntactic foam samples)"
+    },
+    {
+     "quote": "The studied MMSFs were manufactured via the vacuum casting method... a vacuum pressure of -1 bar and the heating temperature of 560\u00b0C, were selected based on their effectiveness in ensuring proper infiltration of the aluminum melt into the porous aggregates.",
+     "location": "Sec. 2.2 Production Method"
+    },
+    {
+     "quote": "The chosen matrix material for this research is ASE Co's 2024 aluminum alloy, which has a composition of 3.9% Cu, 1.4% Mg, 0.34% Mn, 0.33% Fe, 0.24% Si, 0.2% Zn, and 0.1% Cr.",
+     "location": "Sec. 2.1 Material"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LECA/Al2024",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Aluminium alloy 2024 (3.9% Cu, 1.4% Mg, 0.34% Mn, 0.33% Fe, 0.24% Si, 0.2% Zn, 0.1% Cr)",
+    "particle_type": "other",
+    "particle_grade": "LECA (light expanded clay aggregate), sieved to 2.5-4.5 mm",
+    "particle_true_density_g_cc": 0.55,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6277,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": 560,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.385,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Total porosity of the foam F_TP = 50.53% (Table 3); the LECA (light expanded clay aggregate) particles themselves are about 80% porous with a solid-phase density of 2.95 g/cm3. Aggregates are evenly distributed with a distinct boundary to the matrix; aluminium did not penetrate the aggregate cavities and no debonding was seen. Table 3 lists the foam density as 1.35 g/cm3."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ISO 13314 (plateau stress = mean stress between 20 and 40% strain)",
+    "specimen_notes": "Uniaxial quasi-static compression on a DMG (Denison Mayes Group) universal testing machine. Quasi-elastic gradient QE = 3.26 GPa; the modulus reported here is the unloading modulus E_UL = 6.19 GPa. Energy absorption W and efficiency eta = 70.5% are computed to 50% strain."
+   },
+   "properties": {
+    "modulus_mpa": 6190.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 11.2,
+    "plateau_stress_mpa": 19.31,
+    "densification_strain": 0.69,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| LECA/Al2024 | 1.385 | 3.26 | 6.19 | 19.31 | 25.10 | 69 | 11.2 | 70.5 |",
+     "location": "Table 4 (mechanical properties of Al2024/aggregate syntactic foams)"
+    },
+    {
+     "quote": "| 50.53 | 62.77 | 0.55 | 1.35 | 26.71 | 37.00 | 9.19 | LECA/Al2024 |",
+     "location": "Table 3 (physical properties of syntactic foam samples)"
+    },
+    {
+     "quote": "The studied MMSFs were manufactured via the vacuum casting method... a vacuum pressure of -1 bar and the heating temperature of 560\u00b0C, were selected based on their effectiveness in ensuring proper infiltration of the aluminum melt into the porous aggregates.",
+     "location": "Sec. 2.2 Production Method"
+    },
+    {
+     "quote": "The chosen matrix material for this research is ASE Co's 2024 aluminum alloy, which has a composition of 3.9% Cu, 1.4% Mg, 0.34% Mn, 0.33% Fe, 0.24% Si, 0.2% Zn, and 0.1% Cr.",
+     "location": "Sec. 2.1 Material"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "Pumice/Al2024",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Aluminium alloy 2024 (3.9% Cu, 1.4% Mg, 0.34% Mn, 0.33% Fe, 0.24% Si, 0.2% Zn, 0.1% Cr)",
+    "particle_type": "other",
+    "particle_grade": "pumice, sieved to 2.5-4.5 mm",
+    "particle_true_density_g_cc": 1.3,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.5,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": 560,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 2.05,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Total porosity of the foam F_TP = 33.15% (Table 3); the pumice particles themselves are about 64% porous with a solid-phase density of 3.6 g/cm3. Aggregates are evenly distributed with a distinct boundary to the matrix; aluminium did not penetrate the aggregate cavities and no debonding was seen. Table 3 lists the foam density as 2.05 g/cm3. Higher-density pumice foam deforms uniformly with multiple collapse bands."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ISO 13314 (plateau stress = mean stress between 20 and 40% strain)",
+    "specimen_notes": "Uniaxial quasi-static compression on a DMG (Denison Mayes Group) universal testing machine. Quasi-elastic gradient QE = 3.0 GPa; the modulus reported here is the unloading modulus E_UL = 7.2 GPa. Energy absorption W and efficiency eta = 79% are computed to 50% strain."
+   },
+   "properties": {
+    "modulus_mpa": 7200.0,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 17.5,
+    "plateau_stress_mpa": 31.1,
+    "densification_strain": 0.6,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Pumice/Al2024 | 2.05 | 3 | 7.2 | 31.1 | 40.43 | 60 | 17.5 | 79 |",
+     "location": "Table 4 (mechanical properties of Al2024/aggregate syntactic foams)"
+    },
+    {
+     "quote": "| 33.15 | 50.00 | 1.30 | 2.05 | 19.84 | 40.66 | 12.84 | Pumice/Al2024 |",
+     "location": "Table 3 (physical properties of syntactic foam samples)"
+    },
+    {
+     "quote": "The studied MMSFs were manufactured via the vacuum casting method... a vacuum pressure of -1 bar and the heating temperature of 560\u00b0C, were selected based on their effectiveness in ensuring proper infiltration of the aluminum melt into the porous aggregates.",
+     "location": "Sec. 2.2 Production Method"
+    },
+    {
+     "quote": "The chosen matrix material for this research is ASE Co's 2024 aluminum alloy, which has a composition of 3.9% Cu, 1.4% Mg, 0.34% Mn, 0.33% Fe, 0.24% Si, 0.2% Zn, and 0.1% Cr.",
+     "location": "Sec. 2.1 Material"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "Zhang et al. (8), 2007 [ref. 8: Zhang L, Zhao Y, J Composite Materials 2007;41(17):2105-17]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Porous ceramic spheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 41.0,
+    "densification_strain": 0.3,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Zhang et al. (8) | 2007 | Porous ceramic spheres | Al | Pressure infiltration | - | 41 | 0.3",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Luong et al. (11), 2013 [ref. 11: Luong DD et al., J Alloys Compd 2013;550:412-22]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al A356",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "SiC hollow spheres (SiCHS)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 181.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 126.0,
+    "densification_strain": 0.45,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Luong et al. (11) | 2013 | SiCHS | Al A356 | Pressure infiltration | 181 | 126 | 0.45",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Altenaiji et al. (12), 2014 [ref. 12: Altenaiji M et al., Materials & Design 2014;59:296-302]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al7075",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Ceramic micro-spheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 160.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 148.0,
+    "densification_strain": 0.43,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Altenaiji et al. (12) | 2014 | Ceramic micro-Spheres | Al7075 | Pressure infiltration | 160 | 148 | 0.43",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Katona et al. (13), 2019 [ref. 13: Katona B et al., Mater Sci Eng A 2019;739:140-8]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al99,5",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Ceramic hollow spheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 50.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 51.0,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Katona et al. (13) | 2019 | Ceramic hollow sphere | Al99,5 | Pressure infiltration | 50 | 51 | -",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Santa Maria et al. (14), 2014 [ref. 14: Santa Maria J et al., Al-A380-Al2O3 syntactic foams, 2012]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al A380",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Al2O3 hollow spheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 181.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 138.0,
+    "densification_strain": 0.43,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Santa Maria et al. (14) | 2014 | Al2O3 | Al A380 | Pressure infiltration | 181 | 138 | 0.43",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Su et al. (15), 2019 [ref. 15: Su M, Wang H, Hao H, Adv Eng Mater 2019;21(8):1900183]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Cp-Al",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Al2O3 hollow spheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 61.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 46.0,
+    "densification_strain": 0.46,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Su et al. (15) | 2019 | Al2O3 | Cp-Al | Stir casting | 61 | 46 | 0.46",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Pan et al. (16), 2020 [ref. 16: Pan L et al., J Porous Materials 2020;27:1127-37]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al6061",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Al2O3 hollow spheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 65.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 74.0,
+    "densification_strain": 0.58,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Pan et al. (16) | 2020 | Al2O3 | Al6061 | Gravity infiltration casting | 65 | 74 | 0.58",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Licitra et al. (17), 2015 [ref. 17: Licitra L et al., Materials & Design 2015;66:504-15]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "A356",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Alumina hollow particles",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 106.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 62.0,
+    "densification_strain": 0.6,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Licitra et al. (17) | 2015 | Al2O3 | A356 | Pressure less infiltration | 106 | 62 | 0.6",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Weise et al. (19), 2007 [ref. 19: Weise J et al., Adv Eng Mater 2007;9(1-2):52-6]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "Cenospheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 190.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 180.0,
+    "densification_strain": 0.45,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Weise et al. (19) | 2007 | Cenosphere | Al | Pressure infiltration | 190 | 180 | 0.45",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Zou et al. (20), 2013 [ref. 20: Zou L et al., Materials & Design 2013;45:555-60]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al 6061",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "Cenospheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 45.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 40.0,
+    "densification_strain": 0.5,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Zou et al. (20) | 2013 | Cenosphere | Al 6061 | Pressure infiltration | 45 | 40 | 0.5",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Akinwekomi et al. (21), 2019 [ref. 21: Akinwekomi AD et al., Metall Mater Trans A 2019;50:4257-60]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Cp-Al",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "Cenospheres (fly ash)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "powder_metallurgy",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 38.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 26.0,
+    "densification_strain": 0.6,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Akinwekomi et al. (21) | 2019 | Cenosphere | Cp-Al | Powder metallurgy | 38 | 26 | 0.6",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Manakari et al. (22), 2017 [ref. 22: Manakari V et al., Materials 2017;10(9):997]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "magnesium",
+    "matrix_name": "Pure Mg",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "Cenospheres / hollow glass microballoons",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 66.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": 0.15,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Manakari et al. (22) | 2017 | Cenosphere | Pure Mg | DMD | 66 | - | 0.15",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Sahu et al. (23), 2019 [ref. 23: Sahu S et al., Mater Sci Technol 2019;35(7):856-64]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al AA2014",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "Cenospheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "stir_casting",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 133.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": 0.52,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Sahu et al. (23) | 2019 | Cenosphere | Al AA2014 | Stir casting | 133 | - | 0.52",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Tao et al. (24), 2009 [ref. 24: Tao X, Zhang L, Zhao Y, Materials & Design 2009;30(7):2732-6]",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "Al 6082",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "Bimodal ceramic microspheres",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in Table 1 of this paper; original manufacturing method as listed."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 53.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": 63.0,
+    "densification_strain": 0.43,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Tao et al. (24) | 2009 | Ceramic microspheres | Al 6082 | Melt infiltration | 53 | 63 | 0.43",
+     "location": "Table 1 (properties of some syntactic foams fabricated by other researchers)"
+    },
+    {
+     "quote": "TABLE 1. Properties of some syntactic foams fabricatedb by researchers (\u03c3max, \u03c3Plateau, and \u03b5den)",
+     "location": "Table 1 caption"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Bonabi et al. (29) [ref. 29: Bonabi SB et al., Materials & Design 2014;64:310-5], AlSi5Cu1Mg / LECA",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "AlSi5Cu1Mg (5.4 wt% Si, 1.5 wt% Cu)",
+    "particle_type": "other",
+    "particle_grade": "LECA (light expanded clay aggregate)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Properties reported as influenced by pore dimensions, particle distribution and relative density; produced by counter-gravity casting."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in the introduction of this paper; counter-gravity casting."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 35.9,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 18.0,
+    "plateau_stress_mpa": null,
+    "densification_strain": 0.52,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Bonabi et al. (29) successfully produced MMSFs using AlSi5Cu1Mg (5.4 wt% Si, 1.5 wt% Cu) through counter-gravity casting... Characteristic properties included a compressive strength of 35.9 MPa, a densification strain of 52%, and an energy absorption capacity of 18 MJ.m-3.",
+     "location": "Sec. 1 Introduction (p. 3)"
+    }
+   ],
+   "extractor_confidence": 0.6
+  },
+  {
+   "sample_label": "Taherishargh et al. (31) [ref. 31: Taherishargh M et al., Mater Sci Eng A 2015;635:102-8], pumice/aluminium",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "aluminium alloy (not specified in this paper)",
+    "particle_type": "other",
+    "particle_grade": "pumice (low-cost natural porous volcanic glass)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Packed beds of pumice particles infiltrated with molten aluminium alloy."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Literature value quoted in the introduction of this paper."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": 24.8,
+    "plateau_stress_mpa": 68.25,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "The resulting syntactic foams indicated that pumice particles considerably enhanced the strength of the foam and result in an average plateau stress of 68.25 MPa and specific energy absorption of 24.8 MJ.m-3 .",
+     "location": "Sec. 1 Introduction (p. 3)"
+    }
+   ],
+   "extractor_confidence": 0.6
+  }
+ ],
+ "extraction_notes": "PRIMARY DATA (3 records): from Table 3 (physical) and Table 4 (mechanical). modulus_mpa is the unloading elastic modulus E_UL (GPa x 1000); the quasi-elastic gradient QE is given in test.specimen_notes because the schema has only one modulus field. plateau_stress_mpa is sigma_Pl (ISO 13314 mean stress over 20-40% strain); sigma_Ple (= 1.3 x sigma_Pl, 18.36 / 25.10 / 40.43 MPa) is a derived quantity and was not stored, and no sigma_max was reported for the authors' own samples, so strength_mpa is null for the primary records. densification_strain is epsilon_Ple converted from % to fraction (0.65 / 0.69 / 0.60). INCONSISTENCIES IN THE PAPER: (a) the abstract states energy absorption efficiencies of 85 / 78 / 70% for perlite / LECA / pumice, which contradicts Table 4 and the conclusion (66 / 70.5 / 79%); the Table 4 values were used. (b) the abstract calls 0.24, 0.55 and 1.30 g/cm3 the foam densities, but Table 3 shows these are the aggregate densities and the foam densities are 1.09, 1.35 and 2.05 g/cm3. (c) the LECA foam density is 1.35 in Table 3 and 1.385 in Table 4; Table 4 was used for measured_density_g_cc and Table 3 is noted in microstructure_notes. (d) particle size is given as 2.5-4.5 mm in Sec. 3.1 but 4.75-6.30 mm on p. 7; because of that conflict and because no mean was stated, particle_mean_diameter_um was left null. particle_true_density_g_cc holds the aggregate (particle) density from Table 3; the skeletal/solid-phase densities (2.81, 2.95, 3.6 g/cm3) and the particle porosities (92, 80, 64%) are in microstructure_notes. The total foam porosity F_TP was NOT put in matrix_porosity_fraction because that field means unintended matrix voids, whereas F_TP here is the intended aggregate porosity; it is recorded in microstructure_notes. Test temperature and strain rate were not stated (only 'quasi-static'), so both are null. SECONDARY DATA (16 records): 14 rows of Table 1 (a literature comparison table) plus two values quoted in the introduction (Bonabi et al. ref. 29 and Taherishargh et al. ref. 31); all are marked data_origin=secondary with the cited reference in sample_label. Table 1 was not machine-parsed into a [TABLE] block in the text file, so its evidence quotes are the row values reassembled in column order from the linearised text. Manufacturing routes without a matching enum value (gravity infiltration casting, pressureless infiltration, melt infiltration, DMD, counter-gravity casting) were mapped to process_route='other' and named in specimen_notes / microstructure_notes. CAVEAT ON PARTICLE TYPE: perlite, LECA and pumice are porous (non-hollow, irregular) lightweight aggregates rather than true hollow microspheres, so particle_type='other' was used for them; the paper nevertheless classifies the resulting materials as metal matrix syntactic foams."
+}

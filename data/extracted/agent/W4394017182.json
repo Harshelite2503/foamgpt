@@ -1,0 +1,3107 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Phenolic (phenol-formaldehyde) syntactic foam filled with dry fly ash cenospheres (50:50 proportion, 0.70 reinforcement volume fraction by resin burnout) was used as the core of glass/epoxy faced sandwich panels, either plain (SF) or confined in honeycomb grid cells of 20, 15, 10 and 5 mm (SFK20-SFK5). Tensile, compressive, flexural (long and short beam) and three-rail shear properties were measured in flatwise (out-of-plane) and edgewise (in-plane) configurations per ASTM standards. Confining the foam in the honeycomb grid raised the mechanical properties by 20-180%, with the smallest (5 mm) cell size best; the phenolic foam was thermally stable to 450 C.",
+ "records": [
+  {
+   "sample_label": "SF",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); no honeycomb grid stiffener"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C297",
+    "specimen_notes": "Flatwise (out-of-plane) tension of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1870.0,
+    "strength_mpa": 6.23,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Tensile strength [MPa] | Flatwise | 6.23 | 7.83 | 8.19 | 8.82 | 9.01 | / | Tensile modulus [GPa] | Flatwise | 1.87 | 2.34 | 2.69 | 2.74 | 3.38 |",
+     "location": "Table 2"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 20 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 20 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C297",
+    "specimen_notes": "Flatwise (out-of-plane) tension of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 2340.0,
+    "strength_mpa": 7.83,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Tensile strength [MPa] | Flatwise | 6.23 | 7.83 | 8.19 | 8.82 | 9.01 | / | Tensile modulus [GPa] | Flatwise | 1.87 | 2.34 | 2.69 | 2.74 | 3.38 |",
+     "location": "Table 2"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK15",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 15 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 15 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C297",
+    "specimen_notes": "Flatwise (out-of-plane) tension of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 2690.0,
+    "strength_mpa": 8.19,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Tensile strength [MPa] | Flatwise | 6.23 | 7.83 | 8.19 | 8.82 | 9.01 | / | Tensile modulus [GPa] | Flatwise | 1.87 | 2.34 | 2.69 | 2.74 | 3.38 |",
+     "location": "Table 2"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK10",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 10 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 10 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C297",
+    "specimen_notes": "Flatwise (out-of-plane) tension of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 2740.0,
+    "strength_mpa": 8.82,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Tensile strength [MPa] | Flatwise | 6.23 | 7.83 | 8.19 | 8.82 | 9.01 | / | Tensile modulus [GPa] | Flatwise | 1.87 | 2.34 | 2.69 | 2.74 | 3.38 |",
+     "location": "Table 2"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 5 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 5 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C297",
+    "specimen_notes": "Flatwise (out-of-plane) tension of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 3380.0,
+    "strength_mpa": 9.01,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Tensile strength [MPa] | Flatwise | 6.23 | 7.83 | 8.19 | 8.82 | 9.01 | / | Tensile modulus [GPa] | Flatwise | 1.87 | 2.34 | 2.69 | 2.74 | 3.38 |",
+     "location": "Table 2"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SF",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); no honeycomb grid stiffener"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D638",
+    "specimen_notes": "Edgewise (in-plane) tension of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 4380.0,
+    "strength_mpa": 33.21,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Tensile strength [MPa] | Edgewise | 33.21 | 34.25 | 36 | 37.82 | 37.93 | / | Tensile modulus [GPa] | Edgewise | 4.38 | 4.87 | 4.99 | 5.18 | 5.42 |",
+     "location": "Table 2"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 20 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 20 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D638",
+    "specimen_notes": "Edgewise (in-plane) tension of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 4870.0,
+    "strength_mpa": 34.25,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Tensile strength [MPa] | Edgewise | 33.21 | 34.25 | 36 | 37.82 | 37.93 | / | Tensile modulus [GPa] | Edgewise | 4.38 | 4.87 | 4.99 | 5.18 | 5.42 |",
+     "location": "Table 2"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK15",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 15 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 15 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D638",
+    "specimen_notes": "Edgewise (in-plane) tension of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 4990.0,
+    "strength_mpa": 36.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Tensile strength [MPa] | Edgewise | 33.21 | 34.25 | 36 | 37.82 | 37.93 | / | Tensile modulus [GPa] | Edgewise | 4.38 | 4.87 | 4.99 | 5.18 | 5.42 |",
+     "location": "Table 2"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK10",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 10 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 10 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D638",
+    "specimen_notes": "Edgewise (in-plane) tension of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 5180.0,
+    "strength_mpa": 37.82,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Tensile strength [MPa] | Edgewise | 33.21 | 34.25 | 36 | 37.82 | 37.93 | / | Tensile modulus [GPa] | Edgewise | 4.38 | 4.87 | 4.99 | 5.18 | 5.42 |",
+     "location": "Table 2"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 5 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 5 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "tension",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D638",
+    "specimen_notes": "Edgewise (in-plane) tension of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 5420.0,
+    "strength_mpa": 37.93,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Tensile strength [MPa] | Edgewise | 33.21 | 34.25 | 36 | 37.82 | 37.93 | / | Tensile modulus [GPa] | Edgewise | 4.38 | 4.87 | 4.99 | 5.18 | 5.42 |",
+     "location": "Table 2"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SF",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); no honeycomb grid stiffener"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C365",
+    "specimen_notes": "Flatwise (out-of-plane) compression of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1320.0,
+    "strength_mpa": 7.09,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Compression strength [MPa] | Flatwise | 7.09 | 12.42 | 14.98 | 15.72 | 16.79 | / | Compression modulus [GPa] | Flatwise | 1.32 | 2.46 | 3.24 | 3.28 | 3.87 |",
+     "location": "Table 3"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 20 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 20 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C365",
+    "specimen_notes": "Flatwise (out-of-plane) compression of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 2460.0,
+    "strength_mpa": 12.42,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Compression strength [MPa] | Flatwise | 7.09 | 12.42 | 14.98 | 15.72 | 16.79 | / | Compression modulus [GPa] | Flatwise | 1.32 | 2.46 | 3.24 | 3.28 | 3.87 |",
+     "location": "Table 3"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK15",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 15 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 15 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C365",
+    "specimen_notes": "Flatwise (out-of-plane) compression of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 3240.0,
+    "strength_mpa": 14.98,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Compression strength [MPa] | Flatwise | 7.09 | 12.42 | 14.98 | 15.72 | 16.79 | / | Compression modulus [GPa] | Flatwise | 1.32 | 2.46 | 3.24 | 3.28 | 3.87 |",
+     "location": "Table 3"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK10",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 10 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 10 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C365",
+    "specimen_notes": "Flatwise (out-of-plane) compression of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 3280.0,
+    "strength_mpa": 15.72,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Compression strength [MPa] | Flatwise | 7.09 | 12.42 | 14.98 | 15.72 | 16.79 | / | Compression modulus [GPa] | Flatwise | 1.32 | 2.46 | 3.24 | 3.28 | 3.87 |",
+     "location": "Table 3"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 5 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 5 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C365",
+    "specimen_notes": "Flatwise (out-of-plane) compression of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 3870.0,
+    "strength_mpa": 16.79,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Compression strength [MPa] | Flatwise | 7.09 | 12.42 | 14.98 | 15.72 | 16.79 | / | Compression modulus [GPa] | Flatwise | 1.32 | 2.46 | 3.24 | 3.28 | 3.87 |",
+     "location": "Table 3"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SF",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); no honeycomb grid stiffener"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C364",
+    "specimen_notes": "Edgewise (in-plane) compression of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1770.0,
+    "strength_mpa": 19.67,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Compression strength [MPa] | Edgewise | 19.67 | 23.45 | 23.83 | 24.07 | 24.85 | / | Compression modulus [GPa] | Edgewise | 1.77 | 1.96 | 2 | 2.04 | 2.28 |",
+     "location": "Table 3"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 20 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 20 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C364",
+    "specimen_notes": "Edgewise (in-plane) compression of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1960.0,
+    "strength_mpa": 23.45,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Compression strength [MPa] | Edgewise | 19.67 | 23.45 | 23.83 | 24.07 | 24.85 | / | Compression modulus [GPa] | Edgewise | 1.77 | 1.96 | 2 | 2.04 | 2.28 |",
+     "location": "Table 3"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK15",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 15 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 15 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C364",
+    "specimen_notes": "Edgewise (in-plane) compression of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 2000.0,
+    "strength_mpa": 23.83,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Compression strength [MPa] | Edgewise | 19.67 | 23.45 | 23.83 | 24.07 | 24.85 | / | Compression modulus [GPa] | Edgewise | 1.77 | 1.96 | 2 | 2.04 | 2.28 |",
+     "location": "Table 3"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK10",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 10 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 10 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C364",
+    "specimen_notes": "Edgewise (in-plane) compression of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 2040.0,
+    "strength_mpa": 24.07,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Compression strength [MPa] | Edgewise | 19.67 | 23.45 | 23.83 | 24.07 | 24.85 | / | Compression modulus [GPa] | Edgewise | 1.77 | 1.96 | 2 | 2.04 | 2.28 |",
+     "location": "Table 3"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 5 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 5 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C364",
+    "specimen_notes": "Edgewise (in-plane) compression of sandwich panel; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 2280.0,
+    "strength_mpa": 24.85,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Compression strength [MPa] | Edgewise | 19.67 | 23.45 | 23.83 | 24.07 | 24.85 | / | Compression modulus [GPa] | Edgewise | 1.77 | 1.96 | 2 | 2.04 | 2.28 |",
+     "location": "Table 3"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SF",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); no honeycomb grid stiffener"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Long-beam flexure, flatwise (out-of-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 5160.0,
+    "strength_mpa": 54.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural-strength [MPa] | Flatwise | 54 | 70.02 | 91.7 | 103.36 | 103.89 | / | Flexural modulus [GPa] | Flatwise | 5.16 | 6.7 | 7.79 | 8.69 | 11.49 |",
+     "location": "Table 4 (long beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 20 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 20 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Long-beam flexure, flatwise (out-of-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 6700.0,
+    "strength_mpa": 70.02,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural-strength [MPa] | Flatwise | 54 | 70.02 | 91.7 | 103.36 | 103.89 | / | Flexural modulus [GPa] | Flatwise | 5.16 | 6.7 | 7.79 | 8.69 | 11.49 |",
+     "location": "Table 4 (long beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK15",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 15 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 15 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Long-beam flexure, flatwise (out-of-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 7790.0,
+    "strength_mpa": 91.7,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural-strength [MPa] | Flatwise | 54 | 70.02 | 91.7 | 103.36 | 103.89 | / | Flexural modulus [GPa] | Flatwise | 5.16 | 6.7 | 7.79 | 8.69 | 11.49 |",
+     "location": "Table 4 (long beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK10",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 10 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 10 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Long-beam flexure, flatwise (out-of-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 8690.0,
+    "strength_mpa": 103.36,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural-strength [MPa] | Flatwise | 54 | 70.02 | 91.7 | 103.36 | 103.89 | / | Flexural modulus [GPa] | Flatwise | 5.16 | 6.7 | 7.79 | 8.69 | 11.49 |",
+     "location": "Table 4 (long beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 5 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 5 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Long-beam flexure, flatwise (out-of-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 11490.0,
+    "strength_mpa": 103.89,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural-strength [MPa] | Flatwise | 54 | 70.02 | 91.7 | 103.36 | 103.89 | / | Flexural modulus [GPa] | Flatwise | 5.16 | 6.7 | 7.79 | 8.69 | 11.49 |",
+     "location": "Table 4 (long beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SF",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); no honeycomb grid stiffener"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Long-beam flexure, edgewise (in-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 2400.0,
+    "strength_mpa": 27.33,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural-strength [MPa] | Edgewise | 27.33 | 34.37 | 36.62 | 37.34 | 38.26 | / | Flexural modulus [GPa] | Edgewise | 2.4 | 3.18 | 3.23 | 4.63 | 6.48 |",
+     "location": "Table 4 (long beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 20 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 20 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Long-beam flexure, edgewise (in-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 3180.0,
+    "strength_mpa": 34.37,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural-strength [MPa] | Edgewise | 27.33 | 34.37 | 36.62 | 37.34 | 38.26 | / | Flexural modulus [GPa] | Edgewise | 2.4 | 3.18 | 3.23 | 4.63 | 6.48 |",
+     "location": "Table 4 (long beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK15",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 15 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 15 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Long-beam flexure, edgewise (in-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 3230.0,
+    "strength_mpa": 36.62,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural-strength [MPa] | Edgewise | 27.33 | 34.37 | 36.62 | 37.34 | 38.26 | / | Flexural modulus [GPa] | Edgewise | 2.4 | 3.18 | 3.23 | 4.63 | 6.48 |",
+     "location": "Table 4 (long beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK10",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 10 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 10 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Long-beam flexure, edgewise (in-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 4630.0,
+    "strength_mpa": 37.34,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural-strength [MPa] | Edgewise | 27.33 | 34.37 | 36.62 | 37.34 | 38.26 | / | Flexural modulus [GPa] | Edgewise | 2.4 | 3.18 | 3.23 | 4.63 | 6.48 |",
+     "location": "Table 4 (long beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 5 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 5 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Long-beam flexure, edgewise (in-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 6480.0,
+    "strength_mpa": 38.26,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural-strength [MPa] | Edgewise | 27.33 | 34.37 | 36.62 | 37.34 | 38.26 | / | Flexural modulus [GPa] | Edgewise | 2.4 | 3.18 | 3.23 | 4.63 | 6.48 |",
+     "location": "Table 4 (long beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SF",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); no honeycomb grid stiffener"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Short-beam flexure, flatwise (out-of-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1970.0,
+    "strength_mpa": 42.02,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural strength [MPa] | Flatwise | 42.02 | 54.63 | 66.95 | 72.46 | 73.05 | / | Flexural modulus [GPa] | Flatwise | 1.97 | 2.63 | 2.92 | 3.24 | 3.47 |",
+     "location": "Table 5 (short beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 20 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 20 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Short-beam flexure, flatwise (out-of-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 2630.0,
+    "strength_mpa": 54.63,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural strength [MPa] | Flatwise | 42.02 | 54.63 | 66.95 | 72.46 | 73.05 | / | Flexural modulus [GPa] | Flatwise | 1.97 | 2.63 | 2.92 | 3.24 | 3.47 |",
+     "location": "Table 5 (short beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK15",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 15 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 15 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Short-beam flexure, flatwise (out-of-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 2920.0,
+    "strength_mpa": 66.95,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural strength [MPa] | Flatwise | 42.02 | 54.63 | 66.95 | 72.46 | 73.05 | / | Flexural modulus [GPa] | Flatwise | 1.97 | 2.63 | 2.92 | 3.24 | 3.47 |",
+     "location": "Table 5 (short beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK10",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 10 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 10 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Short-beam flexure, flatwise (out-of-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 3240.0,
+    "strength_mpa": 72.46,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural strength [MPa] | Flatwise | 42.02 | 54.63 | 66.95 | 72.46 | 73.05 | / | Flexural modulus [GPa] | Flatwise | 1.97 | 2.63 | 2.92 | 3.24 | 3.47 |",
+     "location": "Table 5 (short beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 5 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 5 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Short-beam flexure, flatwise (out-of-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 3470.0,
+    "strength_mpa": 73.05,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural strength [MPa] | Flatwise | 42.02 | 54.63 | 66.95 | 72.46 | 73.05 | / | Flexural modulus [GPa] | Flatwise | 1.97 | 2.63 | 2.92 | 3.24 | 3.47 |",
+     "location": "Table 5 (short beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SF",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); no honeycomb grid stiffener"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Short-beam flexure, edgewise (in-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1030.0,
+    "strength_mpa": 33.2,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural strength [MPa] | Edgewise | 33.2 | 40.5 | 41.25 | 41.76 | 42.28 | / | Flexural modulus [GPa] | Edgewise | 1.03 | 1.24 | 1.29 | 1.31 | 1.39 |",
+     "location": "Table 5 (short beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 20 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 20 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Short-beam flexure, edgewise (in-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1240.0,
+    "strength_mpa": 40.5,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural strength [MPa] | Edgewise | 33.2 | 40.5 | 41.25 | 41.76 | 42.28 | / | Flexural modulus [GPa] | Edgewise | 1.03 | 1.24 | 1.29 | 1.31 | 1.39 |",
+     "location": "Table 5 (short beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK15",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 15 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 15 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Short-beam flexure, edgewise (in-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1290.0,
+    "strength_mpa": 41.25,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural strength [MPa] | Edgewise | 33.2 | 40.5 | 41.25 | 41.76 | 42.28 | / | Flexural modulus [GPa] | Edgewise | 1.03 | 1.24 | 1.29 | 1.31 | 1.39 |",
+     "location": "Table 5 (short beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK10",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 10 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 10 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Short-beam flexure, edgewise (in-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1310.0,
+    "strength_mpa": 41.76,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural strength [MPa] | Edgewise | 33.2 | 40.5 | 41.25 | 41.76 | 42.28 | / | Flexural modulus [GPa] | Edgewise | 1.03 | 1.24 | 1.29 | 1.31 | 1.39 |",
+     "location": "Table 5 (short beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 5 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 5 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "flexure",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM C393",
+    "specimen_notes": "Short-beam flexure, edgewise (in-plane) loading; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1390.0,
+    "strength_mpa": 42.28,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Flexural strength [MPa] | Edgewise | 33.2 | 40.5 | 41.25 | 41.76 | 42.28 | / | Flexural modulus [GPa] | Edgewise | 1.03 | 1.24 | 1.29 | 1.31 | 1.39 |",
+     "location": "Table 5 (short beam)"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SF",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); no honeycomb grid stiffener"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "shear",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D4255M",
+    "specimen_notes": "Three-rail shear, flatwise (out-of-plane) configuration; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 960.0,
+    "strength_mpa": 18.74,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Shear strength [MPa] | Flatwise | 18.74 | 22.75 | 24.7 | 25.43 | 26.34 | / | Shear modulus [GPa] | Flatwise | 0.96 | 1.15 | 1.21 | 1.28 | 1.36 |",
+     "location": "Table 6"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 20 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 20 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "shear",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D4255M",
+    "specimen_notes": "Three-rail shear, flatwise (out-of-plane) configuration; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1150.0,
+    "strength_mpa": 22.75,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Shear strength [MPa] | Flatwise | 18.74 | 22.75 | 24.7 | 25.43 | 26.34 | / | Shear modulus [GPa] | Flatwise | 0.96 | 1.15 | 1.21 | 1.28 | 1.36 |",
+     "location": "Table 6"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK15",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 15 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 15 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "shear",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D4255M",
+    "specimen_notes": "Three-rail shear, flatwise (out-of-plane) configuration; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1210.0,
+    "strength_mpa": 24.7,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Shear strength [MPa] | Flatwise | 18.74 | 22.75 | 24.7 | 25.43 | 26.34 | / | Shear modulus [GPa] | Flatwise | 0.96 | 1.15 | 1.21 | 1.28 | 1.36 |",
+     "location": "Table 6"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK10",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 10 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 10 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "shear",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D4255M",
+    "specimen_notes": "Three-rail shear, flatwise (out-of-plane) configuration; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1280.0,
+    "strength_mpa": 25.43,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Shear strength [MPa] | Flatwise | 18.74 | 22.75 | 24.7 | 25.43 | 26.34 | / | Shear modulus [GPa] | Flatwise | 0.96 | 1.15 | 1.21 | 1.28 | 1.36 |",
+     "location": "Table 6"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 5 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 5 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "shear",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D4255M",
+    "specimen_notes": "Three-rail shear, flatwise (out-of-plane) configuration; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1360.0,
+    "strength_mpa": 26.34,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Shear strength [MPa] | Flatwise | 18.74 | 22.75 | 24.7 | 25.43 | 26.34 | / | Shear modulus [GPa] | Flatwise | 0.96 | 1.15 | 1.21 | 1.28 | 1.36 |",
+     "location": "Table 6"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SF",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); no honeycomb grid stiffener"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "shear",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D4255M",
+    "specimen_notes": "Three-rail shear, edgewise (in-plane) configuration; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1040.0,
+    "strength_mpa": 23.95,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Shear strength [MPa] | Edgewise | 23.95 | 26.72 | 27.91 | 28.38 | 28.78 | / | Shear modulus [GPa] | Edgewise | 1.04 | 1.17 | 1.31 | 1.33 | 1.48 |",
+     "location": "Table 6"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 20 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 20 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "shear",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D4255M",
+    "specimen_notes": "Three-rail shear, edgewise (in-plane) configuration; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1170.0,
+    "strength_mpa": 26.72,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Shear strength [MPa] | Edgewise | 23.95 | 26.72 | 27.91 | 28.38 | 28.78 | / | Shear modulus [GPa] | Edgewise | 1.04 | 1.17 | 1.31 | 1.33 | 1.48 |",
+     "location": "Table 6"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK15",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 15 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 15 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "shear",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D4255M",
+    "specimen_notes": "Three-rail shear, edgewise (in-plane) configuration; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1310.0,
+    "strength_mpa": 27.91,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Shear strength [MPa] | Edgewise | 23.95 | 26.72 | 27.91 | 28.38 | 28.78 | / | Shear modulus [GPa] | Edgewise | 1.04 | 1.17 | 1.31 | 1.33 | 1.48 |",
+     "location": "Table 6"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK10",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 10 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 10 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "shear",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D4255M",
+    "specimen_notes": "Three-rail shear, edgewise (in-plane) configuration; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1330.0,
+    "strength_mpa": 28.38,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Shear strength [MPa] | Edgewise | 23.95 | 26.72 | 27.91 | 28.38 | 28.78 | / | Shear modulus [GPa] | Edgewise | 1.04 | 1.17 | 1.31 | 1.33 | 1.48 |",
+     "location": "Table 6"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "SFK5",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "other_thermoset",
+    "matrix_name": "phenol formaldehyde (phenolic) resin",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.7,
+    "particle_weight_fraction": null,
+    "process_route": "vacuum_assisted",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "E-glass/epoxy face skins (vacuum bonded); honeycomb grid stiffener, hexagonal cell size 5 mm"
+   },
+   "structure": {
+    "measured_density_g_cc": null,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Sandwich panel: syntactic foam core confined in hexagonal honeycomb grid cells of 5 mm between glass/epoxy face skins."
+   },
+   "test": {
+    "test_type": "shear",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ASTM D4255M",
+    "specimen_notes": "Three-rail shear, edgewise (in-plane) configuration; constant displacement rate 0.5 mm/min (Instron 5982)"
+   },
+   "properties": {
+    "modulus_mpa": 1480.0,
+    "strength_mpa": 28.78,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "| Shear strength [MPa] | Edgewise | 23.95 | 26.72 | 27.91 | 28.38 | 28.78 | / | Shear modulus [GPa] | Edgewise | 1.04 | 1.17 | 1.31 | 1.33 | 1.48 |",
+     "location": "Table 6"
+    },
+    {
+     "quote": "Syntactic foam is a composite prepared by reinforcing the desired proportions (50:50) of dry fly ash cenospheres in a phenol formaldehyde thermoset polymer resin matrix.",
+     "location": "Sec. Method of manufacturing"
+    },
+    {
+     "quote": "| Syntactic foam | 5 | 2.36 | 0.70 | 0.30 |",
+     "location": "Table 1 (resin burnout, syntactic foam row)"
+    }
+   ],
+   "extractor_confidence": 0.8
+  }
+ ],
+ "extraction_notes": "All moduli were reported in GPa and converted to MPa (x1000). Properties are those of the sandwich panel (syntactic foam core + glass/epoxy face skins), not of the bare foam; the honeycomb grid and face skins are recorded in additional_fillers. particle_volume_fraction=0.70 is the reinforcement volume fraction of the syntactic foam from the resin burnout test (Table 1); the text also states a 50:50 foam mixing proportion, which is not explicitly labelled as weight or volume, so particle_weight_fraction was left null. Test temperature was not stated (ambient assumed but left null). Strain rate was not reported; only a constant crosshead displacement rate of 0.5 mm/min is given, and no gauge length is provided to convert it, so strain_rate_per_s is null. Strain at failure, density and energy absorption are only visible in stress-strain figures (Figs. 2-6) and are not tabulated, so they are left null. Long-beam and short-beam flexure are distinguished in test.specimen_notes. process_route recorded as vacuum_assisted because the resin-impregnated glass fabrics were vacuum bonded to the packed foam core."
+}

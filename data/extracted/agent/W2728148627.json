@@ -1,0 +1,961 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "PhD dissertation (M. K. John, LSU 2009) on a shape-memory-polymer (SMP, styrene-based Veriflex thermoset, Tg 62 C) syntactic foam made with 40 vol% Q-Cel 6014 glass microballoons, with and without 0.15 vol% multi-walled carbon nanotubes. The foam was characterised by DSC, TEM, flash thermal conductivity and flat-wise uniaxial compression (ASTM C365), and a four-phase/three-phase micromechanics sphere model was used to back out the elastic constants of the equivalent SMP layer and of the foam. The foam was then used as the core of a VARIM-made glass-fabric-skinned sandwich and of an orthogrid-stiffened sandwich, which were thermomechanically programmed, impacted repeatedly at 30 J and 53 J, healed by confined shape recovery and tested in compression-after-impact; healing efficiencies of 100% or more were obtained over 7 impact-healing cycles.",
+  "records": [
+    {
+      "sample_label": "Neat SMP (Veriflex, CRG Industries) - manufacturer data",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene / vinyl neodecanoate / divinyl benzene shape memory polymer, Veriflex (CRG Industries), Tg 62 C",
+        "particle_type": "other",
+        "particle_grade": null,
+        "particle_volume_fraction": 0.0,
+        "process_route": "other"
+      },
+      "structure": {
+        "microstructure_notes": "Neat unfilled shape memory polymer (matrix baseline)."
+      },
+      "test": {
+        "test_type": "tension",
+        "temperature_c": 25,
+        "specimen_notes": "Supplier-quoted room-temperature properties of the neat SMP; not measured in this work."
+      },
+      "properties": {
+        "modulus_mpa": 1240.0,
+        "strength_mpa": 23.0
+      },
+      "evidence": [
+        {
+          "quote": "The shape memory polymer (Veriflex, CRG industries) has a Tg of 62 oC (143oF), tensile strength of 23MPa and modulus of elasticity of 1.24 GPa at room temperature.",
+          "location": "Sec. 2.2 Materials (p. 31-32)"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "Neat SMP (thermal conductivity control)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "other",
+        "particle_volume_fraction": 0.0,
+        "process_route": "other"
+      },
+      "structure": {
+        "microstructure_notes": "Neat unfilled SMP."
+      },
+      "test": {
+        "test_type": "other",
+        "temperature_c": 25,
+        "specimen_notes": "Flash Line 5000 thermal analyser, 12.5 mm dia x 3 mm thick discs, average of 3 specimens. Specific heat capacity 1395.6 J/kg.K (no schema field)."
+      },
+      "properties": {
+        "thermal_conductivity_w_mk": 0.14
+      },
+      "evidence": [
+        {
+          "quote": "Table 1. Thermal Conductivity and Specific Heat Capacity Measurements | Neat SMP | 0.14 | 1395.6 |",
+          "location": "Table 1 (p. 40)"
+        }
+      ],
+      "extractor_confidence": 0.9
+    },
+    {
+      "sample_label": "Smart syntactic foam (SMP + 40 vol% Q-Cel 6014 + 0.15 vol% MWCNT) - thermal conductivity",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries), Tg 62 C",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 100.0,
+        "additional_fillers": "0.15 vol% multi-walled carbon nanotubes (Cheap Tubes Inc., 20-30 nm dia, 10-20 um long, 2.1 g/cm3)"
+      },
+      "structure": {
+        "microstructure_notes": "Microballoon inner radius 41.69 um, outer radius 42.5 um, wall thickness 0.81 um; particle size range 5-200 um; microballoon crushing strength 1.72 MPa."
+      },
+      "test": {
+        "test_type": "other",
+        "temperature_c": 25,
+        "specimen_notes": "Flash Line 5000 thermal analyser, 12.5 mm dia x 3 mm thick discs, average of 3 specimens. Specific heat capacity 1364.5 J/kg.K (no schema field)."
+      },
+      "properties": {
+        "thermal_conductivity_w_mk": 0.14
+      },
+      "evidence": [
+        {
+          "quote": "Table 1. Thermal Conductivity and Specific Heat Capacity Measurements | Smart Foam | 0.14 | 1364.5 |",
+          "location": "Table 1 (p. 40)"
+        }
+      ],
+      "extractor_confidence": 0.9
+    },
+    {
+      "sample_label": "Smart syntactic foam with MWCNT, regularly cured (0 h post-cure)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries), Tg 62 C",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 100.0,
+        "additional_fillers": "0.15 vol% multi-walled carbon nanotubes (Cheap Tubes Inc.)"
+      },
+      "structure": {
+        "microstructure_notes": "Cure cycle 75 C/24 h + 90 C/3 h + 100 C/3 h. Four-phase unit cell (void, glass shell, ITZ, SMP) reduced to equivalent three-phase; equivalent SMP layer thickness 21.25 um."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00173,
+        "temperature_c": 25,
+        "standard": "ASTM C365",
+        "specimen_notes": "Flat-wise compression, 25.0 x 25.0 x 12.5 mm blocks, MTS 810, strain-controlled at 1.3 mm/min (converted to 1.73e-3 1/s using the 12.5 mm thickness)."
+      },
+      "properties": {
+        "modulus_mpa": 270.0,
+        "strength_mpa": 5.91
+      },
+      "evidence": [
+        {
+          "quote": "after the 3 additional hours of post-curing, the average yield strength of the foam is 5.10MPa, which is about 0.81MPa lower than the regularly cured specimens (5.91MPa).",
+          "location": "Sec. 4.5 (p. 64)"
+        },
+        {
+          "quote": "Table 2. Elastic Constants and Poisson's ratio of different phases in the smart foam | Equivalent SMP Foam | 0.27 | 0.22 | 0.30 |",
+          "location": "Table 2 (p. 49)"
+        }
+      ],
+      "extractor_confidence": 0.6
+    },
+    {
+      "sample_label": "Smart syntactic foam with MWCNT, 3 h additional post-cure at 100 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 100.0,
+        "additional_fillers": "0.15 vol% multi-walled carbon nanotubes (Cheap Tubes Inc.)"
+      },
+      "structure": {
+        "microstructure_notes": "Regular cure plus 3 additional hours at 100 C, simulating one healing cycle."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00173,
+        "temperature_c": 25,
+        "standard": "ASTM C365",
+        "specimen_notes": "Flat-wise compression, 25 x 25 x 12.5 mm, 5 effective specimens; value is the compressive yield strength."
+      },
+      "properties": {
+        "strength_mpa": 5.10
+      },
+      "evidence": [
+        {
+          "quote": "The test results show that after the 3 additional hours of post-curing, the average yield strength of the foam is 5.10MPa, which is about 0.81MPa lower than the regularly cured specimens (5.91MPa).",
+          "location": "Sec. 4.5 (p. 64)"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "Smart syntactic foam with MWCNT, 21 h additional post-cure at 100 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 100.0,
+        "additional_fillers": "0.15 vol% multi-walled carbon nanotubes (Cheap Tubes Inc.)"
+      },
+      "structure": {
+        "microstructure_notes": "Regular cure plus 21 additional hours at 100 C, simulating seven healing cycles."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00173,
+        "temperature_c": 25,
+        "standard": "ASTM C365",
+        "specimen_notes": "Flat-wise compression, 25 x 25 x 12.5 mm, 5 effective specimens; value is the compressive yield strength."
+      },
+      "properties": {
+        "strength_mpa": 7.60
+      },
+      "evidence": [
+        {
+          "quote": "After 21 hours of additional post-curing, the yield strength of the foam becomes 7.60MPa, which is about 7.60MPa - 5.91MPa = 1.69MPa higher than the regularly cured foam without additional post-curing.",
+          "location": "Sec. 4.5 (p. 64)"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "Smart syntactic foam without nanotubes, 0 h post-cure (regularly cured)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries), Tg 62 C",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "Cure cycle 79.4 C/24 h + 107.2 C/3 h + 121.1 C/6 h; no carbon nanotubes."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00173,
+        "temperature_c": 25,
+        "standard": "ASTM C365",
+        "specimen_notes": "Uniaxial flat-wise compression, 25 x 25 x 12.5 mm; compressive yield strength, standard deviation 0.49 MPa (4 specimens per group)."
+      },
+      "properties": {
+        "strength_mpa": 20.22
+      },
+      "evidence": [
+        {
+          "quote": "Table 6. Uniaxial compressive yield strength of the foam after post-curing up to 21 hours | 0(regularly cured as shown in section 2.7) | 20.22 | 0.49 |",
+          "location": "Table 6 (p. 92)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Smart syntactic foam without nanotubes, 3 h post-cure at 121.1 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "Regular cure plus 3 h at 121.1 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00173,
+        "temperature_c": 25,
+        "standard": "ASTM C365",
+        "specimen_notes": "Compressive yield strength, standard deviation 0.53 MPa."
+      },
+      "properties": {
+        "strength_mpa": 19.50
+      },
+      "evidence": [
+        {
+          "quote": "Table 6. Uniaxial compressive yield strength of the foam after post-curing up to 21 hours | 3 | 19.50 | 0.53 |",
+          "location": "Table 6 (p. 92)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Smart syntactic foam without nanotubes, 6 h post-cure at 121.1 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "Regular cure plus 6 h at 121.1 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00173,
+        "temperature_c": 25,
+        "standard": "ASTM C365",
+        "specimen_notes": "Compressive yield strength, standard deviation 0.50 MPa."
+      },
+      "properties": {
+        "strength_mpa": 19.67
+      },
+      "evidence": [
+        {
+          "quote": "Table 6. Uniaxial compressive yield strength of the foam after post-curing up to 21 hours | 6 | 19.67 | 0.50 |",
+          "location": "Table 6 (p. 92)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Smart syntactic foam without nanotubes, 9 h post-cure at 121.1 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "Regular cure plus 9 h at 121.1 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00173,
+        "temperature_c": 25,
+        "standard": "ASTM C365",
+        "specimen_notes": "Compressive yield strength, standard deviation 0.24 MPa."
+      },
+      "properties": {
+        "strength_mpa": 19.79
+      },
+      "evidence": [
+        {
+          "quote": "Table 6. Uniaxial compressive yield strength of the foam after post-curing up to 21 hours | 9 | 19.79 | 0.24 |",
+          "location": "Table 6 (p. 92)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Smart syntactic foam without nanotubes, 12 h post-cure at 121.1 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "Regular cure plus 12 h at 121.1 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00173,
+        "temperature_c": 25,
+        "standard": "ASTM C365",
+        "specimen_notes": "Compressive yield strength, standard deviation 0.39 MPa."
+      },
+      "properties": {
+        "strength_mpa": 19.36
+      },
+      "evidence": [
+        {
+          "quote": "Table 6. Uniaxial compressive yield strength of the foam after post-curing up to 21 hours | 12 | 19.36 | 0.39 |",
+          "location": "Table 6 (p. 92)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Smart syntactic foam without nanotubes, 15 h post-cure at 121.1 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "Regular cure plus 15 h at 121.1 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00173,
+        "temperature_c": 25,
+        "standard": "ASTM C365",
+        "specimen_notes": "Compressive yield strength, standard deviation 0.30 MPa."
+      },
+      "properties": {
+        "strength_mpa": 19.45
+      },
+      "evidence": [
+        {
+          "quote": "Table 6. Uniaxial compressive yield strength of the foam after post-curing up to 21 hours | 15 | 19.45 | 0.30 |",
+          "location": "Table 6 (p. 92)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Smart syntactic foam without nanotubes, 18 h post-cure at 121.1 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "Regular cure plus 18 h at 121.1 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00173,
+        "temperature_c": 25,
+        "standard": "ASTM C365",
+        "specimen_notes": "Compressive yield strength, standard deviation 0.56 MPa."
+      },
+      "properties": {
+        "strength_mpa": 19.52
+      },
+      "evidence": [
+        {
+          "quote": "Table 6. Uniaxial compressive yield strength of the foam after post-curing up to 21 hours | 18 | 19.52 | 0.56 |",
+          "location": "Table 6 (p. 92)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Smart syntactic foam without nanotubes, 21 h post-cure at 121.1 C",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": null
+      },
+      "structure": {
+        "microstructure_notes": "Regular cure plus 21 h at 121.1 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": 0.00173,
+        "temperature_c": 25,
+        "standard": "ASTM C365",
+        "specimen_notes": "Compressive yield strength, standard deviation 0.15 MPa."
+      },
+      "properties": {
+        "strength_mpa": 19.41
+      },
+      "evidence": [
+        {
+          "quote": "Table 6. Uniaxial compressive yield strength of the foam after post-curing up to 21 hours | 21 | 19.41 | 0.15 |",
+          "location": "Table 6 (p. 92)"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Smart-foam-cored sandwich, control (no impact)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 100.0,
+        "additional_fillers": "0.15 vol% MWCNT in the core; 7725 woven glass roving fabric skins (0.736 mm cured thickness) infused with the same SMP by VARIM"
+      },
+      "structure": {
+        "microstructure_notes": "Sandwich panel 152.4 x 101.6 x 12.7 mm; core stress-controlled programmed at 0.05 MPa (shape fixity 99%, shape recovery 97.6%)."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260 (Boeing compression-after-impact fixture)",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: edgewise compression of the glass-fabric-skinned smart-foam-cored sandwich, MTS QTEST 150, 1.3 mm/min, 5 effective specimens. Values are panel compressive modulus and yield strength."
+      },
+      "properties": {
+        "modulus_mpa": 653.0,
+        "strength_mpa": 12.23
+      },
+      "evidence": [
+        {
+          "quote": "the modulus for the 1st impacted, 1st healed and 7th impacted specimen reduced to 85.04% (556 MPa), 94.04% (614 MPa) and 95.4% (623 MPa) of the original unimpacted control specimen (653 MPa)",
+          "location": "Sec. 4.5 (p. 61), from Fig. 26"
+        },
+        {
+          "quote": "the CAI yield strength after the 1st impact is about 83.9% of the original yield strength without impact (control specimens, 12.23MPa)",
+          "location": "Sec. 4.5 (p. 62)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Smart-foam-cored sandwich, after 1st impact (30 J)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 100.0,
+        "additional_fillers": "0.15 vol% MWCNT in the core; 7725 woven glass fabric skins infused with the same SMP"
+      },
+      "structure": {
+        "microstructure_notes": "Impacted once at the panel centre with 30 J (3 m/s, 6.64 kg tup, ASTM D 2444) before compression."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: compression after impact. CAI yield strength reported only as 83.9% of the 12.23 MPa control, so strength left null."
+      },
+      "properties": {
+        "modulus_mpa": 556.0
+      },
+      "evidence": [
+        {
+          "quote": "It is found that the modulus for the 1st impacted, 1st healed and 7th impacted specimen reduced to 85.04% (556 MPa), 94.04% (614 MPa) and 95.4% (623 MPa) of the original unimpacted control specimen (653 MPa), respectively.",
+          "location": "Sec. 4.5 (p. 61)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Smart-foam-cored sandwich, after 1st impact + 1st healing",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 100.0,
+        "additional_fillers": "0.15 vol% MWCNT in the core; 7725 woven glass fabric skins infused with the same SMP"
+      },
+      "structure": {
+        "microstructure_notes": "One 30 J impact followed by partially confined shape recovery (healing) at 100 C for 3 h."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: compression after impact and healing."
+      },
+      "properties": {
+        "modulus_mpa": 614.0,
+        "strength_mpa": 11.44
+      },
+      "evidence": [
+        {
+          "quote": "If the reduced strength of 0.81MPa were added to the yield strength of the sandwich specimens after 1st healing (0.81MPa + 11.44MPa = 12.25MPa), it is clear that the 1st healing would fully recover the original strength (12.23MPa).",
+          "location": "Sec. 4.5 (p. 64)"
+        },
+        {
+          "quote": "the modulus for the 1st impacted, 1st healed and 7th impacted specimen reduced to 85.04% (556 MPa), 94.04% (614 MPa) and 95.4% (623 MPa) of the original unimpacted control specimen (653 MPa)",
+          "location": "Sec. 4.5 (p. 61)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Smart-foam-cored sandwich, after 7th impact (30 J)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 100.0,
+        "additional_fillers": "0.15 vol% MWCNT in the core; 7725 woven glass fabric skins infused with the same SMP"
+      },
+      "structure": {
+        "microstructure_notes": "Seven 30 J impact-healing cycles; tested immediately after the 7th impact (21 h cumulative post-cure at 100 C)."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: CAI strength reported only as 94.9% of the 12.23 MPa control, so strength left null."
+      },
+      "properties": {
+        "modulus_mpa": 623.0
+      },
+      "evidence": [
+        {
+          "quote": "the modulus for the 1st impacted, 1st healed and 7th impacted specimen reduced to 85.04% (556 MPa), 94.04% (614 MPa) and 95.4% (623 MPa) of the original unimpacted control specimen (653 MPa)",
+          "location": "Sec. 4.5 (p. 61)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Smart-foam-cored sandwich, after 7th impact + 7th healing",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 100.0,
+        "additional_fillers": "0.15 vol% MWCNT in the core; 7725 woven glass fabric skins infused with the same SMP"
+      },
+      "structure": {
+        "microstructure_notes": "Seven 30 J impact-healing cycles, tested after the 7th healing (cumulative 21 h post-cure at 100 C)."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: compression after impact and healing; 113.6% of control strength."
+      },
+      "properties": {
+        "modulus_mpa": 725.0,
+        "strength_mpa": 13.90
+      },
+      "evidence": [
+        {
+          "quote": "If this additionally gained strength is removed from the sandwich panel after 7th healing (13.90MPa - 1.69MPa = 12.21MPa), it is clear that this corrected yield strength is close to the original strength (12.23MPa)",
+          "location": "Sec. 4.5 (p. 64)"
+        },
+        {
+          "quote": "the modulus for the 7th healed specimen increased to 110.9% (725 MPa) of the control specimen.",
+          "location": "Sec. 4.5 (p. 61)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Orthogrid-stiffened smart-foam sandwich, 3% prestrain, programmed unimpacted (P)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": "No nanotubes in the core; orthogrid skeleton of dry-woven Saint-Gobain glass fibre rovings (E = 70 GPa, tensile strength 1700 MPa) and 7725 woven glass fabric skins"
+      },
+      "structure": {
+        "microstructure_notes": "Foam poured into 254 mm square bays of an orthogrid skeleton, vacuum bagged, cured 79.4 C/24 h + 107.2 C/3 h + 121.1 C/6 h; strain-controlled programming to 3% prestrain at 79.4 C."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: edgewise compression of the grid-stiffened sandwich, MTS QTEST 150, 1.3 mm/min, >=5 effective specimens."
+      },
+      "properties": {
+        "strength_mpa": 23.21
+      },
+      "evidence": [
+        {
+          "quote": "after the first impact, the compressive strength of the sandwich (20.12 MPa) reduces by about 15% when compared with the programmed unimpacted specimen (23.21 MPa)",
+          "location": "Sec. 5.6.1 (p. 87), from Fig. 44(a)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Orthogrid-stiffened smart-foam sandwich, 3% prestrain, after 1st impact 30 J (C1)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": "No nanotubes in the core; glass fibre orthogrid skeleton and 7725 woven glass fabric skins"
+      },
+      "structure": {
+        "microstructure_notes": "3% prestrain programming, then one 30 J impact (3 m/s, 6.64 kg, ASTM D 2444) at the bay centre; no healing before testing."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: compression after impact."
+      },
+      "properties": {
+        "strength_mpa": 20.12
+      },
+      "evidence": [
+        {
+          "quote": "It can be noticed that after the first impact, the compressive strength of the sandwich (20.12 MPa) reduces by about 15% when compared with the programmed unimpacted specimen (23.21 MPa).",
+          "location": "Sec. 5.6.1 (p. 86-87), from Fig. 44(a)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Orthogrid-stiffened smart-foam sandwich, 20% prestrain, programmed unimpacted (P), 30 J series",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": "No nanotubes in the core; glass fibre orthogrid skeleton and 7725 woven glass fabric skins"
+      },
+      "structure": {
+        "microstructure_notes": "Strain-controlled programming to 20% prestrain at 79.4 C, which densifies the foam core; unimpacted control."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: edgewise compression, 1.3 mm/min."
+      },
+      "properties": {
+        "strength_mpa": 23.63
+      },
+      "evidence": [
+        {
+          "quote": "the reduction in compressive strength for the 20% prestrained sandwich (22.72 MPa) was only 4% of the programmed unimpacted specimen (23.63 MPa)",
+          "location": "Sec. 5.6.1 (p. 87), from Fig. 44(b)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Orthogrid-stiffened smart-foam sandwich, 20% prestrain, after 1st impact 30 J (C1)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": "No nanotubes in the core; glass fibre orthogrid skeleton and 7725 woven glass fabric skins"
+      },
+      "structure": {
+        "microstructure_notes": "20% prestrain programming, then one 30 J impact at the bay centre; no healing before testing."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: compression after impact."
+      },
+      "properties": {
+        "strength_mpa": 22.72
+      },
+      "evidence": [
+        {
+          "quote": "However, the reduction in compressive strength for the 20% prestrained sandwich (22.72 MPa) was only 4% of the programmed unimpacted specimen (23.63 MPa).",
+          "location": "Sec. 5.6.1 (p. 87), from Fig. 44(b)"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Orthogrid-stiffened smart-foam sandwich, 20% prestrain, programmed unimpacted (P), 53 J series",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": "No nanotubes in the core; glass fibre orthogrid skeleton and 7725 woven glass fabric skins"
+      },
+      "structure": {
+        "microstructure_notes": "20% prestrain programmed, unimpacted control for the 53 J impact series."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: edgewise compression, 1.3 mm/min."
+      },
+      "properties": {
+        "strength_mpa": 23.84
+      },
+      "evidence": [
+        {
+          "quote": "After the first impact, the residual strength of the sandwich is about 21.87 MPa as compared to 23.84 MPa for the programmed unimpacted specimen. This is a reduction of about 8.3%.",
+          "location": "Sec. 5.6.2 (p. 90), from Fig. 46"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Orthogrid-stiffened smart-foam sandwich, 20% prestrain, after 1st impact 53 J (C1)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": "No nanotubes in the core; glass fibre orthogrid skeleton and 7725 woven glass fabric skins"
+      },
+      "structure": {
+        "microstructure_notes": "20% prestrain programming, then one 53 J impact (4 m/s, 6.64 kg tup) at the bay centre; no healing before testing."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: compression after 53 J impact."
+      },
+      "properties": {
+        "strength_mpa": 21.87
+      },
+      "evidence": [
+        {
+          "quote": "After the first impact, the residual strength of the sandwich is about 21.87 MPa as compared to 23.84 MPa for the programmed unimpacted specimen.",
+          "location": "Sec. 5.6.2 (p. 90), from Fig. 46"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Orthogrid-stiffened smart-foam sandwich, 20% prestrain, 53 J, after 7th impact + 7th 3-D confined recovery (C7CR7)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Styrene-based shape memory polymer, Veriflex (CRG Industries)",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "Potters Industries Q-Cel 6014",
+        "particle_true_density_g_cc": 0.14,
+        "particle_mean_diameter_um": 85.0,
+        "particle_wall_thickness_ratio": 0.981,
+        "particle_volume_fraction": 0.40,
+        "process_route": "vacuum_assisted",
+        "cure_or_process_temperature_c": 121.1,
+        "additional_fillers": "No nanotubes in the core; glass fibre orthogrid skeleton and 7725 woven glass fabric skins"
+      },
+      "structure": {
+        "microstructure_notes": "Seven 53 J impact cycles each followed by 3-D confined shape recovery at 121.1 C for 3 h; post-curing shown to have negligible effect (Table 6)."
+      },
+      "test": {
+        "test_type": "compression",
+        "temperature_c": 25,
+        "standard": "BSS7260",
+        "specimen_notes": "SANDWICH STRUCTURE, not bare foam: compression after 7 impact-healing cycles; residual strength exceeds the programmed control."
+      },
+      "properties": {
+        "strength_mpa": 26.88
+      },
+      "evidence": [
+        {
+          "quote": "In fact, after the 7th impact and healing, the residual strength (26.88 MPa) has increased.",
+          "location": "Sec. 5.6.2 (p. 90), from Fig. 46"
+        }
+      ],
+      "extractor_confidence": 0.75
+    }
+  ],
+  "extraction_notes": "Unit conversions: moduli given in GPa converted to MPa (1.24 GPa -> 1240 MPa; Table 2 foam E = 0.27 GPa -> 270 MPa). Microballoon volume fraction 40% -> 0.40; MWCNT 0.15 vol% recorded in additional_fillers. Radius ratio eta = a/b = 41.69/42.5 = 0.981 (stated inner/outer radii, wall thickness 0.81 um). Compression strain rate 1.73e-3 1/s derived from the stated 1.3 mm/min cross-head rate and the stated 12.5 mm specimen thickness; for the CAI (sandwich) tests the gauge length is not stated so strain rate is left null.\n\nTwo distinct foams are reported and are kept separate: (a) smart foam WITH 0.15 vol% MWCNT, cured 75/90/100 C (Ch. 2 and Ch. 4, compressive yield 5.91 MPa regularly cured); (b) smart foam WITHOUT nanotubes, cured 79.4/107.2/121.1 C (Ch. 5, Table 6, compressive yield 20.22 MPa regularly cured). The much higher strength of (b) is consistent with the text ('the one without carbon nanotubes has a considerably higher yield strength and modulus of elasticity').\n\nThe modulus 270 MPa attached to foam (a) comes from Table 2, where the text states K0 'is the modulus of the equivalent smart syntactic foam obtained from uniaxial compression tests'; it is therefore treated as a measured foam modulus rather than a purely modelled value, but confidence is lowered accordingly. The other Table 2 rows (equivalent solid glass microballoon E = 1.94 GPa, equivalent SMP layer E = 0.15 GPa) are phase properties from the micromechanics model, not composite properties, so no records were created for them.\n\nRecords whose sample_label starts with 'Smart-foam-cored sandwich' or 'Orthogrid-stiffened' are SANDWICH PANELS (syntactic-foam core plus glass-fabric skins, and in Ch. 5 a glass-fibre orthogrid skeleton), not bare foam; this is flagged in every specimen_notes field so they can be filtered out of foam-only analyses. Their compression-after-impact values are structural, not intrinsic foam properties.\n\nValues deliberately NOT extracted: (1) low-velocity-impact results (Tables 3-5 and Figs 24, 35, 37: deflection at peak load, maximum load in kN, initiation/propagation/total energy in J) have no corresponding schema field - energy in J cannot be converted to MJ/m^3 without the deformed volume, which is not given. (2) CAI yield strengths quoted only as percentages of the control (1st impact 83.9%, 7th impact 94.9% of 12.23 MPa) are left null rather than back-calculated. (3) Literature values in the Chapter 1 review are class-level ranges without a stated composition or matrix - 'uniaxial compression strengths up to 100 MPa, hydrostatic compression strengths up to 150 MPa, uniaxial tension strengths up to 25~30 MPa and tensile Young's modulus up to 2500~3000 MPa' (Luxmoore & Owen [7]) and 'Young's modulus increased linearly from 2 to 2.47 GPa' (Kishore et al. [9]) - so no secondary records could be built with a valid matrix_class or filler loading. The only secondary record kept is the manufacturer datasheet for the neat Veriflex SMP matrix. (4) Densities of the foams were never reported; specific heat capacities (1395.6 and 1364.5 J/kg.K) have no schema field and are recorded in specimen_notes. (5) Figures 15, 16, 26, 44, 46 were not read off the plots; only values stated in the text or tables were used."
+}

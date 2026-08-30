@@ -1,0 +1,73 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Hungarian conference paper (Muszaki Tudomanyos Kozlemenyek 13, 2020) on bimodal A413 cast-aluminium matrix syntactic foams filled with high-purity Al2O3 ceramic hollow spheres of two nominal diameters (d1 = 2.4 mm and d2 = 7.0 mm) mixed in equal volume ratio and infiltrated by low-pressure (300 kPa Ar) infiltration (spheres preheated 500 C / 45 min, melt at 650 C, 5 s infiltration). The foams reached 1.61+/-0.03 g/cm3 against a theoretical 1.4 g/cm3 (A413 matrix is 2.66 g/cm3); CT scans revealed aluminium leaking into some spheres and shrinkage-induced inclusions in the matrix. Quasi-static compression (5 mm/min, evaluated to ISO 13314:2011) gave 120+/-29 MPa compressive strength at 5.39 % strain, a 77+/-18 MPa plateau stress, 43.50+/-16.82 J/cm3 absorbed energy and 64.22 % energy-absorption efficiency, with the matrix separating from the spheres during collapse.",
+ "records": [
+  {
+   "sample_label": "Bimodal A413 / Al2O3 ceramic hollow sphere syntactic foam (d1 = 2.4 mm : d2 = 7.0 mm, 1:1 by volume)",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "aluminum",
+    "matrix_name": "A413 casting aluminium alloy (11.0-13.0 wt% Si, max 1.3 Fe, 1.0 Cu, max 0.5 Ni, 0.35 Mn, max 0.15 Sn, 0.1 Mg, balance Al)",
+    "particle_type": "ceramic_hollow",
+    "particle_grade": "High-purity Al2O3 ceramic hollow spheres, bimodal: nominal d1 = 2.4 mm and d2 = 7.0 mm mixed in equal volume ratio (1:1)",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": null,
+    "particle_weight_fraction": null,
+    "process_route": "pressure_infiltration",
+    "cure_or_process_temperature_c": 650.0,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.61,
+    "theoretical_density_g_cc": 1.4,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Measured density 1.61 +/- 0.03 g/cm3 (the conclusions round it to 1.62 g/cm3) versus 2.66 g/cm3 for the bulk A413 matrix. The theoretical packing fraction of the 1:1 bimodal sphere mixture is 72.8 % from the Brouwers analytical model (against ~64 % for random close packing of a single size), which would give a theoretical foam density of 1.4 g/cm3; the measured density is higher because the sphere diameters are not two discrete values and their circularity carries a 6-8 % average error. CT scans show aluminium that leaked into some hollow spheres (raising density), a few defective spheres, and shrinkage-induced inclusions (unwanted porosity) in the matrix that were not quantified. During compression the foams disintegrated and the matrix-to-sphere bond was lost."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": "ISO 13314:2011",
+    "specimen_notes": "Quasi-static upsetting (compression) test on an Instron 5989 universal electromechanical machine with a 600 kN load cell, crosshead speed 5 mm/min; results evaluated per ISO 13314:2011. Specimen dimensions and number of repeats are not stated (the paper reports mean +/- standard deviation and notes large scatter due to the randomness of the packing)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 120.0,
+    "strain_at_failure": 0.0539,
+    "energy_absorption_mj_m3": 43.5,
+    "plateau_stress_mpa": 77.0,
+    "densification_strain": 0.5431,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "2. tablazat. A zomitovizsgalatok eredmenyei | Merszam | Ertek | Szoras | sigma_c (MPa) 120 / 29 | eps_c (%) 5,39 / 0,80 | W_c (J/cm3) 3,23 / 1,33 | sigma_pl (MPa) 77 / 18 | eps_ple (%) 54,31 / 0,86 | W (J/cm3) 43,50 / 16,82 | W_e (%) 64,22 / 0,96",
+     "location": "Table 2 (2. tablazat), p. 3"
+    },
+    {
+     "quote": "The produced metal foams have a density of 1.61±0.03 g/cm3, with smaller inclusions and some defective hollow spheres in the structure. The foams have an average compressive strength of 120 MPa and a specific mechanical energy absorbing capacity of 43.5 J/cm3.",
+     "location": "English abstract, p. 1"
+    },
+    {
+     "quote": "Two hollow spheres of different nominal diameters (d1 = 2.4 mm and d2 = 7.0 mm) were used in equal volume ratio.",
+     "location": "English abstract, p. 1"
+    },
+    {
+     "quote": "A mechanikai tulajdonsagok meghatarozasahoz zomitovizsgalatokat vegeztunk 5 mm/perc keresztfejsebesseggel egy Instron 5989 univerzalis elektromechanikus anyagvizsgalo berendezesen 600 kN-os eromero cellaval. Az eredmenyeket az ISO 13314:2011 szabvany alapjan ertekeltuk ki",
+     "location": "Sec. 2 (Eszkozok es modszerek), p. 2"
+    }
+   ],
+   "extractor_confidence": 0.85
+  }
+ ],
+ "extraction_notes": "Four-page Hungarian/English conference paper read in full including the [TABLE] blocks. Only one material (one bimodal composition) and one test condition (quasi-static compression) are reported, hence a single record. Mapping and conversions from Table 2 (ISO 13314:2011 notation): sigma_c = 120 +/- 29 MPa (maximum stress / compressive strength) -> strength_mpa; eps_c = 5.39 +/- 0.80 % (strain at maximum stress) -> strain_at_failure = 0.0539; sigma_pl = 77 +/- 18 MPa -> plateau_stress_mpa; eps_ple = 54.31 +/- 0.86 % (plateau end strain, i.e. onset of densification per ISO 13314) -> densification_strain = 0.5431; W = 43.50 +/- 16.82 J/cm3 -> energy_absorption_mj_m3 = 43.5 (1 J/cm3 = 1 MJ/m3). Values not representable in the schema: W_c = 3.23 +/- 1.33 J/cm3 (energy absorbed up to the compressive strength point) and W_e = 64.22 +/- 0.96 % (energy absorption efficiency); the standard deviations of all quantities also have no schema field. No elastic modulus is reported. particle_volume_fraction was left null on purpose: the paper gives only a THEORETICAL packing fraction of 72.8 % from the Brouwers analytical model for a 1:1 bimodal sphere mixture and explicitly states that this calculated value is in error for the real material (measured density 1.61 g/cm3 vs the 1.4 g/cm3 predicted from that packing); no measured filler fraction is given. particle_mean_diameter_um was left null because the filler is bimodal with two nominal diameters (2400 um and 7000 um) mixed 1:1 by volume, so no single mean diameter is stated; the two sizes are recorded in particle_grade. Sphere wall thickness and true density are not given (referred to an earlier paper, ref. [13]). cure_or_process_temperature_c = 650 C is the matrix melt temperature (T_matrix) from Table 1; the other infiltration parameters (sphere preheat 500 C for 45 min, infiltration pressure 300 kPa Ar for 5 s) have no schema field and are recorded here. Test temperature is not stated (room temperature implied) and the strain rate is not given - only a 5 mm/min crosshead speed with no specimen height - so both are null. Figures 2-4 (CT slice, scatter band of the compression curves, failed specimens) contain no readable numerical values. Hungarian evidence quotes are transliterated to ASCII (accents removed) but are otherwise verbatim; the English abstract quote is exactly verbatim."
+}

@@ -1,0 +1,907 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Persian-language study (Loghman et al., Advanced Materials in Engineering 43(1), 2024) on vinyl ester / hollow glass microballoon syntactic foams. Pure VE-200 vinyl ester resin and foams with 20, 40 and 60 vol% silane-treated H38H glass microballoons (true density 0.38 g/cm3) were cast in silicone moulds, cured at room temperature and post-cured at 80 C for 3 h. Density fell from 1.04 to 0.56 g/cm3 while compressive strength fell from 80 to 55 MPa and tensile strength from 45 to 17 MPa; specific compressive strength rose from 76.9 to 98.2 MPa.cm3/g. Results are compared in Table 6 with Gupta et al. (Compos. B Eng. 2010) vinyl ester foams made with 0.32 g/cm3 microballoons.",
+  "records": [
+    {
+      "sample_label": "VE-0 (pure vinyl ester resin, 0 vol% microballoon)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "VE-200 bisphenol-A epoxy based vinyl ester dissolved in styrene (Iran Chemical Industries Complex), 65% solids, resin density 1.13 g/cm3; MEKP hardener 2 wt%, cobalt naphthenate + dimethylaniline accelerators",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "H38H (Pishro Mobtaker Peyvand)",
+        "particle_true_density_g_cc": 0.38,
+        "particle_mean_diameter_um": 45.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.0,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 80.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.04,
+        "theoretical_density_g_cc": 0.878,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Neat resin; FESEM fracture surface shows brittle crushing with no energy-distributing plateau region. Density reported as 1.04 +/- 0.15 g/cm3 (mean of 4-5 specimens)."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D695",
+        "specimen_notes": "Cylindrical specimen 8.5 mm diameter x 9 mm height, Hounsfield H25KS, crosshead 1 mm/min; mean of four measurements. Density measured per ASTM D1622 (ISO 845)."
+      },
+      "properties": {
+        "modulus_mpa": 1080.0,
+        "strength_mpa": 80.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 1040.0,
+        "specific_strength_mpa_per_g_cc": 76.9,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "|  | 0/ 869 |  |  | 4/ 4 |  |  | 73/ 0 |  |  | 76/ 9 0±/ 10 |  |  | 43/ 2 0±/ 20 |  |  | 18/ 4 |  |  | 0/ 878 |  |  | 1/ 040±/ 15 |  |  | 0 |  |",
+          "location": "Table 5 (jadval 5), row '0% microballoon' (TABLE p11-1); columns right-to-left: vol%, experimental density 1.04+/-0.15, theoretical density 0.878, matrix void 18.4%, specific tensile strength 43.2+/-0.20, specific compressive strength 76.9+/-0.10"
+        },
+        {
+          "quote": "5/ 2±  80   9/ 2±  45   04 /1   88 /2   08 /1   3   0",
+          "location": "Table 6 (jadval 6), row 'present study, 0% microballoon': compressive strength 80+/-2.5 MPa, tensile strength 45+/-2.9 MPa, specific compressive modulus 1.04 GPa.cm3/g, specific tensile modulus 2.88 GPa.cm3/g, compressive modulus 1.08 GPa, tensile modulus 3 GPa"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "VE-0 (pure vinyl ester resin, 0 vol% microballoon)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "VE-200 bisphenol-A epoxy based vinyl ester dissolved in styrene (Iran Chemical Industries Complex), 65% solids, resin density 1.13 g/cm3; MEKP hardener 2 wt%, cobalt naphthenate + dimethylaniline accelerators",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "H38H (Pishro Mobtaker Peyvand)",
+        "particle_true_density_g_cc": 0.38,
+        "particle_mean_diameter_um": 45.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.0,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 80.0,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.04,
+        "theoretical_density_g_cc": 0.878,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Neat resin, no microballoons."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D638",
+        "specimen_notes": "Dog-bone 165 x 13 x 3 mm, Hounsfield H25KS, crosshead 1 mm/min; mean of four measurements."
+      },
+      "properties": {
+        "modulus_mpa": 3000.0,
+        "strength_mpa": 45.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 2880.0,
+        "specific_strength_mpa_per_g_cc": 43.2,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "5/ 2±  80   9/ 2±  45   04 /1   88 /2   08 /1   3   0",
+          "location": "Table 6 (jadval 6), row 'present study, 0% microballoon': tensile strength 45+/-2.9 MPa, tensile modulus 3 GPa, specific tensile modulus 2.88 GPa.cm3/g"
+        },
+        {
+          "quote": "The highest tensile strength is related to the vinyl ester resin without microballoons with a tensile strength of 40 MPa.",
+          "location": "English abstract, p. 2 (note: abstract rounds/quotes 40 MPa whereas Table 6 lists 45 +/- 2.9 MPa)"
+        }
+      ],
+      "extractor_confidence": 0.7
+    },
+    {
+      "sample_label": "VE-20 (20 vol% glass microballoon)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "VE-200 bisphenol-A epoxy based vinyl ester dissolved in styrene (Iran Chemical Industries Complex), 65% solids, resin density 1.13 g/cm3; MEKP hardener 2 wt%, cobalt naphthenate + dimethylaniline accelerators",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "H38H (Pishro Mobtaker Peyvand)",
+        "particle_true_density_g_cc": 0.38,
+        "particle_mean_diameter_um": 45.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.2,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 80.0,
+        "additional_fillers": "1 wt% 3-(triethoxysilyl)propylamine silane surface treatment on the microballoons"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.88,
+        "theoretical_density_g_cc": 0.784,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Batch made from 100 g resin + 10 g microballoons; FESEM shows good microballoon/matrix bonding, crack passing through broken microballoons rather than the interface."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D695",
+        "specimen_notes": "Cylindrical specimen 8.5 mm diameter x 9 mm height, Hounsfield H25KS, crosshead 1 mm/min; mean of four measurements."
+      },
+      "properties": {
+        "modulus_mpa": 1110.0,
+        "strength_mpa": 70.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 1260.0,
+        "specific_strength_mpa_per_g_cc": 79.5,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "|  | 0/ 765 |  |  | 7/ 3 |  |  | 80/ 3 |  |  | 79/ 5 0±/ 15 |  |  | 32/ 8 0±/ 30 |  |  | 12/ 2 |  |  | 0/ 784 |  |  | 0/ 880±/ 10 |  |  | 20 |  |",
+          "location": "Table 5 (TABLE p11-1), row '20% microballoon': experimental density 0.88+/-0.10 g/cm3, theoretical density 0.784, specific tensile strength 32.8+/-0.30, specific compressive strength 79.5+/-0.15 MPa.cm3/g"
+        },
+        {
+          "quote": "0/ 2±  70   0/ 2±  28   26 /1   65 /2   11 /1   75 /2   20",
+          "location": "Table 6, row 'present study, 20% microballoon': compressive strength 70+/-2.0 MPa, tensile strength 28+/-2.0 MPa, specific compressive modulus 1.26, specific tensile modulus 2.65 GPa.cm3/g, compressive modulus 1.11 GPa, tensile modulus 2.75 GPa"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "VE-20 (20 vol% glass microballoon)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "VE-200 bisphenol-A epoxy based vinyl ester dissolved in styrene (Iran Chemical Industries Complex), 65% solids, resin density 1.13 g/cm3",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "H38H (Pishro Mobtaker Peyvand)",
+        "particle_true_density_g_cc": 0.38,
+        "particle_mean_diameter_um": 45.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.2,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 80.0,
+        "additional_fillers": "1 wt% 3-(triethoxysilyl)propylamine silane surface treatment on the microballoons"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.88,
+        "theoretical_density_g_cc": 0.784,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D638",
+        "specimen_notes": "Dog-bone 165 x 13 x 3 mm, Hounsfield H25KS, crosshead 1 mm/min; mean of four measurements."
+      },
+      "properties": {
+        "modulus_mpa": 2750.0,
+        "strength_mpa": 28.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 2650.0,
+        "specific_strength_mpa_per_g_cc": 32.8,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "0/ 2±  70   0/ 2±  28   26 /1   65 /2   11 /1   75 /2   20",
+          "location": "Table 6, row 'present study, 20% microballoon': tensile strength 28+/-2.0 MPa, tensile modulus 2.75 GPa, specific tensile modulus 2.65 GPa.cm3/g"
+        },
+        {
+          "quote": "|  | 0/ 765 |  |  | 7/ 3 |  |  | 80/ 3 |  |  | 79/ 5 0±/ 15 |  |  | 32/ 8 0±/ 30 |  |  | 12/ 2 |  |  | 0/ 784 |  |  | 0/ 880±/ 10 |  |  | 20 |  |",
+          "location": "Table 5 (TABLE p11-1), row '20% microballoon': specific tensile strength 32.8+/-0.30 MPa.cm3/g, density 0.88 g/cm3"
+        }
+      ],
+      "extractor_confidence": 0.7
+    },
+    {
+      "sample_label": "VE-40 (40 vol% glass microballoon)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "VE-200 bisphenol-A epoxy based vinyl ester dissolved in styrene (Iran Chemical Industries Complex), 65% solids, resin density 1.13 g/cm3",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "H38H (Pishro Mobtaker Peyvand)",
+        "particle_true_density_g_cc": 0.38,
+        "particle_mean_diameter_um": 45.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.4,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 80.0,
+        "additional_fillers": "1 wt% 3-(triethoxysilyl)propylamine silane surface treatment on the microballoons"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.7,
+        "theoretical_density_g_cc": 0.69,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Batch made from 100 g resin + 22 g microballoons; described as having the most uniform microballoon distribution of all samples; inclined cracks give the largest plateau region in the compressive stress-strain curve."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D695",
+        "specimen_notes": "Cylindrical specimen 8.5 mm diameter x 9 mm height, Hounsfield H25KS, crosshead 1 mm/min; mean of four measurements."
+      },
+      "properties": {
+        "modulus_mpa": 1130.0,
+        "strength_mpa": 60.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 1610.0,
+        "specific_strength_mpa_per_g_cc": 85.7,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "|  | 0/ 690 |  |  | 6/ 8 |  |  | 83/ 0 |  |  | 85/ 7 0±/ 14 |  |  | 44/ 3 0±/ 10 |  |  | 1/ 4 |  |  | 0/ 690 |  |  | 0/ 700±/ 12 |  |  | 40 |  |",
+          "location": "Table 5 (TABLE p11-1), row '40% microballoon': experimental density 0.70+/-0.12 g/cm3, theoretical density 0.690, specific tensile strength 44.3+/-0.10, specific compressive strength 85.7+/-0.14 MPa.cm3/g"
+        },
+        {
+          "quote": "4/ 2±  60   6/ 1±  31   61 /1   0/5   13 /1   5/3   40",
+          "location": "Table 6, row 'present study, 40% microballoon': compressive strength 60+/-2.4 MPa, tensile strength 31+/-1.6 MPa, specific compressive modulus 1.61, specific tensile modulus 5.0 GPa.cm3/g, compressive modulus 1.13 GPa, tensile modulus 3.5 GPa"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "VE-40 (40 vol% glass microballoon)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "VE-200 bisphenol-A epoxy based vinyl ester dissolved in styrene (Iran Chemical Industries Complex), 65% solids, resin density 1.13 g/cm3",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "H38H (Pishro Mobtaker Peyvand)",
+        "particle_true_density_g_cc": 0.38,
+        "particle_mean_diameter_um": 45.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.4,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 80.0,
+        "additional_fillers": "1 wt% 3-(triethoxysilyl)propylamine silane surface treatment on the microballoons"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.7,
+        "theoretical_density_g_cc": 0.69,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D638",
+        "specimen_notes": "Dog-bone 165 x 13 x 3 mm, Hounsfield H25KS, crosshead 1 mm/min; mean of four measurements."
+      },
+      "properties": {
+        "modulus_mpa": 3500.0,
+        "strength_mpa": 31.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 5000.0,
+        "specific_strength_mpa_per_g_cc": 44.3,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "4/ 2±  60   6/ 1±  31   61 /1   0/5   13 /1   5/3   40",
+          "location": "Table 6, row 'present study, 40% microballoon': tensile strength 31+/-1.6 MPa, tensile modulus 3.5 GPa, specific tensile modulus 5.0 GPa.cm3/g"
+        },
+        {
+          "quote": "ﻣﻄﺎﺑﻖ ﺟﺪول )6(، ﺑﯿﺶ ﺗﺮﯾﻦ اﺳﺘﺤﮑﺎم ﮐﺸﺸﯽ وﯾـﮋه ﻣﺮﺑـﻮط ﺑـﻪ ﻧﻤﻮﻧـﻪ ﺣـﺎوي 40 درﺻـﺪ ﻣﯿﮑﺮوﺑـﺎﻟﻦ ﺷﯿﺸـﻪ اي ﺑـﻪ ﻣﻘـﺪار g/ 3 MPa.cm 3 / 44",
+          "location": "Sec. 3.3, p. 10 ('according to Table 6, the highest specific tensile strength belongs to the sample containing 40% glass microballoon, at 44.3 MPa.cm3/g')"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "VE-60 (60 vol% glass microballoon)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "VE-200 bisphenol-A epoxy based vinyl ester dissolved in styrene (Iran Chemical Industries Complex), 65% solids, resin density 1.13 g/cm3",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "H38H (Pishro Mobtaker Peyvand)",
+        "particle_true_density_g_cc": 0.38,
+        "particle_mean_diameter_um": 45.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 80.0,
+        "additional_fillers": "1 wt% 3-(triethoxysilyl)propylamine silane surface treatment on the microballoons"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.56,
+        "theoretical_density_g_cc": 0.596,
+        "matrix_porosity_fraction": 0.0604,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Batch made from 100 g resin + 40 g microballoons; highest matrix porosity of the series in FESEM, attributed to entrapped air and to microballoons broken by mechanical stirring at high loading."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D695",
+        "specimen_notes": "Cylindrical specimen 8.5 mm diameter x 9 mm height, Hounsfield H25KS, crosshead 1 mm/min; mean of four measurements. Multiple load peaks in the stress-strain curve from sequential microballoon crushing."
+      },
+      "properties": {
+        "modulus_mpa": 1250.0,
+        "strength_mpa": 55.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 2230.0,
+        "specific_strength_mpa_per_g_cc": 98.2,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "|  | 0/ 597 |  |  | 8/ 9 |  |  | 85/ 1 |  |  | 98/ 2 0±/ 20 |  |  | 30/ 3 0±/ 20 |  |  | 6/ 04 |  |  | 0/ 596 |  |  | 0/ 560±/ 11 |  |  | 60 |  |",
+          "location": "Table 5 (TABLE p11-1), row '60% microballoon': experimental density 0.56+/-0.11 g/cm3, theoretical density 0.596, matrix void 6.04%, specific tensile strength 30.3+/-0.20, specific compressive strength 98.2+/-0.20 MPa.cm3/g"
+        },
+        {
+          "quote": "The specific compressive strength of foams increased from 76 MPa.cm3/g to 98 MPa.cm3/g by increasing the percentage of glass microballoon from 0% to 60%.",
+          "location": "English abstract, p. 2"
+        },
+        {
+          "quote": "0/ 2±  55   5/ 1±  17   23 /2   57 /5   25 /1   12 /3   60",
+          "location": "Table 6, row 'present study, 60% microballoon': compressive strength 55+/-2.0 MPa, tensile strength 17+/-1.5 MPa, specific compressive modulus 2.23, specific tensile modulus 5.57 GPa.cm3/g, compressive modulus 1.25 GPa, tensile modulus 3.12 GPa"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "VE-60 (60 vol% glass microballoon)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "VE-200 bisphenol-A epoxy based vinyl ester dissolved in styrene (Iran Chemical Industries Complex), 65% solids, resin density 1.13 g/cm3",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "H38H (Pishro Mobtaker Peyvand)",
+        "particle_true_density_g_cc": 0.38,
+        "particle_mean_diameter_um": 45.0,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": 80.0,
+        "additional_fillers": "1 wt% 3-(triethoxysilyl)propylamine silane surface treatment on the microballoons"
+      },
+      "structure": {
+        "measured_density_g_cc": 0.56,
+        "theoretical_density_g_cc": 0.596,
+        "matrix_porosity_fraction": 0.0604,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "ASTM D638",
+        "specimen_notes": "Dog-bone 165 x 13 x 3 mm, Hounsfield H25KS, crosshead 1 mm/min; mean of four measurements."
+      },
+      "properties": {
+        "modulus_mpa": 3120.0,
+        "strength_mpa": 17.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 5570.0,
+        "specific_strength_mpa_per_g_cc": 30.3,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "0/ 2±  55   5/ 1±  17   23 /2   57 /5   25 /1   12 /3   60",
+          "location": "Table 6, row 'present study, 60% microballoon': tensile strength 17+/-1.5 MPa, tensile modulus 3.12 GPa, specific tensile modulus 5.57 GPa.cm3/g"
+        },
+        {
+          "quote": "|  | 0/ 597 |  |  | 8/ 9 |  |  | 85/ 1 |  |  | 98/ 2 0±/ 20 |  |  | 30/ 3 0±/ 20 |  |  | 6/ 04 |  |  | 0/ 596 |  |  | 0/ 560±/ 11 |  |  | 60 |  |",
+          "location": "Table 5 (TABLE p11-1), row '60% microballoon': specific tensile strength 30.3+/-0.20 MPa.cm3/g"
+        }
+      ],
+      "extractor_confidence": 0.8
+    },
+    {
+      "sample_label": "Gupta group vinyl ester foam, 30 vol% microballoon (rho_p = 0.32 g/cm3) - quoted from ref. [1] Gupta N, Ye R, Porfiri M, Compos. B Eng. 2010;41(3):236-45",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.32,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.3,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "Reported by the present authors as tested at a crosshead rate of 0.1 mm/min in the cited work (vs 1 mm/min here)."
+      },
+      "properties": {
+        "modulus_mpa": 2500.0,
+        "strength_mpa": 75.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 2740.0,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "75   27   74 /2   55 /3   5/2   25 /3   30",
+          "location": "Table 6, comparison row 'Gupta group vinyl ester foam with 0.32 g/cm3 microballoons (ref. 1)', 30% microballoon: compressive strength 75 MPa, tensile strength 27 MPa, specific compressive modulus 2.74, specific tensile modulus 3.55 GPa.cm3/g, compressive modulus 2.5 GPa, tensile modulus 3.25 GPa"
+        }
+      ],
+      "extractor_confidence": 0.45
+    },
+    {
+      "sample_label": "Gupta group vinyl ester foam, 30 vol% microballoon (rho_p = 0.32 g/cm3) - quoted from ref. [1] Gupta N, Ye R, Porfiri M, Compos. B Eng. 2010;41(3):236-45",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.32,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.3,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": null
+      },
+      "properties": {
+        "modulus_mpa": 3250.0,
+        "strength_mpa": 27.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 3550.0,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "75   27   74 /2   55 /3   5/2   25 /3   30",
+          "location": "Table 6, comparison row 'Gupta group (ref. 1)', 30% microballoon: tensile strength 27 MPa, tensile modulus 3.25 GPa, specific tensile modulus 3.55 GPa.cm3/g"
+        }
+      ],
+      "extractor_confidence": 0.45
+    },
+    {
+      "sample_label": "Gupta group vinyl ester foam, 40 vol% microballoon (rho_p = 0.32 g/cm3) - quoted from ref. [1] Gupta N, Ye R, Porfiri M, Compos. B Eng. 2010;41(3):236-45",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.32,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.4,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "Reported by the present authors as tested at a crosshead rate of 0.1 mm/min in the cited work."
+      },
+      "properties": {
+        "modulus_mpa": 2680.0,
+        "strength_mpa": 70.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 3150.0,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "70   25   15 /3   99 /3   68 /2   39 /3   40",
+          "location": "Table 6, comparison row 'Gupta group (ref. 1)', 40% microballoon: compressive strength 70 MPa, tensile strength 25 MPa, specific compressive modulus 3.15, specific tensile modulus 3.99 GPa.cm3/g, compressive modulus 2.68 GPa, tensile modulus 3.39 GPa"
+        }
+      ],
+      "extractor_confidence": 0.45
+    },
+    {
+      "sample_label": "Gupta group vinyl ester foam, 40 vol% microballoon (rho_p = 0.32 g/cm3) - quoted from ref. [1] Gupta N, Ye R, Porfiri M, Compos. B Eng. 2010;41(3):236-45",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.32,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.4,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": null
+      },
+      "properties": {
+        "modulus_mpa": 3390.0,
+        "strength_mpa": 25.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 3990.0,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "70   25   15 /3   99 /3   68 /2   39 /3   40",
+          "location": "Table 6, comparison row 'Gupta group (ref. 1)', 40% microballoon: tensile strength 25 MPa, tensile modulus 3.39 GPa, specific tensile modulus 3.99 GPa.cm3/g"
+        }
+      ],
+      "extractor_confidence": 0.45
+    },
+    {
+      "sample_label": "Gupta group vinyl ester foam, 50 vol% microballoon (rho_p = 0.32 g/cm3) - quoted from ref. [1] Gupta N, Ye R, Porfiri M, Compos. B Eng. 2010;41(3):236-45",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.32,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.5,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "Reported by the present authors as tested at a crosshead rate of 0.1 mm/min in the cited work."
+      },
+      "properties": {
+        "modulus_mpa": 2420.0,
+        "strength_mpa": 58.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 2990.0,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "58   8   99 /2   41 /4   42 /2   14 /3   50",
+          "location": "Table 6, comparison row 'Gupta group (ref. 1)', 50% microballoon: compressive strength 58 MPa, tensile strength 8 MPa, specific compressive modulus 2.99, specific tensile modulus 4.41 GPa.cm3/g, compressive modulus 2.42 GPa, tensile modulus 3.14 GPa"
+        }
+      ],
+      "extractor_confidence": 0.4
+    },
+    {
+      "sample_label": "Gupta group vinyl ester foam, 50 vol% microballoon (rho_p = 0.32 g/cm3) - quoted from ref. [1] Gupta N, Ye R, Porfiri M, Compos. B Eng. 2010;41(3):236-45",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.32,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.5,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": null
+      },
+      "properties": {
+        "modulus_mpa": 3140.0,
+        "strength_mpa": 8.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 4410.0,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "58   8   99 /2   41 /4   42 /2   14 /3   50",
+          "location": "Table 6, comparison row 'Gupta group (ref. 1)', 50% microballoon: tensile strength 8 MPa, tensile modulus 3.14 GPa, specific tensile modulus 4.41 GPa.cm3/g"
+        }
+      ],
+      "extractor_confidence": 0.35
+    },
+    {
+      "sample_label": "Gupta group vinyl ester foam, 60 vol% microballoon (rho_p = 0.32 g/cm3) - quoted from ref. [1] Gupta N, Ye R, Porfiri M, Compos. B Eng. 2010;41(3):236-45",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.32,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "Reported by the present authors as tested at a crosshead rate of 0.1 mm/min in the cited work."
+      },
+      "properties": {
+        "modulus_mpa": 2760.0,
+        "strength_mpa": 55.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 3040.0,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "55   7   04 /3   64 /4   76 /2   73 /3   60",
+          "location": "Table 6, comparison row 'Gupta group (ref. 1)', 60% microballoon: compressive strength 55 MPa, tensile strength 7 MPa, specific compressive modulus 3.04, specific tensile modulus 4.64 GPa.cm3/g, compressive modulus 2.76 GPa, tensile modulus 3.73 GPa"
+        }
+      ],
+      "extractor_confidence": 0.4
+    },
+    {
+      "sample_label": "Gupta group vinyl ester foam, 60 vol% microballoon (rho_p = 0.32 g/cm3) - quoted from ref. [1] Gupta N, Ye R, Porfiri M, Compos. B Eng. 2010;41(3):236-45",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": null,
+        "particle_type": "glass_microballoon",
+        "particle_grade": null,
+        "particle_true_density_g_cc": 0.32,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": 0.6,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": null
+      },
+      "properties": {
+        "modulus_mpa": 3730.0,
+        "strength_mpa": 7.0,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": 4640.0,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "55   7   04 /3   64 /4   76 /2   73 /3   60",
+          "location": "Table 6, comparison row 'Gupta group (ref. 1)', 60% microballoon: tensile strength 7 MPa, tensile modulus 3.73 GPa, specific tensile modulus 4.64 GPa.cm3/g"
+        }
+      ],
+      "extractor_confidence": 0.35
+    }
+  ],
+  "extraction_notes": "PAPER IS IN PERSIAN; the PDF text layer is right-to-left reversed, so Persian decimal numbers appear as '04 /1' meaning 1.04 and '15 /0±' meaning +/-0.15. All decodings were cross-checked arithmetically: Table 6 modulus/density = Table 6 specific modulus, and Table 6 strength/Table 5 density = Table 5 specific strength, and they agree to rounding for every present-study row, which confirms the column mapping. UNITS: GPa moduli from Table 6 converted to MPa (x1000); specific moduli converted from GPa.cm3/g to MPa.cm3/g (x1000). Vol% converted to fractions. CAVEATS: (1) The abstract states the highest tensile strength (neat resin) is 40 MPa while Table 6 lists 45 +/- 2.9 MPa; the table value was used since it is internally consistent with the Table 5 specific tensile strength of 43.2 MPa.cm3/g. (2) Table 5's 'theoretical density' column (0.878/0.784/0.690/0.596 g/cm3) is lower than the measured density for the 0, 20 and 40 vol% samples, so the paper's void formula (rho_T - rho_ex)/rho_T yields NEGATIVE porosity for those three rows even though the table prints the magnitudes 18.4%, 12.2% and 1.4%. The theoretical densities are recorded as printed, but matrix_porosity_fraction is left null for 0/20/40 vol% and only recorded (0.0604) for the 60 vol% sample where the value is genuinely positive. A theoretical density of 0.878 g/cm3 for neat vinyl ester is also inconsistent with the stated resin density of 1.13 g/cm3 (Table 3), so this column looks unreliable. (3) Table 5 also contains three columns of Gupta-group data (specific compressive strength 73.0/80.3/83.0/85.1 MPa.cm3/g, matrix void 4.4/7.3/6.8/8.9%, density 0.869/0.765/0.690/0.597 g/cm3), but those rows cannot be aligned unambiguously with the Gupta compositions (30/40/50/60 vol%) listed in Table 6 - the products do not reproduce the Table 6 strengths - so they were NOT attached to the secondary records. (4) Gupta secondary rows from Table 6 are also internally inconsistent (modulus / specific modulus implies densities of ~0.91, 0.85, 0.81/0.71, 0.91/0.80 g/cm3 for compression vs tension), and the tensile strengths of 8 and 7 MPa at 50 and 60 vol% may be OCR-truncated; these records were given low extractor_confidence. (5) Batch masses are 100 g resin + 0/10/22/40 g microballoons (Table 4); particle_weight_fraction was left null because the catalyst/accelerator masses are given only as volumes so an exact weight fraction cannot be formed. (6) Strain rate was not stated; only the crosshead rate of 1 mm/min (0.1 mm/min in the cited Gupta work) is given, so strain_rate_per_s is null and the crosshead rate is recorded in specimen_notes. Test temperature is never stated, so temperature_c is null. (7) Plateau stress, energy absorption, densification strain and strain at failure appear only in the stress-strain plots of Figs. 5 and 7 with no numeric values in text or tables, so they are left null. (8) Particle mean diameter 45 um is the D50 from Table 1 (D90 = 85 um); Table 1 also gives a microballoon crush strength of 31 MPa and a density range of 0.36-0.40 g/cm3 around the nominal 0.38 g/cm3."
+}

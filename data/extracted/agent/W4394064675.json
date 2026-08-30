@@ -1,0 +1,447 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "A theoretical/modelling paper that assembles existing micromechanics models (Gibson-Ashby for resin-impregnated paper honeycomb, Porfiri and Gupta's differential scheme for syntactic foam, and rule-of-mixtures/Halpin-Tsai for woven E-glass/epoxy face skins) into a modified classical lamination theory (MCLT) for foam-core sandwich composites. For the syntactic foam (dry fly ash cenospheres, mean diameter 150 um, radius ratio eta = 0.9, Vceno = 0.7272 in a phenolic resin matrix) the predicted Young's modulus is 1.99 GPa, Poisson's ratio 0.25, shear modulus 0.796 GPa and density 654.54 kg/m3. The MCLT predictions for the syntactic-foam-core / E-glass-epoxy-skin sandwich (Ex = Ey = 4.469 GPa, Gxy = 1.0023 GPa, Gyz = Gxz = 0.9838 GPa) agree with experimental values reported earlier by Amith Kumar S.J. and Sabeel Ahmed within 1.9-5.2%.",
+  "records": [
+    {
+      "sample_label": "Syntactic foam core: phenolic resin + 72.72 vol% dry fly ash cenospheres (Porfiri-Gupta differential scheme prediction)",
+      "data_origin": "model",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Phenolic resin (Em = 2.51 GPa, nu_m = 0.35, rho_m = 1200 kg/m3)",
+        "particle_type": "fly_ash_cenosphere",
+        "particle_grade": "Dry fly ash cenospheres (Eceno = 17 GPa, nu = 0.21)",
+        "particle_true_density_g_cc": 0.45,
+        "particle_mean_diameter_um": 150,
+        "particle_wall_thickness_ratio": 0.9,
+        "particle_volume_fraction": 0.7272,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": 0.65454,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Maximum packing factor Vceno(max) = 0.9 achieved with polydisperse cenospheres; threshold cenosphere volume fraction in the foam is 72% beyond which the binding ability of the phenolic matrix decreases. Density computed by simple rule of mixtures (Eq. 10). Predicted Poisson's ratio of the foam is 0.25 (no schema field)."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "Analytical prediction from Porfiri and Gupta's coupled nonlinear differential equations (Eqs. 7-8); the conclusions describe it as the tensile modulus of the syntactic foam. No test was performed in this paper."
+      },
+      "properties": {
+        "modulus_mpa": 1990,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "The theoretically predicted Young's modulus (Ec) and Poisson's ratio (υc) of the syntactic foam composite were found to be 1.99 GPa and 0.25 GPa, respectively.",
+          "location": "Sec. 'Porfiri and Gupta's approach for syntactic foam', para after Table 4"
+        },
+        {
+          "quote": "Dry fly ash cenospheres | Young's modulus Eceno GPa 17 | Poisson's ratio 0.21 | Density 450 kg/m3 | Volume fraction Vceno 0.7272 | Maximum packing factor 0.9 | Radius ratio η 0.9 | Phenolic resin matrix Em 2.51 GPa, υm 0.35, ρm 1200 kg/m3, Vm 0.2727",
+          "location": "Table 4"
+        },
+        {
+          "quote": "cenospheres of different sizes (a mean diameter 150 microns) were used as the filler for the syntactic foam for which a maximum packing factor of 90% was achieved.",
+          "location": "Sec. 'Porfiri and Gupta's approach for syntactic foam'"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "Syntactic foam core: phenolic resin + 72.72 vol% dry fly ash cenospheres (shear modulus from isotropic relation, Eq. 9)",
+      "data_origin": "model",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Phenolic resin (Em = 2.51 GPa, nu_m = 0.35, rho_m = 1200 kg/m3)",
+        "particle_type": "fly_ash_cenosphere",
+        "particle_grade": "Dry fly ash cenospheres (Eceno = 17 GPa, nu = 0.21)",
+        "particle_true_density_g_cc": 0.45,
+        "particle_mean_diameter_um": 150,
+        "particle_wall_thickness_ratio": 0.9,
+        "particle_volume_fraction": 0.7272,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": 0.65454,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Same foam as the tension record; shear modulus derived from Ec and nu_c assuming isotropy, Gc = Ec / [2(1 + nu_c)]."
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "Analytical value, not measured. Shear modulus of the isotropic syntactic foam core computed from Eq. (9)."
+      },
+      "properties": {
+        "modulus_mpa": 796,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Since syntactic foam is considered an isotropic material, its shear modulus was evaluated by means of Equation (9) and was found to be 0.796 GPa. The density (ρc) of the syntactic foam was determined by the simple rule of mixtures using Equation (10) and was found to be 654.54 kg/m3.",
+          "location": "Sec. 'Porfiri and Gupta's approach for syntactic foam'"
+        }
+      ],
+      "extractor_confidence": 0.85
+    },
+    {
+      "sample_label": "SANDWICH PANEL (SF) - not bare foam: syntactic foam core + woven E-glass/epoxy face skins, MCLT prediction, longitudinal/transverse Young's modulus",
+      "data_origin": "model",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Phenolic resin core matrix; epoxy in the E-glass/epoxy face skins",
+        "particle_type": "fly_ash_cenosphere",
+        "particle_grade": "Dry fly ash cenospheres in the core (mean diameter 150 um, eta = 0.9)",
+        "particle_true_density_g_cc": 0.45,
+        "particle_mean_diameter_um": 150,
+        "particle_wall_thickness_ratio": 0.9,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "Woven 0/90 E-glass fabric/epoxy face skins (E11 = E22 = 14.655 GPa theoretical, 14.39 GPa experimental; G12 = 1.862 GPa; Vf = 0.324). This record is for the whole sandwich panel, not the bare syntactic foam; the cenosphere volume fraction applies only to the core so it is left null."
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Three-ply symmetric sandwich (two identical face skins + isotropic syntactic foam core), analysed by modified classical lamination theory including transverse shear."
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "MCLT prediction, Eqs. (25)-(26). Longitudinal (Ex)s and transverse (Ey)s are equal at 4.469 GPa, so a single record covers both."
+      },
+      "properties": {
+        "modulus_mpa": 4469,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Longitudinal Young's modulus (Ex)s GPa 4.469 / 4.38 / 1.9 ; Transverse Young's modulus (Ey)s GPa 4.469 / 4.38 / 1.9 (theoretical / experimental / % deviation)",
+          "location": "Table 7"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "SANDWICH PANEL (SF) - not bare foam: syntactic foam core + woven E-glass/epoxy face skins, EXPERIMENTAL value quoted from ref [3] Amith Kumar S.J., Sabeel Ahmed K., J. Reinforced Plastics and Composites 2013, 32, 1370-1379",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Phenolic resin core matrix; epoxy in the E-glass/epoxy face skins",
+        "particle_type": "fly_ash_cenosphere",
+        "particle_grade": "Dry fly ash cenospheres in the core",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "Woven 0/90 E-glass fabric/epoxy face skins. Whole sandwich panel, not bare foam."
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "tension",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "Experimental longitudinal/transverse Young's modulus of the sandwich, both 4.38 GPa, taken from the authors' earlier experimental work [3]; no test details are given in this paper."
+      },
+      "properties": {
+        "modulus_mpa": 4380,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Longitudinal Young's modulus (Ex)s GPa Theoretical 4.469 Experimental 4.38 % Deviation 1.9",
+          "location": "Table 7"
+        }
+      ],
+      "extractor_confidence": 0.7
+    },
+    {
+      "sample_label": "SANDWICH PANEL (SF) - not bare foam: syntactic foam core + E-glass/epoxy skins, MCLT prediction, in-plane shear modulus (Gxy)s",
+      "data_origin": "model",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Phenolic resin core matrix; epoxy in the E-glass/epoxy face skins",
+        "particle_type": "fly_ash_cenosphere",
+        "particle_grade": "Dry fly ash cenospheres in the core",
+        "particle_true_density_g_cc": 0.45,
+        "particle_mean_diameter_um": 150,
+        "particle_wall_thickness_ratio": 0.9,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "Woven 0/90 E-glass fabric/epoxy face skins. Whole sandwich panel, not bare foam."
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "MCLT prediction, Eq. (29), in-plane shear modulus of the sandwich."
+      },
+      "properties": {
+        "modulus_mpa": 1002.3,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "In-plane shear modulus (Gxy)s GPa 1.0023 0.961 4.1",
+          "location": "Table 7"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "SANDWICH PANEL (SF) - not bare foam: in-plane shear modulus, EXPERIMENTAL value quoted from ref [3] Amith Kumar S.J., Sabeel Ahmed K., JRPC 2013",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Phenolic resin core matrix; epoxy in the E-glass/epoxy face skins",
+        "particle_type": "fly_ash_cenosphere",
+        "particle_grade": "Dry fly ash cenospheres in the core",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "Woven 0/90 E-glass fabric/epoxy face skins. Whole sandwich panel, not bare foam."
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "Experimental in-plane shear modulus of the sandwich, 0.961 GPa; test details not given in this paper."
+      },
+      "properties": {
+        "modulus_mpa": 961,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "In-plane shear modulus (Gxy)s GPa 1.0023 0.961 4.1 (theoretical / experimental / % deviation)",
+          "location": "Table 7"
+        }
+      ],
+      "extractor_confidence": 0.7
+    },
+    {
+      "sample_label": "SANDWICH PANEL (SF) - not bare foam: transverse shear modulus (Gyz)s = (Gxz)s, MCLT prediction",
+      "data_origin": "model",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Phenolic resin core matrix; epoxy in the E-glass/epoxy face skins",
+        "particle_type": "fly_ash_cenosphere",
+        "particle_grade": "Dry fly ash cenospheres in the core",
+        "particle_true_density_g_cc": 0.45,
+        "particle_mean_diameter_um": 150,
+        "particle_wall_thickness_ratio": 0.9,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "Woven 0/90 E-glass fabric/epoxy face skins. Whole sandwich panel, not bare foam."
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "MCLT prediction, Eqs. (30)-(31); out-of-plane (transverse) shear moduli Gyz and Gxz are equal at 0.9838 GPa, so a single record covers both."
+      },
+      "properties": {
+        "modulus_mpa": 983.8,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Transverse shear modulus (Gyz)s GPa 0.9838 1.035 5.2 ; Transverse shear modulus (Gxz)s GPa 0.9838 1.035 5.2",
+          "location": "Table 7"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "SANDWICH PANEL (SF) - not bare foam: transverse shear modulus, EXPERIMENTAL value quoted from ref [3] Amith Kumar S.J., Sabeel Ahmed K., JRPC 2013",
+      "data_origin": "secondary",
+      "processing": {
+        "matrix_class": "other_thermoset",
+        "matrix_name": "Phenolic resin core matrix; epoxy in the E-glass/epoxy face skins",
+        "particle_type": "fly_ash_cenosphere",
+        "particle_grade": "Dry fly ash cenospheres in the core",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "other",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": "Woven 0/90 E-glass fabric/epoxy face skins. Whole sandwich panel, not bare foam."
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": null
+      },
+      "test": {
+        "test_type": "shear",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": null,
+        "specimen_notes": "Experimental transverse shear modulus of the sandwich, 1.035 GPa for both Gyz and Gxz; test details not given in this paper. The paper notes there is no ASTM standard for experimental out-of-plane shear modulus."
+      },
+      "properties": {
+        "modulus_mpa": 1035,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "Transverse shear modulus (Gyz)s GPa 0.9838 1.035 5.2 (theoretical / experimental / % deviation)",
+          "location": "Table 7"
+        }
+      ],
+      "extractor_confidence": 0.7
+    }
+  ],
+  "extraction_notes": "This is a purely analytical/review paper: no material was made or tested here, so no record is 'primary'. Model predictions are data_origin='model'; the experimental columns in Tables 6-7 are values reported earlier by the authors in ref [3] (Amith Kumar S.J., Sabeel Ahmed K., J. Reinforced Plastics and Composites 2013, 32, 1370-1379) and are therefore data_origin='secondary' with the citation in sample_label. CAVEAT on records 3-8: these are properties of the SANDWICH PANEL (syntactic foam core between woven E-glass/epoxy skins), not of the bare syntactic foam, so their moduli must not be read as foam moduli; sample_label flags this and the cenosphere volume fraction / core density fields were deliberately left null on those records (the fraction applies to the core only). Only records 1-2 describe the bare syntactic foam. Excluded from records: the resin-impregnated paper honeycomb core (Tables 1-3, samples N20/K20/K15/K10/K5) and the E-glass/epoxy face skin (Tables 5-6), because neither is a hollow-particle composite. Unit conversions: GPa x 1000 -> MPa (1.99 -> 1990, 0.796 -> 796, 4.469 -> 4469, 4.38 -> 4380, 1.0023 -> 1002.3, 0.961 -> 961, 0.9838 -> 983.8, 1.035 -> 1035); kg/m3 / 1000 -> g/cm3 (654.54 -> 0.65454 foam density, 450 -> 0.45 cenosphere true density). Ex = Ey and Gyz = Gxz in Table 7, so one record each rather than duplicates. Foam Poisson's ratio 0.25 (misprinted as '0.25 GPa' in the text) has no schema field and is kept in microstructure_notes. No strength, strain, energy-absorption or thermal data appear anywhere in the paper. Process route is 'other' because no fabrication route is described for the modelled foam."
+}

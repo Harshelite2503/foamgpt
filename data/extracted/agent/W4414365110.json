@@ -1,0 +1,1285 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Mahesh (2025) fabricates epoxy (Lapox L12/K6) syntactic foams filled with 20, 40 and 60 vol% fly-ash cenospheres (CIL 100, SFC series) or recycled rubber crumb (CRMB60, SFR series) by room-temperature mechanical mixing and casting, and compares them with neat epoxy under ASTM D7136 drop-weight low-velocity impact at 39.62, 79.02 and 118.82 J. Rubber-crumb foams absorb the most total energy (SFR60: 16.75 J at 118.82 J impact vs 6.46 J for neat epoxy) via viscoelastic/ductile mechanisms, while the lower-density cenosphere foams give the highest specific energy absorption (SFC60: 0.0115 Jm3/kg, +117% over neat epoxy). Density falls from 1210 kg/m3 (neat epoxy) to 1005 kg/m3 (SFC60) but rises to 1630 kg/m3 (SFR60).",
+ "records": [
+  {
+   "sample_label": "NE",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.0,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.21,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 1.76 J of 39.62 J impact energy; SEA 0.0015 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 0.5 m, impact velocity 3.13 m/s, impact energy 39.62 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 37.86 J, absorbed energy 1.76 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "NE | Impact 39.62 | Elastic 37.86 | Absorbed 1.76 | Density 1210 kg/m3 | SEA 0.0015 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The neat epoxy samples show the lowest energy absorption, with values of 1.76 J, 4.77 J, and 6.46 J at the three respective energy levels.",
+     "location": "Sec. 3.2 para 2"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "NE",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.0,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.21,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 4.77 J of 79.02 J impact energy; SEA 0.0039 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.0 m, impact velocity 4.42 m/s, impact energy 79.02 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 74.25 J, absorbed energy 4.77 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "NE | Impact 79.02 | Elastic 74.25 | Absorbed 4.77 | Density 1210 kg/m3 | SEA 0.0039 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The neat epoxy samples show the lowest energy absorption, with values of 1.76 J, 4.77 J, and 6.46 J at the three respective energy levels.",
+     "location": "Sec. 3.2 para 2"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "NE",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.0,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.21,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 6.46 J of 118.82 J impact energy; SEA 0.0053 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.5 m, impact velocity 5.42 m/s, impact energy 118.82 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 112.36 J, absorbed energy 6.46 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "NE | Impact 118.82 | Elastic 112.36 | Absorbed 6.46 | Density 1210 kg/m3 | SEA 0.0053 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The neat epoxy samples show the lowest energy absorption, with values of 1.76 J, 4.77 J, and 6.46 J at the three respective energy levels.",
+     "location": "Sec. 3.2 para 2"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFC20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "CIL 100",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.2,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.115,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 2.81 J of 39.62 J impact energy; SEA 0.0025 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 0.5 m, impact velocity 3.13 m/s, impact energy 39.62 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 36.81 J, absorbed energy 2.81 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFC20 | Impact 39.62 | Elastic 36.81 | Absorbed 2.81 | Density 1115 kg/m3 | SEA 0.0025 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "SFC20 absorbs 2.81 J, 5.37 J, and 7.07 J, while SFR20 shows an enhanced ability to absorb energy by 11%-33.66%.",
+     "location": "Sec. 3.2 para 2"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFC20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "CIL 100",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.2,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.115,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 5.37 J of 79.02 J impact energy; SEA 0.0048 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.0 m, impact velocity 4.42 m/s, impact energy 79.02 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 73.65 J, absorbed energy 5.37 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFC20 | Impact 79.02 | Elastic 73.65 | Absorbed 5.37 | Density 1115 kg/m3 | SEA 0.0048 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "SFC20 absorbs 2.81 J, 5.37 J, and 7.07 J, while SFR20 shows an enhanced ability to absorb energy by 11%-33.66%.",
+     "location": "Sec. 3.2 para 2"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFC20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "CIL 100",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.2,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.115,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 7.07 J of 118.82 J impact energy; SEA 0.0063 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.5 m, impact velocity 5.42 m/s, impact energy 118.82 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 111.75 J, absorbed energy 7.07 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFC20 | Impact 118.82 | Elastic 111.75 | Absorbed 7.07 | Density 1115 kg/m3 | SEA 0.0063 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "SFC20 absorbs 2.81 J, 5.37 J, and 7.07 J, while SFR20 shows an enhanced ability to absorb energy by 11%-33.66%.",
+     "location": "Sec. 3.2 para 2"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFR20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": "CRMB60 rubber crumb",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.2,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.53,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 3.12 J of 39.62 J impact energy; SEA 0.0020 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 0.5 m, impact velocity 3.13 m/s, impact energy 39.62 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 36.50 J, absorbed energy 3.12 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFR20 | Impact 39.62 | Elastic 36.50 | Absorbed 3.12 | Density 1530 kg/m3 | SEA 0.0020 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "These mechanisms enhance energy absorption significantly (9.45 J), although the SEA (0.0062 Jm3/kg) is slightly lower than SFC20 due to the higher composite density.",
+     "location": "Sec. 3.4 (SFR20 discussion)"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFR20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": "CRMB60 rubber crumb",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.2,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.53,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 6.22 J of 79.02 J impact energy; SEA 0.0041 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.0 m, impact velocity 4.42 m/s, impact energy 79.02 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 72.80 J, absorbed energy 6.22 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFR20 | Impact 79.02 | Elastic 72.80 | Absorbed 6.22 | Density 1530 kg/m3 | SEA 0.0041 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "These mechanisms enhance energy absorption significantly (9.45 J), although the SEA (0.0062 Jm3/kg) is slightly lower than SFC20 due to the higher composite density.",
+     "location": "Sec. 3.4 (SFR20 discussion)"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFR20",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": "CRMB60 rubber crumb",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.2,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.53,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 9.45 J of 118.82 J impact energy; SEA 0.0062 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.5 m, impact velocity 5.42 m/s, impact energy 118.82 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 109.37 J, absorbed energy 9.45 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFR20 | Impact 118.82 | Elastic 109.37 | Absorbed 9.45 | Density 1530 kg/m3 | SEA 0.0062 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "These mechanisms enhance energy absorption significantly (9.45 J), although the SEA (0.0062 Jm3/kg) is slightly lower than SFC20 due to the higher composite density.",
+     "location": "Sec. 3.4 (SFR20 discussion)"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFC40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "CIL 100",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.4,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.03,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 3.30 J of 39.62 J impact energy; SEA 0.0032 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 0.5 m, impact velocity 3.13 m/s, impact energy 39.62 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 36.32 J, absorbed energy 3.30 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFC40 | Impact 39.62 | Elastic 36.32 | Absorbed 3.30 | Density 1030 kg/m3 | SEA 0.0032 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "SFC40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "CIL 100",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.4,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.03,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 6.35 J of 79.02 J impact energy; SEA 0.0062 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.0 m, impact velocity 4.42 m/s, impact energy 79.02 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 72.67 J, absorbed energy 6.35 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFC40 | Impact 79.02 | Elastic 72.67 | Absorbed 6.35 | Density 1030 kg/m3 | SEA 0.0062 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "SFC40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "CIL 100",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.4,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.03,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 11.32 J of 118.82 J impact energy; SEA 0.0110 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.5 m, impact velocity 5.42 m/s, impact energy 118.82 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 107.50 J, absorbed energy 11.32 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFC40 | Impact 118.82 | Elastic 107.50 | Absorbed 11.32 | Density 1030 kg/m3 | SEA 0.0110 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "SFR40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": "CRMB60 rubber crumb",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.4,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.58,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 3.56 J of 39.62 J impact energy; SEA 0.0023 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 0.5 m, impact velocity 3.13 m/s, impact energy 39.62 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 36.06 J, absorbed energy 3.56 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFR40 | Impact 39.62 | Elastic 36.06 | Absorbed 3.56 | Density 1580 kg/m3 | SEA 0.0023 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "SFR40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": "CRMB60 rubber crumb",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.4,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.58,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 7.08 J of 79.02 J impact energy; SEA 0.0045 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.0 m, impact velocity 4.42 m/s, impact energy 79.02 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 71.94 J, absorbed energy 7.08 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFR40 | Impact 79.02 | Elastic 71.94 | Absorbed 7.08 | Density 1580 kg/m3 | SEA 0.0045 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "SFR40",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": "CRMB60 rubber crumb",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.4,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.58,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 13.98 J of 118.82 J impact energy; SEA 0.0088 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.5 m, impact velocity 5.42 m/s, impact energy 118.82 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 104.84 J, absorbed energy 13.98 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFR40 | Impact 118.82 | Elastic 104.84 | Absorbed 13.98 | Density 1580 kg/m3 | SEA 0.0088 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "SFC60",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "CIL 100",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.005,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 3.31 J of 39.62 J impact energy; SEA 0.0033 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 0.5 m, impact velocity 3.13 m/s, impact energy 39.62 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 36.31 J, absorbed energy 3.31 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFC60 | Impact 39.62 | Elastic 36.31 | Absorbed 3.31 | Density 1005 kg/m3 | SEA 0.0033 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The energy absorption values for SFC60 are 3.31 J, 10.73 J, and 11.54 J, whereas for SFR60, they are 4.18 J, 12.43 J, and 16.75 J, respectively, across different impact energy levels.",
+     "location": "Sec. 3.2 para 4"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFC60",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "CIL 100",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.005,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 10.73 J of 79.02 J impact energy; SEA 0.0107 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.0 m, impact velocity 4.42 m/s, impact energy 79.02 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 68.29 J, absorbed energy 10.73 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFC60 | Impact 79.02 | Elastic 68.29 | Absorbed 10.73 | Density 1005 kg/m3 | SEA 0.0107 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The energy absorption values for SFC60 are 3.31 J, 10.73 J, and 11.54 J, whereas for SFR60, they are 4.18 J, 12.43 J, and 16.75 J, respectively, across different impact energy levels.",
+     "location": "Sec. 3.2 para 4"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFC60",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "fly_ash_cenosphere",
+    "particle_grade": "CIL 100",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.005,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 11.54 J of 118.82 J impact energy; SEA 0.0115 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.5 m, impact velocity 5.42 m/s, impact energy 118.82 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 107.28 J, absorbed energy 11.54 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFC60 | Impact 118.82 | Elastic 107.28 | Absorbed 11.54 | Density 1005 kg/m3 | SEA 0.0115 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The energy absorption values for SFC60 are 3.31 J, 10.73 J, and 11.54 J, whereas for SFR60, they are 4.18 J, 12.43 J, and 16.75 J, respectively, across different impact energy levels.",
+     "location": "Sec. 3.2 para 4"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFR60",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": "CRMB60 rubber crumb",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.63,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 4.18 J of 39.62 J impact energy; SEA 0.0026 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 0.5 m, impact velocity 3.13 m/s, impact energy 39.62 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 35.44 J, absorbed energy 4.18 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFR60 | Impact 39.62 | Elastic 35.44 | Absorbed 4.18 | Density 1630 kg/m3 | SEA 0.0026 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The energy absorption values for SFC60 are 3.31 J, 10.73 J, and 11.54 J, whereas for SFR60, they are 4.18 J, 12.43 J, and 16.75 J, respectively, across different impact energy levels.",
+     "location": "Sec. 3.2 para 4"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFR60",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": "CRMB60 rubber crumb",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.63,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 12.43 J of 79.02 J impact energy; SEA 0.0076 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.0 m, impact velocity 4.42 m/s, impact energy 79.02 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 66.59 J, absorbed energy 12.43 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFR60 | Impact 79.02 | Elastic 66.59 | Absorbed 12.43 | Density 1630 kg/m3 | SEA 0.0076 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The energy absorption values for SFC60 are 3.31 J, 10.73 J, and 11.54 J, whereas for SFR60, they are 4.18 J, 12.43 J, and 16.75 J, respectively, across different impact energy levels.",
+     "location": "Sec. 3.2 para 4"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  },
+  {
+   "sample_label": "SFR60",
+   "data_origin": "primary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "Lapox L12 epoxy with K6 hardener",
+    "particle_type": "other",
+    "particle_grade": "CRMB60 rubber crumb",
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "mechanical_mixing_cast",
+    "cure_or_process_temperature_c": 25,
+    "additional_fillers": null
+   },
+   "structure": {
+    "measured_density_g_cc": 1.63,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Cast slab, filler sediments/floats through thickness giving a functionally graded distribution (cenospheres lighter at bottom, rubber crumb heavier at bottom). Absorbed energy 16.75 J of 118.82 J impact energy; SEA 0.0103 Jm3/kg (paper's own unit, not convertible to MJ/m3)."
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": null,
+    "temperature_c": 25,
+    "standard": "ASTM D7136",
+    "specimen_notes": "Drop-weight low-velocity impact, hemispherical impactor, 8.09 kg impactor assembly, drop height 1.5 m, impact velocity 5.42 m/s, impact energy 118.82 J; specimen 150 mm x 150 mm; average of 3 samples. Elastic (returned) energy 102.07 J, absorbed energy 16.75 J."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": null,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "SFR60 | Impact 118.82 | Elastic 102.07 | Absorbed 16.75 | Density 1630 kg/m3 | SEA 0.0103 Jm3/kg",
+     "location": "Table 2 (Energy absorption of syntactic foams)"
+    },
+    {
+     "quote": "The energy absorption values for SFC60 are 3.31 J, 10.73 J, and 11.54 J, whereas for SFR60, they are 4.18 J, 12.43 J, and 16.75 J, respectively, across different impact energy levels.",
+     "location": "Sec. 3.2 para 4"
+    },
+    {
+     "quote": "The weight of the impactor assembly is 8.09 kg. The drop height is set to 0.5 m, 1 m, and 1.5 m, which corresponds to impact velocities of 3.13 m/s, 4.42 m/s, and 5.42 m/s ... Thus, the relative impact energies are 39.62 J, 79.02 J, and 118.82 J.",
+     "location": "Sec. 2.4 (Low Velocity Impact), page 6"
+    }
+   ],
+   "extractor_confidence": 0.85
+  }
+ ],
+ "extraction_notes": "21 records = 7 compositions (NE, SFC20/40/60, SFR20/40/60) x 3 impact energies (39.62, 79.02, 118.82 J), all from Table 2. UNITS: the paper reports absorbed energy in joules and SEA in Jm3/kg (an unusual unit; SEA numerically equals absorbed energy / density in kg/m3). Neither maps onto the schema field energy_absorption_mj_m3 (MJ/m3), and the specimen thickness is not given, so no volumetric energy density can be computed. energy_absorption_mj_m3 is therefore left null and the joule values are recorded verbatim in test.specimen_notes and structure.microstructure_notes. Consequently no numeric Properties field is filled for any record - this paper reports no modulus, strength or strain data. Densities converted from kg/m3 to g/cm3 (divide by 1000). Volume fractions converted from percent to fractions. Cure/test temperature set to 25 C because the paper only states 'room temperature'. PARTICLE TYPE: only the SFC series contains hollow particles (fly-ash cenospheres). The SFR series uses solid rubber crumb, which is not a hollow-particle filler, so particle_type is set to 'other' for SFR and for neat epoxy (NE has no filler; particle_volume_fraction = 0). SFR rows are kept because the paper presents them as syntactic foams and they are the direct comparison set. DATA CONFLICT: Table 3 (CoR/ELP) mislabels rows - its 'SFR20' block carries Table 2's SFR40 numbers (3.56/7.08/13.98 J) and its 'SFR40' block duplicates SFC60's numbers (3.31/10.73/11.54 J). Table 2 is internally consistent and is corroborated by the running text (SFR20 = 9.45 J at 118.82 J, Sec. 3.4), so all values were taken from Table 2. Coefficient of restitution and energy-loss percentage have no schema field and were not extracted. Gradation-test layer weights (Figures 7a/7b) are only shown in figures and are not reported numerically per layer, so no per-layer records were created."
+}

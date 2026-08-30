@@ -1,0 +1,2269 @@
+{
+ "is_syntactic_foam_paper": true,
+ "paper_summary": "Chordiya and Goel (2019) report a purely numerical LS-DYNA study of the drop weight impact hammer test on a polymeric syntactic foam (epoxy matrix with 60 vol% hollow glass particles and 5 vol% nanoclay), both as bare foam and filled inside an aluminium tube. Three foam densities (220, 320, 460 kg/m3), three drop velocities (3.13, 4.42, 6.26 m/s corresponding to 0.5, 1 and 1.5 m drop heights and nominal strain rates of 30, 40 and 60 /s) and two foam material models (MAT_063 crushable foam and MAT_024 piecewise linear plasticity) give 36 simulations. Peak stress and energy absorption rise with foam density and impact velocity, and filling the foam into a tube raises reaction force and energy absorption (about 4-12%) while lowering peak stress in the foam by 5-15% and reducing displacement.",
+ "records": [
+  {
+   "sample_label": "Polymeric syntactic foam, 220 kg/m3 (properties quoted from Gupta, Pinisetty and Shunmugasamy, 2013, 'Reinforced Polymer Matrix Syntactic Foams')",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam: glass hollow particles and nanoclay in epoxy; SEM of a glass hollow particle/vinyl ester syntactic foam shown in Fig. 1 for illustration."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Quasi-static compressive stress-strain curve (Fig. 6); values used as LS-DYNA material card input. Poisson's ratio 0.3, tension cut-off 8.0 MPa, tangent modulus 200 MPa, damping coefficient 0.3."
+   },
+   "properties": {
+    "modulus_mpa": 1500.0,
+    "strength_mpa": 30.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 2: Material properties for polymeric syntactic foam (Gupta et al., 2013) Density, rho (kg/m3) 220 320 460 / Modulus of elasticity, E (GPa) 1.5 1.5 1.5 / Yield stress, sigma_y 30.0 40.0 60.0",
+     "location": "Table 2 (Material properties for polymeric syntactic foam), p. 45"
+    },
+    {
+     "quote": "The syntactic foam chosen for this study has nanoclay, epoxy and glass as the three substructures, respectively. This foam contains 5% by volume of nanoclay and 60% by volume of glass particles.",
+     "location": "Sec. 'Material Properties and Finite Element Modelling', p. 44"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "Polymeric syntactic foam, 320 kg/m3 (properties quoted from Gupta, Pinisetty and Shunmugasamy, 2013, 'Reinforced Polymer Matrix Syntactic Foams')",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam: glass hollow particles and nanoclay in epoxy; SEM of a glass hollow particle/vinyl ester syntactic foam shown in Fig. 1 for illustration."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Quasi-static compressive stress-strain curve (Fig. 6); values used as LS-DYNA material card input. Poisson's ratio 0.3, tension cut-off 8.0 MPa, tangent modulus 200 MPa, damping coefficient 0.3."
+   },
+   "properties": {
+    "modulus_mpa": 1500.0,
+    "strength_mpa": 40.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 2: Material properties for polymeric syntactic foam (Gupta et al., 2013) Density, rho (kg/m3) 220 320 460 / Modulus of elasticity, E (GPa) 1.5 1.5 1.5 / Yield stress, sigma_y 30.0 40.0 60.0",
+     "location": "Table 2 (Material properties for polymeric syntactic foam), p. 45"
+    },
+    {
+     "quote": "The syntactic foam chosen for this study has nanoclay, epoxy and glass as the three substructures, respectively. This foam contains 5% by volume of nanoclay and 60% by volume of glass particles.",
+     "location": "Sec. 'Material Properties and Finite Element Modelling', p. 44"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "Polymeric syntactic foam, 460 kg/m3 (properties quoted from Gupta, Pinisetty and Shunmugasamy, 2013, 'Reinforced Polymer Matrix Syntactic Foams')",
+   "data_origin": "secondary",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": "Closed-cell syntactic foam: glass hollow particles and nanoclay in epoxy; SEM of a glass hollow particle/vinyl ester syntactic foam shown in Fig. 1 for illustration."
+   },
+   "test": {
+    "test_type": "compression",
+    "strain_rate_per_s": null,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "Quasi-static compressive stress-strain curve (Fig. 6); values used as LS-DYNA material card input. Poisson's ratio 0.3, tension cut-off 8.0 MPa, tangent modulus 200 MPa, damping coefficient 0.3."
+   },
+   "properties": {
+    "modulus_mpa": 1500.0,
+    "strength_mpa": 60.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Table 2: Material properties for polymeric syntactic foam (Gupta et al., 2013) Density, rho (kg/m3) 220 320 460 / Modulus of elasticity, E (GPa) 1.5 1.5 1.5 / Yield stress, sigma_y 30.0 40.0 60.0",
+     "location": "Table 2 (Material properties for polymeric syntactic foam), p. 45"
+    },
+    {
+     "quote": "The syntactic foam chosen for this study has nanoclay, epoxy and glass as the three substructures, respectively. This foam contains 5% by volume of nanoclay and 60% by volume of glass particles.",
+     "location": "Sec. 'Material Properties and Finite Element Modelling', p. 44"
+    }
+   ],
+   "extractor_confidence": 0.75
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam filled tube, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 391.24 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 20.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Crushable Foam 220 Yes 20.0 27.7 30.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "Crushable Foam 220 Yes 391.24 852.30 2010.5",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam filled tube, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 852.3 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 27.7,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Crushable Foam 220 Yes 20.0 27.7 30.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "Crushable Foam 220 Yes 391.24 852.30 2010.5",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam filled tube, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 2010.5 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 30.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Crushable Foam 220 Yes 20.0 27.7 30.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "Crushable Foam 220 Yes 391.24 852.30 2010.5",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam only, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 359.41 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 23.2,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Crushable Foam 220 ... No 23.2 30.0 33.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "Crushable Foam 220 ... No 359.41 804.72 1829.6",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam only, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 804.72 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 30.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Crushable Foam 220 ... No 23.2 30.0 33.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "Crushable Foam 220 ... No 359.41 804.72 1829.6",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam only, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 1829.6 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 33.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Crushable Foam 220 ... No 23.2 30.0 33.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "Crushable Foam 220 ... No 359.41 804.72 1829.6",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 220 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam filled tube, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 401.22 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 25.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "320 Yes 25.0 35.1 39.4",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "320 Yes 401.22 881.40 2050.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam filled tube, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 881.4 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 35.1,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "320 Yes 25.0 35.1 39.4",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "320 Yes 401.22 881.40 2050.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam filled tube, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 2050.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 39.4,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "320 Yes 25.0 35.1 39.4",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "320 Yes 401.22 881.40 2050.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam only, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 380.8 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 28.4,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "320 ... No 28.4 38.0 42.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "320 ... No 380.80 825.20 1865.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam only, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 825.2 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 38.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "320 ... No 28.4 38.0 42.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "320 ... No 380.80 825.20 1865.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam only, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 1865.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 42.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "320 ... No 28.4 38.0 42.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "320 ... No 380.80 825.20 1865.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 320 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam filled tube, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 431.39 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 27.5,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 Yes 27.5 41.4 50.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "460 Yes 431.39 900.00 2085.4",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam filled tube, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 900.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 41.4,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 Yes 27.5 41.4 50.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "460 Yes 431.39 900.00 2085.4",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam filled tube, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 2085.4 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 50.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 Yes 27.5 41.4 50.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "460 Yes 431.39 900.00 2085.4",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam only, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 419.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 32.4,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 ... No 32.4 44.5 54.3",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "460 ... No 419.00 840.00 1902.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam only, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 840.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 44.5,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 ... No 32.4 44.5 54.3",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "460 ... No 419.00 840.00 1902.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam only, MAT_063 (MAT_CRUSHABLE_FOAM), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_063 (MAT_CRUSHABLE_FOAM); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 1902.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 54.3,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 ... No 32.4 44.5 54.3",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "460 ... No 419.00 840.00 1902.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_063 (MAT_CRUSHABLE_FOAM) / 460 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam filled tube, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 472.6 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 26.8,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Piecewise linear 220 Yes 26.8 30.0 34.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "Piecewise 220 Yes 472.60 1020.40 2050.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam filled tube, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 1020.4 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 30.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Piecewise linear 220 Yes 26.8 30.0 34.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "Piecewise 220 Yes 472.60 1020.40 2050.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam filled tube, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 2050.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 34.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Piecewise linear 220 Yes 26.8 30.0 34.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "Piecewise 220 Yes 472.60 1020.40 2050.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam only, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 458.67 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 29.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Plasticity ... No 29.0 32.0 35.2",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "linear plasticity ... No 458.67 961.22 1973.8",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam only, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 961.22 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 32.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Plasticity ... No 29.0 32.0 35.2",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "linear plasticity ... No 458.67 961.22 1973.8",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 220 kg/m3, foam only, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.22,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 1973.8 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 35.2,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "Plasticity ... No 29.0 32.0 35.2",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "linear plasticity ... No 458.67 961.22 1973.8",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 220 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam filled tube, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 495.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 31.8,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "(MAT_024) 320 Yes 31.8 37.6 42.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "(MAT_024) 320 Yes 495.00 1060.00 2210.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam filled tube, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 1060.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 37.6,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "(MAT_024) 320 Yes 31.8 37.6 42.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "(MAT_024) 320 Yes 495.00 1060.00 2210.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam filled tube, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 2210.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 42.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "(MAT_024) 320 Yes 31.8 37.6 42.0",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "(MAT_024) 320 Yes 495.00 1060.00 2210.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam only, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 478.4 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 34.1,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "320 ... No 34.1 40.8 45.1",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "320 ... No 478.40 1007.20 2020.4",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam only, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 1007.2 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 40.8,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "320 ... No 34.1 40.8 45.1",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "320 ... No 478.40 1007.20 2020.4",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 320 kg/m3, foam only, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.32,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 2020.4 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 45.1,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "320 ... No 34.1 40.8 45.1",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "320 ... No 478.40 1007.20 2020.4",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 320 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam filled tube, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 525.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 33.5,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 Yes 33.5 48.0 58.6",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "460 Yes 525.00 1150.00 2345.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = Yes, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam filled tube, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 1150.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 48.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 Yes 33.5 48.0 58.6",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "460 Yes 525.00 1150.00 2345.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = Yes, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam filled tube, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam filled tube configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 2345.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 58.6,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 Yes 33.5 48.0 58.6",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "460 Yes 525.00 1150.00 2345.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = Yes, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam only, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 3.13 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 30.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 3.13 m/s (drop height 0.5 m, nominal strain rate 30.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 495.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 37.0,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 ... No 37.0 51.3 61.8",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    },
+    {
+     "quote": "460 ... No 495.00 1050.00 2100.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = No, column velocity = 3.13 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam only, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 4.42 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 40.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 4.42 m/s (drop height 1.0 m, nominal strain rate 40.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 1050.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 51.3,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 ... No 37.0 51.3 61.8",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    },
+    {
+     "quote": "460 ... No 495.00 1050.00 2100.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = No, column velocity = 4.42 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  },
+  {
+   "sample_label": "LS-DYNA simulation, polymeric syntactic foam 460 kg/m3, foam only, MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY), drop velocity 6.26 m/s",
+   "data_origin": "model",
+   "processing": {
+    "matrix_class": "epoxy",
+    "matrix_name": "epoxy",
+    "particle_type": "glass_microballoon",
+    "particle_grade": null,
+    "particle_true_density_g_cc": null,
+    "particle_mean_diameter_um": null,
+    "particle_wall_thickness_ratio": null,
+    "particle_volume_fraction": 0.6,
+    "particle_weight_fraction": null,
+    "process_route": "other",
+    "cure_or_process_temperature_c": null,
+    "additional_fillers": "nanoclay, 5% by volume"
+   },
+   "structure": {
+    "measured_density_g_cc": 0.46,
+    "theoretical_density_g_cc": null,
+    "matrix_porosity_fraction": null,
+    "particle_breakage_fraction": null,
+    "microstructure_notes": null
+   },
+   "test": {
+    "test_type": "impact",
+    "strain_rate_per_s": 60.0,
+    "temperature_c": null,
+    "standard": null,
+    "specimen_notes": "LS-DYNA drop weight impact hammer simulation; foam material model MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY); foam only configuration (aluminium tube, MAT_003, rho 2700 kg/m3, E 70 GPa, sigma_y 364 MPa, Et 700 MPa); drop velocity 6.26 m/s (drop height 1.5 m, nominal strain rate 60.0/s); hammer MAT_003, 106 kg, E 210 GPa, sigma_y 230 MPa, rho 7800 kg/m3; termination time 0.025 s. Total energy absorbed = 2100.0 J (reported in joules, not per unit volume, so energy_absorption_mj_m3 left null)."
+   },
+   "properties": {
+    "modulus_mpa": null,
+    "strength_mpa": 61.8,
+    "strain_at_failure": null,
+    "energy_absorption_mj_m3": null,
+    "plateau_stress_mpa": null,
+    "densification_strain": null,
+    "specific_modulus_mpa_per_g_cc": null,
+    "specific_strength_mpa_per_g_cc": null,
+    "storage_modulus_mpa": null,
+    "loss_tangent": null,
+    "thermal_conductivity_w_mk": null,
+    "cte_per_k": null,
+    "moisture_uptake_pct": null
+   },
+   "evidence": [
+    {
+     "quote": "460 ... No 37.0 51.3 61.8",
+     "location": "Table 3 (Peak stress values attained by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    },
+    {
+     "quote": "460 ... No 495.00 1050.00 2100.0",
+     "location": "Table 4 (Energy absorbed by polymeric syntactic foam), p. 49, row MAT_024 (MAT_PIECEWISE_LINEAR_PLASTICITY) / 460 kg/m3 / tube = No, column velocity = 6.26 m/s"
+    }
+   ],
+   "extractor_confidence": 0.8
+  }
+ ],
+ "extraction_notes": "This is a 100% numerical (finite element) paper - the authors performed no experiments on syntactic foam, so all 36 impact records carry data_origin='model'. The foam material card properties (density 220/320/460 kg/m3, E = 1.5 GPa, yield stress 30/40/60 MPa, Poisson 0.3, tension cut-off 8 MPa, tangent modulus 200 MPa) are taken by the authors from Gupta, Pinisetty and Shunmugasamy (2013) and are captured as 3 separate data_origin='secondary' records.\n\nUnit conversions: densities 220/320/460 kg/m3 -> 0.22/0.32/0.46 g/cm3; modulus 1.5 GPa -> 1500 MPa.\n\nenergy_absorption_mj_m3 was left NULL for every record even though Table 4 gives energy absorbed. Table 4 reports total absorbed energy in joules (359-2345 J), not energy per unit volume, and the syntactic foam specimen dimensions are never stated for the main study (only the 80 mm dia x 100 mm aluminium foam cylinder used in the separate FE validation case is dimensioned), so no defensible conversion to MJ/m^3 is possible. The joule values are recorded verbatim in each record's test.specimen_notes and in its Table 4 evidence item so they are not lost.\n\nstrength_mpa holds the peak stress attained by the foam in the simulation (Table 3), which is the closest schema field; it is a simulated peak stress under impact, not a measured quasi-static strength.\n\nValues NOT extracted as records: (a) the FE-validation case, which uses closed cell ALUMINIUM foam (570 kg/m3, E = 160 MPa) from Rajendran et al. (2009) - that is not a syntactic foam so it is out of scope; (b) hammer and aluminium tube properties (Table 1 and text) - not foam data, but recorded in specimen_notes; (c) all percentage comparisons (e.g. '12.34%, 12.76%, 9.08% higher reaction force') and the reaction force / displacement values, since the schema has no field for them; (d) numbers read off the 3-D surface plots in Figs. 11-15 (e.g. 200 and 500 kg/m3 interpolated points such as 7.816-16.78 mm displacement) - those are plot interpolations outside the three simulated densities.\n\nTest temperature is never stated and was left null rather than assumed to be room temperature."
+}

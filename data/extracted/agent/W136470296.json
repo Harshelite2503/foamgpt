@@ -1,0 +1,254 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "Orbulov and Ginsztler produced three aluminium (Al99.5) matrix syntactic foams by pressure infiltration of randomly close-packed beds (~64 vol%) of ceramic hollow spheres of three sizes: SL150 (100 um), SL300 (150 um) and Globocer (1450 um). Quasi-static compression tests (14 mm diameter cylinders, H/D = 1, 1.5, 2; crosshead 0.15 mm/s; DIN 50134) were run at room temperature and at 220 C, tracking compressive strength, fracture strain, structural stiffness and absorbed specific energy. Smaller, thinner-walled microballoons gave higher compressive strength, higher fracture strain and (for SL300) higher stiffness; increasing aspect ratio lowered strength and energy absorption strongly for the SL foams but barely for Globocer; testing at 220 C dropped compressive strength by ~30-35% (still above 120 MPa) while raising fracture strain by ~5%.",
+  "records": [
+    {
+      "sample_label": "Al99.5-SL150 (room temperature compression)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "Al99.5 technical purity aluminium (99.5 Al, 0.25 Si, 0.4 Fe, 0.05 Cu/Mn/Mg/Zn/V, 0.03 Ti wt%)",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL150 (Envirospheres Pty Ltd; 30-35 wt% Al2O3, 45-50 wt% SiO2, 15-20 wt% mullite, 0-5 wt% quartz)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 100,
+        "particle_wall_thickness_ratio": 0.926,
+        "particle_volume_fraction": 0.64,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.43,
+        "theoretical_density_g_cc": 1.34,
+        "matrix_porosity_fraction": -0.063,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Randomly closed packed structure (RCPS) of microballoons, maximum 64 vol% for quasi-equal spheres. Microballoon porosity 50.9%, total porosity 44.7%. Negative matrix porosity indicates some microballoons were themselves infiltrated. Table 2 gives 0.576 g/cm3 as the SL150 bed density at 64 vol% and 3.69 um average wall thickness."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "DIN 50134 (compression test of metallic cellular materials)",
+        "specimen_notes": "Cylindrical specimens, D = 14 mm, H = 14/21/28 mm (H/D = 1, 1.5, 2), MTS 810 machine, four-column tool, lubricated with anti-seize, crosshead 0.15 mm/s (quasi-static), compressed to 50% engineering strain; 6 specimens per condition. Compressive strength, fracture strain, structural stiffness and absorbed specific energy are reported only in Figs 4-7, so no numeric property values could be taken."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null
+      },
+      "evidence": [
+        {
+          "quote": "Al99.5-SL150 | Theoretical 1.34 | Measured 1.43 | Microballoon porosity 50.9 | Matrix -6.3 | Total 44.7",
+          "location": "Table 3 (Density and porosity values of the prepared MMSFs), p. 5"
+        },
+        {
+          "quote": "The blocks were designated by their constituents: for example Al99.5-SL150 stands for an MMSF block with Al99.5 matrix and with ~64 vol% SL150 microballoons.",
+          "location": "Sec. 2 Investigated materials, p. 5"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Al99.5-SL300 (room temperature compression)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "Al99.5 technical purity aluminium",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL300 (Envirospheres Pty Ltd; 30-35 wt% Al2O3, 45-50 wt% SiO2, 15-20 wt% mullite, 0-5 wt% quartz)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 150,
+        "particle_wall_thickness_ratio": 0.91,
+        "particle_volume_fraction": 0.64,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.52,
+        "theoretical_density_g_cc": 1.41,
+        "matrix_porosity_fraction": -0.072,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microballoon porosity 48.2%, total porosity 41.0%. Negative matrix porosity indicates infiltrated microballoons. Table 2 gives 0.691 g/cm3 as the SL300 bed density at 64 vol% and 6.75 um average wall thickness."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "DIN 50134",
+        "specimen_notes": "D = 14 mm cylinders, H/D = 1, 1.5 and 2; crosshead 0.15 mm/s (quasi-static); compressed to 50% engineering strain; 6 specimens per condition. Property values appear only in Figs 4-7."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "Al99.5-SL300 | Theoretical 1.41 | Measured 1.52 | Microballoon porosity 48.2 | Matrix -7.2 | Total 41.0",
+          "location": "Table 3, p. 5"
+        },
+        {
+          "quote": "The specimens containing smaller SL150 microballoons (average diameter 100 µm) has about 10% higher compressive strength than the ones containing larger SL300 (average diameter 150 µm) type microballoons.",
+          "location": "Sec. 4 Results and discussion, pp. 9-10"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Al99.5-Globocer (room temperature compression)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "Al99.5 technical purity aluminium",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "Globocer (Hollomet GmbH)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 1450,
+        "particle_wall_thickness_ratio": 0.92,
+        "particle_volume_fraction": 0.64,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.49,
+        "theoretical_density_g_cc": 1.53,
+        "matrix_porosity_fraction": 0.026,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Microballoon porosity 45.0%, total porosity 47.6%. Table 2 gives 0.816 g/cm3 as the Globocer bed density at 64 vol% and 58 um average wall thickness; these large spheres have thicker walls and more wall defects than the SL types."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 25,
+        "standard": "DIN 50134",
+        "specimen_notes": "D = 14 mm cylinders, H/D = 1, 1.5 and 2; crosshead 0.15 mm/s; to 50% engineering strain; 6 specimens. Aspect ratio had negligible effect on strength for this material. Only tested at room temperature. Property values appear only in Figs 4-7."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "Al99.5-Globocer | Theoretical 1.53 | Measured 1.49 | Microballoon porosity 45.0 | Matrix 2.6 | Total 47.6",
+          "location": "Table 3, p. 5"
+        },
+        {
+          "quote": "The larger hollow spheres in the case of Globocer reinforced MMSFs were rather compressed than sheared, therefore the aspect ratio has negligible effect on the compressive strength in this case, it remained almost constant with very narrow scatter.",
+          "location": "Sec. 4 Results and discussion, p. 10"
+        }
+      ],
+      "extractor_confidence": 0.75
+    },
+    {
+      "sample_label": "Al99.5-SL150 (elevated temperature compression, 220 C)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "Al99.5 technical purity aluminium",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL150 (Envirospheres Pty Ltd)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 100,
+        "particle_wall_thickness_ratio": 0.926,
+        "particle_volume_fraction": 0.64,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.43,
+        "theoretical_density_g_cc": 1.34,
+        "matrix_porosity_fraction": -0.063,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Same material as the room-temperature Al99.5-SL150 record; densities from Table 3."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 220,
+        "standard": "DIN 50134",
+        "specimen_notes": "6 specimens at 220 C, D = 14 mm, H/D = 1, 1.5 and 2, crosshead 0.15 mm/s, to 50% engineering strain. Text states the compressive strength dropped ~30-35% versus room temperature but remained above 120 MPa, and fracture strain rose by ~5%; the individual values are only in Fig. 8."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "Due to the elevated temperature the compressive strength dropped by ~30-35 %. ... the fracture strain increased by ~5 % in all cases. The MMSFs became more ductile, but they remained strong enough and can be applied as structural elements: the compressive strengths were still above 120 MPa.",
+          "location": "Sec. 4, p. 12 (discussion of Fig. 8)"
+        },
+        {
+          "quote": "Six specimens were compressed at room and at elevated (220 °C) temperature until 50% engineering strain from each MMSF type to get representative results.",
+          "location": "Sec. 3 Experiments, p. 6"
+        }
+      ],
+      "extractor_confidence": 0.7
+    },
+    {
+      "sample_label": "Al99.5-SL300 (elevated temperature compression, 220 C)",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "aluminum",
+        "matrix_name": "Al99.5 technical purity aluminium",
+        "particle_type": "ceramic_hollow",
+        "particle_grade": "SL300 (Envirospheres Pty Ltd)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": 150,
+        "particle_wall_thickness_ratio": 0.91,
+        "particle_volume_fraction": 0.64,
+        "particle_weight_fraction": null,
+        "process_route": "pressure_infiltration",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": 1.52,
+        "theoretical_density_g_cc": 1.41,
+        "matrix_porosity_fraction": -0.072,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Same material as the room-temperature Al99.5-SL300 record; densities from Table 3."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": 220,
+        "standard": "DIN 50134",
+        "specimen_notes": "6 specimens at 220 C, D = 14 mm, H/D = 1, 1.5 and 2, crosshead 0.15 mm/s, to 50% engineering strain. Reported as ~5% lower compressive strength than SL150 at the same temperature; strengths still above 120 MPa. Numeric values only in Fig. 8."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null
+      },
+      "evidence": [
+        {
+          "quote": "The effect of the microballoons' type was the same at elevated temperature too. The MMSFs with SL300 type microballoons showed ~5% lower compressive strength.",
+          "location": "Sec. 4, p. 12"
+        },
+        {
+          "quote": "at elevated temperature: 6 pcs Al99.5-SL150 and 6 pcs Al99.5-SL300",
+          "location": "Sec. 3 Experiments, p. 6"
+        }
+      ],
+      "extractor_confidence": 0.7
+    }
+  ],
+  "extraction_notes": "IMPORTANT CAVEAT: this paper reports every mechanical property (compressive strength, fracture strain, structural stiffness, absorbed specific energy) only as bar/scatter plots in Figs 4-8. No table or sentence gives a numeric strength, stiffness, strain or energy value, so per the rules all mechanical property fields are null and only structural data (Table 2 and Table 3) were captured. The only mechanical numbers stated in text are qualitative or relative: SL150 is ~10% stronger than SL300; the strength drop between H/D=1 and H/D=2 is 'more than 30 MPa' for the SL foams; elevated-temperature strength dropped ~30-35% while remaining 'above 120 MPa'; fracture strain increased ~5%; the H/D increment reduced consumed energy by ~50% (SL) and 5-10% (Globocer). These are recorded in specimen_notes/evidence rather than as property values.\n\nRecord granularity: the study crosses 3 materials x 3 aspect ratios x 2 temperatures (Globocer at room temperature only), i.e. 15 nominal (composition x test condition) cells. Because no property values are readable, 15 records would differ only in the aspect ratio text, so 5 records were written (one per material x test temperature actually run) with the H/D range noted in specimen_notes. Re-extraction with figure digitisation would be needed for the 15-cell grid.\n\nUnit/derivation notes: porosity converted from percent to fraction (e.g. 44.7% -> 0.447 for total porosity, kept in microstructure_notes; matrix_porosity_fraction uses the paper's signed matrix porosity, -6.3% -> -0.063, negative because measured density exceeded theoretical, meaning some microballoons were themselves infiltrated). particle_wall_thickness_ratio (eta = inner/outer radius) is not stated by the authors; it was computed exactly from the Table 2 average diameter and wall thickness (SL150: (50-3.69)/50 = 0.926; SL300: (75-6.75)/75 = 0.910; Globocer: (725-58)/725 = 0.920). particle_true_density_g_cc left null because Table 2 quotes 'density at 64 vol%' (the packed-bed density of the sphere assembly: 0.576 / 0.691 / 0.816 g/cm3), not the particle true density. Particle volume fraction 0.64 is the authors' stated nominal random-close-pack value ('~64 vol%'), not a measurement per block. particle_type set to ceramic_hollow because the authors call them ceramic microballoons/hollow ceramic spheres; the SL types are Envirospheres 'E-spheres', which are commonly fly-ash derived, but the paper never says fly ash, so fly_ash_cenosphere was not used. Strain rate left null: the crosshead speed of 0.15 mm/s is stated but the corresponding nominal strain rate differs per specimen height (0.0107, 0.0071, 0.0054 1/s for H = 14, 21, 28 mm) and these records merge the three heights. Room temperature entered as 25 C per the schema convention. Infiltration/processing temperature is not given numerically. Literature values quoted in the introduction (e.g. cp-Al foams >100 MPa, Al7075 foams up to 230 MPa from Balch et al.; Couteau and Dunand foams 1.2-1.5 g/cm3 crept at 500 C under 5-14 MPa) are other papers' results without full composition/test detail and were not turned into secondary records."
+}

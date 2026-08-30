@@ -1,0 +1,69 @@
+{
+  "is_syntactic_foam_paper": true,
+  "paper_summary": "1994 Japanese paper (J. Soc. Mat. Sci., Japan 43(493), 1355-1359) on adiabatic (thermally insulating) load-bearing supports for an FRP marine cryostat carrying superconducting MHD-propulsion coils. Two support concepts were compared at cryogenic temperature: a glass-microballoon / vinyl-ester syntactic foam cylinder (GSF, 25 mm dia x 20 mm long, machined from a cast plate, balloon size 70-177 um) and single/multi-layer hand-lay-up GFRP cylindrical shells (CS1, CS3, CS5). Overall heat transmission, thermal contraction (93-273 K) and axial compressive strength (93-273 K, JIS K6911) were measured, plus LN2 boil-off tests in a calorimeter. The syntactic foam transmitted the most heat because of its large conduction cross-section, contracted more than the fibre-reinforced shells, and all strengths rose as temperature fell; the multi-layer shells were the better adiabatic support.",
+  "records": [
+    {
+      "sample_label": "GSF - glass microballoon / vinyl ester syntactic foam cylinder",
+      "data_origin": "primary",
+      "processing": {
+        "matrix_class": "vinyl_ester",
+        "matrix_name": "vinyl ester resin (VE), chosen for cryogenic toughness; also tested unfilled as the baseline matrix",
+        "particle_type": "glass_microballoon",
+        "particle_grade": "glass microballoons, particle size 70-177 um (grade not stated)",
+        "particle_true_density_g_cc": null,
+        "particle_mean_diameter_um": null,
+        "particle_wall_thickness_ratio": null,
+        "particle_volume_fraction": null,
+        "particle_weight_fraction": null,
+        "process_route": "mechanical_mixing_cast",
+        "cure_or_process_temperature_c": null,
+        "additional_fillers": null
+      },
+      "structure": {
+        "measured_density_g_cc": null,
+        "theoretical_density_g_cc": null,
+        "matrix_porosity_fraction": null,
+        "particle_breakage_fraction": null,
+        "microstructure_notes": "Balloon diameter range 70-177 um; no mean diameter, filler fraction or composite density is given in the readable text (Table I 'List of specimen' is an image in the source PDF and its contents were not captured). Thermal contraction 93-273 K and the mean linear expansion coefficient over 273-150 K are shown only in Fig. 6: the particulate-filled syntactic foam contracts more than the long-fibre-reinforced shells, whose contraction is close to that of ordinary steel and is essentially unaffected by the number of layers."
+      },
+      "test": {
+        "test_type": "compression",
+        "strain_rate_per_s": null,
+        "temperature_c": null,
+        "standard": "JIS K6911 (axial compressive strength); heat transmission per JIS A1412 flat-plate direct method; LN2-cooled cryogenic test rig",
+        "specimen_notes": "Cylinder 25 mm diameter x 20 mm long machined from a cast plate, used as the support across a 20 mm vacuum layer. Specimens cooled with liquid nitrogen and held at set points between 93 and 273 K (about -180 to 0 C) before axial compression; strength increased with decreasing temperature for GSF, CS1 and the neat VE matrix, but the numeric values appear only in Fig. 7. Heat-transmission tests: 360 x 360 x 40 mm FRP plate model, ambient 200-300 K, 0.04 Torr; calorimeter LN2 boil-off tests at 1e-4 Torr."
+      },
+      "properties": {
+        "modulus_mpa": null,
+        "strength_mpa": null,
+        "strain_at_failure": null,
+        "energy_absorption_mj_m3": null,
+        "plateau_stress_mpa": null,
+        "densification_strain": null,
+        "specific_modulus_mpa_per_g_cc": null,
+        "specific_strength_mpa_per_g_cc": null,
+        "storage_modulus_mpa": null,
+        "loss_tangent": null,
+        "thermal_conductivity_w_mk": null,
+        "cte_per_k": null,
+        "moisture_uptake_pct": null
+      },
+      "evidence": [
+        {
+          "quote": "シンタクティックフォーム(GSF)は低温じん性に富むビニルエステル樹脂(VE)にガラスマイクロバルーン(粒径70～177μm)を充填材として混入したもので,注型板より直径25mm,長さ20mmの円柱形に機械加工したものを使用した.",
+          "location": "Sec. 2 供試体 (Specimens), p. 1355"
+        },
+        {
+          "quote": "圧縮試験は冷媒にLN2を用いて冷却する超低温試験装置を使用し,試験片を93～273Kの所定温度に冷却した後,JIS K6911に準拠して軸方向の圧縮強さを求めた.",
+          "location": "Sec. 3.1 試験方法 (Test method), p. 1356"
+        },
+        {
+          "quote": "Fig.7はGSFとCS1,およびそれらの母材であるVEについて軸方向の圧縮強度と温度との関係を示したものである. ... いずれも温度の低下とともに強度は上昇する傾向にあることがわかる.",
+          "location": "Sec. 3.4 圧縮強度 (Compressive strength), Fig. 7, p. 1357"
+        }
+      ],
+      "extractor_confidence": 0.55
+    }
+  ],
+  "extraction_notes": "On-topic (glass-microballoon / vinyl-ester syntactic foam) but essentially no extractable numbers: every measured quantity - overall heat transmission (Fig. 5), thermal contraction and mean linear expansion coefficient (Fig. 6), compressive strength vs temperature (Fig. 7), thermal conductivity vs yield stress (Fig. 8) and LN2 evaporation rate (Figs. 10, 11) - is presented only as a figure, and Table I (specimen list) and Table II (multi-layer shell dimensions) are images in the source PDF whose contents were not captured in data/text, so no filler fraction, density, conductivity or strength value is stated anywhere in the readable text. Following the 'never read values off a plot' rule, all property fields are left null and a single record captures the composition, processing and test conditions of the syntactic foam. The comparison specimens CS1/CS3/CS5 are hand-lay-up GFRP (glass roving cloth, 570 g/m2) single and multi-layer cylindrical shells with no hollow particles, and the VE baseline is neat resin, so none of them get records. Only the qualitative directions are reported: strength of GSF, CS1 and neat VE all rises as temperature falls from 273 K to 93 K; the syntactic foam has the largest heat transmission (about 10 % more than the no-support case) because of its large conduction cross-section, and larger thermal contraction than the fibre-reinforced shells. If Table I is later OCR'd it may contain the microballoon content and specimen densities."
+}
